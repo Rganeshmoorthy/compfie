@@ -14,7 +14,7 @@
             <img src="package/image.png" height="35">
         </div>
 
-        <div class="col-sm-12 col-md-7 col-lg-7  mx-3 search">
+        <div class="col-sm-12 mt-1 col-md-7 col-lg-7  mx-3 search">
             <input type="text" class="border-0 text" placeholder="Search Compfie Law">
             <button type="submit" class="border-0 bg-transparent search_button mt-1  px-4"><i
                     class="fa fa-search"></i></button>

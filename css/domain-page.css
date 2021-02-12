@@ -1,0 +1,13 @@
+.right-label {
+    background-color: #5B3D71;
+    font-family: 'Poppins',
+        sans-serif;
+    border-radius: 12px 0 0 12px;
+    float: right;
+    height: 25px;
+}
+
+.main-content3 {
+    max-height: 510px;
+    overflow-y: auto;
+}

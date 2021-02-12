@@ -54,7 +54,7 @@
                                 <ul id="firstLink" class="collapse list">
 
                                     <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
-                                            href="locations.html" class="text-white ">Full Assurance Compliance</a>
+                                            href="domain-page.php" class="text-white ">Full Assurance Compliance</a>
                                     </li>
                                     <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
                                             href="locations.html" class="text-white">Tech-Enabled
