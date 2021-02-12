@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+.search {
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 10px;
+    border-color: #F7F7F7;
+
+}
+
+.text {
+    color: #80808F;
+    font-size: 13px;
+}
+
+::placeholder {
+    color: #80808F;
+    font-family: 'Poppins', sans-serif;
+}
+
+.search_button {
+    float: right;
+}
+
+.search_button:focus {
+    outline: none;
+
+}
+
+input:focus {
+    outline: none;
+}
