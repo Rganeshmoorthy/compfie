@@ -20,7 +20,7 @@ $(document).ready(function() {
 <body>
     <div class="main-content">
         <!-- center content starts -->
-        <div class=" px-md-2 px-lg-4 main-content2">
+        <div class="row px-3 px-md-5 main-content2">
             <div class="col-12 py-2 heading">
                 All Domains
             </div>
@@ -51,7 +51,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-sm-12">
+                    <div class="col-lg-6 col-sm-12 mt-3 mt-md-0">
                         <div class="px-1 py-1 borde">
                             <div class="d-flex px-1">
                                 <div class="py-2 px-2  img_labour">
@@ -72,10 +72,10 @@ $(document).ready(function() {
                     </div>
                 </div>
             </div>
-            <div class="col-12 mt-4">
+            <div class="col-12 mt-3">
                 <div class="row">
                     <div class="col-lg-6 col-sm-12">
-                        <div class="px-1 py-1 borde">
+                        <div class="py-1 borde">
                             <div class="d-flex px-1">
                                 <div class="py-2 px-2  img_labour">
                                     <img src="package/labour.png" width="100px" height="100">
@@ -101,7 +101,7 @@ $(document).ready(function() {
             <div class="col-12">
                 <div class="row">
                     <div class="col-lg-6 ">
-                        <div class="px-2 my-3">
+                        <div class="my-3">
                             <div class="border px-3 py-3">
                                 <div class="title">
                                     Ullamcorper morpi tincidunt ornare massa
@@ -126,7 +126,7 @@ $(document).ready(function() {
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="px-2 my-3">
+                        <div class="my-3">
                             <div class="border px-3 py-3">
                                 <div class="title">
                                     Ullamcorper morpi tincidunt ornare massa

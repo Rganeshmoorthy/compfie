@@ -8,10 +8,6 @@
         sans-serif;
 }
 
-img {
-    border-radius: 10px !important;
-}
-
 .borde {
     border: 2px solid;
     border-color: #F9F9F9;
@@ -34,11 +30,12 @@ img {
 }
 
 .main-content2 {
-    max-height: 510px;
+    max-height: calc(100vh - 155px) !important;
     overflow-y: auto;
 }
 
-.content:not(.open) {
+.content,
+.heading:not(.open) {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -49,11 +46,11 @@ img {
 .sub-title {
     font-size: 10px;
     opacity: 0.3;
-    ;
 }
 
 .img_labour img {
     object-fit: cover;
+    border-radius: 10px !important;
 }
 
 .moreless-button {
@@ -65,4 +62,13 @@ img {
 
 .moreless-button:hover {
     color: #5B3D71;
+}
+
+@media (max-width:991px) {
+
+    .main-content2 {
+        max-height: calc(100vh - 145px) !important;
+        overflow-y: auto;
+    }
+
 }

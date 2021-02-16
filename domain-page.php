@@ -1,175 +1,214 @@
 <?php  include "header.php"?>
-<?php include "sidenav.php" ?>
+<?php include "nav-pills.php"?>
+<?php include "sidenav.php"?>
+
 <html>
 <link rel="stylesheet" href="css/index.css">
 <link rel="stylesheet" href="css/domain-page.css">
+<link rel="stylesheet" href="css/domain-page4.css">
 <script>
 </script>
 
 <body>
     <div class="main-content">
         <!-- center content starts -->
-        <div class="main-content3">
-            <div class="row my-5 px-5">
-                <div class="col-6  pr-0">
-                    <div class="pt-4 pl-3">
-                        <div class="borde  py-3">
-                            <div class="right-label text-center text-white pr-0">
-                                Recently Added
+        <div class="row px-3 px-md-5 py-3 main-content-3">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="pt-md-4">
+                            <div class="borde pt-3 ">
+                                <div class="right-label text-center text-white pr-0">
+                                    <p class="side-label"> Recently Added </p>
+                                </div>
+                                <div>
+                                    <h1 class="heading mx-4 pb-2 mt-3"> Central Acts</h1>
+                                    <ul class="mx-3 p-0">
+                                        <li class="content"> <i class="fa fa-fw fa-angle-right px-3"></i><a href="#"
+                                                class="anchor_tag">
+                                                Uttrapradesh
+                                                Munispality
+                                                act,1998</a>
+                                        </li>
+                                        <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
+                                                href="#" class="anchor_tag"> Uttrapradesh
+                                                Munispality
+                                                act,1998</a>
+                                        </li>
+                                        <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
+                                                href="#" class="anchor_tag"> Uttrapradesh
+                                                Munispality
+                                                act,1998</a>
+                                        </li>
+                                        <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
+                                                href="#" class="anchor_tag"> Uttrapradesh
+                                                Munispality
+                                                act,1998</a>
+                                        </li>
+                                        <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
+                                                href="#" class="anchor_tag">
+                                                Uttrapradesh
+                                                Munispality
+                                                act,1998</a>
+                                        </li>
+                                        <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
+                                                href="#" class="anchor_tag"> Uttrapradesh
+                                                Munispality
+                                                act,1998</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
+                        </div>
+                    </div>
 
-                            <h1 class="heading mx-2 pb-2"> Central Acts</h1>
-                            <ul class="mx-0 p-0">
-                                <li class="content"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                                <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                                <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                                <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                                <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                                <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                            </ul>
+                    <div class="col-lg-6 pt-2 pt-md-0">
+                        <div class="pt-md-4">
+                            <div class="borde pt-3">
+                                <div class="right-label text-center text-white pr-0">
+                                    <p class="side-label"> Recently Added</p>
+                                </div>
+
+                                <h1 class="heading mx-4 pb-2 mt-3"> Central Acts</h1>
+                                <ul class="mx-3 p-0">
+                                    <li class="content"> <i class="fa fa-fw fa-angle-right px-3"></i><a href="#"
+                                            class="anchor_tag">
+                                            Uttrapradesh
+                                            Munispality
+                                            act,1998</a>
+                                    </li>
+                                    <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a href="#"
+                                            class="anchor_tag"> Uttrapradesh
+                                            Munispality
+                                            act,1998</a>
+                                    </li>
+                                    <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a href="#"
+                                            class="anchor_tag"> Uttrapradesh
+                                            Munispality
+                                            act,1998</a>
+                                    </li>
+                                    <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a href="#"
+                                            class="anchor_tag"> Uttrapradesh
+                                            Munispality
+                                            act,1998</a>
+                                    </li>
+                                    <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a href="#"
+                                            class="anchor_tag">
+                                            Uttrapradesh
+                                            Munispality
+                                            act,1998</a>
+                                    </li>
+                                    <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a href="#"
+                                            class="anchor_tag"> Uttrapradesh
+                                            Munispality
+                                            act,1998</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 pr-0">
-                    <div class="pt-4 pl-3">
-                        <div class="borde  py-3">
-                            <div class="right-label text-center text-white pr-0">
-                                Recently Added
-                            </div>
-
-                            <h1 class="heading mx-2 pb-2"> Central Acts</h1>
-                            <ul class="mx-0 p-0">
-                                <li class="content"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                                <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                                <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                                <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                                <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                                <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-
             </div>
-            <div class="row px-5">
-                <div class="col-6  pr-0">
-                    <div class="pt-4 pl-3">
-                        <div class="borde  py-3">
-                            <div class="right-label text-center text-white pr-0">
-                                Recently Added
-                            </div>
+            <div class="col-12 mt-2">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="pt-md-2">
+                            <div class="borde pt-3">
+                                <div class="right-label  text-center text-white pr-0">
+                                    <p class="side-label"> Recently Added</p>
+                                </div>
 
-                            <h1 class="heading mx-2 pb-2"> Central Acts</h1>
-                            <ul class="mx-0 p-0">
-                                <li class="content"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                                <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                                <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                                <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                                <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                                <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                            </ul>
+                                <h1 class="heading mx-4 pb-2 mt-3"> Central Acts</h1>
+                                <ul class="mx-3 p-0">
+                                    <li class="content"> <i class="fa fa-fw fa-angle-right px-3"></i><a href="#"
+                                            class="anchor_tag">
+                                            Uttrapradesh
+                                            Munispality
+                                            act,1998</a>
+                                    </li>
+                                    <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a href="#"
+                                            class="anchor_tag"> Uttrapradesh
+                                            Munispality
+                                            act,1998</a>
+                                    </li>
+                                    <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a href="#"
+                                            class="anchor_tag"> Uttrapradesh
+                                            Munispality
+                                            act,1998</a>
+                                    </li>
+                                    <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a href="#"
+                                            class="anchor_tag"> Uttrapradesh
+                                            Munispality
+                                            act,1998</a>
+                                    </li>
+                                    <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a href="#"
+                                            class="anchor_tag">
+                                            Uttrapradesh
+                                            Munispality
+                                            act,1998</a>
+                                    </li>
+                                    <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a href="#"
+                                            class="anchor_tag"> Uttrapradesh
+                                            Munispality
+                                            act,1998</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-6 pr-0">
-                    <div class="pt-4 pl-3">
-                        <div class="borde  py-3">
-                            <div class="right-label text-center text-white pr-0">
-                                Recently Added
-                            </div>
+                    <div class="col-lg-6 pt-2 pt-md-0">
+                        <div class="pt-md-2">
+                            <div class="borde pt-3">
+                                <div class="right-label text-center text-white pr-0">
+                                    <p class="side-label"> Recently Added</p>
+                                </div>
 
-                            <h1 class="heading mx-2 pb-2"> Central Acts</h1>
-                            <ul class="mx-0 p-0">
-                                <li class="content"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                                <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                                <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                                <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                                <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                                <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i>Uttrapradesh
-                                    Munispality
-                                    act,1998
-                                </li>
-                            </ul>
+                                <h1 class="heading mx-4 pb-2 mt-3"> Central Acts</h1>
+                                <ul class="mx-3 p-0">
+                                    <li class="content"> <i class="fa fa-fw fa-angle-right px-3"></i><a href="#"
+                                            class="anchor_tag">
+                                            Uttrapradesh
+                                            Munispality
+                                            act,1998</a>
+                                    </li>
+                                    <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a href="#"
+                                            class="anchor_tag"> Uttrapradesh
+                                            Munispality
+                                            act,1998</a>
+                                    </li>
+                                    <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a href="#"
+                                            class="anchor_tag"> Uttrapradesh
+                                            Munispality
+                                            act,1998</a>
+                                    </li>
+                                    <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a href="#"
+                                            class="anchor_tag"> Uttrapradesh
+                                            Munispality
+                                            act,1998</a>
+                                    </li>
+                                    <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a href="#"
+                                            class="anchor_tag">
+                                            Uttrapradesh
+                                            Munispality
+                                            act,1998</a>
+                                    </li>
+                                    <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a href="#"
+                                            class="anchor_tag"> Uttrapradesh
+                                            Munispality
+                                            act,1998</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+
+
                 </div>
-
-
             </div>
         </div>
         <!-- center content ends -->
         <?php  include "footer.php"?>
-
+    </div>
 </body>
 
 </html>

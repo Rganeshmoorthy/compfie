@@ -35,9 +35,67 @@
                 INDIA
             </div>
             <div class="col-12 topic_button mt-1">
-                <button class="btn bg-white btn-lg rounded-pill btn_topic">Change Country</button>
+                <button class="btn bg-white btn-lg rounded-pill btn_topic" data-toggle="modal"
+                    data-target="#exampleModalCenter">Change Country</button>
             </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header border-0">
+                            <!-- <h5 class="modal-title mt-5 px-5 text-center" id="exampleModalLongTitle">Please enter
+                                your
+                                email id and
+                                validate
+                                yourself to access a wealth of legal knowledge</h5> -->
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <form class="px-5 py-0">
+                            <div class="form-group text-center  px-5">
+                                <label class="pb-2 modal-title">Please enter
+                                    your
+                                    email id and
+                                    validate
+                                    yourself to access a wealth of legal knowledge</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Email Id" autocomplete="off">
+                            </div>
+                            <div class="form-group px-5">
+                                <label for="exampleFormControlSelect1" class="text-center pb-2 modal-title">Choose the
+                                    location
+                                    for which
+                                    you
+                                    want to view
+                                    the applicable laws</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option class="active">Select Country</option>
+                                    <option>bbbbbbbbbbbb</option>
+                                    <option>cccccccccccc</option>
+                                </select>
+                            </div>
+                            <div class="form-group px-5">
+                                <label class="text-center pb-2 modal-title w-100">9 + 5 = ?</label>
+                                <div>
+                                    <input type="text" class="form-control" placeholder="Enter the Answer"
+                                        autocomplete="off">
+                                </div>
+                            </div>
+                        </form>
+                        <div class="modal-body py-0">
 
+                        </div>
+
+                        <div class="modal-footer d-flex justify-content-center border-0 text-center">
+                            <button type="button" class="btn text-white foot-button">SUBMIT</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
             <div class="col-12 home mt-3 px-5 text-white">
                 <i class="fa fa-fw fa-home"></i> <a href="#" class="text-white">Home</a>
             </div>
@@ -56,8 +114,8 @@
                                     <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
                                             href="domain-page.php" class="text-white ">Full Assurance Compliance</a>
                                     </li>
-                                    <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
-                                            href="locations.html" class="text-white">Tech-Enabled
+                                    <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
+                                            class="text-white">Tech-Enabled
                                             Compliance</a>
                                     </li>
 
@@ -81,18 +139,21 @@
                                 </a>
 
                                 <ul id="complaint_law" class="collapse list">
-                                    <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
-                                            data-toggle="collapse" class="mt-1 text-white px-2" aria-hidden="true"
-                                            data-parent="#accordion1" href="#legislation" href="locations.html"
-                                            class="text-white">Legislations <i class="fa fa-fw fa-angle-down"></i></a>
-                                    </li>
+                                    <div id="accordion1">
+                                        <li class="mt-3 panel"> <img src="package/law-book.png" height="15px" /> <a
+                                                data-toggle="collapse" class="mt-1 text-white px-2 menu"
+                                                aria-hidden="true" data-parent="#accordion1" href="#legislation"
+                                                href="#" class="text-white">Legislations <i
+                                                    class="fa fa-fw fa-angle-down"></i></a>
+                                        </li>
+                                    </div>
                                     <ul id="legislation" class="collapse list2 p-0">
-                                        <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a href="#"
-                                                class="text-white px-2">Central acts </a></li>
+                                        <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
+                                                href="domain-page3.php" class="text-white px-2">Central acts </a></li>
                                         <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a href="#"
                                                 class="text-white px-2"> Central Rules</a></li>
-                                        <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a href="#"
-                                                class="text-white px-2">State Acts</a></li>
+                                        <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
+                                                href="domain-page4.php" class="text-white px-2">State Acts</a></li>
                                         <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a href="#"
                                                 class="text-white px-2">State Rules</a></li>
                                         <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a href="#"

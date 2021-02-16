@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
 
-body {
-    overflow-x: hidden;
-    overflow-y: hidden;
+body,
+html {
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
 }
 
 /* width */
@@ -18,7 +19,7 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #725885;
+    background: white;
 
 }
 
@@ -91,17 +92,13 @@ a {
     font-size: 11px;
 }
 
-.menu-toggle {
-    color: #fff;
-    line-height: 50px;
-    font-size: 24px;
-    cursor: pointer;
-    display: none;
-}
-
 .logo {
     fill: white;
     height: 20px;
+}
+
+.menu-toggle {
+    display: none;
 }
 
 @media (max-width:991px) {
@@ -109,7 +106,7 @@ a {
         display: block;
         color: #5B3D71;
         position: absolute;
-        top: 27px;
+        top: 20px;
         left: 15px;
         background-color: transparent;
         border: none;
@@ -119,19 +116,6 @@ a {
     .menu-toggle:focus {
         outline: none;
     }
-
-    .sidenav-body {
-        max-height: 400px;
-        overflow-y: auto;
-    }
-
-    /* .foot_class {
-        font-size: 15px;
-        position: absolute;
-        bottom: 135px;
-        width: 100%;
-        left: 0;
-    } */
 
     body,
     html {
@@ -156,11 +140,16 @@ a {
     .active {
         left: 0;
     }
+
+    .aphabet-scroll {
+        max-height: calc(100vh - 459px) !important;
+        overflow-y: auto;
+        scroll-behavior: smooth;
+    }
 }
 
 
-ul,
-ol {
+ul {
     list-style: none;
 }
 
@@ -187,7 +176,49 @@ ol {
 @media (min-width:992px) {
     .main-content {
         margin-left: 250px;
-        margin-top: 10px;
+        margin-top: 70px;
     }
 
+}
+
+.modal-title {
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.form-control {
+    border-color: #BABABA;
+    border-radius: 0 !important;
+}
+
+.form-control:focus {
+    border-color: #BABABA;
+    -webkit-box-shadow: #BABABA;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #BABABA;
+    font-size: 13px;
+    font-family: 'Poppins',
+        sans-serif;
+    /* Firefox */
+}
+
+.modal-footer {
+    text-align: center;
+}
+
+.foot-button {
+    width: 125px;
+    border-radius: 5px;
+    background-color: #5B3D71;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+select:active {
+    border-color: #BABABA;
 }
