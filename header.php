@@ -10,14 +10,13 @@
 
 <body>
     <div class="row my-2 my-md-4 ">
-        <div class=" col-sm-12 col-md-2 mx-5 px-5">
+        <div class=" col-sm-12 col-md-2 mx-5 mx-md-4 px-5">
             <img src="package/image.png" height="35">
         </div>
 
-        <div class="col-sm-12  col-md-7 mx-4 mx-md-3 my-3 my-md-0 search">
-            <input type="text" class="border-0 text" placeholder="Search Compfie Law">
-            <button type="submit" class="border-0 bg-transparent search_button mt-1  px-4"><i
-                    class="fa fa-search"></i></button>
+        <div class="col-sm-12  col-md-7 mx-4 mx-md-4 my-3 my-md-0 search w-100">
+            <input type="text" class="border-0 text w-100 pr-4" placeholder="Search Compfie Law">
+            <button type="submit" class="border-0 bg-transparent search_button"><i class="fa fa-search"></i></button>
         </div>
     </div>
 </body>

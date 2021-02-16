@@ -6,6 +6,8 @@
     padding: 8px;
     border-radius: 10px;
     border-color: #F7F7F7;
+    position: relative;
+    margin-left: 250px;
 
 }
 
@@ -20,7 +22,10 @@
 }
 
 .search_button {
-    float: right;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .search_button:focus {

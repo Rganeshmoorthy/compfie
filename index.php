@@ -5,14 +5,13 @@
 <script>
 $(document).ready(function() {
     $(".moreless-button").click(function() {
-        //  $("#content").toggleClass("content");
         $(this).prev().toggleClass("open");
+        console.log($(this).prev().hasClass("open"))
         if ($(this).prev().hasClass("open")) {
             $(this).text("READ LESS")
         } else {
             $(this).text("READ MORE")
         }
-
     });
 });
 </script>
@@ -110,10 +109,11 @@ $(document).ready(function() {
                                     17 Dec 2020 12.00 PM
                                 </div>
                                 <div class="content mt-2">
-                                    Consumer price index for industrial workers for the month oct2020 "ll" As Sebis
-                                    Peak
-                                    margin norms Kick in broker default risk.
-                                    <p class="moretext">
+                                    <p>
+                                        Consumer price index for industrial workers for the month oct2020 "ll" As Sebis
+                                        Peak
+                                        margin norms Kick in broker default risk.
+
                                         Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork chop doner
                                         sirloin,
                                         bacon beef brisket ball tip short ribs.
@@ -135,10 +135,11 @@ $(document).ready(function() {
                                     17 Dec 2020 12.00 PM
                                 </div>
                                 <div class="content mt-2">
-                                    Consumer price index for industrial workers for the month oct2020 "ll" As Sebis
-                                    Peak
-                                    margin norms Kick in broker default risk.
-                                    <p class="moretext">
+                                    <p>
+                                        Consumer price index for industrial workers for the month oct2020 "ll" As Sebis
+                                        Peak
+                                        margin norms Kick in broker default risk.
+
                                         Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork chop doner
                                         sirloin,
                                         bacon beef brisket ball tip short ribs.

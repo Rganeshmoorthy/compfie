@@ -47,6 +47,8 @@
     height: 150px;
 }
 
+
+
 .search-btn {
     font-size: 10px;
 
@@ -63,9 +65,4 @@
         max-height: calc(100vh - 232px) !important;
         overflow-y: auto;
     }
-
-    .alpha-scroll {
-        overflow-x: auto !important;
-    }
-
 }

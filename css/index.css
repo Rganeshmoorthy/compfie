@@ -23,7 +23,6 @@
 
 .content {
     font-size: 12px;
-    /* color: #B7AAC1; */
     color: #91909E;
     font-family: 'Poppins',
         sans-serif;
@@ -34,8 +33,7 @@
     overflow-y: auto;
 }
 
-.content,
-.heading:not(.open) {
+.content:not(.open) {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
