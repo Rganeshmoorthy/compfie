@@ -83,12 +83,10 @@ html {
 }
 
 
-
-
 /*************** SIMPLE INNER SCROLLBAR ***************/
 
-.scrollbar>.scroll-element,
-.scrollbar>.scroll-element div {
+.scrollbarnew>.scroll-element,
+.scrollbarnew>.scroll-element div {
     border: none;
     margin: 0;
     padding: 0;
@@ -96,7 +94,7 @@ html {
     z-index: 10;
 }
 
-.scrollbar>.scroll-element div {
+.scrollbarnew>.scroll-element div {
     display: block;
     height: 100%;
     left: 0;
@@ -104,72 +102,72 @@ html {
     width: 100%;
 }
 
-.scrollbar>.scroll-element.scroll-x {
+.scrollbarnew>.scroll-element.scroll-x {
     bottom: 2px;
     height: 8px;
     left: 0;
     width: 100%;
 }
 
-.scrollbar>.scroll-element.scroll-y {
+.scrollbarnew>.scroll-element.scroll-y {
     height: 100%;
     right: 2px;
     top: 0;
     width: 8px;
 }
 
-.scrollbar>.scroll-element .scroll-element_outer {
+.scrollbarnew>.scroll-element .scroll-element_outer {
     overflow: hidden;
 }
 
-.scrollbar>.scroll-element .scroll-element_outer,
-.scrollbar>.scroll-element .scroll-element_track,
-.scrollbar>.scroll-element .scroll-bar {
+.scrollbarnew>.scroll-element .scroll-element_outer,
+.scrollbarnew>.scroll-element .scroll-element_track,
+.scrollbarnew>.scroll-element .scroll-bar {
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
 }
 
-.scrollbar>.scroll-element .scroll-element_track,
-.scrollbar>.scroll-element .scroll-bar {
+.scrollbarnew>.scroll-element .scroll-element_track,
+.scrollbarnew>.scroll-element .scroll-bar {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
     filter: alpha(opacity=40);
     opacity: 0.4;
 }
 
-.scrollbar>.scroll-element .scroll-element_track {
+.scrollbarnew>.scroll-element .scroll-element_track {
     background-color: #e0e0e0;
 }
 
-.scrollbar>.scroll-element .scroll-bar {
+.scrollbarnew>.scroll-element .scroll-bar {
     background-color: #c2c2c2;
 }
 
-.scrollbar>.scroll-element:hover .scroll-bar {
+.scrollbarnew>.scroll-element:hover .scroll-bar {
     background-color: #919191;
 }
 
-.scrollbar>.scroll-element.scroll-draggable .scroll-bar {
+.scrollbarnew>.scroll-element.scroll-draggable .scroll-bar {
     background-color: #919191;
 }
 
 
-/* update scrollbar offset if both scrolls are visible */
+/* update scrollbarnew offset if both scrolls are visible */
 
-.scrollbar>.scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_track {
+.scrollbarnew>.scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_track {
     left: -12px;
 }
 
-.scrollbar>.scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_track {
+.scrollbarnew>.scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_track {
     top: -12px;
 }
 
 
-.scrollbar>.scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size {
+.scrollbarnew>.scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size {
     left: -12px;
 }
 
-.scrollbar>.scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size {
+.scrollbarnew>.scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size {
     top: -12px;
 }
 

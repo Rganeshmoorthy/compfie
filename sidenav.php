@@ -3,7 +3,7 @@
 <head>
     <script>
     jQuery(document).ready(function() {
-        jQuery('.sidenav-body').scrollbar();
+        jQuery('.scrollbarnew').scrollbar();
     });
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -48,7 +48,7 @@
                 </div>
             </div>
 
-            <div class="sidenav-body scrollbar">
+            <div class="sidenav-body scrollbarnew">
                 <div class="col-12 home mt-3 px-5 text-white">
                     <i class="fa fa-fw fa-home"></i> <a href="#" class="text-white">Home</a>
                 </div>

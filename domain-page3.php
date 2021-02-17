@@ -28,7 +28,7 @@ jQuery(document).ready(function() {
                     </div>
                 </div>
             </div>
-            <div class="col-12 mt-3 aphabet-scroll">
+            <div class="col-12 mt-3 aphabet-scroll scrollbarnew">
                 <div class="row">
                     <div class="col-12">
                         <div class="d-flex border">
