@@ -1,17 +1,17 @@
 <?php  include "header.php"?>
-<?php include "nav-pills.php"?>
 <?php include "sidenav.php" ?>
 
 <html>
 <link rel="stylesheet" href="css/index.css">
 <link rel="stylesheet" href="css/domain-page4.css">
 <script>
-
+jQuery(document).ready(function() {
+    jQuery('.aphabet-scroll').scrollbar();
+});
 </script>
 
 <body>
     <div class="main-content">
-
         <!-- center content starts -->
         <div class="row px-5 px-md-5 py-3">
             <div class="col-12 heading">
@@ -32,7 +32,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="d-flex border">
-                            <div class="content-bgcolor text-center py-3 alphabet">
+                            <div class="content-bgcolor py-3 text-center alphabet">
                                 <h1 id="a"> A</h1>
                             </div>
                             <div>

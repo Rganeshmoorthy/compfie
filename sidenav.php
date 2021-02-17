@@ -1,12 +1,18 @@
 <html>
 
 <head>
+    <script>
+    jQuery(document).ready(function() {
+        jQuery('.sidenav-body').scrollbar();
+    });
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/sidenavv.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="package/jq.js"></script>
+    <script src="http://gromo.github.io/jquery.scrollbar/jquery.scrollbar.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
@@ -42,7 +48,7 @@
                 </div>
             </div>
 
-            <div class="sidenav-body">
+            <div class="sidenav-body scrollbar">
                 <div class="col-12 home mt-3 px-5 text-white">
                     <i class="fa fa-fw fa-home"></i> <a href="#" class="text-white">Home</a>
                 </div>
@@ -61,8 +67,8 @@
                                         <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
                                                 href="domain-page.php" class="text-white ">Full Assurance Compliance</a>
                                         </li>
-                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
-                                                class="text-white">Tech-Enabled
+                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
+                                                href="domain-page8.php" class="text-white">Tech-Enabled
                                                 Compliance</a>
                                         </li>
 
@@ -165,8 +171,8 @@
                             email id and
                             validate
                             yourself to access a wealth of legal knowledge</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Id"
-                            autocomplete="off">
+                        <input type="email" class="form-control form_input" id="exampleFormControlInput1"
+                            placeholder="Email Id" autocomplete="off">
                     </div>
                     <div class="form-group px-5">
                         <label for="exampleFormControlSelect1" class="text-center pb-2 modal-title">Choose the
@@ -175,7 +181,7 @@
                             you
                             want to view
                             the applicable laws</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
+                        <select class="form-control form_input" id="exampleFormControlSelect1">
                             <option class="active">Select Country</option>
                             <option>TamilNadu</option>
                             <option>Kerala</option>
@@ -184,14 +190,11 @@
                     <div class="form-group px-5">
                         <label class="text-center pb-2 modal-title w-100">9 + 5 = ?</label>
                         <div>
-                            <input type="text" class="form-control" placeholder="Enter the Answer" autocomplete="off">
+                            <input type="text" class="form-control form_input" placeholder="Enter the Answer"
+                                autocomplete="off">
                         </div>
                     </div>
                 </form>
-                <div class="modal-body py-0">
-
-                </div>
-
                 <div class="modal-footer d-flex justify-content-center border-0 text-center">
                     <button type="button" class="btn text-white foot-button">SUBMIT</button>
                 </div>

@@ -1,5 +1,4 @@
 <?php  include "header.php"?>
-<?php include "nav-pills.php"?>
 <?php include "sidenav.php"?>
 
 <html>

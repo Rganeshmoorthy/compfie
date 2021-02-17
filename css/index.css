@@ -29,7 +29,7 @@
 }
 
 .main-content2 {
-    max-height: calc(100vh - 155px) !important;
+    max-height: calc(100vh - 110px) !important;
     overflow-y: auto;
 }
 
