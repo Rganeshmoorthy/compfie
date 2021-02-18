@@ -4,14 +4,16 @@
 <html>
 <link rel="stylesheet" href="css/index.css">
 <link rel="stylesheet" href="css/domain-page.css">
-<link rel="stylesheet" href="css/domain-page4.css">
+<!-- <link rel="stylesheet" href="css/domain-page4.css"> -->
 <script>
 </script>
 
 <body>
+    <?php include "nav-pills.php"?>
     <div class="main-content">
         <!-- center content starts -->
-        <div class="row px-3 px-md-5 py-3 main-content-3">
+        <div class="row px-3 px-md-5 py-3 main-content-header">
+
             <div class="col-12">
                 <div class="row">
                     <div class="col-lg-6">

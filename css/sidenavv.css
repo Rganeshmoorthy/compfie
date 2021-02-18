@@ -107,6 +107,7 @@ html {
     height: 8px;
     left: 0;
     width: 100%;
+
 }
 
 .scrollbarnew>.scroll-element.scroll-y {
@@ -246,7 +247,7 @@ a {
 }
 
 .list {
-    font-size: 11px;
+    font-size: 13px;
     margin-left: 1px;
 }
 
@@ -312,7 +313,6 @@ a {
         scroll-behavior: smooth;
     }
 }
-
 
 ul {
     list-style: none;

@@ -25,3 +25,17 @@
 .anchor_tag:hover {
     color: #5B3D71 !important;
 }
+
+.main-content-header {
+    max-height: calc(100vh - 160px) !important;
+    overflow-y: auto;
+}
+
+@media (max-width:991px) {
+
+    .main-content-header {
+        max-height: calc(100vh - 233px) !important;
+        overflow-y: auto;
+
+    }
+}

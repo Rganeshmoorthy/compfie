@@ -16,6 +16,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
     <script>
     $(document).ready(function() {
@@ -49,14 +51,17 @@
             </div>
 
             <div class="sidenav-body scrollbarnew">
-                <div class="col-12 home mt-3 px-5 text-white">
-                    <i class="fa fa-fw fa-home"></i> <a href="#" class="text-white">Home</a>
+                <div class="col-12 home mt-3  text-white">
+                    <div class="row m-0">
+                        <img src="package/home.svg" height="20px" class="px-2" /></i> <a href="#"
+                            class="text-white">Home</a>
+                    </div>
                 </div>
                 <div class="col-12 mt-3">
                     <div class="row">
                         <div class="col-12">
                             <ul class="nav nav-stacked" id="accordion1">
-                                <li class="panel row px-3 ml-1">
+                                <li class="panel row m-0">
                                     <img src="package/servicee.svg" height="20px" class="mt-3 px-2" />
                                     <a data-toggle="collapse" class="mt-3 text-white menu" aria-hidden="true"
                                         data-parent="#accordion1" href="#firstLink">Our Services <i
@@ -65,7 +70,7 @@
                                     <ul id="firstLink" class="collapse list">
 
                                         <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
-                                                href="domain-page.php" class="text-white ">Full Assurance Compliance</a>
+                                                href="domain-page.php" class="text-white">Full Assurance Compliance</a>
                                         </li>
                                         <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
                                                 href="domain-page8.php" class="text-white">Tech-Enabled
@@ -84,7 +89,7 @@
                     <div class="row">
                         <div class="col-12">
                             <ul class="nav nav-stacked mt-2" id="accordion1">
-                                <li class="panel row px-3 ml-1">
+                                <li class="panel row m-0">
                                     <img src="package/justice-scale.png" height="20px" class="mt-2 px-2" />
                                     <a data-toggle="collapse" class="mt-2 text-white menu" aria-hidden="true"
                                         data-parent="#accordion1" href="#complaint_law">Compliance
@@ -94,7 +99,7 @@
                                     <ul id="complaint_law" class="collapse list">
                                         <div id="accordion1">
                                             <li class="mt-3 panel"> <img src="package/law-book.png" height="15px" /> <a
-                                                    data-toggle="collapse" class="mt-1 text-white px-2 menu"
+                                                    data-toggle="collapse" class="mt-1 text-white px-2"
                                                     aria-hidden="true" data-parent="#accordion1" href="#legislation"
                                                     href="#" class="text-white">Legislations <i
                                                         class="fa fa-fw fa-angle-down"></i></a>
@@ -105,35 +110,36 @@
                                                     href="domain-page3.php" class="text-white px-2">Central acts </a>
                                             </li>
                                             <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
-                                                    href="#" class="text-white px-2"> Central Rules</a></li>
+                                                    href="domain-page11.php" class="text-white px-2"> Central Rules</a>
+                                            </li>
                                             <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
                                                     href="domain-page4.php" class="text-white px-2">State Acts</a></li>
                                             <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
-                                                    href="#" class="text-white px-2">State Rules</a></li>
+                                                    href="domain-page5.php" class="text-white px-2">State Rules</a></li>
                                             <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
                                                     href="#" class="text-white px-2">Schemas</a></li>
                                         </ul>
-                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
-                                                href="locations.html" class="text-white px-2">Case Laws</a>
+                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
+                                                class="text-white px-2">Case Laws</a>
                                         </li>
 
-                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
-                                                href="locations.html" class="text-white px-2">Notification</a>
+                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
+                                                class="text-white px-2">Notification</a>
                                         </li>
-                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
-                                                href="locations.html" class="text-white px-2">Farms</a>
+                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
+                                                class="text-white px-2">Farms</a>
                                         </li>
-                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
-                                                href="locations.html" class="text-white px-2">Key Compliance Data</a>
+                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
+                                                class="text-white px-2">Key Compliance Data</a>
                                         </li>
-                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
-                                                href="locations.html" class="text-white px-2">Opinions</a>
+                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
+                                                class="text-white px-2">Opinions</a>
                                         </li>
-                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
-                                                href="locations.html" class="text-white px-2">Lets Talk Compliance</a>
+                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
+                                                class="text-white px-2">Lets Talk Compliance</a>
                                         </li>
-                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
-                                                href="locations.html" class="text-white px-2">Blogs</a>
+                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
+                                                class="text-white px-2">Blogs</a>
                                         </li>
                                     </ul>
 
@@ -144,9 +150,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-12  text-white foot_class">
-            <p class="mx-5">sample@gmail.com</p>
-            <button class="btn btn-lg mx-5 bg-white rounded-pill btn_topic">Log Out</button>
+        <div class="col-12  text-white mx-auto foot_class">
+            <p>sample@gmail.com</p>
+            <button class="btn btn-lg  bg-white rounded-pill btn_topic">Log Out</button>
         </div>
     </div>
     <!-- Modal -->

@@ -18,6 +18,7 @@
     background-color: #EDE5F2;
 }
 
+
 .content-bgcolor {
     /* domain-page3*/
     background-color: #FBF8FF;
@@ -33,6 +34,11 @@
 .alphabet-bgcolor {
     /* domain-page3*/
     background-color: #EDE5F2;
+    width: 20px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    color: #846E95 !important;
 }
 
 .alphabet-bgcolor:active {
@@ -42,7 +48,7 @@
 
 .aphabet-scroll {
     /* domain-page3*/
-    max-height: calc(100vh - 240px);
+    max-height: calc(100vh - 290px);
     overflow-y: auto;
     scroll-behavior: smooth;
 }
@@ -54,6 +60,10 @@
     border-color: #CED4DA;
     position: relative;
     min-width: 300px;
+}
+
+.select-country:focus {
+    outline: none;
 }
 
 .select-country:valid {
@@ -89,14 +99,24 @@
 
 
 .main-content-3 {
-    max-height: calc(100vh - 70px) !important;
+    max-height: calc(100vh - 159px) !important;
     overflow-y: auto;
+}
+
+.content-bgcolor ol li {
+    padding-top: 5px !important;
 }
 
 @media (max-width:991px) {
 
     .main-content-3 {
-        max-height: calc(100vh - 155px) !important;
+        max-height: calc(100vh - 233px) !important;
         overflow-y: auto;
+    }
+
+    .aphabet-scroll {
+        max-height: calc(100vh - 462px) !important;
+        overflow-y: auto;
+        scroll-behavior: smooth;
     }
 }
