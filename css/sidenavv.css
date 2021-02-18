@@ -231,7 +231,10 @@ a {
     font-size: 14px;
     font-family: 'Poppins',
         sans-serif;
+}
 
+.btn_topic:focus {
+    box-shadow: none !important;
 }
 
 .home {
@@ -375,6 +378,10 @@ ul {
     background-color: #5B3D71;
     font-family: 'Poppins',
         sans-serif;
+}
+
+.foot-button:focus {
+    box-shadow: none !important;
 }
 
 select:active {

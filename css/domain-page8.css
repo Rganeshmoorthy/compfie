@@ -8,6 +8,12 @@
     border-radius: 5px;
 }
 
+.button-head:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
 .acts {
     border: 1px solid;
     padding: 4px;
@@ -40,6 +46,10 @@
     border-radius: 35px;
 }
 
+.button-readmore:focus {
+    box-shadow: none;
+}
+
 .button-readmore-white {
     font-size: 10px;
     font-family: 'Poppins',
@@ -47,6 +57,10 @@
     border-radius: 35px;
     background-color: #EDE5F2;
     color: #5B3D71;
+}
+
+.button-readmore-white:focus {
+    box-shadow: none;
 }
 
 .table_scroll {

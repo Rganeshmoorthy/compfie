@@ -62,6 +62,10 @@
     color: #5B3D71;
 }
 
+select:focus {
+    outline: none !important;
+}
+
 @media (max-width:991px) {
 
     .main-content2 {
