@@ -115,7 +115,7 @@
     }
 
     .aphabet-scroll {
-        max-height: calc(100vh - 462px) !important;
+        max-height: calc(100vh - 494px) !important;
         overflow-y: auto;
         scroll-behavior: smooth;
     }
