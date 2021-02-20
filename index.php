@@ -14,6 +14,10 @@ $(document).ready(function() {
         }
     });
 });
+
+$(document).ready(function() {
+    $("#page_modal").modal('show');
+});
 </script>
 
 <body>
@@ -33,7 +37,9 @@ $(document).ready(function() {
                                 </div>
                                 <div class="py-2 px-2">
                                     <p class="title mb-1">Labour Employment & Industrial</p>
-                                    <p class="content mb-0" id="content">Provides the quick and convenient way to create
+                                    <a class="content mb-0" id="content" href="domain-page.php">Provides the quick and
+                                        convenient way
+                                        to create
                                         responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork
                                         chop doner
                                         sirloin,
@@ -44,7 +50,7 @@ $(document).ready(function() {
                                         sirloin,
                                         bacon beef brisket ball tip short
                                         ribs.
-                                    </p>
+                                    </a>
                                     <a class="moreless-button" href="#">READ MORE</a>
                                 </div>
                             </div>
@@ -58,12 +64,13 @@ $(document).ready(function() {
                                 </div>
                                 <div class="py-2 px-2">
                                     <p class="title mb-1">Environmental,Health & Safety</p>
-                                    <p class="content mb-0">Provides the quick and convenient way to create
+                                    <a class="content mb-0" href="domain-page1.php">Provides the quick and convenient
+                                        way to create
                                         responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork
                                         chop doner
                                         sirloin,
                                         bacon beef brisket ball tip short ribs.
-                                    </p>
+                                    </a>
                                     <a class="moreless-button" href="#">READ MORE</a>
                                 </div>
                             </div>
@@ -81,12 +88,13 @@ $(document).ready(function() {
                                 </div>
                                 <div class="py-2 px-2">
                                     <p class="title mb-1">Fiscal,Corporate & Commercial</p>
-                                    <p class="content mb-0">Provides the quick and convenient way to create
+                                    <a class="content mb-0" href="domain-page2.php">Provides the quick and convenient
+                                        way to create
                                         responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork
                                         chop doner
                                         sirloin,
                                         bacon beef brisket ball tip short ribs.
-                                    </p>
+                                    </a>
                                     <a class="moreless-button" href="#">READ MORE</a>
                                 </div>
                             </div>
@@ -154,6 +162,57 @@ $(document).ready(function() {
                 </div>
             </div>
         </div>
+        <!-- Modal -->
+        <div class="modal fade modal-md" id="page_modal" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form class="px-5 py-0">
+                        <div class="form-group text-center  px-5">
+                            <label class="pb-2 modal-title">Please enter
+                                your
+                                email id and
+                                validate
+                                yourself to access a wealth of legal knowledge</label>
+                            <input type="email" class="form-control form_input" id="exampleFormControlInput1"
+                                placeholder="Email Id" autocomplete="off">
+                        </div>
+                        <div class="form-group px-5">
+                            <label for="exampleFormControlSelect1" class="text-center pb-2 modal-title">Choose the
+                                location
+                                for which
+                                you
+                                want to view
+                                the applicable laws</label>
+                            <select class="form-control form_input" id="exampleFormControlSelect1">
+                                <option class="active">Select Country</option>
+                                <option>India</option>
+                                <option>Dubai</option>
+                                <option>US</option>
+                            </select>
+                        </div>
+                        <div class="form-group px-5">
+                            <label class="text-center pb-2 modal-title w-100">9 + 5 = ?</label>
+                            <div>
+                                <input type="text" class="form-control form_input" placeholder="Enter the Answer"
+                                    autocomplete="off">
+                            </div>
+                        </div>
+                    </form>
+                    <div class="modal-footer d-flex justify-content-center border-0 text-center">
+                        <button type="submit" data-dismiss="modal" class=" btn text-white foot-button">SUBMIT</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+
         <!-- center content ends -->
         <?php  include "footer.php"?>
     </div>

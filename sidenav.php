@@ -45,15 +45,16 @@
                     INDIA
                 </div>
                 <div class="col-12 topic_button mt-1">
-                    <button class="btn bg-white btn-lg rounded-pill btn_topic" data-toggle="modal"
-                        data-target="#exampleModalCenter">Change Country</button>
+                    <!-- <button class="btn bg-white btn-lg rounded-pill btn_topic" data-toggle="modal"
+                        data-target="#exampleModalCenter">Change Country</button> -->
+                    <button class="btn bg-white btn-lg rounded-pill btn_topic">Change Country</button>
                 </div>
             </div>
 
             <div class="sidenav-body scrollbarnew">
                 <div class="col-12 home mt-3  text-white">
                     <div class="row m-0">
-                        <img src="package/home.svg" height="20px" class="px-2" /></i> <a href="#"
+                        <img src="package/home.svg" height="20px" class="px-2" /></i> <a href="index.php"
                             class="text-white">Home</a>
                     </div>
                 </div>
@@ -69,11 +70,11 @@
 
                                     <ul id="firstLink" class="collapse list">
 
-                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
-                                                href="domain-page.php" class="text-white">Full Assurance Compliance</a>
+                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
+                                                class="text-white">Full Assurance Compliance</a>
                                         </li>
-                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
-                                                href="domain-page8.php" class="text-white">Tech-Enabled
+                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
+                                                class="text-white">Tech-Enabled
                                                 Compliance</a>
                                         </li>
 
@@ -154,61 +155,8 @@
             <p>sample@gmail.com</p>
             <button class="btn btn-lg  bg-white rounded-pill btn_topic">Log Out</button>
         </div>
-    </div>
-    <!-- Modal -->
-    <div class="modal fade modal-md" id="exampleModalCenter" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header border-0">
-                    <!-- <h5 class="modal-title mt-5 px-5 text-center" id="exampleModalLongTitle">Please enter
-                                your
-                                email id and
-                                validate
-                                yourself to access a wealth of legal knowledge</h5> -->
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <form class="px-5 py-0">
-                    <div class="form-group text-center  px-5">
-                        <label class="pb-2 modal-title">Please enter
-                            your
-                            email id and
-                            validate
-                            yourself to access a wealth of legal knowledge</label>
-                        <input type="email" class="form-control form_input" id="exampleFormControlInput1"
-                            placeholder="Email Id" autocomplete="off">
-                    </div>
-                    <div class="form-group px-5">
-                        <label for="exampleFormControlSelect1" class="text-center pb-2 modal-title">Choose the
-                            location
-                            for which
-                            you
-                            want to view
-                            the applicable laws</label>
-                        <select class="form-control form_input" id="exampleFormControlSelect1">
-                            <option class="active">Select Country</option>
-                            <option>TamilNadu</option>
-                            <option>Kerala</option>
-                        </select>
-                    </div>
-                    <div class="form-group px-5">
-                        <label class="text-center pb-2 modal-title w-100">9 + 5 = ?</label>
-                        <div>
-                            <input type="text" class="form-control form_input" placeholder="Enter the Answer"
-                                autocomplete="off">
-                        </div>
-                    </div>
-                </form>
-                <div class="modal-footer d-flex justify-content-center border-0 text-center">
-                    <button type="button" class="btn text-white foot-button">SUBMIT</button>
-                </div>
 
-            </div>
-        </div>
     </div>
-    <!-- Modal -->
 
     <button class="menu-toggle"><i class="fa fa-bars custom" aria-hidden="true"></i></button>
     <script>

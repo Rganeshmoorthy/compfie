@@ -68,6 +68,11 @@
     overflow-y: auto;
 }
 
+.table_scroll_redirect {
+    max-height: calc(100vh - 275px);
+    overflow-y: auto;
+}
+
 .t-head {
     font-size: 14px;
     font-family: 'Poppins',
@@ -85,6 +90,11 @@
 @media (max-width:991px) {
     .table_scroll {
         max-height: calc(100vh - 450px) !important;
+        overflow-y: auto;
+    }
+
+    .table_scroll_redirect {
+        max-height: calc(100vh - 346px);
         overflow-y: auto;
     }
 

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 
 .heading {
@@ -17,13 +18,15 @@
 .title {
     font-size: 14px;
     color: #5B3D71;
+    font-weight: 500;
     font-family: 'Poppins',
         sans-serif;
 }
 
 .content {
+    font-weight: 300;
     font-size: 12px;
-    color: #91909E;
+    color: #717080;
     font-family: 'Poppins',
         sans-serif;
 }
@@ -66,10 +69,20 @@ select:focus {
     outline: none !important;
 }
 
+.main-content2_redirect {
+    max-height: calc(100vh - 110px);
+    overflow-y: auto;
+}
+
 @media (max-width:991px) {
 
     .main-content2 {
         max-height: calc(100vh - 145px) !important;
+        overflow-y: auto;
+    }
+
+    .main-content2_redirect {
+        max-height: calc(100vh - 236px);
         overflow-y: auto;
     }
 

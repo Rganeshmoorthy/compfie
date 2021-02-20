@@ -243,10 +243,19 @@ a {
         sans-serif;
 }
 
+.home:hover {
+    font-size: 16px;
+}
+
 .menu {
     font-size: 14px;
     font-family: 'Poppins',
         sans-serif;
+}
+
+.menu:hover {
+    font-size: 15px;
+    ;
 }
 
 .list {

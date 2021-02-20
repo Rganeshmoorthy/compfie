@@ -13,6 +13,10 @@
     color: #5B3D71 !important;
 }
 
+.nav_ul li a:hover {
+    font-size: 14px;
+
+}
 
 @media (min-width:992px) {
     .nav_pill {
