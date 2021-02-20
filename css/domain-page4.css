@@ -59,8 +59,8 @@
     /* domain-page3*/
     max-height: calc(100vh - 290px);
     overflow-y: auto;
-    scroll-behavior: auto;
 }
+
 
 .select-country {
     border: 1px solid;

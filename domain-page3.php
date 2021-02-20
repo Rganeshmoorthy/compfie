@@ -246,7 +246,186 @@ jQuery(document).ready(function() {
                         </div>
                     </div>
 
-
+                    <div class="col-12 mt-3">
+                        <div class="d-flex border">
+                            <div
+                                class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
+                                <h1 id="o"> O</h1>
+                            </div>
+                            <div>
+                                <ol type="1" class="p-1 px-4 ol-content">
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <div class="d-flex border">
+                            <div
+                                class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
+                                <h1 id="p"> P</h1>
+                            </div>
+                            <div>
+                                <ol type="1" class="p-1 px-4 ol-content">
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <div class="d-flex border">
+                            <div
+                                class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
+                                <h1 id="q"> Q</h1>
+                            </div>
+                            <div>
+                                <ol type="1" class="p-1 px-4 ol-content">
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <div class="d-flex border">
+                            <div
+                                class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
+                                <h1 id="r"> R</h1>
+                            </div>
+                            <div>
+                                <ol type="1" class="p-1 px-4 ol-content">
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <div class="d-flex border">
+                            <div
+                                class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
+                                <h1 id="s"> S</h1>
+                            </div>
+                            <div>
+                                <ol type="1" class="p-1 px-4 ol-content">
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <div class="d-flex border">
+                            <div
+                                class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
+                                <h1 id="t"> T</h1>
+                            </div>
+                            <div>
+                                <ol type="1" class="p-1 px-4 ol-content">
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <div class="d-flex border">
+                            <div
+                                class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
+                                <h1 id="u"> U</h1>
+                            </div>
+                            <div>
+                                <ol type="1" class="p-1 px-4 ol-content">
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <div class="d-flex border">
+                            <div
+                                class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
+                                <h1 id="v"> V</h1>
+                            </div>
+                            <div>
+                                <ol type="1" class="p-1 px-4 ol-content">
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <div class="d-flex border">
+                            <div
+                                class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
+                                <h1 id="w"> W</h1>
+                            </div>
+                            <div>
+                                <ol type="1" class="p-1 px-4 ol-content">
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <div class="d-flex border">
+                            <div
+                                class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
+                                <h1 id="x"> X</h1>
+                            </div>
+                            <div>
+                                <ol type="1" class="p-1 px-4 ol-content">
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <div class="d-flex border">
+                            <div
+                                class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
+                                <h1 id="y"> Y</h1>
+                            </div>
+                            <div>
+                                <ol type="1" class="p-1 px-4 ol-content">
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <div class="d-flex border">
+                            <div
+                                class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
+                                <h1 id="z"> Z</h1>
+                            </div>
+                            <div>
+                                <ol type="1" class="p-1 px-4 ol-content">
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                    <li class="mt-2">Assam Lifts And Escalators Act, 1990 </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
