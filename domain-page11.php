@@ -130,7 +130,6 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-
                     <div class="col-12 mt-3">
                         <div class="d-flex border">
                             <div class="content-bgcolor text-center py-3 alphabet">

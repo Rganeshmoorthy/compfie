@@ -77,7 +77,7 @@ jQuery(document).ready(function() {
                     </div>
 
                     <div class="px-2 mt-2 mt-md-0 px-md-3">
-                        <div class="search-act col-12 md-col-6">
+                        <div class="search-act col-12 md-col-6 ">
                             <input type="text" placeholder="search Acts" class="border-0 w-100 pr-4 search-input pl-2">
                             <button class="border-0 bg-transparent search-btn"><i class="fa fa-search"></i></button>
                         </div>
@@ -102,7 +102,7 @@ jQuery(document).ready(function() {
                                 <td>Lorem ipsum dolor sit amet, consectetur</td>
                                 <td>Lorem ipsum dolor sit amet,</td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
-                                        onclick="window.location.href='redirect-page-definition.php'">Read
+                                        onclick="window.location.href='act-definition.php'">Read
                                         more</button>
                                 </td>
                             </tr>
@@ -112,7 +112,7 @@ jQuery(document).ready(function() {
                                 <td>Lorem ipsum dolor sit amet, consectetur</td>
                                 <td>Lorem ipsum dolor sit amet,</td>
                                 <td> <button type="button" class="btn btn-sm  button-readmore-white mx-2"
-                                        onclick="window.location.href='redirect-page-definition.php'">Read
+                                        onclick="window.location.href='act-definition.php'">Read
                                         more</button>
                                 </td>
                             </tr>
@@ -122,7 +122,7 @@ jQuery(document).ready(function() {
                                 <td>Lorem ipsum dolor sit amet, consectetur</td>
                                 <td>Lorem ipsum dolor sit amet,</td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
-                                        onclick="window.location.href='redirect-page-definition.php'">Read
+                                        onclick="window.location.href='act-definition.php'">Read
                                         more</button>
                                 </td>
                             </tr>
@@ -132,7 +132,7 @@ jQuery(document).ready(function() {
                                 <td>Lorem ipsum dolor sit amet, consectetur</td>
                                 <td>Lorem ipsum dolor sit amet,</td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
-                                        onclick="window.location.href='redirect-page-definition.php'">Read
+                                        onclick="window.location.href='act-definition.php'">Read
                                         more</button>
                                 </td>
                             </tr>
@@ -150,7 +150,7 @@ jQuery(document).ready(function() {
                                 <td>Lorem ipsum dolor sit amet, consectetur</td>
                                 <td>Lorem ipsum dolor sit amet,</td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
-                                        onclick="window.location.href='redirect-page-definition.php'">Read
+                                        onclick="window.location.href='act-definition.php'">Read
                                         more</button>
                                 </td>
                             </tr>
@@ -160,7 +160,7 @@ jQuery(document).ready(function() {
                                 <td>Lorem ipsum dolor sit amet, consectetur</td>
                                 <td>Lorem ipsum dolor sit amet,</td>
                                 <td> <button type="button" class="btn btn-sm  text-white button-readmore mx-2"
-                                        onclick="window.location.href='redirect-page-definition.php'">Read
+                                        onclick="window.location.href='act-definition.php'">Read
                                         more</button>
                                     <button type="button" class="btn btn-sm button-readmore-white mx-2 mt-2">View
                                         Files</button>
@@ -173,7 +173,7 @@ jQuery(document).ready(function() {
                                 <td>Lorem ipsum dolor sit amet, consectetur</td>
                                 <td>Lorem ipsum dolor sit amet,</td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
-                                        onclick="window.location.href='redirect-page-definition.php'">Read
+                                        onclick="window.location.href='act-definition.php'">Read
                                         more</button>
                                 </td>
                             </tr>
@@ -183,7 +183,7 @@ jQuery(document).ready(function() {
                                 <td>Lorem ipsum dolor sit amet, consectetur</td>
                                 <td>Lorem ipsum dolor sit amet,</td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
-                                        onclick="window.location.href='redirect-page-definition.php'">Read
+                                        onclick="window.location.href='act-definition.php'">Read
                                         more</button>
                                 </td>
                             </tr>

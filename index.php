@@ -172,7 +172,7 @@ $(document).ready(function() {
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <form class="px-5 py-0">
+                    <form class="px-1 px-md-5 py-0">
                         <div class="form-group text-center  px-5">
                             <label class="pb-2 modal-title">Please enter
                                 your

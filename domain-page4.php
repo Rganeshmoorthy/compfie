@@ -23,11 +23,11 @@
                 state_acts: "Assam lifts and escalators act,1990",
                 act: 1990
             },
-            {
-                state: "Bihar",
-                state_acts: "Bihar municipal act,2007",
-                act: 2007
-            },
+            // {
+            //     state: "Bihar",
+            //     state_acts: "Bihar municipal act,2007",
+            //     act: 2007
+            // },
             {
                 state: "chatigar",
                 state_acts: "chatigar municipal act,1961",
@@ -66,7 +66,7 @@
         $("#state").select2({
             data: stateArray
         });
-        $($('#state').data('select2').$container).addClass('scrollbarnew')
+
         // $($("#state").select2("container")).addClass("scrollbarnew");
 
         /* li data */

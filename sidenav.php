@@ -31,6 +31,12 @@
                 }
             }, 400);
         });
+        var path = window.location.pathname;
+        // if (path.charAt(path.length - 1) == "/")
+        //     path = path.substring(0, path.length - 1);
+        console.log(path);
+        $(".nav-pills a[href*='" + path + "']").addClass("active");
+
     });
     </script>
 
