@@ -243,9 +243,6 @@ a {
         sans-serif;
 }
 
-.home:hover {
-    font-size: 16px;
-}
 
 .menu {
     font-size: 14px;
@@ -253,10 +250,7 @@ a {
         sans-serif;
 }
 
-.menu:hover {
-    font-size: 15px;
-    ;
-}
+
 
 .list {
     font-size: 13px;
