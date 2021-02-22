@@ -42,7 +42,10 @@
         var url = path.substring(path.lastIndexOf('/') + 1)
         console.log(url);
         $(".nav-pills a[href*='" + url + "']").addClass("active");
-        // $(".home a[href*='" + url + "']").addClass("active");
+
+        $(".current_page a[href*='" + url + "']").addClass("active");
+
+        $(".list .list2 a[href*='" + url + "']").addClass("active");
 
     });
     </script>
@@ -62,7 +65,7 @@
                             id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">Change Country</button>
 
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-menu drop_down" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="#">India</a>
                             <a class="dropdown-item" href="#">Srilanka</a>
                         </div>
@@ -72,7 +75,7 @@
 
             <div class="sidenav-body scrollbarnew">
                 <div class="col-12 home mt-3  text-white">
-                    <div class="row m-0">
+                    <div class="row m-0 current_page">
                         <img src="package/home.svg" height="20px" class="px-2" /></i> <a href="index.php"
                             class="text-white">Home</a>
                     </div>
@@ -127,8 +130,7 @@
                                         </div>
                                         <ul id="legislation" class="collapse list2 p-0">
                                             <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
-                                                    href="domain-page3.php" class="text-white px-2 
-                                                    <?= ($activePage == 'domain-page3') ? 'active':''; ?>">Central
+                                                    href="domain-page3.php" class="text-white px-2">Central
                                                     acts </a>
                                             </li>
                                             <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a

@@ -60,7 +60,7 @@ $(document).ready(function() {
                         <div class="px-1 py-1 borde">
                             <div class="d-flex px-1">
                                 <div class="py-2 px-2  img_labour">
-                                    <img src="package/labour.png" width="100px" height="100">
+                                    <img src="package/h&s.png" width="100px" height="100">
                                 </div>
                                 <div class="py-2 px-2">
                                     <a class="title mb-1" href="domain-page1.php">Environmental,Health & Safety</a>
@@ -84,7 +84,7 @@ $(document).ready(function() {
                         <div class="py-1 borde">
                             <div class="d-flex px-1">
                                 <div class="py-2 px-2  img_labour">
-                                    <img src="package/labour.png" width="100px" height="100">
+                                    <img src="package/library.png" width="100px" height="100">
                                 </div>
                                 <div class="py-2 px-2">
                                     <a class="title mb-1" href="domain-page2.php">Fiscal,Corporate & Commercial</a>

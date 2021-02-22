@@ -243,21 +243,21 @@ a {
         sans-serif;
 }
 
-/* .home:active {
-    background-color: red;
+.current_page a.active {
+    background-color: white !important;
+    color: #5B3D71 !important;
 }
 
-.list2 li a:active {
-    background-color: red;
-} */
+.list .list2 a.active {
+    background-color: white !important;
+    color: #5B3D71 !important;
+}
 
 .menu {
     font-size: 14px;
     font-family: 'Poppins',
         sans-serif;
 }
-
-
 
 .list {
     font-size: 13px;
@@ -276,6 +276,11 @@ a {
 .menu-toggle {
     display: none;
 }
+
+/* .drop_down .dropdown-item {
+    border-radius: 55px !important;
+} */
+
 
 @media (max-width:991px) {
     .menu-toggle {
