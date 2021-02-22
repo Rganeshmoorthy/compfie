@@ -36,7 +36,7 @@ $(document).ready(function() {
                                     <img src="package/labour.png" width="100px" height="100">
                                 </div>
                                 <div class="py-2 px-2">
-                                    <p class="title mb-1">Labour Employment & Industrial</p>
+                                    <a class="title mb-1" href="domain-page.php">Labour Employment & Industrial</a>
                                     <a class="content mb-0" id="content" href="domain-page.php">Provides the quick and
                                         convenient way
                                         to create
@@ -63,7 +63,7 @@ $(document).ready(function() {
                                     <img src="package/labour.png" width="100px" height="100">
                                 </div>
                                 <div class="py-2 px-2">
-                                    <p class="title mb-1">Environmental,Health & Safety</p>
+                                    <a class="title mb-1" href="domain-page1.php">Environmental,Health & Safety</a>
                                     <a class="content mb-0" href="domain-page1.php">Provides the quick and convenient
                                         way to create
                                         responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork
@@ -87,7 +87,7 @@ $(document).ready(function() {
                                     <img src="package/labour.png" width="100px" height="100">
                                 </div>
                                 <div class="py-2 px-2">
-                                    <p class="title mb-1">Fiscal,Corporate & Commercial</p>
+                                    <a class="title mb-1" href="domain-page2.php">Fiscal,Corporate & Commercial</a>
                                     <a class="content mb-0" href="domain-page2.php">Provides the quick and convenient
                                         way to create
                                         responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork

@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
     <script src="package/jq.js"></script>
     <script src="js/jquery.scrollbar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous">
+    </script>
+    <script src="package/bootstrap.min.js"></script>
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
@@ -31,15 +36,16 @@
                 }
             }, 400);
         });
+
+
         var path = window.location.pathname;
-        // if (path.charAt(path.length - 1) == "/")
-        //     path = path.substring(0, path.length - 1);
-        console.log(path);
-        $(".nav-pills a[href*='" + path + "']").addClass("active");
+        var url = path.substring(path.lastIndexOf('/') + 1)
+        console.log(url);
+        $(".nav-pills a[href*='" + url + "']").addClass("active");
+        // $(".home a[href*='" + url + "']").addClass("active");
 
     });
     </script>
-
 </head>
 
 <body>
@@ -51,9 +57,16 @@
                     INDIA
                 </div>
                 <div class="col-12 topic_button mt-1">
-                    <!-- <button class="btn bg-white btn-lg rounded-pill btn_topic" data-toggle="modal"
-                        data-target="#exampleModalCenter">Change Country</button> -->
-                    <button class="btn bg-white btn-lg rounded-pill btn_topic">Change Country</button>
+                    <div class="dropdown">
+                        <button class="btn bg-white btn-lg rounded-pill btn_topic dropdown-toggle" type="button"
+                            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Change Country</button>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">India</a>
+                            <a class="dropdown-item" href="#">Srilanka</a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -114,7 +127,9 @@
                                         </div>
                                         <ul id="legislation" class="collapse list2 p-0">
                                             <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
-                                                    href="domain-page3.php" class="text-white px-2">Central acts </a>
+                                                    href="domain-page3.php" class="text-white px-2 
+                                                    <?= ($activePage == 'domain-page3') ? 'active':''; ?>">Central
+                                                    acts </a>
                                             </li>
                                             <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
                                                     href="domain-page11.php" class="text-white px-2"> Central Rules</a>
