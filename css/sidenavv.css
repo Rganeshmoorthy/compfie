@@ -246,6 +246,13 @@ a {
 .current_page a.active {
     background-color: white !important;
     color: #5B3D71 !important;
+
+}
+
+.list .notify a.active {
+    background-color: white !important;
+    color: #5B3D71 !important;
+
 }
 
 .list .list2 a.active {

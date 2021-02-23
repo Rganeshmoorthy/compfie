@@ -44,6 +44,16 @@
                 }
             }, 400);
         });
+        $('#accordion1 .panel .menu_toggle').on('click', function() {
+            setTimeout(() => {
+                // console.log($(this).next().hasClass("show"))
+                if ($(this).next().hasClass("show")) {
+                    $(this).find('i').addClass('fa-angle-up').removeClass('fa-angle-down');
+                } else {
+                    $(this).find('i').addClass('fa-angle-down').removeClass('fa-angle-up');
+                }
+            }, 400);
+        });
 
 
         var path = window.location.pathname;
@@ -55,6 +65,8 @@
 
         $(".list .list2 a[href*='" + url + "']").addClass("active");
 
+        $(".list li a[href*='" + url + "']").addClass("active");
+
         if ($(".list .list2 a").hasClass("active")) {
             $('.law_toggle').next().addClass("show");
             $('.menu_toggle').next().addClass("show");
@@ -62,7 +74,13 @@
             $('.law_toggle').next().removeClass("show");
             $('.menu_toggle').next().removeClass("show");
         }
+        if ($(".list li a").hasClass("active")) {
+            $('.law_toggle').next().addClass("show");
 
+        } else {
+            $('.law_toggle').next().removeClass("show");
+
+        }
 
 
     });
@@ -110,11 +128,13 @@
 
                                     <ul id="firstLink" class="collapse list">
 
-                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
-                                                class="text-white px-2">Full Assurance Compliance</a>
+                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
+                                                href="https://www.aparajitha.com/"
+                                                class="text-white px-0 px-md-1">Full-Assurance Compliance</a>
                                         </li>
-                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
-                                                class="text-white px-2">Tech-Enabled
+                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
+                                                href="https://www.compfie.com/"
+                                                class="text-white px-0 px-md-1">Tech-Enabled
                                                 Compliance</a>
                                         </li>
                                     </ul>
@@ -138,48 +158,52 @@
                                     <ul id="complaint_law" class="collapse list">
                                         <div id="accordion1" class="menu_toggle">
                                             <li class="mt-3 panel"> <img src="package/law-book.png" height="15px" /> <a
-                                                    data-toggle="collapse" class="mt-1 text-white px-2 menu_toggle"
-                                                    aria-hidden="true" data-parent="#accordion1" href="#legislation"
-                                                    href="#" class="text-white">Legislations<i
+                                                    data-toggle="collapse"
+                                                    class="mt-1 text-white px-0 px-md-1 menu_toggle" aria-hidden="true"
+                                                    data-parent="#accordion1" href="#legislation" href="#"
+                                                    class="text-white">Legislations<i
                                                         class="fa fa-fw fa-angle-down"></i></a>
                                             </li>
                                         </div>
                                         <ul id="legislation" class="collapse list2 p-0">
                                             <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
-                                                    href="domain-page3.php" class="text-white px-2">Central
+                                                    href="domain-page3.php" class="text-white px-0 px-md-1">Central
                                                     acts </a>
                                             </li>
                                             <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
-                                                    href="domain-page11.php" class="text-white px-2"> Central Rules</a>
+                                                    href="domain-page11.php" class="text-white px-0 px-md-1"> Central
+                                                    Rules</a>
                                             </li>
                                             <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
-                                                    href="domain-page4.php" class="text-white px-2">State Acts</a></li>
+                                                    href="domain-page4.php" class="text-white px-0 px-md-1">State
+                                                    Acts</a></li>
                                             <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
-                                                    href="domain-page5.php" class="text-white px-2">State Rules</a></li>
+                                                    href="domain-page5.php" class="text-white px-0 px-md-1">State
+                                                    Rules</a></li>
                                             <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
-                                                    href="#" class="text-white px-2">Schemas</a></li>
+                                                    href="#" class="text-white px-2">Schemes</a></li>
                                         </ul>
-                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
-                                                class="text-white px-2">Case Laws</a>
+                                        <li class="mt-3 notify"> <img src="package/law-book.png" height="15px" /> <a
+                                                href="domain-page.php" class="text-white px-0 px-md-1">Case Laws</a>
                                         </li>
 
-                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
-                                                class="text-white px-2">Notification</a>
+                                        <li class="mt-3 notify"> <img src="package/law-book.png" height="15px" /> <a
+                                                href="domain-page8.php" class="text-white px-0 px-md-1">Notification</a>
                                         </li>
                                         <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
-                                                class="text-white px-2">Farms</a>
+                                                class="text-white px-0 px-md-1">Farms</a>
                                         </li>
                                         <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
-                                                class="text-white px-2">Key Compliance Data</a>
+                                                class="text-white px-0 px-md-1">Key Compliance Data</a>
                                         </li>
                                         <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
-                                                class="text-white px-2">Opinions</a>
+                                                class="text-white px-0 px-md-1">Opinions</a>
                                         </li>
                                         <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
-                                                class="text-white px-2">Lets Talk Compliance</a>
+                                                class="text-white px-0 px-md-1">Lets Talk Compliance</a>
                                         </li>
                                         <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
-                                                class="text-white px-2">Blogs</a>
+                                                class="text-white px-0 px-md-1">Blogs</a>
                                         </li>
                                     </ul>
 

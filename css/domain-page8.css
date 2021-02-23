@@ -19,7 +19,7 @@
     padding: 4px;
     border-radius: 4px;
     border-color: #CED4DA;
-    min-width: 150px;
+    max-width: 150px !important;
 }
 
 .acts:valid {
