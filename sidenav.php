@@ -9,18 +9,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/sidenavv.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-    <script src="package/jq.js"></script>
+
+    <!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+    <!-- <script src="package/jq.js"></script> -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/jquery.scrollbar.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
         integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous">
     </script>
-    <script src="package/bootstrap.min.js"></script>
 
+    <script src="package/bootstrap.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
@@ -28,7 +36,7 @@
     $(document).ready(function() {
         $('#accordion1 .panel .menu').on('click', function() {
             setTimeout(() => {
-                console.log($(this).next().hasClass("show"))
+                // console.log($(this).next().hasClass("show"))
                 if ($(this).next().hasClass("show")) {
                     $(this).find('i').addClass('fa-angle-up').removeClass('fa-angle-down');
                 } else {
@@ -40,12 +48,22 @@
 
         var path = window.location.pathname;
         var url = path.substring(path.lastIndexOf('/') + 1)
-        console.log(url);
+        //console.log(url);
         $(".nav-pills a[href*='" + url + "']").addClass("active");
 
         $(".current_page a[href*='" + url + "']").addClass("active");
 
         $(".list .list2 a[href*='" + url + "']").addClass("active");
+
+        if ($(".list .list2 a").hasClass("active")) {
+            $('.law_toggle').next().addClass("show");
+            $('.menu_toggle').next().addClass("show");
+        } else {
+            $('.law_toggle').next().removeClass("show");
+            $('.menu_toggle').next().removeClass("show");
+        }
+
+
 
     });
     </script>
@@ -93,15 +111,13 @@
                                     <ul id="firstLink" class="collapse list">
 
                                         <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
-                                                class="text-white">Full Assurance Compliance</a>
+                                                class="text-white px-2">Full Assurance Compliance</a>
                                         </li>
                                         <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
-                                                class="text-white">Tech-Enabled
+                                                class="text-white px-2">Tech-Enabled
                                                 Compliance</a>
                                         </li>
-
                                     </ul>
-
                                 </li>
                             </ul>
                         </div>
@@ -114,17 +130,17 @@
                             <ul class="nav nav-stacked mt-2" id="accordion1">
                                 <li class="panel row m-0">
                                     <img src="package/justice-scale.png" height="20px" class="mt-2 px-2" />
-                                    <a data-toggle="collapse" class="mt-2 text-white menu" aria-hidden="true"
+                                    <a data-toggle="collapse" class="mt-2 text-white menu law_toggle" aria-hidden="true"
                                         data-parent="#accordion1" href="#complaint_law">Compliance
                                         Laws <i class="fa fa-fw fa-angle-down"></i>
                                     </a>
 
                                     <ul id="complaint_law" class="collapse list">
-                                        <div id="accordion1">
+                                        <div id="accordion1" class="menu_toggle">
                                             <li class="mt-3 panel"> <img src="package/law-book.png" height="15px" /> <a
-                                                    data-toggle="collapse" class="mt-1 text-white px-2"
+                                                    data-toggle="collapse" class="mt-1 text-white px-2 menu_toggle"
                                                     aria-hidden="true" data-parent="#accordion1" href="#legislation"
-                                                    href="#" class="text-white">Legislations <i
+                                                    href="#" class="text-white">Legislations<i
                                                         class="fa fa-fw fa-angle-down"></i></a>
                                             </li>
                                         </div>
