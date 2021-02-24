@@ -111,7 +111,7 @@
 
             <div class="sidenav-body scrollbarnew">
                 <div class="col-12 home mt-3  text-white">
-                    <div class="row m-0 current_page">
+                    <div class="row m-0 current_page hover_effect">
                         <img src="package/home.svg" height="20px" class="px-2" /></i> <a href="index.php"
                             class="text-white">Home</a>
                     </div>
@@ -120,7 +120,7 @@
                     <div class="row">
                         <div class="col-12">
                             <ul class="nav nav-stacked" id="accordion1">
-                                <li class="panel row m-0">
+                                <li class="panel row m-0 hover_effect">
                                     <img src="package/servicee.svg" height="20px" class="mt-3 px-2" />
                                     <a data-toggle="collapse" class="mt-3 text-white menu" aria-hidden="true"
                                         data-parent="#accordion1" href="#firstLink">Our Services <i
@@ -148,7 +148,7 @@
                     <div class="row">
                         <div class="col-12">
                             <ul class="nav nav-stacked mt-2" id="accordion1">
-                                <li class="panel row m-0">
+                                <li class="panel row m-0 hover_effect">
                                     <img src="package/justice-scale.png" height="20px" class="mt-2 px-2" />
                                     <a data-toggle="collapse" class="mt-2 text-white menu law_toggle" aria-hidden="true"
                                         data-parent="#accordion1" href="#complaint_law">Compliance
@@ -190,17 +190,19 @@
                                         <li class="mt-3 notify"> <img src="package/law-book.png" height="15px" /> <a
                                                 href="domain-page8.php" class="text-white px-0 px-md-1">Notification</a>
                                         </li>
-                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
-                                                class="text-white px-0 px-md-1">Farms</a>
+                                        <li class="mt-3 notify"> <img src="package/law-book.png" height="15px" /> <a
+                                                href="forms.php" class="text-white px-0 px-md-1">Forms</a>
                                         </li>
                                         <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
-                                                class="text-white px-0 px-md-1">Key Compliance Data</a>
+                                                class="text-white px-0 px-md-1">Key Compliance
+                                                Data</a>
                                         </li>
                                         <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
                                                 class="text-white px-0 px-md-1">Opinions</a>
                                         </li>
-                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
-                                                class="text-white px-0 px-md-1">Lets Talk Compliance</a>
+                                        <li class="mt-3 notify"> <img src="package/law-book.png" height="15px" /> <a
+                                                href="complaints.php" class="text-white px-0 px-md-1">Lets Talk
+                                                Compliance</a>
                                         </li>
                                         <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
                                                 class="text-white px-0 px-md-1">Blogs</a>
