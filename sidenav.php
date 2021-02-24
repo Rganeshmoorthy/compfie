@@ -67,6 +67,8 @@
 
         $(".list li a[href*='" + url + "']").addClass("active");
 
+        $(".list .list3 a[href*='" + url + "']").addClass("active");
+
         if ($(".list .list2 a").hasClass("active")) {
             $('.law_toggle').next().addClass("show");
             $('.menu_toggle').next().addClass("show");
@@ -74,12 +76,18 @@
             $('.law_toggle').next().removeClass("show");
             $('.menu_toggle').next().removeClass("show");
         }
+
         if ($(".list li a").hasClass("active")) {
             $('.law_toggle').next().addClass("show");
 
         } else {
             $('.law_toggle').next().removeClass("show");
+        }
 
+        if ($(".list3 li a").hasClass("active")) {
+            $('.complaint_toggle').next().addClass("show");
+        } else {
+            $('.complaint_toggle').next().removeClass("show");
         }
     });
     </script>
@@ -164,24 +172,28 @@
                                             </li>
                                         </div>
                                         <ul id="legislation" class="collapse list2 p-0">
-                                            <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
-                                                    href="domain-page3.php" class="text-white px-0 px-md-1">Central
+                                            <li class="mt-3 ml-2 ml-md-3"><img src="package/gavel.png" height="15px" />
+                                                <a href="domain-page3.php" class="text-white px-0 px-md-1">Central
                                                     acts </a>
                                             </li>
-                                            <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
-                                                    href="domain-page11.php" class="text-white px-0 px-md-1"> Central
+                                            <li class="mt-3 ml-2 ml-md-3"><img src="package/gavel.png" height="15px" />
+                                                <a href="domain-page11.php" class="text-white px-0 px-md-1"> Central
                                                     Rules</a>
                                             </li>
-                                            <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
-                                                    href="domain-page4.php" class="text-white px-0 px-md-1">State
-                                                    Acts</a></li>
-                                            <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
-                                                    href="domain-page5.php" class="text-white px-0 px-md-1">State
-                                                    Rules</a></li>
-                                            <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
-                                                    href="schemes.php" class="text-white px-2">Schemes</a></li>
-                                            <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
-                                                    href="regulation.php" class="text-white px-2">Regulations</a></li>
+                                            <li class="mt-3 ml-2 ml-md-3"><img src="package/gavel.png" height="15px" />
+                                                <a href="domain-page4.php" class="text-white px-0 px-md-1">State
+                                                    Acts</a>
+                                            </li>
+                                            <li class="mt-3 ml-2 ml-md-3"><img src="package/gavel.png" height="15px" />
+                                                <a href="domain-page5.php" class="text-white px-0 px-md-1">State
+                                                    Rules</a>
+                                            </li>
+                                            <li class="mt-3 ml-2 ml-md-3"><img src="package/gavel.png" height="15px" />
+                                                <a href="schemes.php" class="text-white px-2">Schemes</a>
+                                            </li>
+                                            <li class="mt-3 ml-2 ml-md-3"><img src="package/gavel.png" height="15px" />
+                                                <a href="regulation.php" class="text-white px-2">Regulations</a>
+                                            </li>
 
                                         </ul>
                                         <li class="mt-3 notify"> <img src="package/law-book.png" height="15px" /> <a
@@ -194,23 +206,52 @@
                                         <li class="mt-3 notify"> <img src="package/law-book.png" height="15px" /> <a
                                                 href="forms.php" class="text-white px-0 px-md-1">Forms</a>
                                         </li>
-                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
-                                                class="text-white px-0 px-md-1">Key Compliance
-                                                Data</a>
-                                        </li>
-                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
-                                                class="text-white px-0 px-md-1">Opinions</a>
-                                        </li>
-                                        <li class="mt-3 notify"> <img src="package/law-book.png" height="15px" /> <a
-                                                href="complaints.php" class="text-white px-0 px-md-1">Lets Talk
-                                                Compliance</a>
-                                        </li>
-                                        <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
-                                                class="text-white px-0 px-md-1">Blogs</a>
-                                        </li>
-                                    </ul>
-
+                                        <div id="accordion1" class="complaint_toggle menu_toggle">
+                                            <li class="mt-3 panel"> <img src="package/law-book.png" height="15px" /> <a
+                                                    data-toggle="collapse"
+                                                    class="mt-1 text-white px-0 px-md-1 menu_toggle" aria-hidden="true"
+                                                    data-parent="#accordion1" href="#key_complaint" href="#"
+                                                    class="text-white">Key Complaints data<i
+                                                        class="fa fa-fw fa-angle-down"></i></a>
+                                            </li>
+                                        </div>
+                                        <ul id="key_complaint" class="collapse list3 p-0">
+                                            <li class="mt-3 ml-2 ml-md-3"><img src="package/gavel.png" height="15px" />
+                                                <a href="key_complaint.php" class="text-white px-0 px-md-1">Professional
+                                                    Tax </a>
+                                            </li>
+                                            <li class="mt-3 ml-2 ml-md-3"><img src="package/gavel.png" height="15px" />
+                                                <a href="welfare-fund.php" class="text-white px-0 px-md-1"> Labour
+                                                    Welfare
+                                                    Fund</a>
+                                            </li>
+                                            <li class="mt-3 ml-2 ml-md-3"><img src="package/gavel.png" height="15px" />
+                                                <a href="#" class="text-white px-0 px-md-1">Leave
+                                                    Policy</a>
+                                            </li>
+                                            <li class="mt-3 ml-2 ml-md-3"><img src="package/gavel.png" height="15px" />
+                                                <a href="#" class="text-white px-0 px-md-1">Min
+                                                    Wages</a>
+                                            </li>
+                                            <li class="mt-3 ml-2 ml-md-3"><img src="package/gavel.png" height="15px" />
+                                                <a href="#" class="text-white px-0 px-md-1">National Festival
+                                                    Holidays</a>
+                                            </li>
+                                        </ul>
                                 </li>
+                                <li class="mt-3 notify"> <img src="package/law-book.png" height="15px" /> <a
+                                        href="opinion.php" class="text-white px-0 px-md-1">Opinions</a>
+                                </li>
+                                <li class="mt-3 notify"> <img src="package/law-book.png" height="15px" /> <a
+                                        href="complaints.php" class="text-white px-0 px-md-1">Lets Talk
+                                        Compliance</a>
+                                </li>
+                                <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
+                                        class="text-white px-0 px-md-1">Blogs</a>
+                                </li>
+                            </ul>
+
+                            </li>
                             </ul>
                         </div>
                     </div>

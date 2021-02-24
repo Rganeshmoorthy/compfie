@@ -21,10 +21,12 @@ jQuery(document).ready(function() {
             <div class="col-12 py-2">
                 <div class="d-flex justify-content-center">
                     <div>
-                        <button type="button" class="btn btn-sm text-white button-head mx-2">View Full Act</button>
+                        <button type="button" class="btn btn-sm text-white button-head mx-2"
+                            onclick="window.location.href='full-act.php'">View Full Act</button>
                     </div>
                     <div>
-                        <button type="button" class="btn btn-sm text-white button-head mx-2">Related Central
+                        <button type="button" class="btn btn-sm text-white button-head mx-2"
+                            onclick="window.location.href='redirect-page.php'">Related Central
                             Rules</button>
                     </div>
                 </div>

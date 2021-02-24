@@ -255,6 +255,11 @@ a {
 
 }
 
+.list3 li a.active {
+    background-color: white !important;
+    color: #5B3D71 !important;
+}
+
 .list .list2 a.active {
     background-color: white !important;
     color: #5B3D71 !important;
@@ -300,6 +305,10 @@ a {
 }
 
 .list2 {
+    font-size: 11px;
+}
+
+.list3 {
     font-size: 11px;
 }
 
