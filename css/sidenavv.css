@@ -245,6 +245,7 @@ a {
 
 .active {
     border-left: 2px solid white;
+    padding: 3px;
 }
 
 .list .notify a.active {
