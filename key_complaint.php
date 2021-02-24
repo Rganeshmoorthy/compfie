@@ -113,7 +113,7 @@
         <!-- center content starts -->
         <div class="row px-5 px-md-5 py-2 py-md-3">
             <div class="col-12 heading pl-0">
-                Labour,Employment & Industrial - State Acts
+                Labour,Employment & Industrial - Professional Tax
             </div>
             <div class="col-12 px-3 py-4">
                 <div class="d-flex row">

@@ -226,15 +226,15 @@
                                                     Fund</a>
                                             </li>
                                             <li class="mt-3 ml-2 ml-md-3"><img src="package/gavel.png" height="15px" />
-                                                <a href="#" class="text-white px-0 px-md-1">Leave
+                                                <a href="leave-policy.php" class="text-white px-0 px-md-1">Leave
                                                     Policy</a>
                                             </li>
                                             <li class="mt-3 ml-2 ml-md-3"><img src="package/gavel.png" height="15px" />
-                                                <a href="#" class="text-white px-0 px-md-1">Min
+                                                <a href="min-wages.php" class="text-white px-0 px-md-1">Min
                                                     Wages</a>
                                             </li>
                                             <li class="mt-3 ml-2 ml-md-3"><img src="package/gavel.png" height="15px" />
-                                                <a href="#" class="text-white px-0 px-md-1">National Festival
+                                                <a href="holidays.php" class="text-white px-0 px-md-1">National Festival
                                                     Holidays</a>
                                             </li>
                                         </ul>
@@ -246,8 +246,8 @@
                                         href="complaints.php" class="text-white px-0 px-md-1">Lets Talk
                                         Compliance</a>
                                 </li>
-                                <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
-                                        class="text-white px-0 px-md-1">Blogs</a>
+                                <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
+                                        href="holidays.php" class="text-white px-0 px-md-1">Blogs</a>
                                 </li>
                             </ul>
 
