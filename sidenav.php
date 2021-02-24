@@ -61,15 +61,15 @@
         //console.log(url);
         $(".nav-pills a[href*='" + url + "']").addClass("active");
 
-        $(".current_page a[href*='" + url + "']").addClass("active");
+        $(".current_page a[href*='" + url + "']").parent().addClass("active");
 
-        $(".list .list2 a[href*='" + url + "']").addClass("active");
+        $(".list .list2 a[href*='" + url + "']").parent().addClass("active");
 
-        $(".list li a[href*='" + url + "']").addClass("active");
+        $(".list li a[href*='" + url + "']").parent().addClass("active");
 
-        $(".list .list3 a[href*='" + url + "']").addClass("active");
+        $(".list .list3 a[href*='" + url + "']").parent().addClass("active");
 
-        if ($(".list .list2 a").hasClass("active")) {
+        if ($(".list .list2 a").parent().hasClass("active")) {
             $('.law_toggle').next().addClass("show");
             $('.menu_toggle').next().addClass("show");
         } else {
@@ -77,14 +77,14 @@
             $('.menu_toggle').next().removeClass("show");
         }
 
-        if ($(".list li a").hasClass("active")) {
+        if ($(".list li a").parent().hasClass("active")) {
             $('.law_toggle').next().addClass("show");
 
         } else {
             $('.law_toggle').next().removeClass("show");
         }
 
-        if ($(".list3 li a").hasClass("active")) {
+        if ($(".list3 li a").parent().hasClass("active")) {
             $('.complaint_toggle').next().addClass("show");
         } else {
             $('.complaint_toggle').next().removeClass("show");

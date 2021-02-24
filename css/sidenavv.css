@@ -243,10 +243,8 @@ a {
         sans-serif;
 }
 
-.current_page a.active {
-    background-color: white !important;
-    color: #5B3D71 !important;
-
+.active {
+    border-left: 2px solid white;
 }
 
 .list .notify a.active {
