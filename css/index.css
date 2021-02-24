@@ -70,7 +70,7 @@ select:focus {
 }
 
 .main-content2_redirect {
-    max-height: calc(100vh - 110px);
+    max-height: calc(100vh - 159px);
     overflow-y: auto;
 }
 
