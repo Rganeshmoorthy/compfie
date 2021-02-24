@@ -14,7 +14,7 @@
         <!-- center content starts -->
         <div class="row px-3 px-md-5 mt-sm-2 main-content-header">
 
-            <div class="col-12">
+            <div class="col-12 mt-2 mt-md-0">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="pt-md-4">

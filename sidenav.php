@@ -81,8 +81,6 @@
             $('.law_toggle').next().removeClass("show");
 
         }
-
-
     });
     </script>
 </head>
@@ -181,7 +179,10 @@
                                                     href="domain-page5.php" class="text-white px-0 px-md-1">State
                                                     Rules</a></li>
                                             <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
-                                                    href="#" class="text-white px-2">Schemes</a></li>
+                                                    href="schemes.php" class="text-white px-2">Schemes</a></li>
+                                            <li class="mt-3 ml-3"><img src="package/gavel.png" height="15px" /> <a
+                                                    href="regulation.php" class="text-white px-2">Regulations</a></li>
+
                                         </ul>
                                         <li class="mt-3 notify"> <img src="package/law-book.png" height="15px" /> <a
                                                 href="domain-page.php" class="text-white px-0 px-md-1">Case Laws</a>
