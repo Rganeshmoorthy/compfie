@@ -16,7 +16,7 @@ jQuery(document).ready(function() {
         <!-- center content starts -->
         <div class="row px-3 px-md-5 ">
             <div class="col-12 heading text-center">
-                Air (Prevention and Control of Pollution) Act, 1981
+                NOTIFICATIONS
             </div>
             <div class="col-12 py-2">
                 <div class="d-flex justify-content-center">
@@ -243,10 +243,10 @@ jQuery(document).ready(function() {
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">
                             <tr>
-                                <th scope="col" class="">Section Number</th>
-                                <th scope="col" class="">Section Title</th>
-                                <th scope="col" class="">Section</th>
-                                <th scope="col" class="">Discription</th>
+                                <th scope="col" class="">Notification Date</th>
+                                <th scope="col" class="">Notification Title</th>
+                                <th scope="col" class="">Notification Discription</th>
+                                <th scope="col" class="">Notification Issued By</th>
                             </tr>
                         </thead>
                         <tbody class="table-content">

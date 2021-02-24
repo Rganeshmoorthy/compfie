@@ -18,14 +18,7 @@ jQuery(document).ready(function() {
             <div class="col-12 heading text-center">
                 Lets Talk Complaints
             </div>
-            <div class="col-12 py-2">
-                <div class="d-flex justify-content-center">
-                    <div>
-                        <button type="button" class="btn btn-sm text-white button-head mx-2"
-                            onclick="window.location.href='full-act.php'">View Full Act</button>
-                    </div>
-                </div>
-            </div>
+
             <div class="col-12 py-2 px-4 px-md-0 d-flex justify-content-center">
                 <div class="border col-12 col-md-7">
                     <input type="text" placeholder="search Acts" class="border-0 w-100 pr-4 search-input pl-2">
@@ -48,11 +41,11 @@ jQuery(document).ready(function() {
                                 <td>Perpetual License and other proposed amendments under Food Safety and Standards Act,
                                     2006</td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
-                                        onclick="window.location.href='act-definition.php'">Read
+                                        onclick="window.location.href='complaints-more.php'">Read
                                         more</button>
                                     <button type="button"
                                         class="btn btn-sm text-white button-readmore mx-2 mt-2 mt-md-0"
-                                        onclick="window.location.href='act-definition.php'">View
+                                        onclick="window.location.href='complaints-more.php'">View
                                         Files</button>
                                 </td>
 
@@ -60,11 +53,44 @@ jQuery(document).ready(function() {
                             <tr>
                                 <td>A comprehensive list of licenses for Hotel and Restaurant business</td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
-                                        onclick="window.location.href='act-definition.php'">Read
+                                        onclick="window.location.href='complaints-more.php'">Read
                                         more</button>
                                     <button type="button"
                                         class="btn btn-sm text-white button-readmore mx-2 mt-2 mt-md-0"
-                                        onclick="window.location.href='act-definition.php'">View
+                                        onclick="window.location.href='complaints-more.php'">View
+                                        Files</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>A comprehensive list of licenses for Hotel and Restaurant business</td>
+                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                        onclick="window.location.href='complaints-more.php'">Read
+                                        more</button>
+                                    <button type="button"
+                                        class="btn btn-sm text-white button-readmore mx-2 mt-2 mt-md-0"
+                                        onclick="window.location.href='complaints-more.php'">View
+                                        Files</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>A comprehensive list of licenses for Hotel and Restaurant business</td>
+                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                        onclick="window.location.href='complaints-more.php'">Read
+                                        more</button>
+                                    <button type="button"
+                                        class="btn btn-sm text-white button-readmore mx-2 mt-2 mt-md-0"
+                                        onclick="window.location.href='complaints-more.php'">View
+                                        Files</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>A comprehensive list of licenses for Hotel and Restaurant business</td>
+                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                        onclick="window.location.href='complaints-more.php'">Read
+                                        more</button>
+                                    <button type="button"
+                                        class="btn btn-sm text-white button-readmore mx-2 mt-2 mt-md-0"
+                                        onclick="window.location.href='complaints-more.php'">View
                                         Files</button>
                                 </td>
                             </tr>
