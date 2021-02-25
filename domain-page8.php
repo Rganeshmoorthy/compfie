@@ -239,7 +239,7 @@ jQuery(document).ready(function() {
                 </div>
             </div>
             <div class="table_scroll_notify scrollbarnew ">
-                <div class="col-12 py-2 ">
+                <div class="col-12 ">
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">
                             <tr>
@@ -251,41 +251,42 @@ jQuery(document).ready(function() {
                         </thead>
                         <tbody class="table-content">
                             <tr>
-                                <th scope="row">1</th>
-                                <td>Environmental,Health & Safety</td>
-                                <td>Lorem ipsum dolor sit amet, consectetur</td>
-                                <td>Lorem ipsum dolor sit amet,</td>
+                                <th scope="row">03 Feb 2021</th>
+                                <td>TRIPURA GOVERNMENT OMITS THE APPLICATION OF SECTION 17 OF THE BOILERS ACT, 1923</td>
+                                <td>Tripura Government omits the application of Section 17 of the Boilers Act, 1923</td>
+                                <td>GOVT. OF TRIPURA</td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">2</th>
-                                <td>Environmental,Health & Safety</td>
-                                <td>Lorem ipsum dolor sit amet, consectetur</td>
-                                <td>Lorem ipsum dolor sit amet,</td>
+                                <th scope="row">23 Oct 2020</th>
+                                <td>THE TAMIL NADU PANCHAYATS (THIRD AMENDMENT) ACT, 2020</td>
+                                <td>(1) This Act may be called the Tamil Nadu Panchayats (Third Amendment) Act, 2020.
+                                </td>
+                                <td>GOVT. OF TAMIL NADU</td>
                                 <td> <button type="button" class="btn btn-sm  button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">3</th>
-                                <td>Environmental,Health & Safety</td>
-                                <td>Lorem ipsum dolor sit amet, consectetur</td>
-                                <td>Lorem ipsum dolor sit amet,</td>
+                                <th scope="row">25 Sep 2020</th>
+                                <td>THE TAMIL NADU PANCHAYATS (THIRD AMENDMENT) ACT, 2020</td>
+                                <td>This Act may be called the Tamil Nadu Panchayats (Third Amendment) Act, 2020.</td>
+                                <td>GOVT. OF TAMIL NADU</td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">4</th>
-                                <td>Environmental,Health & Safety</td>
-                                <td>Lorem ipsum dolor sit amet, consectetur</td>
-                                <td>Lorem ipsum dolor sit amet,</td>
-                                <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
+                                <th scope="row">25 Nov 2020</th>
+                                <td>THE TAMIL NADU PANCHAYATS (THIRD AMENDMENT) ACT, 2020</td>
+                                <td>This Act may be called the Tamil Nadu Panchayats (Third Amendment) Act, 2020.</td>
+                                <td>GOVT. OF MAHARASHTRA</td>
+                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
                                 </td>
@@ -316,7 +317,8 @@ jQuery(document).ready(function() {
                                 <td> <button type="button" class="btn btn-sm  text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
-                                    <button type="button" class="btn btn-sm button-readmore-white mx-2 mt-2">View
+                                    <button type="button" onclick="window.location.href='act-definition.php'"
+                                        class="btn btn-sm button-readmore-white mx-2 mt-2">View
                                         Files</button>
 
                                 </td>
