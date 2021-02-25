@@ -160,7 +160,7 @@ jQuery(document).ready(function() {
                         </div>
                     </div>
                     <div>
-                        <div class="px-2 mt-2 mt-md-0 px-md-3">
+                        <div class="px-2 mt-2 mt-sm-0 mt-md-0 px-md-3">
                             <select class="acts">
                                 <option value=" ">State Acts</option>
                                 <option value="118">Himachal Pradesh Fire Fighting Services Act, 1984</option>
@@ -231,7 +231,7 @@ jQuery(document).ready(function() {
                     </div>
 
                     <div class="px-2 mt-2 mt-md-0 px-md-3">
-                        <div class="search-act col-12 md-col-6 ">
+                        <div class="search-act col-12 md-col-6">
                             <input type="text" placeholder="search Acts" class="border-0 w-100 pr-4 search-input pl-2">
                             <button class="border-0 bg-transparent search-btn"><i class="fa fa-search"></i></button>
                         </div>

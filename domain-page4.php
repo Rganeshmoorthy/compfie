@@ -118,7 +118,7 @@
             <div class="col-12 px-3 py-2 py-md-4">
                 <div class="d-flex row">
                     <div>
-                        <div class="search-div px-2 col-12 md-col-6">
+                        <div class="search-div px-2">
                             <input type="text" placeholder="Search Acts" id="search"
                                 class="border-0 w-100 pr-4 search-input">
                             <button class="border-0 bg-transparent search-btn"><i class="fa fa-search"></i></button>
