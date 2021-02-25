@@ -132,7 +132,7 @@
                                         data-parent="#accordion1" href="#firstLink">Our Services <i
                                             class="fa fa-fw fa-angle-down"></i> </a>
 
-                                    <ul id="firstLink" class="collapse list">
+                                    <ul id="firstLink" class="collapse list px-3 px-md-4">
 
                                         <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
                                                 href="https://www.aparajitha.com/"
@@ -161,7 +161,7 @@
                                         Laws <i class="fa fa-fw fa-angle-down"></i>
                                     </a>
 
-                                    <ul id="complaint_law" class="collapse list">
+                                    <ul id="complaint_law" class="collapse list px-3 px-md-4">
                                         <div id="accordion1" class="menu_toggle">
                                             <li class="mt-3 panel"> <img src="package/law-book.png" height="15px" /> <a
                                                     data-toggle="collapse"
