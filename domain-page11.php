@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="css/domain-page4.css">
 <script>
 jQuery(document).ready(function() {
-    jQuery('.aphabet-scroll').scrollbar();
+    jQuery('.scrollbarnew').scrollbar();
 });
 </script>
 
@@ -32,8 +32,9 @@ jQuery(document).ready(function() {
             <div class="col-12 mt-0 mt-md-3 px-3 aphabet-scroll scrollbarnew">
                 <div class="row">
                     <div class="col-12">
-                        <div class="d-flex border">
-                            <div class="content-bgcolor py-3 text-center alphabet">
+                        <div class="d-flex border alpha-border">
+                            <div
+                                class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1 id="a"> A</h1>
                             </div>
                             <div>
@@ -47,14 +48,14 @@ jQuery(document).ready(function() {
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
-
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 mt-3">
                         <div class="d-flex border">
-                            <div class="content-bgcolor text-center py-3 alphabet">
+                            <div
+                                class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1 id="b"> B</h1>
                             </div>
                             <div>
@@ -74,7 +75,8 @@ jQuery(document).ready(function() {
                     </div>
                     <div class="col-12 mt-3">
                         <div class="d-flex border">
-                            <div class="content-bgcolor text-center py-3 alphabet">
+                            <div
+                                class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1 id="c"> C</h1>
                             </div>
                             <div>
@@ -94,7 +96,8 @@ jQuery(document).ready(function() {
                     </div>
                     <div class="col-12 mt-3">
                         <div class="d-flex border">
-                            <div class="content-bgcolor text-center py-3 alphabet">
+                            <div
+                                class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1 id="d"> D</h1>
                             </div>
                             <div>
@@ -114,7 +117,8 @@ jQuery(document).ready(function() {
                     </div>
                     <div class="col-12 mt-3">
                         <div class="d-flex border">
-                            <div class="content-bgcolor text-center py-3 alphabet">
+                            <div
+                                class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1 id="e"> E</h1>
                             </div>
                             <div>
@@ -134,7 +138,8 @@ jQuery(document).ready(function() {
                     </div>
                     <div class="col-12 mt-3">
                         <div class="d-flex border">
-                            <div class="content-bgcolor text-center py-3 alphabet">
+                            <div
+                                class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1 id="f"> F</h1>
                             </div>
                             <div>
@@ -154,7 +159,8 @@ jQuery(document).ready(function() {
                     </div>
                     <div class="col-12 mt-3">
                         <div class="d-flex border">
-                            <div class="content-bgcolor text-center py-3 alphabet">
+                            <div
+                                class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1 id="g"> G</h1>
                             </div>
                             <div>
@@ -168,13 +174,14 @@ jQuery(document).ready(function() {
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
-
                             </div>
                         </div>
                     </div>
+
                     <div class="col-12 mt-3">
                         <div class="d-flex border">
-                            <div class="content-bgcolor text-center py-3 alphabet">
+                            <div
+                                class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1 id="h"> H</h1>
                             </div>
                             <div>
@@ -192,7 +199,6 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-
                     <div class="col-12 mt-3">
                         <div class="d-flex border">
                             <div
@@ -252,7 +258,6 @@ jQuery(document).ready(function() {
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
-
                             </div>
                         </div>
                     </div>
@@ -573,9 +578,6 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
         </div>
