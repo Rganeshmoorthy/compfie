@@ -173,10 +173,6 @@ html {
 }
 
 /*scroll bar*/
-
-
-
-
 a {
     text-decoration: none !important;
 }
@@ -369,7 +365,7 @@ a {
     }
 
     .aphabet-scroll {
-        max-height: calc(100vh - 370px) !important;
+        max-height: calc(100vh - 478px) !important;
         overflow-y: auto;
         scroll-behavior: smooth;
     }
