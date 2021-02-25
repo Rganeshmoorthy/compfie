@@ -364,11 +364,11 @@ a {
         left: 0;
     }
 
-    .aphabet-scroll {
+    /* .aphabet-scroll {
         max-height: calc(100vh - 445px) !important;
         overflow-y: auto;
         scroll-behavior: smooth;
-    }
+    } */
 }
 
 ul {

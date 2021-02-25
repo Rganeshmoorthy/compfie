@@ -36,6 +36,11 @@
     .main-content-header {
         max-height: calc(100vh - 233px) !important;
         overflow-y: auto;
+    }
 
+    body,
+    html {
+        overflow-x: hidden !important;
+        overflow-y: hidden !important;
     }
 }

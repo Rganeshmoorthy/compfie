@@ -138,6 +138,12 @@ span.select2-selection.select2-selection--single {
     .aphabet-scroll {
         max-height: calc(100vh - 445px) !important;
         overflow-y: auto;
-        scroll-behavior: auto;
+        scroll-behavior: smooth !important;
+    }
+
+    body,
+    html {
+        overflow-x: hidden !important;
+        overflow-y: hidden !important;
     }
 }
