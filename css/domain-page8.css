@@ -68,6 +68,11 @@
     overflow-y: auto;
 }
 
+.table_scroll_notify {
+    max-height: calc(100vh - 275px) !important;
+    overflow-y: auto;
+}
+
 .welfare_scroll {
     max-height: calc(100vh - 264px) !important;
     overflow-y: auto;
