@@ -246,8 +246,8 @@
                                         href="complaints.php" class="text-white px-0 px-md-1">Lets Talk
                                         Compliance</a>
                                 </li>
-                                <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a
-                                        href="holidays.php" class="text-white px-0 px-md-1">Blogs</a>
+                                <li class="mt-3"> <img src="package/law-book.png" height="15px" /> <a href="#"
+                                        class="text-white px-0 px-md-1">Blogs</a>
                                 </li>
                             </ul>
 

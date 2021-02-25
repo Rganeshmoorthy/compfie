@@ -131,7 +131,7 @@ span.select2-selection.select2-selection--single {
 @media (max-width:991px) {
 
     .main-content-3 {
-        max-height: calc(100vh - 438px) !important;
+        max-height: calc(100vh - 409px) !important;
         overflow-y: auto;
     }
 

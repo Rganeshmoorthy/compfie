@@ -98,8 +98,13 @@
         overflow-y: auto;
     }
 
+    .table_scroll_notify {
+        max-height: calc(100vh - 425px) !important;
+        overflow-y: auto;
+    }
+
     .table_scroll_redirect {
-        max-height: calc(100vh - 346px);
+        max-height: calc(100vh - 346px) !important;
         overflow-y: auto;
     }
 

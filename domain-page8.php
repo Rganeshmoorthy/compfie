@@ -238,7 +238,7 @@ jQuery(document).ready(function() {
                     </div>
                 </div>
             </div>
-            <div class="table_scroll scrollbarnew ">
+            <div class="table_scroll_notify scrollbarnew ">
                 <div class="col-12 py-2 ">
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">

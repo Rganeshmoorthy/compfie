@@ -115,7 +115,7 @@
             <div class="col-12 heading pl-0">
                 Labour,Employment & Industrial - Professional Tax
             </div>
-            <div class="col-12 px-3 py-4">
+            <div class="col-12 px-3 py-2 py-md-4">
                 <div class="d-flex row">
                     <div>
                         <div class="search-div px-2 col-12 md-col-6">
@@ -135,7 +135,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 px-3 py-2 main-content-3 scrollbarnew">
+            <div class="col-12 px-3 main-content-3 scrollbarnew">
                 <div class="row">
                     <div class="col-12 heading bg-color py-1" id="stateacts_heading">
                         All ACTS
