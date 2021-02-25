@@ -319,7 +319,9 @@ a {
 /* .drop_down .dropdown-item {
     border-radius: 55px !important;
 } */
-
+.drop-down-design {
+    border-radius: 15px;
+}
 
 @media (max-width:991px) {
     .menu-toggle {
@@ -342,7 +344,6 @@ a {
         overflow-x: hidden !important;
         overflow-y: hidden !important;
     }
-
 
     .sidenav {
         height: calc(100% - 85px);

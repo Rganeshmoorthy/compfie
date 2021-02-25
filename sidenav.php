@@ -79,9 +79,11 @@
 
         if ($(".list li a").parent().hasClass("active")) {
             $('.law_toggle').next().addClass("show");
+            // $('.complaince').addClass("active");
 
         } else {
             $('.law_toggle').next().removeClass("show");
+            //$('.complaince').removeClass("active");
         }
 
         if ($(".list3 li a").parent().hasClass("active")) {
@@ -107,7 +109,7 @@
                             id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">Change Country</button>
 
-                        <div class="dropdown-menu drop_down" aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-menu drop_down drop-down-design" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="#">India</a>
                             <a class="dropdown-item" href="#">Srilanka</a>
                         </div>
@@ -154,8 +156,8 @@
                     <div class="row">
                         <div class="col-12">
                             <ul class="nav nav-stacked mt-2" id="accordion1">
-                                <li class="panel row m-0 hover_effect">
-                                    <img src="package/justice-scale.png" height="20px" class="mt-2 px-2" />
+                                <li class="panel row m-0 hover_effect ">
+                                    <img src="package/justice-scale.png" height="20px" class="mt-2 px-2 complaince" />
                                     <a data-toggle="collapse" class="mt-2 text-white menu law_toggle" aria-hidden="true"
                                         data-parent="#accordion1" href="#complaint_law">Compliance
                                         Laws <i class="fa fa-fw fa-angle-down"></i>
