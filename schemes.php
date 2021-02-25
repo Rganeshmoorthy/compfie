@@ -23,7 +23,7 @@ jQuery(document).ready(function() {
                     <div class="alpha-scroll">
                         <?php
                        foreach (range('A', 'Z') as $alphabet) {
-                        echo '<a class="alphabet-bgcolor  mx-2 mt-2 mt-md-0" href = #'. strtolower($alphabet) .'>'. $alphabet." " . '</a>' ;
+                        echo '<a class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href = #'. strtolower($alphabet) .'>'. $alphabet." " . '</a>' ;
                           }
                          ?>
                     </div>
