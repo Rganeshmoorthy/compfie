@@ -104,17 +104,17 @@
     }
 
     .table_scroll_notify {
-        max-height: calc(100vh - 425px) !important;
+        max-height: calc(100vh - 338px) !important;
         overflow-y: auto;
     }
 
     .table_scroll_redirect {
-        max-height: calc(100vh - 346px) !important;
+        max-height: calc(100vh - 266px) !important;
         overflow-y: auto;
     }
 
     .welfare_scroll {
-        max-height: calc(100vh - 337px) !important;
+        max-height: calc(100vh - 249px) !important;
         overflow-y: auto;
     }
 

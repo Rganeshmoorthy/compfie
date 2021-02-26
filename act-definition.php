@@ -10,7 +10,7 @@
     <div class="main-content">
         <!-- center content starts -->
 
-        <div class="row px-5 py-5 main-content2_redirect">
+        <div class="row px-5 py-5 main-content2">
             <div class="heading col-12 pb-4 d-flex justify-content-center">
                 SELECTED ACT AND SELECTED YEAR (2007)
             </div>
