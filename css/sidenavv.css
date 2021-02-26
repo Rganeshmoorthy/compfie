@@ -239,7 +239,7 @@ a {
         sans-serif;
 }
 
-.active {
+.sidenav-body .active {
     border-left: 2px solid white;
     padding: 3px;
 }
