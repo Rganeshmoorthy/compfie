@@ -15,11 +15,7 @@
 }
 
 
-.nav_ul a:hover {
-    /* background-color: #ba71ee;
-    color: white !important;
-    padding: 10px;
-    border-radius: 25px; */
+.nav_ul a:hover:not(.active) {
     border-top: 3px solid #5B3D71;
     transition: 0.2s;
 }
