@@ -132,10 +132,10 @@
                                 <li class="panel row m-0 hover_effect">
                                     <img src="package/servicee.svg" height="20px" class="mt-3 px-2" />
                                     <a data-toggle="collapse" class="mt-3 text-white menu" aria-hidden="true"
-                                        data-parent="#accordion1" href="#firstLink">Our Services <i
+                                        data-parent="#accordion1" href="#ourservice">Our Services <i
                                             class="fa fa-fw fa-angle-down"></i> </a>
 
-                                    <ul id="firstLink" class="collapse list px-3 px-md-4">
+                                    <ul id="ourservice" class="collapse list px-3 px-md-4">
 
                                         <li class="mt-3"> <a href="https://www.aparajitha.com/"
                                                 class="text-white px-0 px-md-1">Full-Assurance Compliance</a>
