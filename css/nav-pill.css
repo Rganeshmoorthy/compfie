@@ -44,7 +44,6 @@
         color: white !important;
         border-radius: 25px !important;
         padding: 2px !important;
-        border-radius: 25px !important;
-        border-top: none;
+        border-top: none !important;
     }
 }
