@@ -44,7 +44,11 @@
     }
 
     .nav_ul a:hover {
-        padding: 2px;
-        border-radius: 25px;
+        background-color: #ba71ee !important;
+        color: white !important;
+        border-radius: 25px !important;
+        padding: 2px !important;
+        border-radius: 25px !important;
+        border-top: none;
     }
 }
