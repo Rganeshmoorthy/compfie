@@ -17,7 +17,7 @@
             <div class="col-12 mt-2 mt-md-0">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="pt-md-4">
+                        <div class="pt-md-4 zoom">
                             <div class="borde pt-3">
                                 <div class="right-label text-center text-white pr-0">
                                     <p class="side-label"> Recently Added </p>
@@ -67,7 +67,7 @@
                     </div>
 
                     <div class="col-lg-6 pt-2 pt-md-0">
-                        <div class="pt-md-4">
+                        <div class="pt-md-4 zoom">
                             <div class="borde pt-3">
                                 <div class="right-label text-center text-white pr-0">
                                     <p class="side-label"> Recently Added</p>
@@ -119,7 +119,7 @@
             <div class="col-12 mt-2">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="pt-md-2">
+                        <div class="pt-md-2 zoom">
                             <div class="borde pt-3">
                                 <div class="right-label  text-center text-white pr-0">
                                     <p class="side-label"> Recently Added</p>
@@ -167,7 +167,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 pt-2 pt-md-0">
-                        <div class="pt-md-2">
+                        <div class="pt-md-2 zoom">
                             <div class="borde pt-3">
                                 <div class="right-label text-center text-white pr-0">
                                     <p class="side-label"> Recently Added</p>
@@ -219,7 +219,7 @@
             <div class="col-12 mt-2">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="pt-md-2">
+                        <div class="pt-md-2 zoom">
                             <div class="borde pt-3">
                                 <div class="right-label  text-center text-white pr-0">
                                     <p class="side-label"> Recently Added</p>
