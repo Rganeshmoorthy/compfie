@@ -138,10 +138,10 @@
                                     <ul id="ourservice" class="collapse list px-3 px-md-4">
 
                                         <li class="mt-3"> <a href="https://www.aparajitha.com/"
-                                                class="text-white px-0 px-md-1">Full-Assurance Compliance</a>
+                                                class="text-white px-0 pb-1 px-md-1">Full-Assurance Compliance</a>
                                         </li>
                                         <li class="mt-3"> <a href="https://www.compfie.com/"
-                                                class="text-white px-0 px-md-1">Tech-Enabled
+                                                class="text-white pb-1 px-0 px-md-1">Tech-Enabled
                                                 Compliance</a>
                                         </li>
                                     </ul>
@@ -165,83 +165,87 @@
                                     <ul id="complaint_law" class="collapse list px-3 px-md-4">
                                         <div id="accordion1" class="menu_toggle">
                                             <li class="mt-3 panel"> <a data-toggle="collapse"
-                                                    class="mt-1 text-white px-0 px-md-1 menu_toggle" aria-hidden="true"
-                                                    data-parent="#accordion1" href="#legislation" href="#"
-                                                    class="text-white">Legislations<i
+                                                    class="mt-1 text-white px-0 pb-1 px-md-1 menu_toggle"
+                                                    aria-hidden="true" data-parent="#accordion1" href="#legislation"
+                                                    href="#" class="text-white">Legislations<i
                                                         class="fa fa-fw fa-angle-down"></i></a>
                                             </li>
                                         </div>
                                         <ul id="legislation" class="collapse list2 p-0">
                                             <li class="mt-3 ml-2 ml-md-3">
-                                                <a href="domain-page3.php" class="text-white px-0 px-md-1">Central
+                                                <a href="domain-page3.php" class="text-white pb-1 px-0 px-md-1">Central
                                                     acts </a>
                                             </li>
                                             <li class="mt-3 ml-2 ml-md-3">
-                                                <a href="domain-page11.php" class="text-white px-0 px-md-1"> Central
+                                                <a href="domain-page11.php" class="text-white pb-1 px-0 px-md-1">
+                                                    Central
                                                     Rules</a>
                                             </li>
                                             <li class="mt-3 ml-2 ml-md-3">
-                                                <a href="domain-page4.php" class="text-white px-0 px-md-1">State
+                                                <a href="domain-page4.php" class="text-white pb-1 px-0 px-md-1">State
                                                     Acts</a>
                                             </li>
                                             <li class="mt-3 ml-2 ml-md-3">
-                                                <a href="domain-page5.php" class="text-white px-0 px-md-1">State
+                                                <a href="domain-page5.php" class="text-white pb-1 px-0 px-md-1">State
                                                     Rules</a>
                                             </li>
                                             <li class="mt-3 ml-2 ml-md-3">
-                                                <a href="schemes.php" class="text-white px-0 px-md-1">Schemes</a>
+                                                <a href="schemes.php" class="text-white px-0 pb-1 px-md-1">Schemes</a>
                                             </li>
                                             <li class="mt-3 ml-2 ml-md-3">
-                                                <a href="regulation.php" class="text-white px-0 px-md-1">Regulations</a>
+                                                <a href="regulation.php"
+                                                    class="text-white px-0 pb-1 px-md-1">Regulations</a>
                                             </li>
 
                                         </ul>
                                         <li class="mt-3 notify"> <a href="domain-page.php"
-                                                class="text-white px-0 px-md-1">Case Laws</a>
+                                                class="text-white px-0 pb-1 px-md-1">Case Laws</a>
                                         </li>
 
                                         <li class="mt-3 notify"> <a href="domain-page8.php"
-                                                class="text-white px-0 px-md-1">Notification</a>
+                                                class="text-white px-0 pb-1 px-md-1">Notification</a>
                                         </li>
                                         <li class="mt-3 notify"> <a href="forms.php"
-                                                class="text-white px-0 px-md-1">Forms</a>
+                                                class="text-white px-0 pb-1 px-md-1">Forms</a>
                                         </li>
                                         <div id="accordion1" class="complaint_toggle menu_toggle">
                                             <li class="mt-3 panel"> <a data-toggle="collapse"
-                                                    class="mt-1 text-white px-0 px-md-1 menu_toggle" aria-hidden="true"
-                                                    data-parent="#accordion1" href="#key_complaint" href="#"
-                                                    class="text-white">Key Complaints data<i
+                                                    class="mt-1 text-white px-0 px-md-1 pb-1 menu_toggle"
+                                                    aria-hidden="true" data-parent="#accordion1" href="#key_complaint"
+                                                    href="#" class="text-white">Key Complaints data<i
                                                         class="fa fa-fw fa-angle-down"></i></a>
                                             </li>
                                         </div>
                                         <ul id="key_complaint" class="collapse list3 p-0">
-                                            <li class="mt-3 ml-2 ml-md-3">
+                                            <li class="mt-3 ml-2 pb-1 ml-md-3">
                                                 <a href="key_complaint.php" class="text-white px-0 px-md-1">Professional
                                                     Tax </a>
                                             </li>
                                             <li class="mt-3 ml-2 ml-md-3">
-                                                <a href="welfare-fund.php" class="text-white px-0 px-md-1"> Labour
+                                                <a href="welfare-fund.php" class="text-white px-0 pb-1 px-md-1"> Labour
                                                     Welfare
                                                     Fund</a>
                                             </li>
                                             <li class="mt-3 ml-2 ml-md-3">
-                                                <a href="leave-policy.php" class="text-white px-0 px-md-1">Leave
+                                                <a href="leave-policy.php" class="text-white pb-1 px-0 px-md-1">Leave
                                                     Policy</a>
                                             </li>
                                             <li class="mt-3 ml-2 ml-md-3">
-                                                <a href="min-wages.php" class="text-white px-0 px-md-1">Min
+                                                <a href="min-wages.php" class="text-white pb-1 px-0 px-md-1">Min
                                                     Wages</a>
                                             </li>
                                             <li class="mt-3 ml-2 ml-md-3">
-                                                <a href="holidays.php" class="text-white px-0 px-md-1">National Festival
+                                                <a href="holidays.php" class="text-white pb-1 px-0 px-md-1">National
+                                                    Festival
                                                     Holidays</a>
                                             </li>
                                         </ul>
                                 </li>
                                 <li class="mt-3 notify"> <a href="opinion.php"
-                                        class="text-white px-0 px-md-1">Opinions</a>
+                                        class="text-white px-0 pb-1 px-md-1">Opinions</a>
                                 </li>
-                                <li class="mt-3 notify"> <a href="complaints.php" class="text-white px-0 px-md-1">Lets
+                                <li class="mt-3 notify"> <a href="complaints.php"
+                                        class="text-white pb-1 px-0 px-md-1">Lets
                                         Talk
                                         Compliance</a>
                                 </li>
