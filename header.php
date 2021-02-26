@@ -10,7 +10,7 @@
 
 <body>
     <div class="row my-2 my-md-4 ">
-        <div class=" col-sm-12 col-md-2 mx-5 mx-md-4 px-5 zoom">
+        <div class=" col-sm-12 col-md-2 mx-5 mx-md-4 px-5">
             <a href="index.php"> <img src="package/image.png" height="35"></a>
         </div>
 

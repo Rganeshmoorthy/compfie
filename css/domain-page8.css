@@ -69,7 +69,7 @@
 }
 
 .table_scroll_notify {
-    max-height: calc(100vh - 275px) !important;
+    max-height: calc(100vh - 250px) !important;
     overflow-y: auto;
 }
 
@@ -79,7 +79,7 @@
 }
 
 .table_scroll_redirect {
-    max-height: calc(100vh - 275px);
+    max-height: calc(100vh - 250px);
     overflow-y: auto;
 }
 
