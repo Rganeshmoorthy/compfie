@@ -442,3 +442,11 @@ ul {
 select:active {
     border-color: #BABABA;
 }
+
+.table_search {
+    border: 1px solid;
+    padding: 4px;
+    border-radius: 10px;
+    border-color: #F7F7F7;
+    position: relative;
+}

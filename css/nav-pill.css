@@ -16,10 +16,11 @@
 
 
 .nav_ul a:hover {
-    background-color: #5B3D71;
+    background-color: #540094;
     color: white !important;
     padding: 10px;
     border-radius: 25px;
+    transition: 0.2s;
 }
 
 .nav_ul a.active {

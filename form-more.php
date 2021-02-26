@@ -7,7 +7,7 @@
 </script>
 
 <body>
-    <?php include "nav-pills.php"?>
+
     <div class="main-content">
         <!-- center content starts -->
 

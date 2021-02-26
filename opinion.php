@@ -11,7 +11,7 @@ jQuery(document).ready(function() {
 </script>
 
 <body>
-    <?php include "nav-pills.php"?>
+
     <div class="main-content">
         <!-- center content starts -->
         <div class="row px-3 px-md-5 ">
@@ -27,14 +27,14 @@ jQuery(document).ready(function() {
                 </div>
             </div>
             <div class="col-12 py-2 px-4 px-md-0 d-flex justify-content-center">
-                <div class="border col-12 col-md-7">
+                <div class="border col-12 col-md-7 table_search">
                     <input type="text" placeholder="search Acts" class="border-0 w-100 pr-4 search-input pl-2">
                     <button class="border-0 bg-transparent search-btn"><i class="fa fa-search"></i></button>
                 </div>
 
             </div>
 
-            <div class="table_scroll_redirect scrollbarnew ">
+            <div class="table_scroll_redirect scrollbarnew col-12">
                 <div class="col-12 py-2 px-5">
                     <table class="table table-bordered">
                         <thead class="t-head">

@@ -11,7 +11,7 @@ jQuery(document).ready(function() {
 </script>
 
 <body>
-    <?php include "nav-pills.php"?>
+
     <div class="main-content">
         <!-- center content starts -->
         <div class="row px-3 px-md-5 py-3 pb-1">
@@ -116,7 +116,7 @@ jQuery(document).ready(function() {
                 </div>
             </div>
 
-            <div class="welfare_scroll scrollbarnew ">
+            <div class="welfare_scroll scrollbarnew col-12">
                 <div class="col-12 py-2 ">
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">

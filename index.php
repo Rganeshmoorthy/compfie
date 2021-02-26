@@ -36,7 +36,9 @@ $(document).ready(function() {
                                     <img src="package/labour.png" width="100px" height="100">
                                 </div>
                                 <div class="py-2 px-2">
-                                    <a class="title mb-1" href="domain-page.php">Labour Employment & Industrial</a>
+                                    <div>
+                                        <a class="title mb-1" href="domain-page.php">Labour Employment & Industrial</a>
+                                    </div>
                                     <a class="content mb-0" id="content" href="domain-page.php">Provides the quick and
                                         convenient way
                                         to create
@@ -63,13 +65,22 @@ $(document).ready(function() {
                                     <img src="package/h&s.png" width="100px" height="100">
                                 </div>
                                 <div class="py-2 px-2">
-                                    <a class="title mb-1" href="domain-page1.php">Environmental,Health & Safety</a>
+                                    <div>
+                                        <a class="title mb-1" href="domain-page1.php">Environmental,Health & Safety</a>
+                                    </div>
                                     <a class="content mb-0" href="domain-page1.php">Provides the quick and convenient
                                         way to create
                                         responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork
                                         chop doner
                                         sirloin,
                                         bacon beef brisket ball tip short ribs.
+                                        bacon beef brisket ball tip short
+                                        ribs Provides the quick and convenient way to create
+                                        responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork
+                                        chop doner
+                                        sirloin,
+                                        bacon beef brisket ball tip short
+                                        ribs.
                                     </a>
                                     <a class="moreless-button" href="#">READ MORE</a>
                                 </div>
@@ -87,13 +98,22 @@ $(document).ready(function() {
                                     <img src="package/library.png" width="100px" height="100">
                                 </div>
                                 <div class="py-2 px-2">
-                                    <a class="title mb-1" href="domain-page2.php">Fiscal,Corporate & Commercial</a>
+                                    <div>
+                                        <a class="title mb-1" href="domain-page2.php">Fiscal,Corporate & Commercial</a>
+                                    </div>
                                     <a class="content mb-0" href="domain-page2.php">Provides the quick and convenient
                                         way to create
                                         responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork
                                         chop doner
                                         sirloin,
                                         bacon beef brisket ball tip short ribs.
+                                        bacon beef brisket ball tip short
+                                        ribs Provides the quick and convenient way to create
+                                        responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork
+                                        chop doner
+                                        sirloin,
+                                        bacon beef brisket ball tip short
+                                        ribs.
                                     </a>
                                     <a class="moreless-button" href="#">READ MORE</a>
                                 </div>

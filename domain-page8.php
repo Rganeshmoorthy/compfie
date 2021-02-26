@@ -11,7 +11,7 @@ jQuery(document).ready(function() {
 </script>
 
 <body>
-    <?php include "nav-pills.php"?>
+
     <div class="main-content">
         <!-- center content starts -->
         <div class="row px-3 px-md-5 ">
@@ -195,7 +195,7 @@ jQuery(document).ready(function() {
                         </div>
                     </div>
                     <div>
-                        <div class="px-2 mt-md-0 mt-2 px-md-3">
+                        <div class="px-2 mt-md-2 mt-xl-0 mt-2 px-md-3">
                             <select class="acts">
                                 <option value=" ">State Rules</option>
                                 <option value="594">Tamil Nadu Urban Local Bodies Licencing of Hordings and Levy and
@@ -230,7 +230,7 @@ jQuery(document).ready(function() {
                         </div>
                     </div>
 
-                    <div class="px-2 mt-2 mt-md-0 px-md-3">
+                    <div class="px-2 mt-2 mt-md-2 mt-xl-0 px-md-3">
                         <div class="search-act col-12 md-col-6">
                             <input type="text" placeholder="search Acts" class="border-0 w-100 pr-4 search-input pl-2">
                             <button class="border-0 bg-transparent search-btn"><i class="fa fa-search"></i></button>
@@ -238,7 +238,7 @@ jQuery(document).ready(function() {
                     </div>
                 </div>
             </div>
-            <div class="table_scroll_notify scrollbarnew ">
+            <div class="table_scroll_notify scrollbarnew col-12">
                 <div class="col-12 ">
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">
