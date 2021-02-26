@@ -323,6 +323,10 @@ a {
     border-radius: 15px;
 }
 
+.drop-down-design a:hover {
+    border-radius: 15px !important;
+}
+
 @media (max-width:991px) {
     .menu-toggle {
         display: block;

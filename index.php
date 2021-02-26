@@ -29,7 +29,7 @@ $(document).ready(function() {
             </div>
             <div class="col-12 ">
                 <div class="row">
-                    <div class="col-lg-6 col-sm-12 mb-md-4">
+                    <div class="col-lg-6 col-sm-12 mb-md-4 zoom">
                         <div class="px-1 py-1 borde">
                             <div class="d-flex px-1">
                                 <div class="py-2 px-2 img_labour">
@@ -58,7 +58,7 @@ $(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-sm-12 mt-3 mt-md-0">
+                    <div class="col-lg-6 col-sm-12 mt-3 mt-md-0 zoom">
                         <div class="px-1 py-1 borde">
                             <div class="d-flex px-1">
                                 <div class="py-2 px-2  img_labour">
@@ -91,7 +91,7 @@ $(document).ready(function() {
             </div>
             <div class="col-12 mt-3">
                 <div class="row">
-                    <div class="col-lg-6 col-sm-12">
+                    <div class="col-lg-6 col-sm-12 zoom">
                         <div class="py-1 borde">
                             <div class="d-flex px-1">
                                 <div class="py-2 px-2  img_labour">
