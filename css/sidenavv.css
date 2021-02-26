@@ -454,3 +454,7 @@ select:active {
     border-color: #F7F7F7;
     position: relative;
 }
+
+.drop-down-design .dropdown-item:active {
+    background-color: #5B3D71 !important;
+}
