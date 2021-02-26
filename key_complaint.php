@@ -108,7 +108,7 @@
 </head>
 
 <body>
-    <?php include "nav-pills.php"?>
+
     <div class="main-content">
         <!-- center content starts -->
         <div class="row px-5 px-md-5 py-2 py-md-3">

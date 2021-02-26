@@ -62,7 +62,7 @@
 
 .aphabet-scroll {
     /* domain-page3*/
-    max-height: calc(100vh - 290px);
+    max-height: calc(100vh - 250px);
     overflow-y: auto;
 }
 
@@ -115,7 +115,7 @@ span.select2-selection.select2-selection--single {
 
 
 .main-content-3 {
-    max-height: calc(100vh - 320px) !important;
+    max-height: calc(100vh - 250px) !important;
     overflow-y: auto;
 }
 
@@ -131,12 +131,12 @@ span.select2-selection.select2-selection--single {
 @media (max-width:991px) {
 
     .main-content-3 {
-        max-height: calc(100vh - 409px) !important;
+        max-height: calc(100vh - 318px) !important;
         overflow-y: auto;
     }
 
     .aphabet-scroll {
-        max-height: calc(100vh - 445px) !important;
+        max-height: calc(100vh - 358px) !important;
         overflow-y: auto;
         scroll-behavior: smooth !important;
     }
