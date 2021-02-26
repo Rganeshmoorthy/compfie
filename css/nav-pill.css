@@ -21,7 +21,7 @@
     padding: 10px;
     border-radius: 25px; */
     border-top: 3px solid #5B3D71;
-    /* transition: 0.2s; */
+    transition: 0.2s;
 }
 
 .nav_ul a.active {
