@@ -128,32 +128,6 @@
                 <div class="col-12 mt-3">
                     <div class="row">
                         <div class="col-12">
-                            <ul class="nav nav-stacked" id="accordion1">
-                                <li class="panel row m-0 hover_effect">
-                                    <img src="package/servicee.svg" height="20px" class="mt-3 px-2" />
-                                    <a data-toggle="collapse" class="mt-3 text-white menu" aria-hidden="true"
-                                        data-parent="#accordion1" href="#ourservice">Our Services <i
-                                            class="fa fa-fw fa-angle-down"></i> </a>
-
-                                    <ul id="ourservice" class="collapse list px-3 px-md-4">
-
-                                        <li class="mt-3"> <a href="https://www.aparajitha.com/"
-                                                class="text-white px-0 pb-1 px-md-1">Full-Assurance Compliance</a>
-                                        </li>
-                                        <li class="mt-3"> <a href="https://www.compfie.com/"
-                                                class="text-white pb-1 px-0 px-md-1">Tech-Enabled
-                                                Compliance</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 mt-3">
-                    <div class="row">
-                        <div class="col-12">
                             <ul class="nav nav-stacked mt-2" id="accordion1">
                                 <li class="panel row m-0 hover_effect ">
                                     <img src="package/justice-scale.png" height="20px" class="mt-2 px-2 complaince" />
@@ -174,7 +148,7 @@
                                         <ul id="legislation" class="collapse list2 p-0">
                                             <li class="mt-3 ml-2 ml-md-3">
                                                 <a href="domain-page3.php" class="text-white pb-1 px-0 px-md-1">Central
-                                                    acts </a>
+                                                    Acts </a>
                                             </li>
                                             <li class="mt-3 ml-2 ml-md-3">
                                                 <a href="domain-page11.php" class="text-white pb-1 px-0 px-md-1">
@@ -212,7 +186,7 @@
                                             <li class="mt-3 panel"> <a data-toggle="collapse"
                                                     class="mt-1 text-white px-0 px-md-1 pb-1 menu_toggle"
                                                     aria-hidden="true" data-parent="#accordion1" href="#key_complaint"
-                                                    href="#" class="text-white">Key Complaints data<i
+                                                    href="#" class="text-white">Key Complaints Data<i
                                                         class="fa fa-fw fa-angle-down"></i></a>
                                             </li>
                                         </div>
@@ -258,6 +232,32 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-12 mt-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <ul class="nav nav-stacked" id="accordion1">
+                                <li class="panel row m-0 hover_effect">
+                                    <img src="package/servicee.svg" height="20px" class="mt-3 px-2" />
+                                    <a data-toggle="collapse" class="mt-3 text-white menu" aria-hidden="true"
+                                        data-parent="#accordion1" href="#ourservice">Our Services <i
+                                            class="fa fa-fw fa-angle-down"></i> </a>
+
+                                    <ul id="ourservice" class="collapse list px-3 px-md-4">
+
+                                        <li class="mt-3"> <a href="https://www.aparajitha.com/"
+                                                class="text-white px-0 pb-1 px-md-1">Full-Assurance Compliance</a>
+                                        </li>
+                                        <li class="mt-3"> <a href="https://www.compfie.com/"
+                                                class="text-white pb-1 px-0 px-md-1">Tech-Enabled
+                                                Compliance</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
         <div class="col-12  text-white mx-auto foot_class">

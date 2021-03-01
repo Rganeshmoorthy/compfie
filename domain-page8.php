@@ -232,7 +232,7 @@ jQuery(document).ready(function() {
 
                     <div class="px-2 mt-2 mt-md-2 mt-xl-0 px-md-3">
                         <div class="search-act col-12 md-col-6">
-                            <input type="text" placeholder="search Acts" class="border-0 w-100 pr-4 search-input pl-2">
+                            <input type="text" placeholder="Search Acts" class="border-0 w-100 pr-4 search-input pl-2">
                             <button class="border-0 bg-transparent search-btn"><i class="fa fa-search"></i></button>
                         </div>
                     </div>

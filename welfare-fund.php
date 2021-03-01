@@ -106,7 +106,7 @@ jQuery(document).ready(function() {
                     <div>
                         <div class="px-2  mt-md-0 px-md-3">
                             <div class="search-act col-12 md-col-6 ">
-                                <input type="text" placeholder="search Acts"
+                                <input type="text" placeholder="Search Acts"
                                     class="border-0 w-100 pr-4 search-input pl-2">
                                 <button class="border-0 bg-transparent search-btn"><i class="fa fa-search"></i></button>
                             </div>
