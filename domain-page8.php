@@ -286,7 +286,7 @@ jQuery(document).ready(function() {
                                 <td>THE TAMIL NADU PANCHAYATS (THIRD AMENDMENT) ACT, 2020</td>
                                 <td>This Act may be called the Tamil Nadu Panchayats (Third Amendment) Act, 2020.</td>
                                 <td>GOVT. OF MAHARASHTRA</td>
-                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
                                 </td>
