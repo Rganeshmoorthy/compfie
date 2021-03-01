@@ -363,6 +363,8 @@ a {
 
     .foot_class {
         padding-bottom: 3em;
+        background-color: #5B3D71 !important;
+
     }
 
     .active {
