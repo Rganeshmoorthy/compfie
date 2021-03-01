@@ -50,4 +50,8 @@
         padding: 2px !important;
         border-top: none !important;
     }
+
+    .nav-pill {
+        display: inline-block !important;
+    }
 }
