@@ -16,7 +16,7 @@ jQuery(document).ready(function() {
         <!-- center content starts -->
         <div class="row px-3 px-md-5 ">
             <div class="col-12 heading text-center">
-                Lets Talk Complaints
+                Lets Talk Compliance
             </div>
 
             <div class="col-12 py-2 px-4 px-md-0 d-flex justify-content-center">

@@ -91,6 +91,22 @@
         } else {
             $('.complaint_toggle').next().removeClass("show");
         }
+
+         $('.bg-red').on('click', function() {
+        $(".title, .content, .heading, .moreless-button").css("color", "red");
+        $(".sidenav, .foot_class").css("background-color", "red");
+         });
+
+                  $('.bg-brown').on('click', function() {
+        $(".title, .content, .heading, .moreless-button").css("color", "brown");
+        $(".sidenav, .foot_class").css("background-color", "brown");
+         });
+
+                  $('.bg-green').on('click', function() {
+        $(".title, .content, .heading, .moreless-button").css("color", "green");
+        $(".sidenav, .foot_class").css("background-color", "green");
+         });
+
     });
     </script>
 </head>
@@ -186,13 +202,13 @@
                                             <li class="mt-3 panel"> <a data-toggle="collapse"
                                                     class="mt-1 text-white px-0 px-md-1 pb-1 menu_toggle"
                                                     aria-hidden="true" data-parent="#accordion1" href="#key_complaint"
-                                                    href="#" class="text-white">Key Complaints Data<i
+                                                    href="#" class="text-white">Key Compliance Data<i
                                                         class="fa fa-fw fa-angle-down"></i></a>
                                             </li>
                                         </div>
                                         <ul id="key_complaint" class="collapse list3 p-0">
                                             <li class="mt-3 ml-2 pb-1 ml-md-3">
-                                                <a href="key_complaint.php" class="text-white px-0 px-md-1">Professional
+                                                <a href="key_complaint.php" class="text-white px-0 pb-1 px-md-1">Professional
                                                     Tax </a>
                                             </li>
                                             <li class="mt-3 ml-2 ml-md-3">
@@ -223,7 +239,7 @@
                                         Talk
                                         Compliance</a>
                                 </li>
-                                <li class="mt-3"> <a href="#" class="text-white px-0 px-md-1">Blogs</a>
+                                <li class="mt-3"> <a href="#" class="text-white pb-1 px-0 px-md-1">Blogs</a>
                                 </li>
                             </ul>
 
@@ -257,7 +273,11 @@
                         </div>
                     </div>
                 </div>
-
+                <div class="col-12 py-3 d-flex justify-content-center">
+                <div class="circle bg-red mx-2"></div>
+                <div class="circle bg-brown mx-2"></div>
+                <div class="circle bg-green mx-2"></div>
+                </div>
             </div>
         </div>
         <div class="col-12  text-white mx-auto foot_class">

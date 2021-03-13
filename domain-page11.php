@@ -39,13 +39,14 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
-                                            Escalators Act, 1990
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> 
+
+                                     Air (Prevention and Control of Pollution) Madhya Pradesh Rules, 1983
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
-                                            Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
-                                            Escalators Act, 1990 </a></li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Air (Prevention and Control of Pollution) Rules, 1982
+                                     </a> </li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Air (Prevention and Control of Pollution) (Union Territories) Rules, 1983
+                                     </a></li>
 
                                 </ol>
                             </div>
@@ -60,14 +61,9 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
-                                            Escalators Act, 1990
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Batteries (Management and Handling) Rules, 2001
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
-                                            Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
-                                            Escalators Act, 1990 </a></li>
-
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Bio-Medical Waste Management & handling Rules, 2016</a> </li>
                                 </ol>
 
                             </div>
@@ -81,13 +77,13 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
-                                            Escalators Act, 1990
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Central Industrial Security Force Rules, 2001
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
-                                            Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
-                                            Escalators Act, 1990 </a></li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Clean Energy Cess Rules, 2010</a> </li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Coir Industry Rules, 1954</a></li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Consumer Welfare Fund Rules, 1992</a></li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Copyrights Rules, 1958</a></li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Cyber Regulations Appellate Tribunal (Procedure) Rules, 2000</a></li>
 
                                 </ol>
 

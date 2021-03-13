@@ -61,6 +61,9 @@
                                             </li>
                                         </ul>
                                     </marquee>
+                                    <div class="d-flex mx-auto justify-content-center my-2">
+                                    <button  class="view_more"><a href="domain-page3.php" class="text-white mx-auto">View more</a></button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -111,6 +114,9 @@
                                         </li>
                                     </ul>
                                 </marquee>
+                                      <div class="d-flex mx-auto justify-content-center my-2">
+                                    <button  class="view_more"><a href="domain-page11.php" class="text-white mx-auto">View more</a></button>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -163,6 +169,9 @@
                                         </li>
                                     </ul>
                                 </marquee>
+                                      <div class="d-flex mx-auto justify-content-center my-2">
+                                    <button  class="view_more"><a href="domain-page4.php" class="text-white mx-auto">View more</a></button>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -210,6 +219,9 @@
                                         </li>
                                     </ul>
                                 </marquee>
+                                      <div class="d-flex mx-auto justify-content-center my-2">
+                                    <button  class="view_more"><a href="domain-page5.php" class="text-white mx-auto">View more</a></button>
+                                    </div>
                             </div>
                         </div>
                     </div>
@@ -263,6 +275,9 @@
                                         </li>
                                     </ul>
                                 </marquee>
+                                      <div class="d-flex mx-auto justify-content-center my-2">
+                                    <button  class="view_more"><a href="schemes.php" class="text-white mx-auto">View more</a></button>
+                                    </div>
                             </div>
                         </div>
                     </div>

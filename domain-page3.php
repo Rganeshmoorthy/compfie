@@ -39,13 +39,8 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
-                                            Escalators Act, 1990
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Air (Prevention and Control of Pollution) Act, 1981
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
-                                            Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
-                                            Escalators Act, 1990 </a></li>
 
                                 </ol>
                             </div>
@@ -60,13 +55,9 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
-                                            Escalators Act, 1990
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Boilers Act, 1923
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
-                                            Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
-                                            Escalators Act, 1990 </a></li>
+                                    
 
                                 </ol>
 
@@ -81,13 +72,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
-                                            Escalators Act, 1990
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Central Industrial Security Force Act, 1968
+
+
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
-                                            Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
-                                            Escalators Act, 1990 </a></li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Clinical Establishments (Registration And Regulation) Act, 2010/a> </li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Coir Industry Act, 1953</a></li>
 
                                 </ol>
 
@@ -102,14 +92,11 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
-                                            Escalators Act, 1990
-                                        </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
-                                            Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
-                                            Escalators Act, 1990 </a></li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> 
 
+                                   Dangerous Machines (Regulation) Act, 1983
+                                        </a></li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Drugs and Cosmetic Act , 1940</a> </li>
                                 </ol>
 
                             </div>
@@ -123,13 +110,14 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
-                                            Escalators Act, 1990
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> 
+                                      Electricity Act, 2003
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
-                                            Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
-                                            Escalators Act, 1990 </a></li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Employers' Liability Act, 1938</a> </li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Environment (Protection) Act, 1986</a></li>
+                                     <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Essential Commodities Act, 1955
+</a></li>
+ <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Explosives Act 1884, 1900</a></li>
 
                                 </ol>
 

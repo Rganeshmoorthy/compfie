@@ -1,7 +1,6 @@
 .right-label {
     background-color: #5B3D71;
-    font-family: 'Poppins',
-        sans-serif;
+    font-family: 'Poppins', sans-serif;
     border-radius: 13px 0 0 13px;
     float: right;
     height: 23px;
@@ -32,15 +31,21 @@
 }
 
 @media (max-width:991px) {
-
     .main-content-header {
         max-height: calc(100vh - 233px) !important;
         overflow-y: auto;
     }
-
     body,
     html {
         overflow-x: hidden !important;
         overflow-y: hidden !important;
     }
+}
+
+.view_more {
+    background-color: #5B3D71;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
 }
