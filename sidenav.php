@@ -93,18 +93,18 @@
         }
 
          $('.bg-red').on('click', function() {
-        $(".title, .content, .heading, .moreless-button").css("color", "red");
-        $(".sidenav, .foot_class").css("background-color", "red");
+        $(".title, .content, .heading, .moreless-button").css("color", "#5B3D71");
+        $(".sidenav, .foot_class, .circle-bg").css("background-color", "#5B3D71");
          });
 
                   $('.bg-brown').on('click', function() {
-        $(".title, .content, .heading, .moreless-button").css("color", "brown");
-        $(".sidenav, .foot_class").css("background-color", "brown");
+        $(".title, .content, .heading, .moreless-button").css("color", "#5866B0");
+        $(".sidenav, .foot_class,.circle-bg").css("background-color", "#5866B0");
          });
 
                   $('.bg-green').on('click', function() {
-        $(".title, .content, .heading, .moreless-button").css("color", "green");
-        $(".sidenav, .foot_class").css("background-color", "green");
+        $(".title, .content, .heading, .moreless-button").css("color", "#697CE0");
+        $(".sidenav, .foot_class,.circle-bg").css("background-color", "#697CE0");
          });
 
     });
@@ -273,14 +273,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 py-3 d-flex justify-content-center">
+            </div>
+        </div>
+        <div class="col-12  text-white mx-auto foot_class">
+              <div class="col-12 py-3 d-flex justify-content-center circle-bg">
                 <div class="circle bg-red mx-2"></div>
                 <div class="circle bg-brown mx-2"></div>
                 <div class="circle bg-green mx-2"></div>
                 </div>
-            </div>
-        </div>
-        <div class="col-12  text-white mx-auto foot_class">
             <p>sample@gmail.com</p>
             <button class="btn btn-lg  bg-white rounded-pill btn_topic">Log Out</button>
         </div>

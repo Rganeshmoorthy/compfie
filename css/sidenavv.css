@@ -447,16 +447,21 @@ select:active {
     height: 25px;
     width: 25px;
     border-radius: 50%;
+    border: 2px solid white;
 }
 
 .bg-red {
-    background-color: red;
+    background-color: #5B3D71;
 }
 
 .bg-brown {
-    background-color: brown;
+    background-color: #5866B0;
 }
 
 .bg-green {
-    background-color: green;
+    background-color: #697CE0;
+}
+
+.circle-bg {
+    background-color: #5B3D71;
 }
