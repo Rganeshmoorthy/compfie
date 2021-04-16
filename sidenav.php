@@ -53,12 +53,11 @@
                     $(this).find('i').addClass('fa-angle-down').removeClass('fa-angle-up');
                 }
             }, 400);
-        });
-
-
+        });      
         var path = window.location.pathname;
         var url = path.substring(path.lastIndexOf('/') + 1)
-        //console.log(url);
+        // console.log(url);
+
         $(".nav-pills a[href*='" + url + "']").addClass("active");
 
         $(".current_page a[href*='" + url + "']").parent().addClass("active");
@@ -106,6 +105,16 @@
         $(".title, .content, .heading, .moreless-button").css("color", "#697CE0");
         $(".sidenav, .foot_class,.circle-bg").css("background-color", "#697CE0");
          });
+
+          if(url =='domain-page1.php' || url =='domain-page2.php' )
+       {
+          $(".key-none").addClass("display-none");
+          $(".opinion-none").addClass("display-none");
+       }
+       else{
+           $(".key-none").removeClass("display-none");
+          $(".opinion-none").removeClass("display-none");
+       }
 
     });
     </script>
@@ -199,7 +208,7 @@
                                                 class="text-white px-0 pb-1 px-md-1">Forms</a>
                                         </li>
                                         <div id="accordion1" class="complaint_toggle menu_toggle">
-                                            <li class="mt-3 panel"> <a data-toggle="collapse"
+                                            <li class="mt-3 panel key-none"> <a data-toggle="collapse"
                                                     class="mt-1 text-white px-0 px-md-1 pb-1 menu_toggle"
                                                     aria-hidden="true" data-parent="#accordion1" href="#key_complaint"
                                                     href="#" class="text-white">Key Compliance Data<i
@@ -231,7 +240,7 @@
                                             </li>
                                         </ul>
                                 </li>
-                                <li class="mt-3 notify"> <a href="opinion.php"
+                                <li class="mt-3 notify opinion-none"> <a href="opinion.php"
                                         class="text-white px-0 pb-1 px-md-1">Opinions</a>
                                 </li>
                                 <li class="mt-3 notify"> <a href="complaints.php"

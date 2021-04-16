@@ -469,3 +469,7 @@ select:active {
 .search-btn:focus {
     outline: none !important;
 }
+
+.display-none {
+    display: none;
+}
