@@ -65,7 +65,7 @@ function validateForm() {
             <div class="col-12 py-2 px-4 px-md-0">
                 <div class="d-flex row">
                     <div>
-                        <div class="px-2 px-md-3 ">
+                        <div class="px-2 px-md-3 mb-2">
                             <select class="box-size" id="select-name" placeholder="Central Acts">
                                 <option value=" ">Central Acts</option>
                                 <option value="34">Trade Marks Act, 1999</option>
@@ -113,7 +113,7 @@ function validateForm() {
                         </div>
                     </div>
                     <div>
-                        <div class="px-2 px-md-3">
+                        <div class="px-2 px-md-3 mb-2">
                             <select class="box-size" id="select-name2" placeholder="Central Rules">
                                 <option value=" ">Central Rules</option>
                                 <option value="323">Water (Prevention and Control of Pollution) Cess Rules, 1978
@@ -191,7 +191,7 @@ function validateForm() {
                         </div>
                     </div>
                     <div>
-                        <div class="px-2 mt-2 mt-sm-0 mt-md-0 px-md-3">
+                        <div class="px-2 mt-2 mt-sm-0 mt-md-0 px-md-3 mb-2">
                             <select class="box-size" id="select-name3" placeholder="State Acts">
                                 <option value=" ">State Acts</option>
                                 <option value="118">Himachal Pradesh Fire Fighting Services Act, 1984</option>
@@ -226,7 +226,7 @@ function validateForm() {
                         </div>
                     </div>
                     <div>
-                        <div class="px-2 mt-md-2 mt-xl-0 mt-2 px-md-3">
+                        <div class="px-2 mt-md-2 mt-xl-0 mt-2 px-md-3 mb-2">
                             <select class="box-size" id="select-name4" placeholder="State Rules">
                                 <option value=" ">State Rules</option>
                                 <option value="594">Tamil Nadu Urban Local Bodies Licencing of Hordings and Levy and
@@ -261,7 +261,7 @@ function validateForm() {
                         </div>
                     </div>
 
-                    <div class="px-2 mt-2 mt-md-2 mt-xl-0 px-md-3">
+                    <div class="px-2 mt-2 mt-md-2 mt-xl-0 px-md-3 mb-2">
                         <div class="search-act col-12 md-col-6 p-1">
                             <form name="myForm" class="mb-0" action="notification-search.php" onsubmit="return validateForm()">
                                 <input type="text" placeholder="Workshop" name="notify"
@@ -274,7 +274,7 @@ function validateForm() {
                 </div>
             </div>
             <div class="table_scroll_notify scrollbarnew col-12">
-                <div class="col-12 ">
+                <div class="col-12 py-3">
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">
                             <tr>
