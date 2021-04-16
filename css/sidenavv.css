@@ -465,3 +465,7 @@ select:active {
 .circle-bg {
     background-color: #5B3D71;
 }
+
+.search-btn:focus {
+    outline: none !important;
+}

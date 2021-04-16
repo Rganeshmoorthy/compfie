@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
-
 .search-style {
     border: 1px solid;
     padding: 2px;
     border-color: #888888;
 }
 
+
 /* complaints.php */
+
+
 /* .table_bgcolor {
     background-color: teal;
 } */
@@ -15,22 +17,19 @@
     /* domain-page3 */
     font-size: 12px;
     color: #846E95;
-    font-family: 'Poppins',
-        sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .acts-content {
     font-size: 12px;
     color: #846E95;
-    font-family: 'Poppins',
-        sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #FBF8FF;
 }
 
 .bg-color {
     background-color: #EDE5F2;
 }
-
 
 .content-bgcolor {
     /* domain-page3*/
@@ -66,7 +65,6 @@
     overflow-y: auto;
 }
 
-
 .select-country {
     border: 1px solid;
     padding: 4px;
@@ -83,11 +81,9 @@ span.select2-selection.select2-selection--single {
     border-color: #CED4DA;
     color: #5B3D71;
     font-size: 13px;
-    font-family: 'Poppins',
-        sans-serif;
+    font-family: 'Poppins', sans-serif;
     height: 31;
 }
-
 
 .search-btn {
     position: absolute;
@@ -109,10 +105,8 @@ span.select2-selection.select2-selection--single {
 .search-input::placeholder {
     color: #5B3D71;
     font-size: 13px;
-    font-family: 'Poppins',
-        sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-
 
 .main-content-3 {
     max-height: calc(100vh - 250px) !important;
@@ -128,22 +122,54 @@ span.select2-selection.select2-selection--single {
 }
 
 
-@media (max-width:991px) {
+/*new page*/
 
+.state-btn {
+    border: 2px solid #5B3D71;
+    border-radius: 20px;
+}
+
+.state-btn {
+    color: #5B3D71;
+}
+
+@media (max-width:991px) {
     .main-content-3 {
         max-height: calc(100vh - 318px) !important;
         overflow-y: auto;
     }
-
     .aphabet-scroll {
         max-height: calc(100vh - 358px) !important;
         overflow-y: auto;
         scroll-behavior: smooth !important;
     }
-
     body,
     html {
         overflow-x: hidden !important;
         overflow-y: hidden !important;
+    }
+}
+
+.search-new {
+    max-width: 200px;
+    border: 1px solid;
+    padding: 2px;
+    border-radius: 2px;
+    border-color: #CED4DA;
+    position: relative;
+}
+
+.alpha-new {
+    min-width: 350px;
+    color: #5A3C70;
+}
+
+.alpha-new h1 {
+    font-size: 1.6em;
+}
+
+@media (max-width:991px) {
+    .state-btn {
+        font-size: 0.7em;
     }
 }

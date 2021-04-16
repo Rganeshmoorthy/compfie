@@ -15,6 +15,7 @@
             <div class="heading col-12 pb-4 d-flex justify-content-center">
                 FORMS
             </div>
+            <button class="btn download mx-3 my-2 ml-auto"><i class="fa fa-download"></i> Download</button>
             <div class="col-12">
                 <div class="border title">
                     <div class="border py-2 px-2">

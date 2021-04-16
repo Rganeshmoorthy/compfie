@@ -4,10 +4,41 @@
 <link rel="stylesheet" href="css/index.css">
 <link rel="stylesheet" href="css/domain-page8.css">
 <link rel="stylesheet" href="css/domain-page4.css">
+<!--selctize-->
+<link rel="stylesheet" href="css/selectize.css">
+<!--selectize-->
+<script src="js/selectize.js"></script>
 <script>
 jQuery(document).ready(function() {
     jQuery('.scrollbarnew').scrollbar();
 });
+//   $(document).ready(function() { 
+// $('#select-gear').selectize({
+//     sortField: 'text'
+// });
+// });
+$(function() {
+    $('#select-name').selectize({
+        // plugins: ['remove_button']
+    });
+    $('#select-name2').selectize({
+        // plugins: ['remove_button']
+    });
+    $('#select-name3').selectize({
+        // plugins: ['remove_button']
+    });
+    $('#select-name4').selectize({
+        // plugins: ['remove_button']
+    });
+});
+
+function validateForm() {
+    var x = document.forms["myForm"]["notify"].value;
+    if (x == "") {
+        alert("Search box cannot be empty");
+        return false;
+    }
+}
 </script>
 
 <body>
@@ -35,8 +66,8 @@ jQuery(document).ready(function() {
                 <div class="d-flex row">
                     <div>
                         <div class="px-2 px-md-3 ">
-                            <select class="acts">
-                                <option selected>Central Acts</option>
+                            <select class="box-size" id="select-name" placeholder="Central Acts">
+                                <option value=" ">Central Acts</option>
                                 <option value="34">Trade Marks Act, 1999</option>
                                 <option value="33">Tea Act, 1954</option>
                                 <option value="32">Jute Packaging Materials (compulsory use in packing Commodities) act,
@@ -83,7 +114,7 @@ jQuery(document).ready(function() {
                     </div>
                     <div>
                         <div class="px-2 px-md-3">
-                            <select class="acts col-sm-12">
+                            <select class="box-size" id="select-name2" placeholder="Central Rules">
                                 <option value=" ">Central Rules</option>
                                 <option value="323">Water (Prevention and Control of Pollution) Cess Rules, 1978
                                 </option>
@@ -161,7 +192,7 @@ jQuery(document).ready(function() {
                     </div>
                     <div>
                         <div class="px-2 mt-2 mt-sm-0 mt-md-0 px-md-3">
-                            <select class="acts">
+                            <select class="box-size" id="select-name3" placeholder="State Acts">
                                 <option value=" ">State Acts</option>
                                 <option value="118">Himachal Pradesh Fire Fighting Services Act, 1984</option>
                                 <option value="144">Uttar Pradesh Municipalities Act, 1916</option>
@@ -196,7 +227,7 @@ jQuery(document).ready(function() {
                     </div>
                     <div>
                         <div class="px-2 mt-md-2 mt-xl-0 mt-2 px-md-3">
-                            <select class="acts">
+                            <select class="box-size" id="select-name4" placeholder="State Rules">
                                 <option value=" ">State Rules</option>
                                 <option value="594">Tamil Nadu Urban Local Bodies Licencing of Hordings and Levy and
                                     Collection of Advertisement Tax Rules, 2003</option>
@@ -231,9 +262,13 @@ jQuery(document).ready(function() {
                     </div>
 
                     <div class="px-2 mt-2 mt-md-2 mt-xl-0 px-md-3">
-                        <div class="search-act col-12 md-col-6">
-                            <input type="text" placeholder="Search Acts" class="border-0 w-100 pr-4 search-input pl-2">
-                            <button class="border-0 bg-transparent search-btn"><i class="fa fa-search"></i></button>
+                        <div class="search-act col-12 md-col-6 p-1">
+                            <form name="myForm" class="mb-0" action="notification-search.php" onsubmit="return validateForm()">
+                                <input type="text" placeholder="Workshop" name="notify"
+                                    class="border-0 w-100 pr-4 search-input pl-2" required>
+                                <button type="submit" class="border-0 bg-transparent search-btn"><i
+                                        class="fa fa-search"></i></button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -247,9 +282,10 @@ jQuery(document).ready(function() {
                                 <th scope="col" class="">Notification Title</th>
                                 <th scope="col" class="">Notification Discription</th>
                                 <th scope="col" class="">Notification Issued By</th>
+                                <th scope="col" class=""></th>
                             </tr>
                         </thead>
-                        <tbody class="table-content">
+                        <tbody class="table-content" id="notification">
                             <tr>
                                 <th scope="row">03 Feb 2021</th>
                                 <td>TRIPURA GOVERNMENT OMITS THE APPLICATION OF SECTION 17 OF THE BOILERS ACT, 1923</td>

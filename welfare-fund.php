@@ -8,6 +8,14 @@
 jQuery(document).ready(function() {
     jQuery('.scrollbarnew').scrollbar();
 });
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
 </script>
 
 <body>
@@ -106,7 +114,7 @@ jQuery(document).ready(function() {
                     <div>
                         <div class="px-2  mt-md-0 px-md-3">
                             <div class="search-act col-12 md-col-6 ">
-                                <input type="text" placeholder="Search Acts"
+                                <input type="text" placeholder="Search Acts" id="myInput"
                                     class="border-0 w-100 pr-4 search-input pl-2">
                                 <button class="border-0 bg-transparent search-btn"><i class="fa fa-search"></i></button>
                             </div>
@@ -126,9 +134,10 @@ jQuery(document).ready(function() {
                                 <th scope="col" class="">Periodicity</th>
                                 <th scope="col" class="">Employee Contribution</th>
                                 <th scope="col" class="">Employer Contribution</th>
+                                <th scope="col" class=""></th>
                             </tr>
                         </thead>
-                        <tbody class="table-content">
+                        <tbody class="table-content" id="myTable">
                             <tr>
                                 <td>WEST BENGAL</td>
                                 <td>15 jul & 15 Jan</td>

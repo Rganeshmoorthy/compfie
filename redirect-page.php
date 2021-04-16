@@ -8,6 +8,14 @@
 jQuery(document).ready(function() {
     jQuery('.scrollbarnew').scrollbar();
 });
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
 </script>
 
 <body>
@@ -28,7 +36,7 @@ jQuery(document).ready(function() {
             </div>
             <div class="col-12 py-2 px-4 px-md-0 d-flex justify-content-center">
                 <div class="border col-12 col-md-7 table_search">
-                    <input type="text" placeholder="Search Acts" class="border-0 w-100 pr-4 search-input pl-2">
+                    <input type="text" id="myInput" placeholder="Search Acts" class="border-0 w-100 pr-4 search-input pl-2">
                     <button class="border-0 bg-transparent search-btn"><i class="fa fa-search"></i></button>
                 </div>
 
@@ -43,9 +51,10 @@ jQuery(document).ready(function() {
                                 <th scope="col" class="">Section Title</th>
                                 <th scope="col" class="">Section</th>
                                 <th scope="col" class="">Discription</th>
+                                <th scope="col" class=""></th>
                             </tr>
                         </thead>
-                        <tbody class="table-content">
+                        <tbody class="table-content" id="myTable">
                             <tr>
                                 <th scope="row">1</th>
                                 <td>Environmental,Health & Safety</td>
@@ -58,7 +67,7 @@ jQuery(document).ready(function() {
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
-                                <td>Environmental,Health & Safety</td>
+                                <td>Defnition</td>
                                 <td>Lorem ipsum dolor sit amet, consectetur</td>
                                 <td>Lorem ipsum dolor sit amet,</td>
                                 <td> <button type="button" class="btn btn-sm  button-readmore-white mx-2"
@@ -68,7 +77,7 @@ jQuery(document).ready(function() {
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
-                                <td>Environmental,Health & Safety</td>
+                                <td>Qualification</td>
                                 <td>Lorem ipsum dolor sit amet, consectetur</td>
                                 <td>Lorem ipsum dolor sit amet,</td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
@@ -78,7 +87,7 @@ jQuery(document).ready(function() {
                             </tr>
                             <tr>
                                 <th scope="row">4</th>
-                                <td>Environmental,Health & Safety</td>
+                                <td>Contract of Apprenticeship</td>
                                 <td>Lorem ipsum dolor sit amet, consectetur</td>
                                 <td>Lorem ipsum dolor sit amet,</td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"

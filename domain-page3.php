@@ -9,9 +9,7 @@ jQuery(document).ready(function() {
     jQuery('.scrollbarnew').scrollbar();
 });
 </script>
-
 <body>
-
     <div class="main-content">
         <!-- center content starts -->
         <div class="row px-5 px-md-5 py-3">
@@ -39,7 +37,8 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Air (Prevention and Control of Pollution) Act, 1981
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Air (Prevention and
+                                            Control of Pollution) Act, 1981
                                         </a></li>
 
                                 </ol>
@@ -57,7 +56,7 @@ jQuery(document).ready(function() {
                                 <ol type="1" class="p-1 px-4 ol-content">
                                     <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Boilers Act, 1923
                                         </a></li>
-                                    
+
 
                                 </ol>
 
@@ -72,12 +71,15 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Central Industrial Security Force Act, 1968
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Central Industrial
+                                            Security Force Act, 1968
 
 
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Clinical Establishments (Registration And Regulation) Act, 2010/a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Coir Industry Act, 1953</a></li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Clinical
+                                            Establishments (Registration And Regulation) Act, 2010/a> </li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Coir Industry Act,
+                                            1953</a></li>
 
                                 </ol>
 
@@ -92,11 +94,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> 
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">
 
-                                   Dangerous Machines (Regulation) Act, 1983
+                                            Dangerous Machines (Regulation) Act, 1983
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Drugs and Cosmetic Act , 1940</a> </li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Drugs and Cosmetic
+                                            Act , 1940</a> </li>
                                 </ol>
 
                             </div>
@@ -110,14 +113,18 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> 
-                                      Electricity Act, 2003
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">
+                                            Electricity Act, 2003
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Employers' Liability Act, 1938</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Environment (Protection) Act, 1986</a></li>
-                                     <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Essential Commodities Act, 1955
-</a></li>
- <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Explosives Act 1884, 1900</a></li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Employers' Liability
+                                            Act, 1938</a> </li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Environment
+                                            (Protection) Act, 1986</a></li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Essential
+                                            Commodities Act, 1955
+                                        </a></li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Explosives Act
+                                            1884, 1900</a></li>
 
                                 </ol>
 

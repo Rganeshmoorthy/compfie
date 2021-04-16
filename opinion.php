@@ -8,6 +8,14 @@
 jQuery(document).ready(function() {
     jQuery('.scrollbarnew').scrollbar();
 });
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
 </script>
 
 <body>
@@ -28,7 +36,7 @@ jQuery(document).ready(function() {
             </div>
             <div class="col-12 py-2 px-4 px-md-0 d-flex justify-content-center">
                 <div class="border col-12 col-md-7 table_search">
-                    <input type="text" placeholder="Search Acts" class="border-0 w-100 pr-4 search-input pl-2">
+                    <input type="text" placeholder="Search Acts" id="myInput" class="border-0 w-100 pr-4 search-input pl-2">
                     <button class="border-0 bg-transparent search-btn"><i class="fa fa-search"></i></button>
                 </div>
 
@@ -43,7 +51,7 @@ jQuery(document).ready(function() {
                                 <th>
                             </tr>
                         </thead>
-                        <tbody class="table-content">
+                        <tbody class="table-content" id="myTable">
                             <tr>
                                 <td>Bio-Medical Waste Management & handling Rules, 2016</td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
