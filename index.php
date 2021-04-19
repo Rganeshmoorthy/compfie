@@ -14,6 +14,9 @@ $(document).ready(function() {
         }
     });
 });
+    jQuery(document).ready(function() {
+        jQuery('.scrollbarnew').scrollbar();
+    });     
 
 $(document).ready(function() {
     $("#page_modal").modal('show');
@@ -23,161 +26,176 @@ $(document).ready(function() {
 <body>
     <div class="main-content">
         <!-- center content starts -->
-        <div class="row px-3 px-md-5 main-content2">
-            <div class="col-12 py-2 heading">
-                All Domains
-            </div>
-            <div class="col-12 ">
-                <div class="row">
-                    <div class="col-lg-6 col-sm-12 mb-md-4 zoom">
-                        <div class="px-1 py-1 borde">
-                            <div class="d-flex px-1">
-                                <div class="py-2 px-2 img_labour">
-                                    <img src="package/labour.png" width="100px" height="100">
-                                </div>
-                                <div class="py-2 px-2">
-                                    <div>
-                                        <a class="title mb-1" href="domain-page.php">Labour Employment & Industrial</a>
-                                    </div>
-                                    <a class="content mb-0" id="content" href="domain-page.php">Provides the quick and
-                                        convenient way
-                                        to create
-                                        responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork
-                                        chop doner
-                                        sirloin,
-                                        bacon beef brisket ball tip short
-                                        ribs Provides the quick and convenient way to create
-                                        responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork
-                                        chop doner
-                                        sirloin,
-                                        bacon beef brisket ball tip short
-                                        ribs.
-                                    </a>
-                                    <a class="moreless-button" href="#">READ MORE</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-12 mt-3 mt-md-0 zoom">
-                        <div class="px-1 py-1 borde">
-                            <div class="d-flex px-1">
-                                <div class="py-2 px-2  img_labour">
-                                    <img src="package/h&s.png" width="100px" height="100">
-                                </div>
-                                <div class="py-2 px-2">
-                                    <div>
-                                        <a class="title mb-1" href="domain-page1.php">Environmental,Health & Safety</a>
-                                    </div>
-                                    <a class="content mb-0" href="domain-page1.php">Provides the quick and convenient
-                                        way to create
-                                        responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork
-                                        chop doner
-                                        sirloin,
-                                        bacon beef brisket ball tip short ribs.
-                                        bacon beef brisket ball tip short
-                                        ribs Provides the quick and convenient way to create
-                                        responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork
-                                        chop doner
-                                        sirloin,
-                                        bacon beef brisket ball tip short
-                                        ribs.
-                                    </a>
-                                    <a class="moreless-button" href="#">READ MORE</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div class="row px-3 px-md-5 ">
+            <div class="col-md-6 main-content2 scrollbarnew">
+                <div class="col-12 mt-4 heading">
+                    All Domains
                 </div>
-            </div>
-            <div class="col-12 mt-3">
-                <div class="row">
-                    <div class="col-lg-6 col-sm-12 zoom">
-                        <div class="py-1 borde">
-                            <div class="d-flex px-1">
-                                <div class="py-2 px-2  img_labour">
-                                    <img src="package/library.png" width="100px" height="100">
-                                </div>
-                                <div class="py-2 px-2">
-                                    <div>
-                                        <a class="title mb-1" href="domain-page2.php">Fiscal,Corporate & Commercial</a>
+                <div class="col-12 ">
+                    <div class="row mt-md-2">
+                        <div class="col-lg-12 col-sm-12 py-2 zoom">
+                            <div class="px-1 py-1 borde">
+                                <div class="d-flex px-1">
+                                    <div class="py-2 px-2 img_labour">
+                                        <img src="package/labour.png" width="140" height="140">
                                     </div>
-                                    <a class="content mb-0" href="domain-page2.php">Provides the quick and convenient
-                                        way to create
-                                        responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork
-                                        chop doner
-                                        sirloin,
-                                        bacon beef brisket ball tip short ribs.
-                                        bacon beef brisket ball tip short
-                                        ribs Provides the quick and convenient way to create
-                                        responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork
-                                        chop doner
-                                        sirloin,
-                                        bacon beef brisket ball tip short
-                                        ribs.
-                                    </a>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <div class="py-2 px-2">
+                                        <div>
+                                            <a class="title mb-1" href="domain-page.php">Labour Employment &
+                                                Industrial</a>
+                                        </div>
+                                        <a class="content mb-2 mt-md-3" id="content" href="domain-page.php">Provides the quick
+                                            and
+                                            convenient way
+                                            to create
+                                            responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa
+                                            pork
+                                            chop doner
+                                            sirloin,
+                                            bacon beef brisket ball tip short
+                                            ribs Provides the quick and convenient way to create
+                                            responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa
+                                            pork
+                                            chop doner
+                                            sirloin,
+                                            bacon beef brisket ball tip short
+                                            ribs.
+                                        </a>
+                                        <a class="moreless-button" href="#">READ MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-sm-12 py-2 mt-md-0 zoom">
+                            <div class="px-1 py-1 borde">
+                                <div class="d-flex px-1">
+                                    <div class="py-2 px-2  img_labour">
+                                        <img src="package/h&s.png" width="140px" height="140">
+                                    </div>
+                                    <div class="py-2 px-2">
+                                        <div>
+                                            <a class="title mb-1" href="domain-page1.php">Environmental,Health &
+                                                Safety</a>
+                                        </div>
+                                        <a class="content mb-2 mt-md-3" href="domain-page1.php">Provides the quick and
+                                            convenient
+                                            way to create
+                                            responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa
+                                            pork
+                                            chop doner
+                                            sirloin,
+                                            bacon beef brisket ball tip short ribs.
+                                            bacon beef brisket ball tip short
+                                            ribs Provides the quick and convenient way to create
+                                            responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa
+                                            pork
+                                            chop doner
+                                            sirloin,
+                                            bacon beef brisket ball tip short
+                                            ribs.
+                                        </a>
+                                        <a class="moreless-button" href="#">READ MORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-sm-12 py-2 mt-md-0 zoom">
+                            <div class="py-1 borde">
+                                <div class="d-flex px-1">
+                                    <div class="py-2 px-2  img_labour">
+                                        <img src="package/library.png" width="140px" height="140">
+                                    </div>
+                                    <div class="py-2 px-2">
+                                        <div>
+                                            <a class="title mb-1" href="domain-page2.php">Fiscal,Corporate &
+                                                Commercial</a>
+                                        </div>
+                                        <a class="content mb-2 mt-md-3" href="domain-page2.php">Provides the quick and
+                                            convenient
+                                            way to create
+                                            responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa
+                                            pork
+                                            chop doner
+                                            sirloin,
+                                            bacon beef brisket ball tip short ribs.
+                                            bacon beef brisket ball tip short
+                                            ribs Provides the quick and convenient way to create
+                                            responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa
+                                            pork
+                                            chop doner
+                                            sirloin,
+                                            bacon beef brisket ball tip short
+                                            ribs.
+                                        </a>
+                                        <a class="moreless-button" href="#">READ MORE</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>               
+            </div>
+            <div class="col-md-6 main-content2 scrollbarnew">
+                <div class="col-12 mt-4 heading">
+                    Latest Update
                 </div>
-            </div>
-            <div class="col-12 mt-4 heading">
-                Breaking News
-            </div>
-            <div class="col-12">
-                <div class="row">
-                    <div class="col-lg-6 ">
-                        <div class="my-3">
-                            <div class="border px-3 py-3">
-                                <div class="title">
-                                    Ullamcorper morpi tincidunt ornare massa
-                                </div>
-                                <div class="sub-title">
-                                    17 Dec 2020 12.00 PM
-                                </div>
-                                <div class="content mt-2">
-                                    <p>
-                                        Consumer price index for industrial workers for the month oct2020 "ll" As Sebis
-                                        Peak
-                                        margin norms Kick in broker default risk.
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-lg-12 ">
+                            <div class="my-3">
+                                <div class="border px-3 py-3">
+                                    <div class="title">
+                                        Ullamcorper morpi tincidunt ornare massa
+                                    </div>
+                                    <div class="sub-title">
+                                        17 Dec 2020 12.00 PM
+                                    </div>
+                                    <div class="content mt-2">
+                                        <p>
+                                            Consumer price index for industrial workers for the month oct2020 "ll" As
+                                            Sebis
+                                            Peak
+                                            margin norms Kick in broker default risk.
 
-                                        Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork chop doner
-                                        sirloin,
-                                        bacon beef brisket ball tip short ribs.
-                                    </p>
+                                            Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork chop doner
+                                            sirloin,
+                                            bacon beef brisket ball tip short ribs.
+                                        </p>
+                                    </div>
+
+                                    <a class="moreless-button" class="foot-right" href="#">Read More</a>
+
                                 </div>
-
-                                <a class="moreless-button" class="foot-right" href="#">Read More</a>
-
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="my-3">
-                            <div class="border px-3 py-3">
-                                <div class="title">
-                                    Ullamcorper morpi tincidunt ornare massa
-                                </div>
-                                <div class="sub-title">
-                                    17 Dec 2020 12.00 PM
-                                </div>
-                                <div class="content mt-2">
-                                    <p>
-                                        Consumer price index for industrial workers for the month oct2020 "ll" As Sebis
-                                        Peak
-                                        margin norms Kick in broker default risk.
+                        <div class="col-lg-12">
+                            <div class="my-3">
+                                <div class="border px-3 py-3">
+                                    <div class="title">
+                                        Ullamcorper morpi tincidunt ornare massa
+                                    </div>
+                                    <div class="sub-title">
+                                        17 Dec 2020 12.00 PM
+                                    </div>
+                                    <div class="content mt-2">
+                                        <p>
+                                            Consumer price index for industrial workers for the month oct2020 "ll" As
+                                            Sebis
+                                            Peak
+                                            margin norms Kick in broker default risk.
 
-                                        Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork chop doner
-                                        sirloin,
-                                        bacon beef brisket ball tip short ribs.
-                                    </p>
+                                            Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork chop doner
+                                            sirloin,
+                                            bacon beef brisket ball tip short ribs.
+                                        </p>
+                                    </div>
+
+                                    <a class="moreless-button" class="foot-right" href="#">Read More</a>
+
                                 </div>
-
-                                <a class="moreless-button" class="foot-right" href="#">Read More</a>
-
                             </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>

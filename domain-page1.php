@@ -13,15 +13,11 @@
     <div class="main-content">
         <!-- center content starts -->
         <div class="row px-3 px-md-5 mt-sm-2 main-content-header">
-
-            <div class="col-12 mt-2 mt-md-0">
+            <div class="col-12 mt-2 mt-md-0 mb-3">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="pt-md-4 zoom">
-                            <div class="borde pt-3">
-                                <div class="right-label text-center text-white pr-0">
-                                    <p class="side-label"> Recently Added </p>
-                                </div>
+                            <div class="borde pt-3">                               
                                 <div>
                                     <h1 class="heading mx-4 pb-2 mt-3"> Central Acts</h1>
                                     <marquee direction="up" scrollamount="2" onmouseover="this.stop();"
@@ -62,20 +58,18 @@
                                         </ul>
                                     </marquee>
                                     <div class="d-flex mx-auto justify-content-center my-2">
-                                    <button  class="view_more"><a href="domain-page3.php" class="text-white mx-auto">View more</a></button>
+                                        <button class="view_more mx-2 py-1 px-3"><a href="domain-page3.php"
+                                                class="text-white mx-auto">View more</a></button>
+                                        <button class="view_more mx-2 py-1 px-3"><a href="recently-added.php"
+                                                class="text-white mx-auto">Recently Added</a></button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="col-lg-6 pt-2 pt-md-0">
                         <div class="pt-md-4 zoom">
-                            <div class="borde pt-3">
-                                <div class="right-label text-center text-white pr-0">
-                                    <p class="side-label"> Recently Added</p>
-                                </div>
-
+                            <div class="borde pt-3">                                
                                 <h1 class="heading mx-4 pb-2 mt-3"> Central Rules</h1>
                                 <marquee direction="up" scrollamount="2" onmouseover="this.stop();"
                                     onmouseout="this.start();">
@@ -114,23 +108,18 @@
                                         </li>
                                     </ul>
                                 </marquee>
-                                      <div class="d-flex mx-auto justify-content-center my-2">
-                                    <button  class="view_more"><a href="domain-page11.php" class="text-white mx-auto">View more</a></button>
-                                    </div>
+                                <div class="d-flex mx-auto justify-content-center my-2">
+                           <button class="view_more mx-2 py-1 px-3"><a href="domain-page11.php"
+                                                class="text-white mx-auto">View more</a></button>
+                                        <button class="view_more mx-2 py-1 px-3"><a href="recently-added.php"
+                                                class="text-white mx-auto">Recently Added</a></button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-12 mt-2">
-                <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 py-3">
                         <div class="pt-md-2 zoom">
-                            <div class="borde pt-3">
-                                <div class="right-label  text-center text-white pr-0">
-                                    <p class="side-label"> Recently Added</p>
-                                </div>
-
+                            <div class="borde pt-3">                                
                                 <h1 class="heading mx-4 pb-2 mt-3"> State Acts</h1>
                                 <marquee direction="up" scrollamount="2" onmouseover="this.stop();"
                                     onmouseout="this.start();">
@@ -169,18 +158,18 @@
                                         </li>
                                     </ul>
                                 </marquee>
-                                      <div class="d-flex mx-auto justify-content-center my-2">
-                                    <button  class="view_more"><a href="domain-page4.php" class="text-white mx-auto">View more</a></button>
-                                    </div>
+                                <div class="d-flex mx-auto justify-content-center my-2">
+                                     <button class="view_more mx-2 py-1 px-3"><a href="domain-page4.php"
+                                                class="text-white mx-auto">View more</a></button>
+                                        <button class="view_more mx-2 py-1 px-3"><a href="recently-added.php"
+                                                class="text-white mx-auto">Recently Added</a></button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 pt-2 pt-md-0">
+                    <div class="col-lg-6  py-3">
                         <div class="pt-md-2 zoom">
-                            <div class="borde pt-3">
-                                <div class="right-label text-center text-white pr-0">
-                                    <p class="side-label"> Recently Added</p>
-                                </div>
+                            <div class="borde pt-3">                                
                                 <h1 class="heading mx-4 pb-2 mt-3"> State Rules</h1>
                                 <marquee direction="up" scrollamount="2" onmouseover="this.stop();"
                                     onmouseout="this.start();">
@@ -219,24 +208,18 @@
                                         </li>
                                     </ul>
                                 </marquee>
-                                      <div class="d-flex mx-auto justify-content-center my-2">
-                                    <button  class="view_more"><a href="domain-page5.php" class="text-white mx-auto">View more</a></button>
-                                    </div>
+                                <div class="d-flex mx-auto justify-content-center my-2">
+                                 <button class="view_more mx-2 py-1 px-3"><a href="domain-page5.php"
+                                                class="text-white mx-auto">View more</a></button>
+                                        <button class="view_more mx-2 py-1 px-3"><a href="recently-added.php"
+                                                class="text-white mx-auto">Recently Added</a></button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="col-12 mt-2">
-                <div class="row">
                     <div class="col-lg-6">
                         <div class="pt-md-2 zoom">
-                            <div class="borde pt-3">
-                                <div class="right-label  text-center text-white pr-0">
-                                    <p class="side-label"> Recently Added</p>
-                                </div>
-
+                            <div class="borde pt-3">                                
                                 <h1 class="heading mx-4 pb-2 mt-3"> Schemes</h1>
                                 <marquee direction="up" scrollamount="2" onmouseover="this.stop();"
                                     onmouseout="this.start();">
@@ -275,13 +258,15 @@
                                         </li>
                                     </ul>
                                 </marquee>
-                                      <div class="d-flex mx-auto justify-content-center my-2">
-                                    <button  class="view_more"><a href="schemes.php" class="text-white mx-auto">View more</a></button>
-                                    </div>
+                                <div class="d-flex mx-auto justify-content-center my-2">
+                                 <button class="view_more mx-2 py-1 px-3"><a href="schemes.php"
+                                                class="text-white mx-auto">View more</a></button>
+                                        <button class="view_more mx-2 py-1 px-3"><a href="recently-added.php"
+                                                class="text-white mx-auto">Recently Added</a></button>
+                                </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

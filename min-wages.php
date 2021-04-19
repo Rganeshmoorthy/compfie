@@ -26,7 +26,7 @@
         <div class="row main-content2 px-2 px-md-5 py-2 py-md-3">
             <!-- heading -->
             <div class="col-12 heading pl-0 px-5">
-                 Labour, Employment & Industrial - Min wages
+                Labour, Employment & Industrial - Min wages
             </div>
             <!-- buttons-->
             <div class="col-12 py-2">
@@ -109,11 +109,11 @@
             <div class="col-12 py-1">
                 <div class="col-12 mt-0 mt-md-3 px-3 aphabet-scroll scrollbarnew">
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col-12" id="a">
                             <div class="d-flex border alpha-border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="a"> Andaman and
+                                    <h1 > Andaman and
                                         Nicobar</h1>
                                 </div>
                                 <div>
@@ -121,35 +121,32 @@
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Andaman &
                                                 Nicobar Island Shop & Establishment Regulation, 2004
                                             </a></li>
-
                                     </ol>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="b">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="b"> Andra Pradesh</h1>
+                                    <h1 > Andra Pradesh</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Boilers Act,
                                                 1923
                                             </a></li>
-
-
                                     </ol>
 
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="c">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="c"> Arunachal Pradesh</h1>
+                                    <h1 > Arunachal Pradesh</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -170,11 +167,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="d">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="d"> Assam</h1>
+                                    <h1> Assam</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -190,11 +187,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="e">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="e"> Bihar</h1>
+                                    <h1 > Bihar</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -217,11 +214,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="f">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="f"> Chhatisgar</h1>
+                                    <h1> Chhatisgar</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -238,11 +235,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="g">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="g"> Goa</h1>
+                                    <h1> Goa</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -259,11 +256,11 @@
                             </div>
                         </div>
 
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="h">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="h"> Gujarat</h1>
+                                    <h1 > Gujarat</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -280,11 +277,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="i">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="i"> Haryana </h1>
+                                    <h1 > Haryana </h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -301,11 +298,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="j">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="j"> Himachal Pradesh</h1>
+                                    <h1 > Himachal Pradesh</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -322,11 +319,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="k">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="k"> Jharkhand</h1>
+                                    <h1 > Jharkhand</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -343,11 +340,11 @@
                             </div>
                         </div>
 
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="l">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="l"> Karnataka</h1>
+                                    <h1 > Karnataka</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -364,11 +361,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="m">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="m"> Kerala</h1>
+                                    <h1 > Kerala</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -385,11 +382,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="n">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="n"> Madhya Pradesh</h1>
+                                    <h1 > Madhya Pradesh</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -407,11 +404,11 @@
                             </div>
                         </div>
 
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="o">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="o"> Maharastra</h1>
+                                    <h1 > Maharastra</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -428,11 +425,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="p">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="p"> Manipur</h1>
+                                    <h1 > Manipur</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -449,11 +446,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="q">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="q"> Meghalaya</h1>
+                                    <h1 > Meghalaya</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -470,11 +467,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="r">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="r"> Mizoram</h1>
+                                    <h1 > Mizoram</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -491,11 +488,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="s">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="s"> Nagaland</h1>
+                                    <h1 > Nagaland</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -512,11 +509,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="t">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="t"> Odisha</h1>
+                                    <h1 > Odisha</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -533,11 +530,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="u">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="u"> Puducherry</h1>
+                                    <h1 > Puducherry</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -554,11 +551,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="v">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="v"> Punjab</h1>
+                                    <h1 > Punjab</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -575,11 +572,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="w">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="w"> Rajasthan</h1>
+                                    <h1 > Rajasthan</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -596,11 +593,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="x">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="x"> Sikkim</h1>
+                                    <h1 > Sikkim</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -617,11 +614,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="y">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="y"> Tamil Nadu</h1>
+                                    <h1 > Tamil Nadu</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -638,11 +635,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="z">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="z"> Telangana</h1>
+                                    <h1 > Telangana</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -659,11 +656,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="tripura">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="tripura"> Tripura</h1>
+                                    <h1 > Tripura</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -680,11 +677,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="ut">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="ut"> UT of Lakshadweep</h1>
+                                    <h1 > UT of Lakshadweep</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -701,11 +698,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="uttrakand">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="uttrakand"> Uttrakhand</h1>
+                                    <h1 > Uttrakhand</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -722,11 +719,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="uttrapradesh">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="uttrapradesh"> Uttra Pradesh</h1>
+                                    <h1 > Uttra Pradesh</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -743,11 +740,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 mt-3">
+                        <div class="col-12 mt-3" id="west">
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 id="west"> West Bengal</h1>
+                                    <h1 > West Bengal</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">

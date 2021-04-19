@@ -131,3 +131,39 @@ select:focus {
     background-color: #5B3D71;
     color: white !important;
 }
+
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    /* background-color: #F8F9FB; */
+}
+
+.scrollmenu li {
+    display: inline-block;
+}
+
+ul .content a {
+    font-size: 1.5em;
+}
+
+.recent {
+    color: #5B3D71;
+    font-family: 'Poppins', sans-serif;
+}
+
+.t-0 {
+    top: 0;
+}
+
+.r-0 {
+    right: 0;
+}
+
+.bold_font {
+    font-weight: bold;
+}
+
+.mod-para {
+    font-size: 0.9em;
+    text-align: center;
+}

@@ -115,6 +115,11 @@
            $(".key-none").removeClass("display-none");
           $(".opinion-none").removeClass("display-none");
        }
+       /*active to state acts*/
+    //    $(".state-btn").click(function(){
+    //       $(".state-btn").addClass("active");
+    //       $(".state-btn").removeClass("active");
+    //    });
 
     });
     </script>
@@ -157,8 +162,8 @@
                                 <li class="panel row m-0 hover_effect ">
                                     <img src="package/justice-scale.png" height="20px" class="mt-2 px-2 complaince" />
                                     <a data-toggle="collapse" class="mt-2 text-white menu law_toggle" aria-hidden="true"
-                                        data-parent="#accordion1" href="#complaint_law">Compliance
-                                        Laws <i class="fa fa-fw fa-angle-down"></i>
+                                        data-parent="#accordion1" href="#complaint_law">Compfie
+                                        Feature <i class="fa fa-fw fa-angle-down"></i>
                                     </a>
 
                                     <ul id="complaint_law" class="collapse list px-3 px-md-4">
@@ -197,7 +202,7 @@
                                             </li>
 
                                         </ul>
-                                        <li class="mt-3 notify"> <a href="domain-page.php"
+                                        <li class="mt-3 notify"> <a href="caselaw.php"
                                                 class="text-white px-0 pb-1 px-md-1">Case Laws</a>
                                         </li>
 
@@ -244,12 +249,12 @@
                                         class="text-white px-0 pb-1 px-md-1">Opinions</a>
                                 </li>
                                 <li class="mt-3 notify"> <a href="complaints.php"
-                                        class="text-white pb-1 px-0 px-md-1">Lets
+                                        class="text-white pb-1 px-0 px-md-1">Let's
                                         Talk
                                         Compliance</a>
                                 </li>
-                                <li class="mt-3"> <a href="#" class="text-white pb-1 px-0 px-md-1">Blogs</a>
-                                </li>
+                                <!-- <li class="mt-3"> <a href="#" class="text-white pb-1 px-0 px-md-1">Blogs</a>
+                                </li> -->
                             </ul>
 
                             </li>

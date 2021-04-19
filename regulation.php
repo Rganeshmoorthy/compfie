@@ -31,11 +31,11 @@ jQuery(document).ready(function() {
             </div>
             <div class="col-12 mt-0 mt-md-3 px-3 aphabet-scroll scrollbarnew">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12" id="a">
                         <div class="d-flex border alpha-border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="a"> A</h1>
+                                <h1> A</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -46,11 +46,11 @@ jQuery(document).ready(function() {
                         </div>
                     </div>
 
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="b">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="b"> B</h1>
+                                <h1 > B</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -61,11 +61,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="c">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="c"> C</h1>
+                                <h1 > C</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -76,11 +76,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="d">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="d"> D</h1>
+                                <h1 > D</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -91,11 +91,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="e">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="e"> E</h1>
+                                <h1 > E</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -106,11 +106,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="f">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="f"> F</h1>
+                                <h1 > F</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -121,11 +121,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="g">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="g"> G</h1>
+                                <h1 > G</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -142,11 +142,11 @@ jQuery(document).ready(function() {
                         </div>
                     </div>
 
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="h">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="h"> H</h1>
+                                <h1 > H</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -163,11 +163,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="i">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="i"> I</h1>
+                                <h1 > I</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -184,11 +184,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="j">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="j"> J</h1>
+                                <h1 > J</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -205,11 +205,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="k">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="k"> K</h1>
+                                <h1 > K</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -226,11 +226,11 @@ jQuery(document).ready(function() {
                         </div>
                     </div>
 
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="l">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="l"> L</h1>
+                                <h1 > L</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -247,11 +247,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="m">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="m"> M</h1>
+                                <h1 > M</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -268,11 +268,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="n">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="n"> N</h1>
+                                <h1 > N</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -290,11 +290,11 @@ jQuery(document).ready(function() {
                         </div>
                     </div>
 
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="o">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="o"> O</h1>
+                                <h1 > O</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -311,11 +311,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="p">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="p"> P</h1>
+                                <h1 > P</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -332,11 +332,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="q">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="q"> Q</h1>
+                                <h1 > Q</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -353,11 +353,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="r">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="r"> R</h1>
+                                <h1 > R</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -374,11 +374,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="s">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="s"> S</h1>
+                                <h1 > S</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -395,11 +395,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="t">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="t"> T</h1>
+                                <h1 > T</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -416,11 +416,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="u">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="u"> U</h1>
+                                <h1 > U</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -437,11 +437,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="v">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="v"> V</h1>
+                                <h1 > V</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -458,11 +458,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="w">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="w"> W</h1>
+                                <h1 > W</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -479,11 +479,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="x">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="x"> X</h1>
+                                <h1 > X</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -500,11 +500,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="y">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="y"> Y</h1>
+                                <h1 > Y</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -521,11 +521,11 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" id="z">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 id="z"> Z</h1>
+                                <h1 > Z</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
