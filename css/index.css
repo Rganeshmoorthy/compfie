@@ -179,3 +179,9 @@ ul .content a {
 /* .selectize-control.single .selectize-input:after {
     display: none !important;
 } */
+
+@media (max-width:991px) {
+    .main-mblview .main-content2 {
+        max-height: unset !important;
+    }
+}

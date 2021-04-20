@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
 .nav_ul {
     padding: 11px;
-    background-color: #F8F9FB;
+    /* background-color: #F8F9FB; */
 }
 
 .nav-pill {
@@ -114,14 +114,22 @@ label {
 
 #slideBack {
     position: absolute;
-    top: 16%;
+    top: 0;
     left: 22%;
+    border: none;
+    padding: 19px;
+    background-color: #F8F9FB;
+    border-radius: 25px 0 0 25px;
 }
 
 #slide {
     position: absolute;
-    top: 16%;
-    right: 3%;
+    top: 0;
+    right: 4%;
+    border: none;
+    padding: 19px;
+    background-color: #F8F9FB;
+    border-radius: 0 25px 25px 0;
 }
 
 .pills-ul {
@@ -131,6 +139,7 @@ label {
 .new-nav {
     overflow: auto;
     max-width: 900px;
+    background-color: #F8F9FB;
 }
 
 .color {
@@ -139,4 +148,8 @@ label {
 
 .new-nav .nav_pill {
     margin-left: 0 !important;
+}
+
+.mw-1500 {
+    max-width: 1500px;
 }
