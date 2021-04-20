@@ -167,3 +167,15 @@ ul .content a {
     font-size: 0.9em;
     text-align: center;
 }
+
+
+/*select in notification icon hide*/
+
+.box-size .selectize-input .item {
+    padding-right: 25px !important;
+}
+
+
+/* .selectize-control.single .selectize-input:after {
+    display: none !important;
+} */

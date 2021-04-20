@@ -26,7 +26,7 @@ $(document).ready(function() {
 <body>
     <div class="main-content">
         <!-- center content starts -->
-        <div class="row px-3 px-md-5 ">
+        <div class="row px-3 px-md-5 d-flex">
             <div class="col-md-6 main-content2 scrollbarnew">
                 <div class="col-12 mt-4 heading">
                     All Domains

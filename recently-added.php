@@ -10,7 +10,7 @@
     <div class="main-content">
         <!-- center content starts -->
 
-        <div class="row px-5 py-5 main-content2">            
+        <div class="row px-md-5 py-5 main-content2">            
             <div class="heading col-12 pb-4 d-flex justify-content-center">
                 FLAGGED ITEMS
             </div>   

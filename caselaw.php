@@ -24,7 +24,7 @@ $(document).ready(function() {
         <!-- center content starts -->
         <div class="row px-3 px-md-5 py-3 pb-1">
             <div class="col-12 heading text-center">
-                Caselaw
+                Case Laws
             </div>
             <div class="col-12 py-2">
                 <div class="d-flex justify-content-center">
@@ -59,7 +59,7 @@ $(document).ready(function() {
                         </thead>
                         <tbody class="table-content" id="myTable">
                             <tr>
-                                <td>1</td>
+                                <td class="text-center">1</td>
                                 <td>Management, Britannia Industries Ltd, Padi Chennai</td>
                                 <td> (1) Presiding Officer, Principal
                                     Labour Court, Chennai

@@ -65,9 +65,9 @@ function validateForm() {
             <div class="col-12 py-2 px-4 px-md-0">
                 <div class="d-flex row">
                     <div>
-                        <div class="px-2 px-md-3 mb-2">
+                        <div class="px-2 px-md-3 mb-2 selectize-new">
                             <select class="box-size" id="select-name" placeholder="Central Acts">
-                                <option value=" ">Central Acts</option>
+                                <option value=" " >Central Acts</option>
                                 <option value="34">Trade Marks Act, 1999</option>
                                 <option value="33">Tea Act, 1954</option>
                                 <option value="32">Jute Packaging Materials (compulsory use in packing Commodities) act,
