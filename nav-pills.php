@@ -40,7 +40,7 @@ function sideScroll(element,direction,speed,distance,step){
 <body>
     <div class="container-fluid nav_pill p-0 new-nav scrollbarnew" id="container">      
         <ul id="myTabs" class="d-flex nav-pills nav-justified nav_ul pills-ul">
-            <li class="px-2 px-sm-0 px-md-2  ml-0 ml-md-5  nav-li"><a href="domain-page.php"
+            <li class="px-2 px-sm-0 px-md-1 nav-li"><a href="domain-page.php"
                     class="px-3">Labour,Employment &
                     Industrial</a>
             </li>

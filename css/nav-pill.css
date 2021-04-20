@@ -50,18 +50,20 @@
         display: inline-block !important;
     } */
     #slideBack {
-        position: absolute;
+        display: none !important;
+        /* position: absolute;
         top: 21% !important;
-        left: 0 !important;
+        left: 0 !important; */
     }
     #slide {
-        position: absolute;
+        display: none !important;
+        /* position: absolute;
         top: 21% !important;
-        right: 0 !important;
+        right: 0 !important; */
     }
     .new-nav {
         overflow: auto;
-        width: 300px !important;
+        width: 100% !important;
     }
 }
 
