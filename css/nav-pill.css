@@ -65,6 +65,9 @@
         overflow: auto;
         width: 100% !important;
     }
+    .main-div {
+        margin-left: 0 !important;
+    }
 }
 
 .w-200 {
@@ -115,7 +118,7 @@ label {
 #slideBack {
     position: absolute;
     top: 0;
-    left: 22%;
+    left: 31%;
     border: none;
     padding: 19px;
     background-color: #F8F9FB;
@@ -125,7 +128,7 @@ label {
 #slide {
     position: absolute;
     top: 0;
-    right: 4%;
+    right: -42%;
     border: none;
     padding: 19px;
     background-color: #F8F9FB;
@@ -152,4 +155,9 @@ label {
 
 .mw-1500 {
     max-width: 1500px;
+}
+
+.main-div {
+    max-width: 900px;
+    margin-left: 20px;
 }

@@ -37,7 +37,7 @@
 </head>
 
 <body>
-    <div class="position-relative">
+    <div class="position-relative main-div">
         <div class="container-fluid nav_pill p-0 new-nav scrollbarnew" id="container">
             <ul id="myTabs" class="d-flex nav-pills nav-justified nav_ul pills-ul">
                 <li class="px-2 px-sm-0 px-md-1 nav-li"><a href="domain-page.php" class="px-3">Labour,Employment &
