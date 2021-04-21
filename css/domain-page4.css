@@ -65,6 +65,11 @@
     overflow-y: auto;
 }
 
+.aphabet-scroll-state {
+    max-height: calc(100vh - 445px);
+    overflow-y: auto;
+}
+
 .select-country {
     border: 1px solid;
     padding: 4px;
@@ -143,10 +148,20 @@ span.select2-selection.select2-selection--single {
         overflow-y: auto;
         scroll-behavior: smooth !important;
     }
+    .aphabet-scroll-state {
+        max-height: calc(100vh - 358px);
+        overflow-y: auto;
+    }
     body,
     html {
         overflow-x: hidden !important;
         overflow-y: hidden !important;
+    }
+    .state-btns {
+        display: flex !important;
+        flex-wrap: initial;
+        max-width: 334px;
+        overflow-x: scroll;
     }
 }
 

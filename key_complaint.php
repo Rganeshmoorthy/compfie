@@ -24,7 +24,7 @@
 
     <div class="main-content">
         <!-- center content starts -->
-        <div class="row main-content2 px-2 px-md-5 py-2 py-md-3">
+        <div class="row px-2 px-md-5 py-2 py-md-3">
             <!-- heading -->
             <div class="col-12 heading pl-0 px-5">
                 Labour,Employment & Industrial - State Acts
@@ -108,7 +108,7 @@
                 </div>
             </div>
             <div class="col-12 py-1">
-                <div class="col-12 mt-0 mt-md-3 px-3 aphabet-scroll scrollbarnew">
+                <div class="col-12 mt-0 mt-md-3 px-3 aphabet-scroll-state scrollbarnew">
                     <div class="row">
                         <div class="col-12 w-100" id="a">
                             <div class="d-flex border alpha-border">
