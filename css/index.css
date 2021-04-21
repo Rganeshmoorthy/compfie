@@ -70,6 +70,22 @@ select:focus {
 }
 
 @media (max-width:991px) {
+    .alpha-new {
+        display: none !important;
+    }
+    .act-mbl-view {
+        display: block !important;
+        font-size: 1.2em;
+        color: #5B3D71;
+        margin-top: 9px;
+        margin-left: 10px;
+        font-weight: block;
+        font-family: 'Poppins', sans-serif;
+        /* text-align: center; */
+    }
+    .content {
+        font-size: 12px !important;
+    }
     .main-content2 {
         max-height: calc(100vh - 145px) !important;
         overflow-y: auto;
@@ -209,4 +225,8 @@ ul .content a {
 
 .mw-300 {
     min-width: 300px;
+}
+
+.act-mbl-view {
+    display: none;
 }
