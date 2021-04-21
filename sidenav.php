@@ -122,6 +122,17 @@
             $(this).addClass("active");
         });
 
+        function scrollToAnyPoint(navItem) {
+            var getAttr;
+            $('.alphabet-bgcolor').click(function(e) {
+                e.preventDefault();
+                getAttr = $(this).attr('href');
+                var toSection = $(getAttr).offset().top - 1000;
+                $("html, body").animate({
+                    scrollTop: toSection
+                }, 1000)
+            });
+        }
     });
     </script>
 </head>
@@ -164,7 +175,7 @@
                                     <img src="package/justice-scale.png" height="20px" class="mt-2 px-2 complaince" />
                                     <a data-toggle="collapse" class="mt-2 text-white menu law_toggle" aria-hidden="true"
                                         data-parent="#accordion1" href="#complaint_law">Compfie
-                                        Feature <i class="fa fa-fw fa-angle-down"></i>
+                                        Features <i class="fa fa-fw fa-angle-down"></i>
                                     </a>
 
                                     <ul id="complaint_law" class="collapse list px-3 px-md-4">

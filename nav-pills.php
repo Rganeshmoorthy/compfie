@@ -49,13 +49,13 @@
                 <li class="px-2 px-sm-0 px-md-2 nav-li"><a href="domain-page2.php" class="px-3">Fiscal,Corporate &
                         Commercial</a>
                 </li>
-                <li class="px-2 px-sm-0 px-md-2 nav-li"><a href="domain-page3.php" class="px-3">Labour,Employment &
+                <li class="px-2 px-sm-0 px-md-2 nav-li"><a href="#" class="px-3">Labour,Employment &
                         Industrial</a>
                 </li>
-                <li class="px-2 px-sm-0 px-md-2 nav-li"><a href="domain-page4.php" class="px-3">Environmental,Health
+                <li class="px-2 px-sm-0 px-md-2 nav-li"><a href="#" class="px-3">Environmental,Health
                         & Safety</a>
                 </li>
-                <li class="px-2 px-sm-0 px-md-2 nav-li"><a href="domain-page5.php" class="px-3">Fiscal,Corporate &
+                <li class="px-2 px-sm-0 px-md-2 nav-li"><a href="#" class="px-3">Fiscal,Corporate &
                         Commercial</a>
                 </li>
             </ul>

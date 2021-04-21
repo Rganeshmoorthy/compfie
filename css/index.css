@@ -21,7 +21,8 @@
 
 .content {
     font-weight: 300;
-    font-size: 12px;
+    font-size: 15px;
+    /*changes*/
     color: #717080;
     font-family: 'Poppins', sans-serif;
 }
