@@ -87,7 +87,7 @@ $(document).ready(function() {
                                     Mr.SA Bobde,j</td>
                                 <td>Supreme Court</td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
-                                        data-toggle="modal" data-target="#case">View
+                                        data-toggle="modal" data-target="#case2">View
                                         more</button>
                                 </td>
                             </tr>
@@ -102,7 +102,7 @@ $(document).ready(function() {
                                     M.S. Rajendra Prasad, J</td>
                                 <td>Karnataka High Court</td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
-                                        data-toggle="modal" data-target="#case">View
+                                        data-toggle="modal" data-target="#case3">View
                                         more</button>
                                 </td>
                             </tr>
@@ -146,6 +146,144 @@ $(document).ready(function() {
                             </div>
                             <div class="">
                                 <p class="mod-para">K.Suguna</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="bold_font text-center">Case Description</h4>
+                    <h6 class="">The short facts are:</h6>
+                    <h6 class="mb-3">
+                        In the year 1993, the second respondent joined the service of the petitioner management.
+                        With
+                        regard to certain lapses, a showcause notice, dated 12 September 2000, was issued to the
+                        second
+                        respondent. Not satisfied with the reply submitted by him, a
+                        domestic enquiry was ordered and by letter dated 29 December 2000, the second respondent was
+                        advised to be present at the
+                        time of enquiry scheduled on 6 January 2001. After providing more than one opportunity to
+                        the
+                        workman, since the second
+                        respondent workman did not attend the enquiry, the petitioner management was forced to
+                        conduct
+                        an ex parte enquiry and
+                        basing on the evidence let in before the enquiry officer and the documents marked, the
+                        enquiry
+                        officer submitted a report
+                        holding that the second respondent is guilty of the misconduct alleged against him. Again, a
+                        show-cause notice, dated 27
+                        February 2001, was issued, to the second respondent seeking his explanation and after
+                        receiving
+                        reply from the second
+                        respondent, the petitioner management passed an order, dated 23 March 2001, dismissing the
+                        second respondent from service.
+                        After this, since the conciliation proceedings did not yield any result, the second
+                        respondent/
+                        workman raised a dispute in ID. .</h6>
+                    <button type="button" class="close position-absolute t-0 r-0 p-3 outline-0" data-dismiss="modal"
+                        aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="case2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body p-md-5">
+                    <h4 class="bold_font text-center">Case Title : Domestic Enquiry</h4>
+                    <div class="d-flex justify-content-center py-3">
+                        <div class="px-1 px-md-5">
+                            <div class="">
+                                <h6 class="bold_font text-center" >Judgement By</h6>
+                            </div>
+                            <div class="">
+                                <p class="mod-para">Multi Judge</p>
+                            </div>
+                        </div>
+                         <div class="px-1 px-md-5">
+                            <div class="">
+                                <h6 class="bold_font text-center">Judgement Date</h6>
+                            </div>
+                            <div class="">
+                                <p class="mod-para">2/28/2017</p>
+                            </div>
+                        </div>
+                         <div class="px-1 px-md-5">
+                            <div class="">
+                                <h6 class="bold_font text-center">Judge</h6>
+                            </div>
+                            <div class="">
+                                <p class="mod-para">Mr. L. Nageswara rao</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="bold_font text-center">Case Description</h4>
+                    <h6 class="">The short facts are:</h6>
+                    <h6 class="mb-3">
+                        In the year 1993, the second respondent joined the service of the petitioner management.
+                        With
+                        regard to certain lapses, a showcause notice, dated 12 September 2000, was issued to the
+                        second
+                        respondent. Not satisfied with the reply submitted by him, a
+                        domestic enquiry was ordered and by letter dated 29 December 2000, the second respondent was
+                        advised to be present at the
+                        time of enquiry scheduled on 6 January 2001. After providing more than one opportunity to
+                        the
+                        workman, since the second
+                        respondent workman did not attend the enquiry, the petitioner management was forced to
+                        conduct
+                        an ex parte enquiry and
+                        basing on the evidence let in before the enquiry officer and the documents marked, the
+                        enquiry
+                        officer submitted a report
+                        holding that the second respondent is guilty of the misconduct alleged against him. Again, a
+                        show-cause notice, dated 27
+                        February 2001, was issued, to the second respondent seeking his explanation and after
+                        receiving
+                        reply from the second
+                        respondent, the petitioner management passed an order, dated 23 March 2001, dismissing the
+                        second respondent from service.
+                        After this, since the conciliation proceedings did not yield any result, the second
+                        respondent/
+                        workman raised a dispute in ID. .</h6>
+                    <button type="button" class="close position-absolute t-0 r-0 p-3 outline-0" data-dismiss="modal"
+                        aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="modal fade" id="case3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body p-md-5">
+                    <h4 class="bold_font text-center">Case Title : Domestic Enquiry</h4>
+                    <div class="d-flex justify-content-center py-3">
+                        <div class="px-1 px-md-5">
+                            <div class="">
+                                <h6 class="bold_font text-center" >Judgement By</h6>
+                            </div>
+                            <div class="">
+                                <p class="mod-para">Multi Judge</p>
+                            </div>
+                        </div>
+                         <div class="px-1 px-md-5">
+                            <div class="">
+                                <h6 class="bold_font text-center">Judgement Date</h6>
+                            </div>
+                            <div class="">
+                                <p class="mod-para">4/18/2002</p>
+                            </div>
+                        </div>
+                         <div class="px-1 px-md-5">
+                            <div class="">
+                                <h6 class="bold_font text-center">Judge</h6>
+                            </div>
+                            <div class="">
+                                <p class="mod-para">R.V. Raveendran</p>
                             </div>
                         </div>
                     </div>
