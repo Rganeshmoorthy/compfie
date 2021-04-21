@@ -53,7 +53,7 @@
                     $(this).find('i').addClass('fa-angle-down').removeClass('fa-angle-up');
                 }
             }, 400);
-        });      
+        });
         var path = window.location.pathname;
         var url = path.substring(path.lastIndexOf('/') + 1)
         // console.log(url);
@@ -91,35 +91,36 @@
             $('.complaint_toggle').next().removeClass("show");
         }
 
-         $('.bg-red').on('click', function() {
-        $(".title, .content, .heading, .moreless-button").css("color", "#5B3D71");
-        $(".sidenav, .foot_class, .circle-bg").css("background-color", "#5B3D71");
-         });
+        $('.bg-red').on('click', function() {
+            $(".title, .content, .heading, .moreless-button").css("color", "#5B3D71");
+            $(".sidenav, .foot_class, .circle-bg").css("background-color", "#5B3D71");
+        });
 
-                  $('.bg-brown').on('click', function() {
-        $(".title, .content, .heading, .moreless-button").css("color", "#5866B0");
-        $(".sidenav, .foot_class,.circle-bg").css("background-color", "#5866B0");
-         });
+        $('.bg-brown').on('click', function() {
+            $(".title, .content, .heading, .moreless-button").css("color", "#5866B0");
+            $(".sidenav, .foot_class,.circle-bg").css("background-color", "#5866B0");
+        });
 
-                  $('.bg-green').on('click', function() {
-        $(".title, .content, .heading, .moreless-button").css("color", "#697CE0");
-        $(".sidenav, .foot_class,.circle-bg").css("background-color", "#697CE0");
-         });
+        $('.bg-green').on('click', function() {
+            $(".title, .content, .heading, .moreless-button").css("color", "#697CE0");
+            $(".sidenav, .foot_class,.circle-bg").css("background-color", "#697CE0");
+        });
 
-          if(url =='domain-page1.php' || url =='domain-page2.php' )
-       {
-          $(".key-none").addClass("display-none");
-          $(".opinion-none").addClass("display-none");
-       }
-       else{
-           $(".key-none").removeClass("display-none");
-          $(".opinion-none").removeClass("display-none");
-       }
-       /*active to state acts*/
-    //    $(".state-btn").click(function(){
-    //       $(".state-btn").addClass("active");
-    //       $(".state-btn").removeClass("active");
-    //    });
+        if (url == 'domain-page1.php' || url == 'domain-page2.php') {
+            $(".key-none").addClass("display-none");
+            $(".opinion-none").addClass("display-none");
+        } else {
+            $(".key-none").removeClass("display-none");
+            $(".opinion-none").removeClass("display-none");
+        }
+        $(".state-btn").click(function() {
+            $(".state-btn.active").removeClass("active");
+            $(this).addClass("active");
+        });
+        $(".alphabet-bgcolor").click(function() {
+            $(".alphabet-bgcolor.active").removeClass("active");
+            $(this).addClass("active");
+        });
 
     });
     </script>
@@ -222,7 +223,8 @@
                                         </div>
                                         <ul id="key_complaint" class="collapse list3 p-0">
                                             <li class="mt-3 ml-2 pb-1 ml-md-3">
-                                                <a href="key_complaint.php" class="text-white px-0 pb-1 px-md-1">Professional
+                                                <a href="key_complaint.php"
+                                                    class="text-white px-0 pb-1 px-md-1">Professional
                                                     Tax </a>
                                             </li>
                                             <li class="mt-3 ml-2 ml-md-3">
@@ -290,11 +292,11 @@
             </div>
         </div>
         <div class="col-12  text-white mx-auto foot_class">
-              <div class="col-12 py-3 d-flex justify-content-center circle-bg">
+            <div class="col-12 py-3 d-flex justify-content-center circle-bg">
                 <div class="circle bg-red mx-2"></div>
                 <div class="circle bg-brown mx-2"></div>
                 <div class="circle bg-green mx-2"></div>
-                </div>
+            </div>
             <p>sample@gmail.com</p>
             <button class="btn btn-lg  bg-white rounded-pill btn_topic">Log Out</button>
         </div>

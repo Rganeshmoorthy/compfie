@@ -175,6 +175,10 @@ ul .content a {
     padding-right: 25px !important;
 }
 
+.selectize-input>input[placeholder] {
+    width: 93px !important;
+}
+
 
 /* .selectize-control.single .selectize-input:after {
     display: none !important;
@@ -184,4 +188,17 @@ ul .content a {
     .main-mblview .main-content2 {
         max-height: unset !important;
     }
+}
+
+
+/* scroll active add color */
+
+.state-btn.active {
+    color: White;
+    background-color: #5B3D71;
+}
+
+.alphabet-bgcolor.active {
+    color: White !important;
+    background-color: #5B3D71;
 }

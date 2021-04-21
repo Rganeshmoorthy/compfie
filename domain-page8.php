@@ -30,6 +30,10 @@ $(function() {
     $('#select-name4').selectize({
         // plugins: ['remove_button']
     });
+    $("#select-name")[0].selectize.clear();
+    $("#select-name2")[0].selectize.clear();
+    $("#select-name3")[0].selectize.clear();
+    $("#select-name4")[0].selectize.clear();
 });
 
 function validateForm() {
@@ -68,7 +72,7 @@ function validateForm() {
                         <div class="px-2 px-md-3 mb-2 selectize-new">
                             <select class="box-size" id="select-name" placeholder="Central Acts">
                                 <option value=" " >Central Acts</option>
-                                <option value="34">Trade Marks Act, 1999</option>
+                                <option value="0">Trade Marks Act, 1999</option>
                                 <option value="33">Tea Act, 1954</option>
                                 <option value="32">Jute Packaging Materials (compulsory use in packing Commodities) act,
                                     1987</option>

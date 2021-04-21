@@ -5,18 +5,19 @@
 <head>
     <script>
     jQuery(document).ready(function() {
-        jQuery('.scrollbarnew').scrollbar();
-    });     
-      function validateForm() {
-  var x = document.forms["myForm"]["act-search"].value;
-  if (x == "") {
-    alert("Search box cannot be empty");
-    return false;
-  }
-} 
+        jQuery('.scrollbarnew').scrollbar();      
+    });
+
+    function validateForm() {
+        var x = document.forms["myForm"]["act-search"].value;
+        if (x == "") {
+            alert("Search box cannot be empty");
+            return false;
+        }
+    }
     </script>
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/domain-page4.css">   
+    <link rel="stylesheet" href="css/domain-page4.css">
 </head>
 
 <body>
@@ -97,12 +98,12 @@
                 <!-- search-->
                 <div class="col-12 d-flex py-2">
                     <div class="search-new px-2 col-12 md-col-6 ml-auto">
-                     <form name="myForm" class="mb-0" action="stateact.php" onsubmit="return validateForm()">
-                        <input type="text" placeholder="search Acts" id="search" name="act-search"
-                            class="border-0 w-100 pr-4 search-input" required>
-                       <button type="submit" class="border-0 bg-transparent search-btn"><i
+                        <form name="myForm" class="mb-0" action="stateact.php" onsubmit="return validateForm()">
+                            <input type="text" placeholder="search Acts" id="search" name="act-search"
+                                class="border-0 w-100 pr-4 search-input" required>
+                            <button type="submit" class="border-0 bg-transparent search-btn"><i
                                     class="fa fa-search"></i></button>
-                          </form>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -113,7 +114,7 @@
                             <div class="d-flex border alpha-border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Andaman and
+                                    <h1> Andaman and
                                         Nicobar</h1>
                                 </div>
                                 <div>
@@ -130,7 +131,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Andra Pradesh</h1>
+                                    <h1> Andra Pradesh</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -146,7 +147,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Arunachal Pradesh</h1>
+                                    <h1> Arunachal Pradesh</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -191,7 +192,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Bihar</h1>
+                                    <h1> Bihar</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -260,7 +261,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Gujarat</h1>
+                                    <h1> Gujarat</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -281,7 +282,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Haryana </h1>
+                                    <h1> Haryana </h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -302,7 +303,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Himachal Pradesh</h1>
+                                    <h1> Himachal Pradesh</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -323,7 +324,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Jharkhand</h1>
+                                    <h1> Jharkhand</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -344,7 +345,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Karnataka</h1>
+                                    <h1> Karnataka</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -365,7 +366,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Kerala</h1>
+                                    <h1> Kerala</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -386,7 +387,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Madhya Pradesh</h1>
+                                    <h1> Madhya Pradesh</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -408,7 +409,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Maharastra</h1>
+                                    <h1> Maharastra</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -429,7 +430,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Manipur</h1>
+                                    <h1> Manipur</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -450,7 +451,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Meghalaya</h1>
+                                    <h1> Meghalaya</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -471,7 +472,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Mizoram</h1>
+                                    <h1> Mizoram</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -492,7 +493,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Nagaland</h1>
+                                    <h1> Nagaland</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -513,7 +514,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Odisha</h1>
+                                    <h1> Odisha</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -534,7 +535,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Puducherry</h1>
+                                    <h1> Puducherry</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -555,7 +556,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Punjab</h1>
+                                    <h1> Punjab</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -576,7 +577,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Rajasthan</h1>
+                                    <h1> Rajasthan</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -597,7 +598,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Sikkim</h1>
+                                    <h1> Sikkim</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -618,7 +619,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Tamil Nadu</h1>
+                                    <h1> Tamil Nadu</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -639,7 +640,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Telangana</h1>
+                                    <h1> Telangana</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -660,7 +661,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Tripura</h1>
+                                    <h1> Tripura</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -681,7 +682,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > UT of Lakshadweep</h1>
+                                    <h1> UT of Lakshadweep</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -702,7 +703,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Uttrakhand</h1>
+                                    <h1> Uttrakhand</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -723,7 +724,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > Uttra Pradesh</h1>
+                                    <h1> Uttra Pradesh</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
@@ -744,7 +745,7 @@
                             <div class="d-flex border">
                                 <div
                                     class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
-                                    <h1 > West Bengal</h1>
+                                    <h1> West Bengal</h1>
                                 </div>
                                 <div>
                                     <ol type="1" class="p-1 px-4 ol-content">
