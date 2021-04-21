@@ -77,6 +77,9 @@ select:focus {
         max-height: calc(100vh - 236px);
         overflow-y: auto;
     }
+    .box-size {
+        min-width: 150px !important;
+    }
 }
 
 .zoom {
@@ -118,7 +121,7 @@ select:focus {
 }
 
 .box-size {
-    min-width: 150px;
+    min-width: 300px;
 }
 
 .selectize-input>* {
@@ -201,4 +204,8 @@ ul .content a {
 .alphabet-bgcolor.active {
     color: White !important;
     background-color: #5B3D71;
+}
+
+.mw-300 {
+    min-width: 300px;
 }

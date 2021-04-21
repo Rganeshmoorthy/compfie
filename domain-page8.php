@@ -43,6 +43,14 @@ function validateForm() {
         return false;
     }
 }
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
 </script>
 
 <body>
@@ -266,13 +274,11 @@ function validateForm() {
                     </div>
 
                     <div class="px-2 mt-2 mt-md-2 mt-xl-0 px-md-3 mb-2">
-                        <div class="search-act col-12 md-col-6 p-1">
-                            <form name="myForm" class="mb-0" action="notification-search.php" onsubmit="return validateForm()">
-                                <input type="text" placeholder="Workshop" name="notify"
-                                    class="border-0 w-100 pr-4 search-input pl-2" required>
+                        <div class="search-act col-12 md-col-6 p-1 mw-300">                           
+                                <input type="text" placeholder="Search..." name="notify"
+                                    class="border-0 w-100 pr-4 search-input pl-2" id="myInput" required>
                                 <button type="submit" class="border-0 bg-transparent search-btn"><i
-                                        class="fa fa-search"></i></button>
-                            </form>
+                                        class="fa fa-search"></i></button>                            
                         </div>
                     </div>
                 </div>
@@ -289,7 +295,7 @@ function validateForm() {
                                 <th scope="col" class=""></th>
                             </tr>
                         </thead>
-                        <tbody class="table-content" id="notification">
+                        <tbody class="table-content" id="myTable">
                             <tr>
                                 <th scope="row">03 Feb 2021</th>
                                 <td>TRIPURA GOVERNMENT OMITS THE APPLICATION OF SECTION 17 OF THE BOILERS ACT, 1923</td>
