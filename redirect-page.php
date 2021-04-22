@@ -43,7 +43,7 @@ $(document).ready(function(){
             </div>
 
             <div class="table_scroll_redirect scrollbarnew col-12">
-                <div class="col-12 py-2 px-5">
+                <div class="col-12 py-2 px-md-5"> 
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">
                             <tr>

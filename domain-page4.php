@@ -26,89 +26,92 @@
         <!-- center content starts -->
         <div class="row  px-2 px-md-5 py-2 py-md-3">
             <!-- heading -->
-            <div clas="">
-            <div class="col-12 heading pl-0 px-5">
-                Labour,Employment & Industrial - State Acts
-            </div>
-            <!-- buttons-->
-            <div class="col-12 py-2">
-                <div class="d-flex row m-0 state-btns">
-                    <a href="#a" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Andaman and
-                            Nicobar</button></a>
-                    <a href="#b" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Andra Pradesh
-                        </button></a>
-                    <a href="#c" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Arunachal
-                            Pradesh
-                        </button></a>
-                    <a href="#d" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Assam</button></a>
-                    <a href="#e" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Bihar</button></a>
-                    <a href="#f" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Chhatisgar</button></a>
-                    <a href="#g" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Goa</button></a>
-                    <a href="#h" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Gujarat</button></a>
-                    <a href="#i" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Haryana</button></a>
-                    <a href="#j" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Himachal
-                            Pradesh</button></a>
-                    <a href="#k" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Jharkhand</button></a>
-                    <a href="#l" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Karnataka</button></a>
-                    <a href="#m" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Kerala</button></a>
-                    <a href="#n" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Madhya
-                            Pradesh</button></a>
-                    <a href="#o" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Maharastra
-                        </button></a>
-                    <a href="#p" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Manipur</button></a>
-                    <a href="#q" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Meghalaya</button></a>
-                    <a href="#r" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Mizoram</button></a>
-                    <a href="#s" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Nagaland</button></a>
-                    <a href="#t" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Odisha</button></a>
-                    <a href="#u" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Puducherry</button></a>
-                    <a href="#v" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Punjab</button></a>
-                    <a href="#w" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Rajasthan</button></a>
-                    <a href="#x" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Sikkim</button></a>
-                    <a href="#y" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Tamil
-                            Nadu</button></a>
-                    <a href="#z" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Telangana</button></a>
-                    <a href="#tripura" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Tripura</button></a>
-                    <a href="#ut" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">UT of
-                            Lakshadweep</button></a>
-                    <a href="#uttrakand" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Uttrakhand</button></a>
-                    <a href="#uttrapradesh" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Uttra
-                            Pradesh</button></a>
-                    <a href="#west" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">West
-                            Bengal</button></a>
+            
+                <div class="col-12 heading pl-0 px-5">
+                    Labour,Employment & Industrial - State Acts
                 </div>
-                <!-- search-->
-                <div class="col-12 d-flex py-2">
-                    <div class="search-new px-2 col-12 md-col-6 ml-auto">
-                        <form name="myForm" class="mb-0" action="stateact.php" onsubmit="return validateForm()">
-                            <input type="text" placeholder="search Acts" id="search" name="act-search"
-                                class="border-0 w-100 pr-4 search-input" required>
-                            <button type="submit" class="border-0 bg-transparent search-btn"><i
-                                    class="fa fa-search"></i></button>
-                        </form>
+                <!-- buttons-->
+                <div class="col-12 py-2">
+                    <div class="d-flex row m-0 state-btns">
+                        <a href="#a" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Andaman and
+                                Nicobar</button></a>
+                        <a href="#b" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Andra
+                                Pradesh
+                            </button></a>
+                        <a href="#c" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Arunachal
+                                Pradesh
+                            </button></a>
+                        <a href="#d" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Assam</button></a>
+                        <a href="#e" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Bihar</button></a>
+                        <a href="#f" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Chhatisgar</button></a>
+                        <a href="#g" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Goa</button></a>
+                        <a href="#h" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Gujarat</button></a>
+                        <a href="#i" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Haryana</button></a>
+                        <a href="#j" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Himachal
+                                Pradesh</button></a>
+                        <a href="#k" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Jharkhand</button></a>
+                        <a href="#l" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Karnataka</button></a>
+                        <a href="#m" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Kerala</button></a>
+                        <a href="#n" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Madhya
+                                Pradesh</button></a>
+                        <a href="#o" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Maharastra
+                            </button></a>
+                        <a href="#p" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Manipur</button></a>
+                        <a href="#q" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Meghalaya</button></a>
+                        <a href="#r" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Mizoram</button></a>
+                        <a href="#s" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Nagaland</button></a>
+                        <a href="#t" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Odisha</button></a>
+                        <a href="#u" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Puducherry</button></a>
+                        <a href="#v" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Punjab</button></a>
+                        <a href="#w" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Rajasthan</button></a>
+                        <a href="#x" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Sikkim</button></a>
+                        <a href="#y" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Tamil
+                                Nadu</button></a>
+                        <a href="#z" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Telangana</button></a>
+                        <a href="#tripura" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Tripura</button></a>
+                        <a href="#ut" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">UT of
+                                Lakshadweep</button></a>
+                        <a href="#uttrakand" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Uttrakhand</button></a>
+                        <a href="#uttrapradesh" class="border-1"><button type="button"
+                                class="btn state-btn mx-1 my-1">Uttra
+                                Pradesh</button></a>
+                        <a href="#west" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">West
+                                Bengal</button></a>
+                    </div>
+                    <!-- search-->
+                    <div class="col-12 d-flex py-2">
+                        <div class="search-new px-2 col-12 md-col-6 ml-auto">
+                            <form name="myForm" class="mb-0" action="stateact.php" onsubmit="return validateForm()">
+                                <input type="text" placeholder="search Acts" id="search" name="act-search"
+                                    class="border-0 w-100 pr-4 search-input" required>
+                                <button type="submit" class="border-0 bg-transparent search-btn"><i
+                                        class="fa fa-search"></i></button>
+                            </form>
+                        </div>
                     </div>
                 </div>
-            </div>
-            </div>
+            
             <div class="col-12 py-1">
                 <div class="col-12 mt-0 mt-md-3 px-3 aphabet-scroll-state scrollbarnew">
                     <div class="row">
@@ -120,9 +123,10 @@
                                         Nicobar</h1>
                                 </div>
                                 <div>
-                                <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Andaman and                                    
-                                        Nicobar</h1></div>
+                                    <div class="d-flex">
+                                        <h1 class="act-mbl-view mx-auto">Andaman and
+                                            Nicobar</h1>
+                                    </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Andaman &
                                                 Nicobar Island Shop & Establishment Regulation, 2004
@@ -140,7 +144,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Andra Pradesh</h1>
+                                        <h1 class="act-mbl-view mx-auto">Andra Pradesh</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Boilers Act,
@@ -153,7 +157,7 @@
 
                                 </div>
                             </div>
-                        </div>                       
+                        </div>
                         <div class="col-12 mt-3 w-100" id="c">
                             <div class="d-flex border">
                                 <div
@@ -162,7 +166,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Arunachal Pradesh</h1>
+                                        <h1 class="act-mbl-view mx-auto">Arunachal Pradesh</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Central
@@ -190,7 +194,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Assam</h1>
+                                        <h1 class="act-mbl-view mx-auto">Assam</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php">
@@ -213,7 +217,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Bihar</h1>
+                                        <h1 class="act-mbl-view mx-auto">Bihar</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php">
@@ -243,7 +247,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Chhatisgar</h1>
+                                        <h1 class="act-mbl-view mx-auto">Chhatisgar</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -267,7 +271,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Goa</h1>
+                                        <h1 class="act-mbl-view mx-auto">Goa</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -291,7 +295,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Gujarat</h1>
+                                        <h1 class="act-mbl-view mx-auto">Gujarat</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -315,7 +319,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Haryana </h1>
+                                        <h1 class="act-mbl-view mx-auto">Haryana </h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -339,7 +343,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Himachal Pradesh</h1>
+                                        <h1 class="act-mbl-view mx-auto">Himachal Pradesh</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -363,7 +367,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto"> Jharkhand</h1>
+                                        <h1 class="act-mbl-view mx-auto"> Jharkhand</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -387,7 +391,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Karnataka</h1>
+                                        <h1 class="act-mbl-view mx-auto">Karnataka</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -411,7 +415,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto"> Kerala</h1>
+                                        <h1 class="act-mbl-view mx-auto"> Kerala</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -435,7 +439,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Madhya Pradesh</h1>
+                                        <h1 class="act-mbl-view mx-auto">Madhya Pradesh</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -460,7 +464,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto"> Maharastra</h1>
+                                        <h1 class="act-mbl-view mx-auto"> Maharastra</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -484,7 +488,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto"> Manipur</h1>
+                                        <h1 class="act-mbl-view mx-auto"> Manipur</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -508,7 +512,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto"> Meghalaya</h1>
+                                        <h1 class="act-mbl-view mx-auto"> Meghalaya</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -532,7 +536,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Mizoram</h1>
+                                        <h1 class="act-mbl-view mx-auto">Mizoram</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -556,7 +560,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Nagaland</h1>
+                                        <h1 class="act-mbl-view mx-auto">Nagaland</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -580,7 +584,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Odisha</h1>
+                                        <h1 class="act-mbl-view mx-auto">Odisha</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -604,7 +608,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Puducherry</h1>
+                                        <h1 class="act-mbl-view mx-auto">Puducherry</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -628,7 +632,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Punjab</h1>
+                                        <h1 class="act-mbl-view mx-auto">Punjab</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -652,7 +656,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Rajasthan</h1>
+                                        <h1 class="act-mbl-view mx-auto">Rajasthan</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -676,7 +680,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Sikkim</h1>
+                                        <h1 class="act-mbl-view mx-auto">Sikkim</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -700,7 +704,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto"> Tamil Nadu</h1>
+                                        <h1 class="act-mbl-view mx-auto"> Tamil Nadu</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -724,7 +728,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto"> Telangana</h1>
+                                        <h1 class="act-mbl-view mx-auto"> Telangana</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -748,7 +752,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Tripura</h1>
+                                        <h1 class="act-mbl-view mx-auto">Tripura</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -772,7 +776,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">UT of Lakshadweep</h1>
+                                        <h1 class="act-mbl-view mx-auto">UT of Lakshadweep</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -796,7 +800,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto"> Uttrakhand</h1>
+                                        <h1 class="act-mbl-view mx-auto"> Uttrakhand</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -820,7 +824,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Uttra Pradesh</h1>
+                                        <h1 class="act-mbl-view mx-auto">Uttra Pradesh</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
@@ -844,7 +848,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">West Bengal</h1>
+                                        <h1 class="act-mbl-view mx-auto">West Bengal</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And

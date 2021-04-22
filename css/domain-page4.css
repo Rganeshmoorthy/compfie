@@ -160,8 +160,11 @@ span.select2-selection.select2-selection--single {
     .state-btns {
         display: flex !important;
         flex-wrap: initial;
-        max-width: 334px;
+        max-width: 900px;
         overflow-x: scroll;
+    }
+    .search-new {
+        margin-left: unset !important;
     }
 }
 
