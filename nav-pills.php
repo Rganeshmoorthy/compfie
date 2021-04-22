@@ -6,31 +6,63 @@
     jQuery(document).ready(function() {
         jQuery('.scrollbarnew').scrollbar();
 
-        $('#slide').hover(function() {
-            console.log('gakbjdl')
-            var container = document.getElementById('container');
-            sideScroll(container, 'right', 25, 900, 10);
-        });
+        //     $('#slide').hover(function() {
+        //         console.log('gakbjdl')
+        //         var container = document.getElementById('container');
+        //         sideScroll(container, 'right', 25, 900, 10);
+        //     });
 
-        $('#slideBack').hover(function() {
-            var container = document.getElementById('container');
-            sideScroll(container, 'left', 25, 900, 10);
-        });
+        //     $('#slideBack').hover(function() {
+        //         var container = document.getElementById('container');
+        //         sideScroll(container, 'left', 25, 900, 10);
+        //     });
 
-        function sideScroll(element, direction, speed, distance, step) {
-            scrollAmount = 0;
-            var slideTimer = setInterval(function() {
-                if (direction == 'left') {
-                    element.scrollLeft -= step;
-                } else {
-                    element.scrollLeft += step;
+        //     function sideScroll(element, direction, speed, distance, step) {
+        //         scrollAmount = 0;
+        //         var slideTimer = setInterval(function() {
+        //             if (direction == 'left') {
+        //                 element.scrollLeft -= step;
+        //             } else {
+        //                 element.scrollLeft += step;
+        //             }
+        //             scrollAmount += step;
+        //             if (scrollAmount >= distance) {
+        //                 window.clearInterval(slideTimer);
+        //             }
+        //         }, speed);
+        //     }
+
+
+        /*try using another horizontal scroll*/
+        (function($) {
+            $(".new-nav").on('scroll', function() {
+                $val = $(this).scrollLeft();
+
+                if ($(this).scrollLeft() + $(this).innerWidth() >= $(this)[0].scrollWidth) {
+                    $(".nav-next").show();
                 }
-                scrollAmount += step;
-                if (scrollAmount >= distance) {
-                    window.clearInterval(slideTimer);
+
+                if ($val == 0) {
+                    $(".nav-prev").show();
                 }
-            }, speed);
-        }
+            });
+            console.log('init-scroll: ' + $(".nav-next").scrollLeft());
+             $('.nav-next').hover(function(){
+                $(".new-nav").animate({
+                    scrollLeft: '+=610'
+                }, 500);
+
+            });
+            $(".nav-prev").hover(function() {
+                $(".new-nav").animate({
+                    scrollLeft: '-=610'
+                }, 500);
+            });
+
+
+
+        })(jQuery);
+
     });
     </script>
 
@@ -59,9 +91,10 @@
                         Commercial</a>
                 </li>
             </ul>
-        </div>        
-        <button id="slideBack" type="button"><i class="fa fa-arrow-left color" aria-hidden="true"></i></button>         
-        <button id="slide" type="button"><i class="fa fa-arrow-right color" aria-hidden="true"></i></button>        
+        </div>
+        <button id="slideBack" type="button"><i class="fa fa-arrow-left color nav-prev" aria-hidden="true"></i></button>
+        $(".new-nav").hide();
+        <button id="slide" type="button"><i class="fa fa-arrow-right color nav-next" aria-hidden="true"></i></button>
     </div>
 </body>
 
