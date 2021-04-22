@@ -285,7 +285,7 @@
                                         data-parent="#accordion1" href="#ourservice">Our Services <i
                                             class="fa fa-fw fa-angle-down"></i> </a>
 
-                                    <ul id="ourservice" class="collapse list px-3 px-md-4">
+                                    <ul id="ourservice" class="collapse list px-3">
 
                                         <li class="mt-3"> <a href="https://www.aparajitha.com/"
                                                 class="text-white px-0 pb-1 px-md-1">Full-Assurance Compliance</a>
