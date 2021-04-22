@@ -189,7 +189,7 @@ a {
 }
 
 .sidenav-body {
-    max-height: calc(100vh - 330px) !important;
+    max-height: calc(100vh - 380px) !important;
     overflow-y: auto;
 }
 
@@ -288,7 +288,7 @@ a {
 }
 
 .list {
-    font-size: 15px;
+    font-size: 14px;
     margin-left: 1px;
 }
 
