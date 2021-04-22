@@ -16,6 +16,12 @@
   }
 }
 </script>
+<style>
+/* .header-search
+{
+    font-size:150px;
+} */
+</style>
 <body>
     <div class="row my-2 my-md-4 ">
         <div class=" col-sm-12 col-md-2 mx-5 mx-md-4 px-5">
@@ -23,8 +29,8 @@
         </div>
 
         <div class="col-sm-12  col-md-7 mx-4 mx-md-4 my-3 my-md-0 search w-100">
-            <form name="myForm" class="mb-0" action="search-result.php" onsubmit="return validateForm()">
-            <input type="text" name="header-search" class="border-0 text w-100 pr-4" placeholder="Search Compfie Law" required>
+            <form name="myForm" class="mb-0 head-search" action="search-result.php" onsubmit="return validateForm()">
+            <input type="text" name="header-search" class="border-0 text w-100 pr-4 header-search" placeholder="Search Compfie Law" required>
             <button type="submit" class="border-0 bg-transparent search_button"><i class="fa fa-search"></i></button>
             </form>
         </div>

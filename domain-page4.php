@@ -35,7 +35,7 @@
         <div class="row  px-2 px-md-5 py-2 py-md-3">
             <!-- heading -->
             
-                <div class="col-12 heading pl-0 px-5">
+                <div class="col-12 heading pl-0 px-4 px-md-5">
                     Labour,Employment & Industrial - State Acts
                 </div>
                 <!-- buttons-->

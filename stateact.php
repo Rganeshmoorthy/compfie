@@ -11,7 +11,7 @@
     <div class="main-content">
         <!-- center content starts -->
 
-        <div class="row px-5  main-content2">
+        <div class="row px-4 px-md-5  main-content2">
             <div class="heading col-12 pb-4 d-flex justify-content-center">
                 Labour, Employment & Industrial - State Acts
             </div>
