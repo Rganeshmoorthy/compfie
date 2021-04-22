@@ -58,9 +58,6 @@
                     scrollLeft: '-=610'
                 }, 500);
             });
-
-
-
         })(jQuery);
 
     });
@@ -92,8 +89,7 @@
                 </li>
             </ul>
         </div>
-        <button id="slideBack" type="button"><i class="fa fa-arrow-left color nav-prev" aria-hidden="true"></i></button>
-        $(".new-nav").hide();
+        <button id="slideBack" type="button"><i class="fa fa-arrow-left color nav-prev" aria-hidden="true"></i></button>        
         <button id="slide" type="button"><i class="fa fa-arrow-right color nav-next" aria-hidden="true"></i></button>
     </div>
 </body>
