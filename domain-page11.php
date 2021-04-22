@@ -31,22 +31,24 @@ jQuery(document).ready(function() {
             </div>
             <div class="col-12 mt-0 mt-md-3 px-3 aphabet-scroll scrollbarnew">
                 <div class="row">
-                    <div class="col-12" id="a"  >
-                       <div class="d-flex border alpha-border">
+                    <div class="col-12" id="a">
+                        <div class="d-flex border alpha-border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > A</h1>
+                                <h1> A</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> 
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">
 
-                                     Air (Prevention and Control of Pollution) Madhya Pradesh Rules, 1983
+                                            Air (Prevention and Control of Pollution) Madhya Pradesh Rules, 1983
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Air (Prevention and Control of Pollution) Rules, 1982
-                                     </a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Air (Prevention and Control of Pollution) (Union Territories) Rules, 1983
-                                     </a></li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Air (Prevention and
+                                            Control of Pollution) Rules, 1982
+                                        </a> </li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Air (Prevention and
+                                            Control of Pollution) (Union Territories) Rules, 1983
+                                        </a></li>
 
                                 </ol>
                             </div>
@@ -57,13 +59,15 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > B</h1>
+                                <h1> B</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Batteries (Management and Handling) Rules, 2001
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Batteries
+                                            (Management and Handling) Rules, 2001
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Bio-Medical Waste Management & handling Rules, 2016</a> </li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Bio-Medical Waste
+                                            Management & handling Rules, 2016</a> </li>
                                 </ol>
 
                             </div>
@@ -73,17 +77,23 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > C</h1>
+                                <h1> C</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Central Industrial Security Force Rules, 2001
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Central Industrial
+                                            Security Force Rules, 2001
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Clean Energy Cess Rules, 2010</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Coir Industry Rules, 1954</a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Consumer Welfare Fund Rules, 1992</a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Copyrights Rules, 1958</a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Cyber Regulations Appellate Tribunal (Procedure) Rules, 2000</a></li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Clean Energy Cess
+                                            Rules, 2010</a> </li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Coir Industry Rules,
+                                            1954</a></li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Consumer Welfare
+                                            Fund Rules, 1992</a></li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Copyrights Rules,
+                                            1958</a></li>
+                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Cyber Regulations
+                                            Appellate Tribunal (Procedure) Rules, 2000</a></li>
 
                                 </ol>
 
@@ -94,7 +104,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > D</h1>
+                                <h1> D</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -115,7 +125,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > E</h1>
+                                <h1> E</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -136,7 +146,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > F</h1>
+                                <h1> F</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -157,7 +167,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > G</h1>
+                                <h1> G</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -178,7 +188,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > H</h1>
+                                <h1> H</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -199,7 +209,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > I</h1>
+                                <h1> I</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -220,7 +230,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > J</h1>
+                                <h1> J</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -241,7 +251,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > K</h1>
+                                <h1> K</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -262,7 +272,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > L</h1>
+                                <h1> L</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -283,7 +293,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > M</h1>
+                                <h1> M</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -304,7 +314,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > N</h1>
+                                <h1> N</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -326,7 +336,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > O</h1>
+                                <h1> O</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -347,7 +357,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > P</h1>
+                                <h1> P</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -368,7 +378,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > Q</h1>
+                                <h1> Q</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -389,7 +399,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > R</h1>
+                                <h1> R</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -410,7 +420,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > S</h1>
+                                <h1> S</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -431,7 +441,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > T</h1>
+                                <h1> T</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -452,7 +462,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > U</h1>
+                                <h1> U</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -473,7 +483,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > V</h1>
+                                <h1> V</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -494,7 +504,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > W</h1>
+                                <h1> W</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -515,7 +525,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > X</h1>
+                                <h1> X</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -536,7 +546,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > Y</h1>
+                                <h1> Y</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
@@ -557,7 +567,7 @@ jQuery(document).ready(function() {
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
-                                <h1 > Z</h1>
+                                <h1> Z</h1>
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">

@@ -3,18 +3,25 @@
 <html>
 <link rel="stylesheet" href="css/index.css">
 <script>
-
+$('#cmd').click(function () {
+    doc.fromHTML($('#content').html(), 15, 15, {
+        'width': 170,
+            'elementHandlers': specialElementHandlers
+    });
+    doc.save('sample-file.pdf');
+});
 </script>
 
 <body>
     <div class="main-content">
         <!-- center content starts -->
 
-        <div class="row px-4 px-md-5 py-5 main-content2">            
+        <div class="row px-4 px-md-5 py-5 main-content2" id="content">            
             <div class="heading col-12 pb-4 d-flex justify-content-center">
                 SELECTED ACT AND SELECTED YEAR (2007)
-            </div>            
-            <button class="btn download mx-3 my-2 ml-auto"><i class="fa fa-download"></i> Download</button>
+            </div>  
+            <div id="editor"></div>          
+            <button class="btn download mx-3 my-2 ml-auto" id="cmd"><i class="fa fa-download"></i> Download</button>
             <div class="col-12">
                 <div class="border title">
                     <div class="border py-2 px-2">

@@ -11,11 +11,12 @@
     <div class="main-content">
         <!-- center content starts -->
 
-        <div class="row px-5 py-5 main-content2_redirect">
+        <div class="row px-5 py-5 main-content2_redirect" id="content">
             <div class="heading col-12 pb-4 d-flex justify-content-center">
                 LEGAL OPINION
             </div>
-            <button class="btn download mx-3 my-2 ml-auto"><i class="fa fa-download"></i> Download</button>
+            <div id="editor"></div>   
+            <button class="btn download mx-3 my-2 ml-auto" id="cmd"><i class="fa fa-download"></i> Download</button>
             <div class="col-12">
                 <div class="border title">
                     <div class="border py-2 px-2">

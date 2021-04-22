@@ -15,6 +15,14 @@
             return false;
         }
     }
+    $(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
     </script>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/domain-page4.css">
