@@ -28,7 +28,7 @@ $(document).ready(function() {
             </div>
             <div class="col-12 py-2">
                 <div class="d-flex justify-content-center">
-                    <div class="ml-auto">
+                    <div class="ml-auto case-law-search">
                         <div class="px-2  mt-md-0 px-md-3">
                             <div class="search-act col-12 md-col-6 ">
                                 <input type="text" placeholder="Search Acts" id="myInput"

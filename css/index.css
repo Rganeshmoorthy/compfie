@@ -70,6 +70,9 @@ select:focus {
 }
 
 @media (max-width:991px) {
+    .case-law-search {
+        margin-left: unset !important;
+    }
     .alpha-new {
         display: none !important;
     }

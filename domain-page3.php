@@ -12,7 +12,7 @@ jQuery(document).ready(function() {
 <body>
     <div class="main-content">
         <!-- center content starts -->
-        <div class="row px-5 px-md-5 py-3">
+        <div class="row px-3 px-md-5 py-3">
             <div class="col-12 heading">
                 Labour,Employment & Industrial - Central Acts
             </div>
