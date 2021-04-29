@@ -124,8 +124,8 @@ $(document).ready(function(){
                 </div>
             </div>
 
-            <div class="welfare_scroll scrollbarnew col-12">
-                <div class="col-12 py-2 ">
+            <div class="col-12">
+                <div class="col-12 py-2 table-wrap scrollbarnew">
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">
                             <tr>

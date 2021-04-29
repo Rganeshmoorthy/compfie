@@ -283,8 +283,8 @@ $(document).ready(function(){
                     </div>
                 </div>
             </div>
-            <div class="table_scroll_notify scrollbarnew col-12">
-                <div class="col-12 py-3">
+            <div class="col-12">
+                <div class="col-12 py-2 table-wrap scrollbarnew">
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">
                             <tr>

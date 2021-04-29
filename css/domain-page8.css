@@ -113,3 +113,22 @@
         overflow-y: hidden !important;
     }
 }
+
+
+/* .table-responsive {
+    height: 200px;
+    overflow: scroll;
+}
+
+thead tr:nth-child(1) th {
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+} */
+
+.position-body {
+    height: 150px !important;
+    overflow-y: auto;
+    width: 100%;
+}

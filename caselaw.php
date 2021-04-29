@@ -22,7 +22,8 @@ $(document).ready(function() {
 
     <div class="main-content">
         <!-- center content starts -->
-        <div class="row px-3 px-md-5 py-3 pb-1">
+        <div class="row px-3 px-md-5 py-3 pb-1"> 
+         <a href="domain-page.php"><button type="button" class="bg-bt text-white pr-2"><i class="fa fa-arrow-left text-white px-1 nav-prev" aria-hidden="true"></i>Back </button></a>        
             <div class="col-12 heading text-center">
                 Case Laws
             </div>
@@ -41,8 +42,8 @@ $(document).ready(function() {
                 </div>
             </div>
 
-            <div class="welfare_scroll scrollbarnew col-12">
-                <div class="col-12 py-2 ">
+            <div class="col-12">
+                <div class="col-12 py-2 p-0 table-wrap scrollbarnew">
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">
                             <tr>
@@ -59,49 +60,49 @@ $(document).ready(function() {
                         </thead>
                         <tbody class="table-content" id="myTable">
                             <tr>
-                                <td class="text-center">1</td>
-                                <td>Management, Britannia Industries Ltd, Padi Chennai</td>
-                                <td> (1) Presiding Officer, Principal
+                                <td class="text-center">1 &nbsp; &nbsp; &nbsp;</td>
+                                <td class="text-center">Management, Britannia Industries Ltd, Padi Chennai</td>
+                                <td class="text-center"> (1) Presiding Officer, Principal
                                     Labour Court, Chennai
                                     (2) Sri Rajesh Kanna</td>
-                                <td>Writ Petitions No. 754 and 755 of 2005 and Writ
+                                <td class="text-center">Writ Petitions No. 754 and 755 of 2005 and Writ
                                     Petition Miscellaneous Petitions Nos. 822 and
                                     38205 of 2005 and W.V.M.P. No. 2370 of 2006</td>
-                                <td>Single Judge</td>
-                                <td>4/13/2006</td>
-                                <td>K.Suguna</td>
-                                <td>Madras High Court</td>
-                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                <td class="text-center">Single Judge</td>
+                                <td class="text-center">4/13/2006</td>
+                                <td class="text-center">K.Suguna</td>
+                                <td class="text-center">Madras High Court</td>
+                                <td class="text-center"> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         data-toggle="modal" data-target="#case">View
                                         more</button>
                                 </td>
                             </tr>
                             <tr>
-                                <td>2</td>
-                                <td>Municipal Council, Nangal & Ors</td>
-                                <td>Aruna Saini</td>
-                                <td>CIVIL APPEAL No.3350 of 2017</td>
-                                <td>Multi Judge</td>
-                                <td>2/28/2017</td>
-                                <td>Mr. L. Nageswara rao,
+                                <td class="text-center">2</td>
+                                <td class="text-center">Municipal Council, Nangal & Ors</td>
+                                <td class="text-center">Aruna Saini</td>
+                                <td class="text-center">CIVIL APPEAL No.3350 of 2017</td>
+                                <td class="text-center">Multi Judge</td>
+                                <td class="text-center">2/28/2017</td>
+                                <td class="text-center">Mr. L. Nageswara rao,
                                     Mr.SA Bobde,j</td>
-                                <td>Supreme Court</td>
-                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                <td class="text-center">Supreme Court</td>
+                                <td class="text-center"> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         data-toggle="modal" data-target="#case2">View
                                         more</button>
                                 </td>
                             </tr>
                             <tr>
-                                <td>3</td>
-                                <td>Mehiboobsab</td>
-                                <td>Upalokayukta and Ors</td>
-                                <td>Writ Petition No. 15019/2002</td>
-                                <td>Multi Judge</td>
-                                <td>4/18/2002</td>
-                                <td>R.V. Raveendran, J.
+                                <td class="text-center">3</td>
+                                <td class="text-center">Mehiboobsab</td>
+                                <td class="text-center">Upalokayukta and Ors</td>
+                                <td class="text-center">Writ Petition No. 15019/2002</td>
+                                <td class="text-center">Multi Judge</td>
+                                <td class="text-center">4/18/2002</td>
+                                <td class="text-center">R.V. Raveendran, J.
                                     M.S. Rajendra Prasad, J</td>
-                                <td>Karnataka High Court</td>
-                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                <td class="text-center">Karnataka High Court</td>
+                                <td class="text-center"> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         data-toggle="modal" data-target="#case3">View
                                         more</button>
                                 </td>

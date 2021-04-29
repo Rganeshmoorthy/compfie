@@ -35,8 +35,8 @@ $(document).ready(function(){
 
             </div>
 
-            <div class="table_scroll_redirect scrollbarnew col-12">
-                <div class="col-12 py-2 px-md-5">
+            <div class="col-12">
+                <div class="col-12 py-2 px-md-5 table-wrap scrollbarnew">
                     <table class="table table-bordered table_bgcolor">
                         <thead class="t-head">
                             <tr>
