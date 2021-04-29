@@ -92,18 +92,18 @@
         }
 
         $('.bg-red').on('click', function() {
-            $(".title, .content, .heading, .moreless-button").css("color", "#5B3D71");
-            $(".sidenav, .foot_class, .circle-bg").css("background-color", "#5B3D71");
+            $(".title, .content, .heading, .moreless-button,.table-content,.anchor_tag").css("color", "#5B3D71");
+            $(".sidenav, .foot_class, .circle-bg,.t-head,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active").css("background-color", "#5B3D71");
         });
 
         $('.bg-brown').on('click', function() {
-            $(".title, .content, .heading, .moreless-button").css("color", "#5866B0");
-            $(".sidenav, .foot_class,.circle-bg").css("background-color", "#5866B0");
+            $(".title, .content, .heading, .moreless-button,.table-content,.anchor_tag").css("color", "#5866B0");
+            $(".sidenav, .foot_class,.circle-bg,.t-head,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active").css("background-color", "#5866B0");
         });
 
         $('.bg-green').on('click', function() {
-            $(".title, .content, .heading, .moreless-button").css("color", "#697CE0");
-            $(".sidenav, .foot_class,.circle-bg").css("background-color", "#697CE0");
+            $(".title, .content, .heading, .moreless-button,.table-content,.anchor_tag").css("color", "#697CE0");
+            $(".sidenav, .foot_class,.circle-bg,.t-head,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active").css("background-color", "#697CE0");
         });
 
         if (url == 'domain-page1.php' || url == 'domain-page2.php') {
@@ -189,7 +189,7 @@
                                     <img src="package/justice-scale.png" height="20px" class="mt-2 px-2 complaince" />
                                     <a data-toggle="collapse" class="mt-2 text-white menu law_toggle" aria-hidden="true"
                                         data-parent="#accordion1" href="#complaint_law">Compfie
-                                        Features <i class="fa fa-fw fa-angle-down"></i>
+                                        Feature <i class="fa fa-fw fa-angle-down"></i>
                                     </a>
 
                                     <ul id="complaint_law" class="collapse list px-3 px-md-4">

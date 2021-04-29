@@ -16,20 +16,20 @@
             </div>   
             <div class="col-12">
                 <ul class="result-ul">
-                    <li class="py-2 recent">*Air (Prevention and Control of Pollution) Act, 1981</li>
-                    <li class="py-2 recent">*Clinical Establishments (Registration And Regulation) Act, 2010/a></li>
-                    <li class="py-2 recent"> *Environment (Protection) Act, 1986</li>
-                    <li class="py-2 recent"> *Assam Lifts And Escalators Act, 1990</li>
-                    <li class="py-2 recent">*Fatal Accidents Act, 1900 </li>
-                    <li class="py-2 recent">Cine - Workers and Cinema Theatre Workers (Regulation of Employment) Act, 1981</li>
-                    <li class="py-2 recent">*Fatal Accidents Act, 1900 </li>
-                    <li class="py-2 recent">*Coal Mines Provident Fund and Miscellaneous Provisions Act, 1948</li>
-                    <li class="py-2 recent">*Contract Labour (Regulation and Abolition) Act, 1970 </li>
-                    <li class="py-2 recent">*Cine - Workers and Cinema Theatre Workers (Regulation of Employment) Act, 1981</li>
-                    <li class="py-2 recent">*Children (Pledging of Labour) Act, 1933</li>
-                    <li class="py-2 recent">*Building and Other Construction Workers (Regulation of Employment and Conditions of Service) Act, 1996</li>
-                    <li class="py-2 recent">*Building and Other Construction Workers' Welfare Cess Act, 1996</li>
-                    <li class="py-2 recent">*Beedi and Cigar Workers (Conditions of Employment) Act, 1966</li>
+                    <li class="py-2 recent"><a href="redirect-page.php"> *Air (Prevention and Control of Pollution) Act, 1981</a></li>
+                    <li class="py-2 recent"><a href="redirect-page.php"> *Clinical Establishments (Registration And Regulation) Act, 2010</a></li>
+                    <li class="py-2 recent"><a href="redirect-page.php">  *Environment (Protection) Act, 1986</a></li>
+                    <li class="py-2 recent"><a href="redirect-page.php">  *Assam Lifts And Escalators Act, 1990</a></li>
+                    <li class="py-2 recent"><a href="redirect-page.php"> *Fatal Accidents Act, 1900 </a></li>
+                    <li class="py-2 recent"><a href="redirect-page.php"> Cine - Workers and Cinema Theatre Workers (Regulation of Employment) Act, 1981</a></li>
+                    <li class="py-2 recent"><a href="redirect-page.php"> *Fatal Accidents Act, 1900 </a></li>
+                    <li class="py-2 recent"><a href="redirect-page.php"> *Coal Mines Provident Fund and Miscellaneous Provisions Act, 1948</a></li>
+                    <li class="py-2 recent"><a href="redirect-page.php"> *Contract Labour (Regulation and Abolition) Act, 1970 </a></li>
+                    <li class="py-2 recent"><a href="redirect-page.php"> *Cine - Workers and Cinema Theatre Workers (Regulation of Employment) Act, 1981</a></li>
+                    <li class="py-2 recent"><a href="redirect-page.php"> *Children (Pledging of Labour) Act, 1933</a></li>
+                    <li class="py-2 recent"><a href="redirect-page.php"> *Building and Other Construction Workers (Regulation of Employment and Conditions of Service) Act, 1996</a></li>
+                    <li class="py-2 recent"><a href="redirect-page.php"> *Building and Other Construction Workers' Welfare Cess Act, 1996</a></li>
+                    <li class="py-2 recent"><a href="redirect-page.php"> *Beedi and Cigar Workers (Conditions of Employment) Act, 1966</a></li>
                 </ul>
             </div>            
         </div>
