@@ -296,14 +296,14 @@ td {
     /* border-bottom: 1px solid #aaa; */
 }
 
-thead th {
+.t-head th {
     /*style 'th' for x-browser position: sticky; consistancy*/
     text-align: left;
     position: -webkit-sticky;
     /* IOS and Safari */
     position: sticky;
     top: -13px;
-    background: #5B3D71;
+    background-color: #5B3D71;
     /*chrome shows 2px, FF hides 1px, bottom border scrolls away in both*/
     /*solution is to use linear-gradient and border:none*/
     /*background: linear-gradient(to top,red, red 1px, #ffff00 1px, #ffff00 100%);
