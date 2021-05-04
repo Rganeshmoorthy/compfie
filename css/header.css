@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
-
 .search {
-    border: 1px solid;
+    border: 3px solid;
     padding: 8px;
     border-radius: 10px;
     border-color: #F7F7F7;
@@ -29,7 +27,6 @@
 
 .search_button:focus {
     outline: none;
-
 }
 
 input:focus {

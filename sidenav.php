@@ -188,8 +188,8 @@
                                 <li class="panel row m-0 hover_effect ">
                                     <img src="package/justice-scale.png" height="20px" class="mt-2 px-2 complaince" />
                                     <a data-toggle="collapse" class="mt-2 text-white menu law_toggle" aria-hidden="true"
-                                        data-parent="#accordion1" href="#complaint_law">Compfie
-                                        Feature <i class="fa fa-fw fa-angle-down"></i>
+                                        data-parent="#accordion1" href="#complaint_law">
+                                        Features <i class="fa fa-fw fa-angle-down"></i>
                                     </a>
 
                                     <ul id="complaint_law" class="collapse list px-3 px-md-4">

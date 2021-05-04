@@ -61,7 +61,7 @@ $(document).ready(function(){
             <div class="col-12 heading text-center">
                 NOTIFICATIONS
             </div>
-            <div class="col-12 py-2">
+            <!-- <div class="col-12 py-2">
                 <div class="d-flex justify-content-center">
                     <div>
                         <button type="button" class="btn btn-sm text-white button-head mx-2"
@@ -73,7 +73,7 @@ $(document).ready(function(){
                             Rules</button>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="col-12 py-2 px-4 px-md-0">
                 <div class="d-flex row">
                     <div>
