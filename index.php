@@ -21,8 +21,11 @@ $(document).ready(function() {
 $(document).ready(function() {
     var path = window.location.pathname;
         var url = path.substring(path.lastIndexOf('/') + 1)
-        console.log(url)
+        // console.log(url)
+        if(url == '')
+        {
     $("#page_modal").modal('show');
+        }
 });
 </script>
 
