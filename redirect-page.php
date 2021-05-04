@@ -36,7 +36,7 @@ $(document).ready(function(){
                 </div>
             </div>
             <div class="col-12 py-2 px-4 px-md-0 d-flex justify-content-center">
-                <div class="border col-12 col-md-7 table_search">
+                <div class="col-12 col-md-7 table_search">
                     <input type="text" id="myInput" placeholder="Search Acts" class="border-0 w-100 pr-4 search-input pl-2">
                     <button class="border-0 bg-transparent search-btn"><i class="fa fa-search"></i></button>
                 </div>
