@@ -108,7 +108,7 @@
                 </div>
             </div>
             <div class="col-12 py-1">
-                <div class="col-12 mt-0 mt-md-3 px-3 aphabet-scroll-state scrollbarnew">
+                <div class="col-12 mt-0 px-3 aphabet-scroll-state scrollbarnew">
                     <div class="row">
                         <div class="col-12 w-100" id="a">
                             <div class="d-flex border alpha-border">
