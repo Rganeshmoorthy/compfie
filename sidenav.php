@@ -106,6 +106,23 @@
             $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt").css("background-color", "#697CE0 !important");
         });
 
+        $('.bg-b1').on('click', function() {
+            $(".title, .content, .heading, .moreless-button,.table-content,.anchor_tag").css("color", "#04009a");
+            $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt").css("background-color", "#04009a !important");
+        });
+           $('.bg-b2').on('click', function() {
+            $(".title, .content, .heading, .moreless-button,.table-content,.anchor_tag").css("color", "#77acf1");
+            $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt").css("background-color", "#77acf1 !important");
+        });
+           $('.bg-b3').on('click', function() {
+            $(".title, .content, .heading, .moreless-button,.table-content,.anchor_tag").css("color", "#3edbf0");
+            $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt").css("background-color", "#3edbf0 !important");
+        });
+           $('.bg-b4').on('click', function() {
+            $(".title, .content, .heading, .moreless-button,.table-content,.anchor_tag").css("color", "#c0fefc");
+            $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt").css("background-color", "#c0fefc !important");
+        });
+
         if (url == 'domain-page1.php' || url == 'domain-page2.php') {
             $(".key-none").addClass("display-none");
             $(".opinion-none").addClass("display-none");
@@ -318,9 +335,13 @@
         </div>
         <div class="col-12  text-white mx-auto foot_class">
             <div class="col-12 py-3 d-flex justify-content-center circle-bg">
-                <div class="circle bg-red mx-2"></div>
-                <div class="circle bg-brown mx-2"></div>
-                <div class="circle bg-green mx-2"></div>
+                <div class="circle bg-red mx-1"></div>
+                <div class="circle bg-brown mx-1"></div>
+                <div class="circle bg-green mx-1"></div>
+                <div class="circle bg-b1 mx-1"></div>
+                <div class="circle bg-b2 mx-1"></div>
+                <div class="circle bg-b3 mx-1"></div>
+                <div class="circle bg-b4 mx-1"></div>
             </div>
             <p>sample@gmail.com</p>
             <button class="btn btn-lg  bg-white rounded-pill btn_topic">Log Out</button>

@@ -12,7 +12,7 @@
 
         <div class="row px-md-5 py-5 main-content2">            
             <div class="heading col-12 pb-4 d-flex justify-content-center">
-                FLAGGED ITEMS
+                Recently Added
             </div>   
             <div class="col-12">
                 <ul class="result-ul">

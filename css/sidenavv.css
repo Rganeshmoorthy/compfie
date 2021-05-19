@@ -462,6 +462,22 @@ select:active {
     background-color: #697CE0;
 }
 
+.bg-b1 {
+    background-color: #04009a;
+}
+
+.bg-b2 {
+    background-color: #77acf1;
+}
+
+.bg-b3 {
+    background-color: #3edbf0;
+}
+
+.bg-b4 {
+    background-color: #c0fefc;
+}
+
 .circle-bg {
     background-color: #5B3D71;
 }

@@ -14,26 +14,25 @@ $(document).ready(function() {
         }
     });
 });
-    jQuery(document).ready(function() {
-        jQuery('.scrollbarnew').scrollbar();
-    });     
+jQuery(document).ready(function() {
+    jQuery('.scrollbarnew').scrollbar();
+});
 
 $(document).ready(function() {
     var path = window.location.pathname;
-        var url = path.substring(path.lastIndexOf('/') + 1)
-        // console.log(url)
-        if(url == '')
-        {
-    $("#page_modal").modal('show');
-        }
+    var url = path.substring(path.lastIndexOf('/') + 1)
+    // console.log(url)
+    if (url == '') {
+        $("#page_modal").modal('show');
+    }
 });
 </script>
 
 <body>
     <div class="main-content">
         <!-- center content starts -->
-        <div class="row px-3 px-md-5 d-flex main-mblview main-content2">
-            <div class="col-md-6 main-content2 scrollbarnew">
+        <div class="row px-3 mx-md-1 d-flex main-content2 scrollbarnew">
+            <div class="col-md-6">
                 <div class="col-12 mt-4 heading">
                     All Domains
                 </div>
@@ -50,7 +49,8 @@ $(document).ready(function() {
                                             <a class="title mb-1" href="domain-page.php">Labour Employment &
                                                 Industrial</a>
                                         </div>
-                                        <a class="content mb-2 mt-md-3" id="content" href="domain-page.php">Provides the quick
+                                        <a class="content mb-2 mt-md-3" id="content" href="domain-page.php">Provides the
+                                            quick
                                             and
                                             convenient way
                                             to create
@@ -72,25 +72,25 @@ $(document).ready(function() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-sm-12 py-2 mt-md-0 zoom">
+                         <div class="col-lg-12 col-sm-12 py-2 mt-md-0 zoom">
                             <div class="px-1 py-1 borde">
                                 <div class="d-flex px-1">
-                                    <div class="py-2 px-2  img_labour">
-                                        <img src="package/h&s.png" width="140px" height="140">
+                                    <div class="py-2 px-2 img_labour">
+                                        <img src="package/h&s.png" width="140" height="140">
                                     </div>
                                     <div class="py-2 px-2">
                                         <div>
-                                            <a class="title mb-1" href="domain-page1.php">Environmental,Health &
-                                                Safety</a>
+                                            <a class="title mb-1" href="domain-page1.php">Environmental,Health & Safety</a>
                                         </div>
-                                        <a class="content mb-2 mt-md-3" href="domain-page1.php">Provides the quick and
-                                            convenient
-                                            way to create
+                                        <a class="content mb-2 mt-md-3" id="content" href="domain-page1.php">Provides the
+                                            quick
+                                            and
+                                            convenient way
+                                            to create
                                             responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa
                                             pork
                                             chop doner
                                             sirloin,
-                                            bacon beef brisket ball tip short ribs.
                                             bacon beef brisket ball tip short
                                             ribs Provides the quick and convenient way to create
                                             responsive website Brisket ball tip cow sirloin. Chuck porchetta kielbasa
@@ -238,9 +238,9 @@ $(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                </div>               
+                </div>
             </div>
-            <div class="col-md-6 main-content2 scrollbarnew">
+            <div class="col-md-6">
                 <div class="col-12 mt-4 heading">
                     Latest Update
                 </div>
@@ -263,7 +263,8 @@ $(document).ready(function() {
                                             margin norms Kick in broker default risk.
                                             Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork chop doner
                                             sirloin,
-                                            bacon beef brisket ball tip short ribs.Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork chop doner
+                                            bacon beef brisket ball tip short ribs.Brisket ball tip cow sirloin. Chuck
+                                            porchetta kielbasa pork chop doner
                                             sirloin,
                                         </p>
                                     </div>
@@ -272,7 +273,7 @@ $(document).ready(function() {
 
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                         <div class="col-lg-12">
                             <div class="my-3">
                                 <div class="border px-3 py-3">
@@ -299,7 +300,7 @@ $(document).ready(function() {
 
                                 </div>
                             </div>
-                        </div>     
+                        </div>
                         <div class="col-lg-12">
                             <div class="my-3">
                                 <div class="border px-3 py-3">
@@ -326,7 +327,7 @@ $(document).ready(function() {
 
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                         <div class="col-lg-12">
                             <div class="my-3">
                                 <div class="border px-3 py-3">
@@ -353,7 +354,7 @@ $(document).ready(function() {
 
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                         <div class="col-lg-12">
                             <div class="my-3">
                                 <div class="border px-3 py-3">
@@ -380,7 +381,7 @@ $(document).ready(function() {
 
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                         <div class="col-lg-12">
                             <div class="my-3">
                                 <div class="border px-3 py-3">
@@ -407,7 +408,7 @@ $(document).ready(function() {
 
                                 </div>
                             </div>
-                        </div>     
+                        </div>
                         <div class="col-lg-12">
                             <div class="my-3">
                                 <div class="border px-3 py-3">
@@ -434,7 +435,7 @@ $(document).ready(function() {
 
                                 </div>
                             </div>
-                        </div>                
+                        </div>
                     </div>
                 </div>
             </div>
