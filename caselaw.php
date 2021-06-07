@@ -15,6 +15,16 @@ $(document).ready(function() {
             $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
         });
     });
+
+    $(".moreless-button").click(function() {
+        $(this).prev().toggleClass("open");
+        console.log($(this).prev().hasClass("open"))
+        if ($(this).prev().hasClass("open")) {
+            $(this).text("READ LESS")
+        } else {
+            $(this).text("READ MORE")
+        }
+    });
 });
 </script>
 
@@ -48,30 +58,32 @@ $(document).ready(function() {
                         <thead class="t-head">
                             <tr>
                                 <th scope="col" class="text-center">S.No</th>
+                                <th scope="col" class="text-center">Name of the Court</th>
                                 <th scope="col" class="text-center">Appellant/Petitioner</th>
                                 <th scope="col" class="text-center">Respondent</th>
-                                <th scope="col" class="text-center">Case Number</th>
-                                <th scope="col" class="text-center">Judgement By</th>
-                                <th scope="col" class="text-center">Judgement Date</th>
-                                <th scope="col" class="text-center">Judgement</th>
-                                <th scope="col" class="text-center">Name of the Court</th>
+                                <th scope="col" class="text-center">Case Number</th>                                
+                                <th scope="col" class="text-center">Case Date</th>
+                                <th scope="col" class="text-center">Case Subject</th>                                
                                 <th scope="col" class=""></th>
                             </tr>
                         </thead>
                         <tbody class="table-content" id="myTable">
                             <tr>
                                 <td class="text-center">1 &nbsp; &nbsp; &nbsp;</td>
-                                <td class="text-center">Management, Britannia Industries Ltd, Padi Chennai</td>
-                                <td class="text-center"> (1) Presiding Officer, Principal
-                                    Labour Court, Chennai
-                                    (2) Sri Rajesh Kanna</td>
-                                <td class="text-center">Writ Petitions No. 754 and 755 of 2005 and Writ
-                                    Petition Miscellaneous Petitions Nos. 822 and
-                                    38205 of 2005 and W.V.M.P. No. 2370 of 2006</td>
-                                <td class="text-center">Single Judge</td>
-                                <td class="text-center">4/13/2006</td>
-                                <td class="text-center">K.Suguna</td>
                                 <td class="text-center">Madras High Court</td>
+                                <td class="text-center">Management, Britannia Industries Ltd, Padi Chennai</td>
+                                <td class="text-center"><p class="case-law-p"> (1) Presiding Officer, Principal
+                                    Labour Court, Chennai
+                                    (2) Sri Rajesh Kanna</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>  
+                                </td>
+                                <td class="text-center"> <p class="case-law-p">Writ Petitions No. 754 and 755 of 2005 and Writ
+                                    Petition Miscellaneous Petitions Nos. 822 and
+                                    38205 of 2005 and W.V.M.P. No. 2370 of 2006</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>                                   
+                                </td>                             
+                                <td class="text-center">4/13/2006</td>
+                                <td class="text-center">Management, Britannia Industries Ltd, Padi Chennai</td>                                
                                 <td class="text-center"> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         data-toggle="modal" data-target="#case">View
                                         more</button>
@@ -79,14 +91,12 @@ $(document).ready(function() {
                             </tr>
                             <tr>
                                 <td class="text-center">2</td>
+                                <td class="text-center">Supreme Court</td>
                                 <td class="text-center">Municipal Council, Nangal & Ors</td>
                                 <td class="text-center">Aruna Saini</td>
-                                <td class="text-center">CIVIL APPEAL No.3350 of 2017</td>
-                                <td class="text-center">Multi Judge</td>
+                                <td class="text-center">CIVIL APPEAL No.3350 of 2017</td>                                
                                 <td class="text-center">2/28/2017</td>
-                                <td class="text-center">Mr. L. Nageswara rao,
-                                    Mr.SA Bobde,j</td>
-                                <td class="text-center">Supreme Court</td>
+                                <td class="text-center">Management, Britannia Industries Ltd, Padi Chennai</td>                                
                                 <td class="text-center"> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         data-toggle="modal" data-target="#case2">View
                                         more</button>
@@ -94,14 +104,25 @@ $(document).ready(function() {
                             </tr>
                             <tr>
                                 <td class="text-center">3</td>
+                                <td class="text-center">Karnataka High Court</td>
                                 <td class="text-center">Mehiboobsab</td>
                                 <td class="text-center">Upalokayukta and Ors</td>
-                                <td class="text-center">Writ Petition No. 15019/2002</td>
-                                <td class="text-center">Multi Judge</td>
+                                <td class="text-center">Writ Petition No. 15019/2002</td>                                
                                 <td class="text-center">4/18/2002</td>
-                                <td class="text-center">R.V. Raveendran, J.
-                                    M.S. Rajendra Prasad, J</td>
+                                <td class="text-center">Management, Britannia Industries Ltd, Padi Chennai</td>                                
+                                <td class="text-center"> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                        data-toggle="modal" data-target="#case3">View
+                                        more</button>
+                                </td>
+                            </tr>
+                                     <tr>
+                                <td class="text-center">4</td>
                                 <td class="text-center">Karnataka High Court</td>
+                                <td class="text-center">Mehiboobsab</td>
+                                <td class="text-center">Upalokayukta and Ors</td>
+                                <td class="text-center">Writ Petition No. 15019/2002</td>                                
+                                <td class="text-center">4/18/2002</td>
+                                <td class="text-center">Management, Britannia Industries Ltd, Padi Chennai</td>                                
                                 <td class="text-center"> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         data-toggle="modal" data-target="#case3">View
                                         more</button>

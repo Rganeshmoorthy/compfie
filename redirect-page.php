@@ -8,13 +8,13 @@
 jQuery(document).ready(function() {
     jQuery('.scrollbarnew').scrollbar();
 });
-$(document).ready(function(){
-  $("#myInput").on("keyup", function() {
-    var value = $(this).val().toLowerCase();
-    $("#myTable tr").filter(function() {
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+$(document).ready(function() {
+    $("#myInput").on("keyup", function() {
+        var value = $(this).val().toLowerCase();
+        $("#myTable tr").filter(function() {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
     });
-  });
 });
 </script>
 
@@ -23,7 +23,8 @@ $(document).ready(function(){
     <div class="main-content">
         <!-- center content starts -->
         <div class="row px-3 px-md-5 ">
-        <a href="domain-page.php"><button type="button" class="bg-bt text-white pr-2"><i class="fa fa-arrow-left text-white px-1 nav-prev" aria-hidden="true"></i>Back </button></a>        
+            <a href="domain-page.php"><button type="button" class="bg-bt text-white pr-2"><i
+                        class="fa fa-arrow-left text-white px-1 nav-prev" aria-hidden="true"></i>Back </button></a>
             <div class="col-12 heading text-center">
                 State OR Central Munispality Act
             </div>
@@ -37,14 +38,15 @@ $(document).ready(function(){
             </div>
             <div class="col-12 py-2 px-4 px-md-0 d-flex justify-content-center">
                 <div class="col-12 col-md-7 table_search">
-                    <input type="text" id="myInput" placeholder="Search Acts" class="border-0 w-100 pr-4 search-input pl-2">
+                    <input type="text" id="myInput" placeholder="Search Acts"
+                        class="border-0 w-100 pr-4 search-input pl-2">
                     <button class="border-0 bg-transparent search-btn"><i class="fa fa-search"></i></button>
                 </div>
 
             </div>
 
             <div class=" col-12">
-                <div class="col-12 py-2 px-md-5 table-wrap scrollbarnew"> 
+                <div class="col-12 py-2 px-md-5 table-wrap scrollbarnew">
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">
                             <tr>

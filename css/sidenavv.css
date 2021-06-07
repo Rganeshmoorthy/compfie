@@ -186,6 +186,7 @@ a {
     left: 0;
     background-color: #5B3D71;
     padding-top: 10px;
+    z-index: 1;
 }
 
 .sidenav-body {

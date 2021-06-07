@@ -31,12 +31,20 @@ $(document).ready(function() {
 <body>
     <div class="main-content">
         <!-- center content starts -->
+        <div class="row px-3 mx-md-1 d-flex">
+            <div class="col-md-6 pl-lg-5 mb-lg-2 mt-4 heading only-big">
+                All Domains
+            </div>
+            <div class="col-md-6 pl-lg-5 mb-lg-2 mt-4 heading only-big">
+                Latest Update
+            </div>
+        </div>
         <div class="row px-3 mx-md-1 d-flex main-content2 scrollbarnew">
+            <div class="col-md-12 pl-lg-5 mb-lg-2 mt-4 heading only-mbl">
+                All Domains
+            </div>
             <div class="col-md-6">
-                <div class="col-12 mt-4 heading">
-                    All Domains
-                </div>
-                <div class="col-12 ">
+                <div class="col-12">
                     <div class="row mt-md-2">
                         <div class="col-lg-12 col-sm-12 py-2 zoom">
                             <div class="px-1 py-1 borde">
@@ -72,7 +80,7 @@ $(document).ready(function() {
                                 </div>
                             </div>
                         </div>
-                         <div class="col-lg-12 col-sm-12 py-2 mt-md-0 zoom">
+                        <div class="col-lg-12 col-sm-12 py-2 mt-md-0 zoom">
                             <div class="px-1 py-1 borde">
                                 <div class="d-flex px-1">
                                     <div class="py-2 px-2 img_labour">
@@ -80,9 +88,11 @@ $(document).ready(function() {
                                     </div>
                                     <div class="py-2 px-2">
                                         <div>
-                                            <a class="title mb-1" href="domain-page1.php">Environmental,Health & Safety</a>
+                                            <a class="title mb-1" href="domain-page1.php">Environmental,Health &
+                                                Safety</a>
                                         </div>
-                                        <a class="content mb-2 mt-md-3" id="content" href="domain-page1.php">Provides the
+                                        <a class="content mb-2 mt-md-3" id="content" href="domain-page1.php">Provides
+                                            the
                                             quick
                                             and
                                             convenient way
@@ -240,10 +250,10 @@ $(document).ready(function() {
                     </div>
                 </div>
             </div>
+            <div class="col-12 pl-lg-5 mb-lg-2 mt-4 heading only-mbl">
+                Latest Update
+            </div>
             <div class="col-md-6">
-                <div class="col-12 mt-4 heading">
-                    Latest Update
-                </div>
                 <div class="col-12">
                     <div class="row">
                         <div class="col-lg-12">

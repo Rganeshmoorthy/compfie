@@ -169,3 +169,12 @@ label {
     max-width: 900px;
     margin-left: 20px;
 }
+
+@media (min-width:1400px) {
+    #slide {
+        right: -530px !important;
+    }
+    .new-nav {
+        min-width: 1050px !important;
+    }
+}
