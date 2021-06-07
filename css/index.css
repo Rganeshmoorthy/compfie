@@ -45,7 +45,7 @@
 }
 
 .case-law-p {
-    font-size: 13px;
+    font-size: 15px;
     color: #5B3D71;
     font-family: 'Poppins', sans-serif;
 }
@@ -194,7 +194,7 @@ select:focus {
 }
 
 ul .content a {
-    font-size: 1.5em;
+    font-size: 15px;
 }
 
 .recent {
@@ -348,4 +348,8 @@ td {
 
 .bg-bt:focus {
     outline: none;
+}
+
+.case-law-btnn .moreless-button {
+    color: #04009a;
 }

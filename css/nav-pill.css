@@ -178,3 +178,7 @@ label {
         min-width: 1050px !important;
     }
 }
+
+.clr-gray {
+    color: gray !important;
+}

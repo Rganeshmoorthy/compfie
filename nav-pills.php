@@ -19,16 +19,21 @@
                 }
             });
             console.log('init-scroll: ' + $(".nav-next").scrollLeft());
-             $('.nav-next').hover(function(){
+            $('.nav-next').hover(function() {
                 $(".new-nav").animate({
                     scrollLeft: '+=610'
                 }, 500);
-
+                // if ($(this).hasClass("scrollLeft")) {
+                //     $(this).addClass("clr-gray");
+                // } else {
+                //     $(this).removeClass("clr-gray");
+                // }
             });
             $(".nav-prev").hover(function() {
                 $(".new-nav").animate({
                     scrollLeft: '-=610'
-                }, 500);                
+                }, 500);
+                // $(this).addClass("clr-gray");
             });
         })(jQuery);
 
@@ -61,7 +66,7 @@
                 </li>
             </ul>
         </div>
-        <button id="slideBack" type="button"><i class="fa fa-arrow-left color nav-prev" aria-hidden="true"></i></button>        
+        <button id="slideBack" type="button"><i class="fa fa-arrow-left color nav-prev" aria-hidden="true"></i></button>
         <button id="slide" type="button"><i class="fa fa-arrow-right color nav-next" aria-hidden="true"></i></button>
     </div>
 </body>

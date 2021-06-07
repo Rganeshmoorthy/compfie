@@ -72,15 +72,15 @@ $(document).ready(function() {
                                 <td class="text-center">1 &nbsp; &nbsp; &nbsp;</td>
                                 <td class="text-center">Madras High Court</td>
                                 <td class="text-center">Management, Britannia Industries Ltd, Padi Chennai</td>
-                                <td class="text-center"><p class="case-law-p"> (1) Presiding Officer, Principal
+                                <td class="text-center case-law-btnn"><p class="case-law-p mb-0"> (1) Presiding Officer, Principal
                                     Labour Court, Chennai
                                     (2) Sri Rajesh Kanna</p>
                                     <a class="moreless-button" href="#">READ MORE</a>  
                                 </td>
-                                <td class="text-center"> <p class="case-law-p">Writ Petitions No. 754 and 755 of 2005 and Writ
+                                <td class="text-center case-law-btnn"> <p class="case-law-p mb-0">Writ Petitions No. 754 and 755 of 2005 and Writ
                                     Petition Miscellaneous Petitions Nos. 822 and
-                                    38205 of 2005 and W.V.M.P. No. 2370 of 2006</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>                                   
+                                    38205 of 2005 and W.V.M.P. No. 2370 of 2006</p><a class="moreless-button" href="#">READ MORE</a>                                                                     
+                                    
                                 </td>                             
                                 <td class="text-center">4/13/2006</td>
                                 <td class="text-center">Management, Britannia Industries Ltd, Padi Chennai</td>                                
