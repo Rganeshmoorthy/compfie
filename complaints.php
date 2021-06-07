@@ -48,7 +48,7 @@ $(document).ready(function(){
                             <tr>
                                 <td>Perpetual License and other proposed amendments under Food Safety and Standards Act,
                                     2006</td>
-                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                <td class="d-lg-flex"> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='complaints-more.php'">Read
                                         more</button>
                                     <button type="button"
@@ -60,7 +60,7 @@ $(document).ready(function(){
                             </tr>
                             <tr>
                                 <td>A comprehensive list of licenses for Hotel and Restaurant business</td>
-                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                <td class="d-lg-flex"> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='complaints-more.php'">Read
                                         more</button>
                                     <button type="button"
@@ -71,7 +71,7 @@ $(document).ready(function(){
                             </tr>
                             <tr>
                                 <td>A comprehensive list of licenses for Hotel and Restaurant business</td>
-                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                <td class="d-lg-flex"> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='complaints-more.php'">Read
                                         more</button>
                                     <button type="button"
@@ -82,7 +82,7 @@ $(document).ready(function(){
                             </tr>
                             <tr>
                                 <td>What reduced EPF Contribution means to Employee & Employer</td>
-                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                <td class="d-lg-flex"> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='complaints-more.php'">Read
                                         more</button>
                                     <button type="button"
@@ -93,7 +93,7 @@ $(document).ready(function(){
                             </tr>
                             <tr>
                                 <td>Is it what is intended or an error to be rectified?</td>
-                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                <td class="d-lg-flex"> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='complaints-more.php'">Read
                                         more</button>
                                     <button type="button"
@@ -104,7 +104,7 @@ $(document).ready(function(){
                             </tr>
                               <tr>
                                 <td> Implementation date of SC judgment on PF wages - Retrospective or Prospective</td>
-                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                <td class="d-lg-flex">  <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='complaints-more.php'">Read
                                         more</button>
                                     <button type="button"
@@ -115,7 +115,7 @@ $(document).ready(function(){
                             </tr>
                               <tr>
                                 <td>Will 2(y) of CoW make gratuity a non-wage</td>
-                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                <td class="d-lg-flex"> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='complaints-more.php'">Read
                                         more</button>
                                     <button type="button"
