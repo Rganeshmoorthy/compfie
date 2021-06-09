@@ -23,8 +23,8 @@ $(document).ready(function() {
     <div class="main-content">
         <!-- center content starts -->
         <div class="row px-3 px-md-5 ">
-            <a href="domain-page.php"><button type="button" class="bg-bt text-white pr-2"><i
-                        class="fa fa-arrow-left text-white px-1 nav-prev" aria-hidden="true"></i>Back </button></a>
+            <a href="domain-page3.php"><button type="button" class="bg-bt text-white pr-2"><i
+                        class="fa fa-arrow-left text-white px-1 nav-prev" aria-hidden="true"></i>Goto Central Acts</button></a>
             <div class="col-12 heading text-center">
                 State OR Central Munispality Act
             </div>

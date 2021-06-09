@@ -92,12 +92,12 @@
         }
 
         $('.bg-red').on('click', function() {
-            $(".title, .content, .heading, .moreless-button,.table-content,.anchor_tag").css("color", "#5B3D71");
+            $(".title, .content,.alphabet,.alphabet-bgcolor,.alpha-new, .heading,.ol-content , .moreless-button,.table-content,.anchor_tag").css("color", "#5B3D71");
             $(".sidenav, .foot_class, .circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt").css("background-color", "#5B3D71 !important");
         });
 
         $('.bg-brown').on('click', function() {
-            $(".title, .content, .heading, .moreless-button,.table-content,.anchor_tag").css("color", "#5866B0");
+            $(".title, .content,.alphabet,.alphabet-bgcolor,.alpha-new, .heading,.ol-content , .moreless-button,.table-content,.anchor_tag").css("color", "#5866B0");
             $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt").css("background-color", "#5866B0 !important");
         });
 
@@ -337,11 +337,11 @@
             <div class="col-12 py-3 d-flex justify-content-center circle-bg">
                 <div class="circle bg-red mx-1"></div>
                 <div class="circle bg-brown mx-1"></div>
-                <div class="circle bg-green mx-1"></div>
+                <!-- <div class="circle bg-green mx-1"></div>
                 <div class="circle bg-b1 mx-1"></div>
                 <div class="circle bg-b2 mx-1"></div>
                 <div class="circle bg-b3 mx-1"></div>
-                <div class="circle bg-b4 mx-1"></div>
+                <div class="circle bg-b4 mx-1"></div> -->
             </div>
             <p>sample@gmail.com</p>
             <button class="btn btn-lg  bg-white rounded-pill btn_topic">Log Out</button>

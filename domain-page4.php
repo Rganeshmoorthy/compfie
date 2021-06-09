@@ -15,14 +15,90 @@
             return false;
         }
     }
-    $(document).ready(function(){
-  $("#myInput").on("keyup", function() {
-    var value = $(this).val().toLowerCase();
-    $("#myTable tr").filter(function() {
-      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    $(document).ready(function() {
+        $("#myInput").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $("#myTable tr").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+
+        $(".central").click(function() {
+            if ($("#central-state").hasClass("undu")) {
+                $("#central-state").removeClass("d-none")
+                $("#central-state2").addClass("d-none");
+                $("#central-state3").addClass("d-none");
+                $("#central-state4").addClass("d-none")
+                $("#central-state5").addClass("d-none")
+            } else {
+                $("#central-state").addClass("d-none")
+                $("#central-state2").removeClass("d-none");
+                $("#central-state3").removeClass("d-none");
+                $("#central-state4").removeClass("d-none")
+                $("#central-state5").removeClass("d-none")
+            }
+        });
+        $(".east").click(function() {
+            if ($("#central-state2").hasClass("undu2")) {
+                $("#central-state2").removeClass("d-none");
+                $("#central-state").addClass("d-none")
+                $("#central-state3").addClass("d-none")
+                $("#central-state4").addClass("d-none")
+                $("#central-state5").addClass("d-none")
+            } else {
+                $("#central-state2").addClass("d-none");
+                $("#central-state").removeClass("d-none")
+                $("#central-state3").removeClass("d-none")
+                $("#central-state4").removeClass("d-none")
+                $("#central-state5").removeClass("d-none")
+            }
+        });
+        $(".west").click(function() {
+            if ($("#central-state3").hasClass("undu3")) {
+                $("#central-state3").removeClass("d-none");
+                $("#central-state").addClass("d-none")
+                $("#central-state2").addClass("d-none")
+                $("#central-state4").addClass("d-none")
+                $("#central-state5").addClass("d-none")
+            } else {
+                $("#central-state3").addClass("d-none");
+                $("#central-state").removeClass("d-none")
+                $("#central-state2").removeClass("d-none")
+                $("#central-state4").removeClass("d-none")
+                $("#central-state5").removeClass("d-none")
+            }
+        });
+        $(".north").click(function() {
+            if ($("#central-state4").hasClass("undu4")) {
+                $("#central-state4").removeClass("d-none");
+                $("#central-state").addClass("d-none")
+                $("#central-state2").addClass("d-none")
+                $("#central-state3").addClass("d-none")
+                $("#central-state5").addClass("d-none")
+            } else {
+                $("#central-state4").addClass("d-none");
+                $("#central-state").removeClass("d-none")
+                $("#central-state2").removeClass("d-none")
+                $("#central-state3").removeClass("d-none")
+                $("#central-state5").removeClass("d-none")
+            }
+        });
+        $(".south").click(function() {
+            if ($("#central-state5").hasClass("undu5")) {
+                $("#central-state5").removeClass("d-none");
+                $("#central-state").addClass("d-none")
+                $("#central-state2").addClass("d-none")
+                $("#central-state3").addClass("d-none")
+                $("#central-state4").addClass("d-none")
+            } else {
+                $("#central-state5").addClass("d-none");
+                $("#central-state").removeClass("d-none")
+                $("#central-state2").removeClass("d-none")
+                $("#central-state3").removeClass("d-none")
+                $("#central-state4").removeClass("d-none")
+            }
+        });
     });
-  });
-});
     </script>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/domain-page4.css">
@@ -34,13 +110,13 @@
         <!-- center content starts -->
         <div class="row  px-2 px-md-5 py-2 py-md-3">
             <!-- heading -->
-            
-                <div class="col-12 heading pl-0 px-4 px-md-5">
-                    Labour,Employment & Industrial - State Acts
-                </div>
-                <!-- buttons-->
-                <div class="col-12 py-2">
-                    <div class="d-flex row m-0 state-btns">
+
+            <div class="col-12 heading pl-0 px-4 px-md-5">
+                Labour,Employment & Industrial - State Acts
+            </div>
+            <!-- buttons-->
+            <div class="col-12 py-2">
+                <!--       <div class="d-flex row m-0 state-btns">
                         <a href="#a" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Andaman and
                                 Nicobar</button></a>
                         <a href="#b" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Andra
@@ -106,20 +182,117 @@
                                 Pradesh</button></a>
                         <a href="#west" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">West
                                 Bengal</button></a>
-                    </div>
-                    <!-- search-->
-                    <div class="col-12 d-flex py-2">
-                        <div class="search-new px-2 col-12 md-col-6 ml-auto">
-                            <form name="myForm" class="mb-0" action="stateact.php" onsubmit="return validateForm()">
-                                <input type="text" placeholder="search Acts" id="search" name="act-search"
-                                    class="border-0 w-100 pr-4 search-input" required>
-                                <button type="submit" class="border-0 bg-transparent search-btn"><i
-                                        class="fa fa-search"></i></button>
-                            </form>
-                        </div>
+                    </div>-->
+
+                <div class="main-btns d-flex">
+                    <p class="border-1"><button type="button" class="btn state-btn mx-1 my-1 central">Central</button>
+                    </p>
+                    <p class="border-1"><button type="button" class="btn east state-btn mx-1 my-1">East
+                        </button></p>
+                    <p class="border-1"><button type="button" class="btn west state-btn mx-1 my-1">West
+                        </button></p>
+                    <p class="border-1"><button type="button" class="btn north state-btn mx-1 my-1">North</button></p>
+                    <p class="border-1"><button type="button" class="btn south state-btn mx-1 my-1">South</button></p>
+                </div>
+                <div class="d-none undu" id="central-state">
+                    <a href="#tripura" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Tripura</button></a>
+                    <a href="#ut" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">UT of
+                            Lakshadweep</button></a>
+                    <a href="#uttrakand" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Uttrakhand</button></a>
+                    <a href="#uttrapradesh" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Uttra
+                            Pradesh</button></a>
+                    <a href="#west" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">West
+                            Bengal</button></a>
+                </div>
+                <div class="d-none undu2" id="central-state2">
+                    <a href="#r" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Mizoram</button></a>
+                    <a href="#s" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Nagaland</button></a>
+                    <a href="#t" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Odisha</button></a>
+                    <a href="#u" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Puducherry</button></a>
+                    <a href="#v" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Punjab</button></a>
+                    <a href="#w" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Rajasthan</button></a>
+                    <a href="#x" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Sikkim</button></a>
+                    <a href="#y" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Tamil
+                            Nadu</button></a>
+                    <a href="#z" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Telangana</button></a>
+                </div>
+                <div class="d-none undu3" id="central-state3">
+                    <a href="#k" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Jharkhand</button></a>
+                    <a href="#l" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Karnataka</button></a>
+                    <a href="#m" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Kerala</button></a>
+                    <a href="#n" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Madhya
+                            Pradesh</button></a>
+                    <a href="#o" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Maharastra
+                        </button></a>
+                    <a href="#p" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Manipur</button></a>
+                    <a href="#q" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Meghalaya</button></a>        
+                </div>
+                <div class="d-none undu4" id="central-state4">
+                    <a href="#h" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Gujarat</button></a>
+                    <a href="#i" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Haryana</button></a>
+                    <a href="#j" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Himachal
+                            Pradesh</button></a>
+                    <a href="#k" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Jharkhand</button></a>
+                    <a href="#l" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Karnataka</button></a>
+                    <a href="#m" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Kerala</button></a>
+                    <a href="#n" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Madhya
+                            Pradesh</button></a>
+                    <a href="#o" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Maharastra
+                        </button></a>
+                    <a href="#p" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Manipur</button></a>
+                </div>
+                <div class="d-none undu5" id="central-state5">
+                    <a href="#a" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Andaman and
+                            Nicobar</button></a>
+                    <a href="#b" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Andra
+                            Pradesh
+                        </button></a>
+                    <a href="#c" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Arunachal
+                            Pradesh
+                        </button></a>
+                    <a href="#d" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Assam</button></a>
+                    <a href="#e" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Bihar</button></a>
+                    <a href="#f" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Chhatisgar</button></a>
+                    <a href="#g" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Goa</button></a>
+                </div>
+                <!-- search-->
+                <div class="col-12 d-flex py-2">
+                    <div class="search-new px-2 col-12 md-col-6 ml-auto">
+                        <form name="myForm" class="mb-0" action="stateact.php" onsubmit="return validateForm()">
+                            <input type="text" placeholder="search Acts" id="search" name="act-search"
+                                class="border-0 w-100 pr-4 search-input" required>
+                            <button type="submit" class="border-0 bg-transparent search-btn"><i
+                                    class="fa fa-search"></i></button>
+                        </form>
                     </div>
                 </div>
-            
+            </div>
+
+
             <div class="col-12 py-1">
                 <div class="col-12 mt-0 px-3 aphabet-scroll-state scrollbarnew">
                     <div class="row">
