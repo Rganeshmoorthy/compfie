@@ -256,9 +256,9 @@ $(document).ready(function() {
             <div class="col-md-6">
                 <div class="col-12">
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-lg-12 remove-bor">
                             <div class="my-3">
-                                <div class="border px-3 py-3">
+                                <div class=" px-3 py-3">
                                     <div class="title">
                                         Ullamcorper morpi tincidunt ornare massa
                                     </div>
@@ -284,9 +284,9 @@ $(document).ready(function() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12">
+                        <div class="col-lg-12 remove-bor">
                             <div class="my-3">
-                                <div class="border px-3 py-3">
+                                <div class=" px-3 py-3">
                                     <div class="title">
                                         Ullamcorper morpi tincidunt ornare massa
                                     </div>
@@ -311,9 +311,9 @@ $(document).ready(function() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12">
+                        <div class="col-lg-12 remove-bor">
                             <div class="my-3">
-                                <div class="border px-3 py-3">
+                                <div class=" px-3 py-3">
                                     <div class="title">
                                         Ullamcorper morpi tincidunt ornare massa
                                     </div>
@@ -338,9 +338,9 @@ $(document).ready(function() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12">
+                        <div class="col-lg-12 remove-bor">
                             <div class="my-3">
-                                <div class="border px-3 py-3">
+                                <div class=" px-3 py-3">
                                     <div class="title">
                                         Ullamcorper morpi tincidunt ornare massa
                                     </div>
@@ -365,9 +365,9 @@ $(document).ready(function() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12">
+                        <div class="col-lg-12 remove-bor">
                             <div class="my-3">
-                                <div class="border px-3 py-3">
+                                <div class=" px-3 py-3">
                                     <div class="title">
                                         Ullamcorper morpi tincidunt ornare massa
                                     </div>
@@ -392,9 +392,9 @@ $(document).ready(function() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12">
+                        <div class="col-lg-12 remove-bor">
                             <div class="my-3">
-                                <div class="border px-3 py-3">
+                                <div class=" px-3 py-3">
                                     <div class="title">
                                         Ullamcorper morpi tincidunt ornare massa
                                     </div>
@@ -419,9 +419,9 @@ $(document).ready(function() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12">
+                        <div class="col-lg-12 remove-bor">
                             <div class="my-3">
-                                <div class="border px-3 py-3">
+                                <div class=" px-3 py-3">
                                     <div class="title">
                                         Ullamcorper morpi tincidunt ornare massa
                                     </div>

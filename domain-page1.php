@@ -75,34 +75,34 @@
                                     onmouseout="this.start();">
                                     <ul class="mx-3 p-0">
                                         <li class="content"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag">
+                                                href="redirect-central-rules.php" class="anchor_tag">
                                                 Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
                                         <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag"> Uttrapradesh
+                                                href="redirect-central-rules.php" class="anchor_tag"> Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
                                         <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag"> Uttrapradesh
+                                                href="redirect-central-rules.php" class="anchor_tag"> Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
                                         <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag"> Uttrapradesh
+                                                href="redirect-central-rules.php" class="anchor_tag"> Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
                                         <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag">
+                                                href="redirect-central-rules.php" class="anchor_tag">
                                                 Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
                                         <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag"> Uttrapradesh
+                                                href="redirect-central-rules.php" class="anchor_tag"> Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
@@ -111,7 +111,7 @@
                                 <div class="d-flex mx-auto justify-content-center my-2">
                            <button class="view_more mx-2 py-1 px-3"><a href="domain-page11.php"
                                                 class="text-white mx-auto">View more</a></button>
-                                        <button class="view_more mx-2 py-1 px-3"><a href="recently-added.php"
+                                        <button class="view_more mx-2 py-1 px-3"><a href="recently-central-rules.php"
                                                 class="text-white mx-auto">Recently Added</a></button>
                                 </div>
                             </div>
@@ -125,34 +125,34 @@
                                     onmouseout="this.start();">
                                     <ul class="mx-3 p-0">
                                         <li class="content"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag">
+                                                href="redirect-state-act.php" class="anchor_tag">
                                                 Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
                                         <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag"> Uttrapradesh
+                                                href="redirect-state-act.php" class="anchor_tag"> Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
                                         <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag"> Uttrapradesh
+                                                href="redirect-state-act.php" class="anchor_tag"> Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
                                         <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag"> Uttrapradesh
+                                                href="redirect-state-act.php" class="anchor_tag"> Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
                                         <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag">
+                                                href="redirect-state-act.php" class="anchor_tag">
                                                 Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
                                         <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag"> Uttrapradesh
+                                                href="redirect-state-act.php" class="anchor_tag"> Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
@@ -161,7 +161,7 @@
                                 <div class="d-flex mx-auto justify-content-center my-2">
                                      <button class="view_more mx-2 py-1 px-3"><a href="domain-page4.php"
                                                 class="text-white mx-auto">View more</a></button>
-                                        <button class="view_more mx-2 py-1 px-3"><a href="recently-added.php"
+                                        <button class="view_more mx-2 py-1 px-3"><a href="recently-state-act.php"
                                                 class="text-white mx-auto">Recently Added</a></button>
                                 </div>
                             </div>
@@ -175,34 +175,34 @@
                                     onmouseout="this.start();">
                                     <ul class="mx-3 p-0">
                                         <li class="content"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag">
+                                                href="redirect-state-rules.php" class="anchor_tag">
                                                 Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
                                         <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag"> Uttrapradesh
+                                                href="redirect-state-rules.php" class="anchor_tag"> Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
                                         <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag"> Uttrapradesh
+                                                href="redirect-state-rules.php" class="anchor_tag"> Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
                                         <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag"> Uttrapradesh
+                                                href="redirect-state-rules.php" class="anchor_tag"> Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
                                         <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag">
+                                                href="redirect-state-rules.php" class="anchor_tag">
                                                 Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
                                         <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag"> Uttrapradesh
+                                                href="redirect-state-rules.php" class="anchor_tag"> Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
@@ -211,7 +211,7 @@
                                 <div class="d-flex mx-auto justify-content-center my-2">
                                  <button class="view_more mx-2 py-1 px-3"><a href="domain-page5.php"
                                                 class="text-white mx-auto">View more</a></button>
-                                        <button class="view_more mx-2 py-1 px-3"><a href="recently-added.php"
+                                        <button class="view_more mx-2 py-1 px-3"><a href="recently-state-rules.php"
                                                 class="text-white mx-auto">Recently Added</a></button>
                                 </div>
                             </div>
@@ -225,34 +225,34 @@
                                     onmouseout="this.start();">
                                     <ul class="mx-3 p-0">
                                         <li class="content"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag">
+                                                href="redirect-scheme.php" class="anchor_tag">
                                                 Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
                                         <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag"> Uttrapradesh
+                                                href="redirect-scheme.php" class="anchor_tag"> Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
                                         <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag"> Uttrapradesh
+                                                href="redirect-scheme.php" class="anchor_tag"> Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
                                         <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag"> Uttrapradesh
+                                                href="redirect-scheme.php" class="anchor_tag"> Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
                                         <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag">
+                                                href="redirect-scheme.php" class="anchor_tag">
                                                 Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
                                         <li class="content mt-1"> <i class="fa fa-fw fa-angle-right px-3"></i><a
-                                                href="redirect-page.php" class="anchor_tag"> Uttrapradesh
+                                                href="redirect-scheme.php" class="anchor_tag"> Uttrapradesh
                                                 Munispality
                                                 act,1998</a>
                                         </li>
@@ -261,7 +261,7 @@
                                 <div class="d-flex mx-auto justify-content-center my-2">
                                  <button class="view_more mx-2 py-1 px-3"><a href="schemes.php"
                                                 class="text-white mx-auto">View more</a></button>
-                                        <button class="view_more mx-2 py-1 px-3"><a href="recently-added.php"
+                                        <button class="view_more mx-2 py-1 px-3"><a href="recently-scheme.php"
                                                 class="text-white mx-auto">Recently Added</a></button>
                                 </div>
                             </div>
