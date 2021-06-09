@@ -19,7 +19,7 @@
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/jquery.scrollbar.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
         integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous">
     </script>
@@ -92,35 +92,49 @@
         }
 
         $('.bg-red').on('click', function() {
-            $(".title,.case-law-p, .content,.alphabet,.alphabet-bgcolor,.alpha-new, .heading,.ol-content , .moreless-button,.table-content,.anchor_tag").css("color", "#5B3D71");
-            $(".sidenav, .foot_class, .circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt").css("background-color", "#5B3D71 !important");
+            $(".title,.case-law-p, .content,.alphabet,.alphabet-bgcolor,.alpha-new, .heading,.ol-content , .moreless-button,.table-content,.anchor_tag")
+                .css("color", "#5B3D71");
+            $(".sidenav, .foot_class, .circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt")
+                .css("background-color", "#5B3D71 !important");
         });
 
         $('.bg-brown').on('click', function() {
-            $(".title,.case-law-p, .content,.alphabet,.alphabet-bgcolor,.alpha-new, .heading,.ol-content , .moreless-button,.table-content,.anchor_tag").css("color", "#5866B0");
-            $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt").css("background-color", "#5866B0 !important");
+            $(".title,.case-law-p, .content,.alphabet,.alphabet-bgcolor,.alpha-new, .heading,.ol-content , .moreless-button,.table-content,.anchor_tag")
+                .css("color", "#5866B0");
+            $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt")
+                .css("background-color", "#5866B0 !important");
         });
 
         $('.bg-green').on('click', function() {
-            $(".title, .content, .heading, .moreless-button,.table-content,.anchor_tag").css("color", "#697CE0");
-            $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt").css("background-color", "#697CE0 !important");
+            $(".title, .content, .heading, .moreless-button,.table-content,.anchor_tag").css("color",
+                "#697CE0");
+            $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt")
+                .css("background-color", "#697CE0 !important");
         });
 
         $('.bg-b1').on('click', function() {
-            $(".title, .content, .heading, .moreless-button,.table-content,.anchor_tag").css("color", "#04009a");
-            $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt").css("background-color", "#04009a !important");
+            $(".title, .content, .heading, .moreless-button,.table-content,.anchor_tag").css("color",
+                "#04009a");
+            $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt")
+                .css("background-color", "#04009a !important");
         });
-           $('.bg-b2').on('click', function() {
-            $(".title, .content, .heading, .moreless-button,.table-content,.anchor_tag").css("color", "#77acf1");
-            $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt").css("background-color", "#77acf1 !important");
+        $('.bg-b2').on('click', function() {
+            $(".title, .content, .heading, .moreless-button,.table-content,.anchor_tag").css("color",
+                "#77acf1");
+            $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt")
+                .css("background-color", "#77acf1 !important");
         });
-           $('.bg-b3').on('click', function() {
-            $(".title, .content, .heading, .moreless-button,.table-content,.anchor_tag").css("color", "#3edbf0");
-            $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt").css("background-color", "#3edbf0 !important");
+        $('.bg-b3').on('click', function() {
+            $(".title, .content, .heading, .moreless-button,.table-content,.anchor_tag").css("color",
+                "#3edbf0");
+            $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt")
+                .css("background-color", "#3edbf0 !important");
         });
-           $('.bg-b4').on('click', function() {
-            $(".title, .content, .heading, .moreless-button,.table-content,.anchor_tag").css("color", "#c0fefc");
-            $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt").css("background-color", "#c0fefc !important");
+        $('.bg-b4').on('click', function() {
+            $(".title, .content, .heading, .moreless-button,.table-content,.anchor_tag").css("color",
+                "#c0fefc");
+            $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt")
+                .css("background-color", "#c0fefc !important");
         });
 
         if (url == 'domain-page1.php' || url == 'domain-page2.php') {
@@ -163,6 +177,82 @@
                 'elementHandlers': specialElementHandlers
             });
             doc.save('sample-file.pdf');
+        });
+
+        $(".central").click(function() {
+            if ($("#central-state").hasClass("undu")) {
+                $("#central-state").removeClass("d-none")
+                $("#central-state2").addClass("d-none");
+                $("#central-state3").addClass("d-none");
+                $("#central-state4").addClass("d-none")
+                $("#central-state5").addClass("d-none")
+            } else {
+                $("#central-state").addClass("d-none")
+                $("#central-state2").removeClass("d-none");
+                $("#central-state3").removeClass("d-none");
+                $("#central-state4").removeClass("d-none")
+                $("#central-state5").removeClass("d-none")
+            }
+        });
+        $(".east").click(function() {
+            if ($("#central-state2").hasClass("undu2")) {
+                $("#central-state2").removeClass("d-none");
+                $("#central-state").addClass("d-none")
+                $("#central-state3").addClass("d-none")
+                $("#central-state4").addClass("d-none")
+                $("#central-state5").addClass("d-none")
+            } else {
+                $("#central-state2").addClass("d-none");
+                $("#central-state").removeClass("d-none")
+                $("#central-state3").removeClass("d-none")
+                $("#central-state4").removeClass("d-none")
+                $("#central-state5").removeClass("d-none")
+            }
+        });
+        $(".west").click(function() {
+            if ($("#central-state3").hasClass("undu3")) {
+                $("#central-state3").removeClass("d-none");
+                $("#central-state").addClass("d-none")
+                $("#central-state2").addClass("d-none")
+                $("#central-state4").addClass("d-none")
+                $("#central-state5").addClass("d-none")
+            } else {
+                $("#central-state3").addClass("d-none");
+                $("#central-state").removeClass("d-none")
+                $("#central-state2").removeClass("d-none")
+                $("#central-state4").removeClass("d-none")
+                $("#central-state5").removeClass("d-none")
+            }
+        });
+        $(".north").click(function() {
+            if ($("#central-state4").hasClass("undu4")) {
+                $("#central-state4").removeClass("d-none");
+                $("#central-state").addClass("d-none")
+                $("#central-state2").addClass("d-none")
+                $("#central-state3").addClass("d-none")
+                $("#central-state5").addClass("d-none")
+            } else {
+                $("#central-state4").addClass("d-none");
+                $("#central-state").removeClass("d-none")
+                $("#central-state2").removeClass("d-none")
+                $("#central-state3").removeClass("d-none")
+                $("#central-state5").removeClass("d-none")
+            }
+        });
+        $(".south").click(function() {
+            if ($("#central-state5").hasClass("undu5")) {
+                $("#central-state5").removeClass("d-none");
+                $("#central-state").addClass("d-none")
+                $("#central-state2").addClass("d-none")
+                $("#central-state3").addClass("d-none")
+                $("#central-state4").addClass("d-none")
+            } else {
+                $("#central-state5").addClass("d-none");
+                $("#central-state").removeClass("d-none")
+                $("#central-state2").removeClass("d-none")
+                $("#central-state3").removeClass("d-none")
+                $("#central-state4").removeClass("d-none")
+            }
         });
     });
     </script>

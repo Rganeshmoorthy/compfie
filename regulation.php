@@ -129,12 +129,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php">Assam Lifts And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
@@ -150,12 +150,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php">Assam Lifts And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
@@ -171,12 +171,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php">Assam Lifts And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
@@ -192,12 +192,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php">Assam Lifts And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
@@ -213,12 +213,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php">Assam Lifts And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
@@ -234,12 +234,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php">Assam Lifts And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
@@ -255,12 +255,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php">Assam Lifts And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
@@ -276,12 +276,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php">Assam Lifts And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
@@ -298,12 +298,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php">Assam Lifts And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
@@ -319,12 +319,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php">Assam Lifts And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
@@ -340,12 +340,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php">Assam Lifts And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
@@ -361,12 +361,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php">Assam Lifts And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
@@ -382,12 +382,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php">Assam Lifts And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
@@ -403,12 +403,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php">Assam Lifts And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
@@ -424,12 +424,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php">Assam Lifts And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
@@ -445,12 +445,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php">Assam Lifts And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
@@ -466,12 +466,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php">Assam Lifts And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
@@ -487,12 +487,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php">Assam Lifts And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
@@ -508,12 +508,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php">Assam Lifts And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
@@ -529,12 +529,12 @@ jQuery(document).ready(function() {
                             </div>
                             <div>
                                 <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php">Assam Lifts And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-page.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-regulation.php"> Assam Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>

@@ -26,7 +26,7 @@ $(document).ready(function() {
             <a href="domain-page3.php"><button type="button" class="bg-bt text-white pr-2"><i
                         class="fa fa-arrow-left text-white px-1 nav-prev" aria-hidden="true"></i>Goto Central Acts</button></a>
             <div class="col-12 heading text-center">
-                State OR Central Munispality Act
+                 Central Acts
             </div>
             <div class="col-12 py-2">
                 <div class="d-flex justify-content-center">

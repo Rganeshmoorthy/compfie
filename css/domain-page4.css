@@ -132,7 +132,7 @@ span.select2-selection.select2-selection--single {
 .state-btn {
     border: 2px solid #5B3D71;
     border-radius: 20px;
-    font-size: 0.8em;
+    font-size: 15px;
 }
 
 .state-btn {
@@ -150,7 +150,7 @@ span.select2-selection.select2-selection--single {
         scroll-behavior: smooth !important;
     }
     .aphabet-scroll-state {
-        max-height: calc(100vh - 358px);
+        max-height: calc(100vh - 358px) !important;
         overflow-y: auto;
     }
     body,
@@ -167,6 +167,18 @@ span.select2-selection.select2-selection--single {
     .search-new {
         margin-left: unset !important;
     }
+    /* .web-view{
+        display: block !important;
+    } */
+    .u-mbl{
+        display: none !important;
+    }
+}
+.web-view{
+    display: none;
+}
+.u-mbl{
+    display: block;
 }
 
 .search-new {
