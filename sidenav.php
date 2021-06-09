@@ -92,12 +92,12 @@
         }
 
         $('.bg-red').on('click', function() {
-            $(".title, .content,.alphabet,.alphabet-bgcolor,.alpha-new, .heading,.ol-content , .moreless-button,.table-content,.anchor_tag").css("color", "#5B3D71");
+            $(".title,.case-law-p, .content,.alphabet,.alphabet-bgcolor,.alpha-new, .heading,.ol-content , .moreless-button,.table-content,.anchor_tag").css("color", "#5B3D71");
             $(".sidenav, .foot_class, .circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt").css("background-color", "#5B3D71 !important");
         });
 
         $('.bg-brown').on('click', function() {
-            $(".title, .content,.alphabet,.alphabet-bgcolor,.alpha-new, .heading,.ol-content , .moreless-button,.table-content,.anchor_tag").css("color", "#5866B0");
+            $(".title,.case-law-p, .content,.alphabet,.alphabet-bgcolor,.alpha-new, .heading,.ol-content , .moreless-button,.table-content,.anchor_tag").css("color", "#5866B0");
             $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt").css("background-color", "#5866B0 !important");
         });
 
