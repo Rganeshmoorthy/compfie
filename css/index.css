@@ -358,6 +358,9 @@ td {
     color:#5D5D5D !important;
 
 }
-.remove-bor .border{
-
+.gray{
+color:gray !important;
+}
+.scr-clr{
+    color:#5B3D71 !important;
 }
