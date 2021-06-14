@@ -69,61 +69,61 @@ $(document).ready(function() {
                         </thead>
                         <tbody class="table-content" id="myTable">
                             <tr>
-                                <td class="text-center">1 &nbsp; &nbsp; &nbsp;</td>
-                                <td class="text-center">Madras High Court</td>
-                                <td class="text-center">Management, Britannia Industries Ltd, Padi Chennai</td>
-                                <td class="text-center case-law-btnn"><p class="case-law-p mb-0"> (1) Presiding Officer, Principal
+                                <td class="">1 &nbsp; &nbsp; &nbsp;</td>
+                                <td class="">Madras High Court</td>
+                                <td class="">Management, Britannia Industries Ltd, Padi Chennai</td>
+                                <td class=" case-law-btnn"><p class="case-law-p mb-0"> (1) Presiding Officer, Principal
                                     Labour Court, Chennai
                                     (2) Sri Rajesh Kanna</p>
                                     <a class="moreless-button" href="#">READ MORE</a>  
                                 </td>
-                                <td class="text-center case-law-btnn"> <p class="case-law-p mb-0">Writ Petitions No. 754 and 755 of 2005 and Writ
+                                <td class=" case-law-btnn"> <p class="case-law-p mb-0">Writ Petitions No. 754 and 755 of 2005 and Writ
                                     Petition Miscellaneous Petitions Nos. 822 and
                                     38205 of 2005 and W.V.M.P. No. 2370 of 2006</p><a class="moreless-button" href="#">READ MORE</a>                                                                     
                                     
                                 </td>                             
-                                <td class="text-center">4/13/2006</td>
-                                <td class="text-center">Management, Britannia Industries Ltd, Padi Chennai</td>                                
-                                <td class="text-center"> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                <td class="">4/13/2006</td>
+                                <td class="">Management, Britannia Industries Ltd, Padi Chennai</td>                                
+                                <td class=""> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         data-toggle="modal" data-target="#case">View
                                         more</button>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="text-center">2</td>
-                                <td class="text-center">Supreme Court</td>
-                                <td class="text-center">Municipal Council, Nangal & Ors</td>
-                                <td class="text-center">Aruna Saini</td>
-                                <td class="text-center">CIVIL APPEAL No.3350 of 2017</td>                                
-                                <td class="text-center">2/28/2017</td>
-                                <td class="text-center">Management, Britannia Industries Ltd, Padi Chennai</td>                                
-                                <td class="text-center"> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                <td class="">2</td>
+                                <td class="">Supreme Court</td>
+                                <td class="">Municipal Council, Nangal & Ors</td>
+                                <td class="">Aruna Saini</td>
+                                <td class="">CIVIL APPEAL No.3350 of 2017</td>                                
+                                <td class="">2/28/2017</td>
+                                <td class="">Management, Britannia Industries Ltd, Padi Chennai</td>                                
+                                <td class=""> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         data-toggle="modal" data-target="#case2">View
                                         more</button>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="text-center">3</td>
-                                <td class="text-center">Karnataka High Court</td>
-                                <td class="text-center">Mehiboobsab</td>
-                                <td class="text-center">Upalokayukta and Ors</td>
-                                <td class="text-center">Writ Petition No. 15019/2002</td>                                
-                                <td class="text-center">4/18/2002</td>
-                                <td class="text-center">Management, Britannia Industries Ltd, Padi Chennai</td>                                
-                                <td class="text-center"> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                <td class="">3</td>
+                                <td class="">Karnataka High Court</td>
+                                <td class="">Mehiboobsab</td>
+                                <td class="">Upalokayukta and Ors</td>
+                                <td class="">Writ Petition No. 15019/2002</td>                                
+                                <td class="">4/18/2002</td>
+                                <td class="">Management, Britannia Industries Ltd, Padi Chennai</td>                                
+                                <td class=""> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         data-toggle="modal" data-target="#case3">View
                                         more</button>
                                 </td>
                             </tr>
                                      <tr>
-                                <td class="text-center">4</td>
-                                <td class="text-center">Karnataka High Court</td>
-                                <td class="text-center">Mehiboobsab</td>
-                                <td class="text-center">Upalokayukta and Ors</td>
-                                <td class="text-center">Writ Petition No. 15019/2002</td>                                
-                                <td class="text-center">4/18/2002</td>
-                                <td class="text-center">Management, Britannia Industries Ltd, Padi Chennai</td>                                
-                                <td class="text-center"> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                <td class="">4</td>
+                                <td class="">Karnataka High Court</td>
+                                <td class="">Mehiboobsab</td>
+                                <td class="">Upalokayukta and Ors</td>
+                                <td class="">Writ Petition No. 15019/2002</td>                                
+                                <td class="">4/18/2002</td>
+                                <td class="">Management, Britannia Industries Ltd, Padi Chennai</td>                                
+                                <td class=""> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         data-toggle="modal" data-target="#case3">View
                                         more</button>
                                 </td>

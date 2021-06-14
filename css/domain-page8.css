@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 .button-head {
     background-color: #5B3D71;
-    font-size: 15px;
+    font-size: 13px;
     font-family: 'Poppins', sans-serif;
     border-radius: 5px;
 }
@@ -37,7 +37,7 @@
 
 .button-readmore {
     background-color: #5B3D71;
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Poppins', sans-serif;
     border-radius: 35px;
 }
@@ -47,7 +47,7 @@
 }
 
 .button-readmore-white {
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Poppins', sans-serif;
     border-radius: 35px;
     background-color: #EDE5F2;
@@ -79,13 +79,13 @@
 }
 
 .t-head {
-    font-size: 15px;
+    font-size: 13px;
     font-family: 'Poppins', sans-serif;
     color: #5B3D71;
 }
 
 .table-content {
-    font-size: 15px;
+    font-size: 13px;
     color: #5B3D71;
     font-family: 'Poppins', sans-serif;
 }

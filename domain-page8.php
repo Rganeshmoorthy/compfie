@@ -290,7 +290,7 @@ $(document).ready(function(){
                             <tr>
                                 <th scope="col" class="">Notification Date</th>
                                 <th scope="col" class="">Notification Title</th>
-                                <th scope="col" class="">Notification Discription</th>
+                                <th scope="col" class="">Notification Description</th>
                                 <th scope="col" class="">Notification Issued By</th>
                                 <th scope="col" class=""></th>
                             </tr>
