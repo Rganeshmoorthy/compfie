@@ -53,7 +53,7 @@ $(document).ready(function() {
                                 <th scope="col" class="">Section Number</th>
                                 <th scope="col" class="">Section Title</th>
                                 <th scope="col" class="">Section</th>
-                                <th scope="col" class="">Discription</th>
+                                <th scope="col" class="">Description</th>
                                 <th scope="col" class=""></th>
                             </tr>
                         </thead>
