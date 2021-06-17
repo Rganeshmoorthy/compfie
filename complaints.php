@@ -36,7 +36,7 @@ $(document).ready(function(){
             </div>
 
             <div class="col-12">
-                <div class="col-12 py-2 px-md-5 table-wrap scrollbarnew">
+                <div class="col-12 py-2 px-md-5 table-wrap2 scrollbarnew">
                     <table class="table table-bordered table_bgcolor">
                         <thead class="t-head">
                             <tr>

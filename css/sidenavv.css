@@ -190,7 +190,7 @@ a {
 }
 
 .sidenav-body {
-    max-height: calc(100vh - 380px) !important;
+    max-height: calc(100vh - 340px) !important;
     overflow-y: auto;
 }
 
@@ -199,13 +199,13 @@ a {
 }
 
 .foot_class {
-    font-size: 15px;
+    font-size: 12px;
     position: absolute;
     bottom: 0;
     text-align: center !important;
     width: 100%;
     left: 0;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 .topic_head {
@@ -231,7 +231,7 @@ a {
 }
 
 .home {
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -284,7 +284,7 @@ a {
 }
 
 .menu {
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
 }
 

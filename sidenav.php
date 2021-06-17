@@ -424,7 +424,7 @@
             </div>
         </div>
         <div class="col-12  text-white mx-auto foot_class">
-            <div class="col-12 py-3 d-flex justify-content-center circle-bg">
+            <div class="col-12 py-2 d-flex justify-content-center circle-bg">
                 <div class="circle bg-red mx-1"></div>
                 <div class="circle bg-brown mx-1"></div>
                 <!-- <div class="circle bg-green mx-1"></div>
@@ -433,7 +433,7 @@
                 <div class="circle bg-b3 mx-1"></div>
                 <div class="circle bg-b4 mx-1"></div> -->
             </div>
-            <p>sample@gmail.com</p>
+            <p class="mb-2">sample@gmail.com</p>
             <button class="btn btn-lg  bg-white rounded-pill btn_topic">Log Out</button>
         </div>
 

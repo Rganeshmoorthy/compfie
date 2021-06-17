@@ -33,7 +33,7 @@ $(document).ready(function() {
     <div class="main-content">
         <!-- center content starts -->
         <div class="row px-3 px-md-5 py-3 pb-1"> 
-         <a href="domain-page.php"><button type="button" class="bg-bt text-white pr-2"><i class="fa fa-arrow-left text-white px-1 nav-prev" aria-hidden="true"></i>Back </button></a>        
+         <!-- <a href="domain-page.php"><button type="button" class="bg-bt text-white pr-2"><i class="fa fa-arrow-left text-white px-1 nav-prev" aria-hidden="true"></i>Back </button></a>         -->
             <div class="col-12 heading text-center">
                 Case Laws
             </div>
@@ -52,8 +52,8 @@ $(document).ready(function() {
                 </div>
             </div>
 
-            <div class="col-12">
-                <div class="col-12 py-2 p-0 table-wrap scrollbarnew">
+            <div class="col-12 px-lg-5">
+                <div class="col-12 py-2 p-0 table-wrap2 scrollbarnew">
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">
                             <tr>
@@ -117,6 +117,20 @@ $(document).ready(function() {
                             </tr>
                                      <tr>
                                 <td class="">4</td>
+                                <td class="">Karnataka High Court</td>
+                                <td class="">Mehiboobsab</td>
+                                <td class="">Upalokayukta and Ors</td>
+                                <td class="">Writ Petition No. 15019/2002</td>                                
+                                <td class="">4/18/2002</td>
+                                <td class="">Management, Britannia Industries Ltd, Padi Chennai</td>                                
+                                <td class=""> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                        data-toggle="modal" data-target="#case3">View
+                                        more</button>
+                                </td>
+                            </tr>
+                            </tr>
+                                     <tr>
+                                <td class="">5</td>
                                 <td class="">Karnataka High Court</td>
                                 <td class="">Mehiboobsab</td>
                                 <td class="">Upalokayukta and Ors</td>

@@ -125,12 +125,12 @@ $(document).ready(function(){
             </div>
 
             <div class="col-12">
-                <div class="col-12 py-2 table-wrap scrollbarnew">
+                <div class="col-12 py-2 table-wrap2 scrollbarnew">
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">
                             <tr>
                                 <th scope="col" class="">State Name</th>
-                                <th scope="col" class="">In which month Salary contribution is to be deducted</th>
+                                <th scope="col" class="">In which month Salary<br> contribution is to be deducted</th>
                                 <th scope="col" class="">Periodicity</th>
                                 <th scope="col" class="">Employee Contribution</th>
                                 <th scope="col" class="">Employer Contribution</th>
