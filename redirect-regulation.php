@@ -167,12 +167,16 @@ $(document).ready(function() {
                                 <th scope="row">9</th>
                                 <td>AMENDMENT OF RULES</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">1) On receiving a copy of an application made in the rules of a Trade Union under section 28(3), the
-Registrar, unless he has reason to believe that the alteration has not been made in the manner provided by the rules
-of the Trade Union, shall register the alteration in a register to be maintained for this purpose and shall notify the
-fact that he has done so to the Secretary of the Trade Union.
-(2) The fee payable for registration of alteration of rules shall be Re.1 for each set of alterations made
-simultaneously.</td>
+                                <td class="short-ppp">1) On receiving a copy of an application made in the rules of a
+                                    Trade Union under section 28(3), the
+                                    Registrar, unless he has reason to believe that the alteration has not been made in
+                                    the manner provided by the rules
+                                    of the Trade Union, shall register the alteration in a register to be maintained for
+                                    this purpose and shall notify the
+                                    fact that he has done so to the Secretary of the Trade Union.
+                                    (2) The fee payable for registration of alteration of rules shall be Re.1 for each
+                                    set of alterations made
+                                    simultaneously.</td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
