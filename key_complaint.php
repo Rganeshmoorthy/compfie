@@ -220,7 +220,7 @@
                                     <h1 class="act-mbl-view mx-auto">Andaman and                                    
                                         Nicobar</h1></div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php.php"> Andaman &
+                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php"> Andaman &
                                                 Nicobar Island Shop & Establishment Regulation, 2004
                                             </a></li>
                                     </ol>
@@ -239,7 +239,7 @@
                                     <h1 class="act-mbl-view mx-auto">Andra Pradesh</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php.php"> Boilers Act,
+                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php"> Boilers Act,
                                                 1923
                                             </a></li>
                                         <li class="mt-2"><a class="ol-content" href="redirect-profesional.php"> Coir Industry
@@ -823,12 +823,12 @@
                                     <h1 class="act-mbl-view mx-auto"> Telangana</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php"> Assam Lifts And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php">Assam Lifts And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php"> Assam Lifts And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -847,12 +847,12 @@
                                     <h1 class="act-mbl-view mx-auto">Tripura</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php"> Assam Lifts And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php">Assam Lifts And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php"> Assam Lifts And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -871,12 +871,12 @@
                                     <h1 class="act-mbl-view mx-auto">UT of Lakshadweep</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php"> Assam Lifts And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php">Assam Lifts And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php"> Assam Lifts And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -895,12 +895,12 @@
                                     <h1 class="act-mbl-view mx-auto"> Uttrakhand</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php"> Assam Lifts And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php">Assam Lifts And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php"> Assam Lifts And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -919,12 +919,12 @@
                                     <h1 class="act-mbl-view mx-auto">Uttra Pradesh</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php"> Assam Lifts And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php">Assam Lifts And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php"> Assam Lifts And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -943,12 +943,12 @@
                                     <h1 class="act-mbl-view mx-auto">West Bengal</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php"> Assam Lifts And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php">Assam Lifts And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-profesional.php"> Assam Lifts And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>

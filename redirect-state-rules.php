@@ -15,6 +15,15 @@ $(document).ready(function() {
             $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
         });
     });
+    $(".moreless-button").click(function() {
+        $(this).prev().toggleClass("open");
+        console.log($(this).prev().hasClass("open"))
+        if ($(this).prev().hasClass("open")) {
+            $(this).text("READ LESS")
+        } else {
+            $(this).text("READ MORE")
+        }
+    });
 });
 </script>
 
@@ -69,13 +78,14 @@ $(document).ready(function() {
                                 <th scope="row">1</th>
                                 <td>SHORT TITLE AND EXTENT</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">(1) These rules may be called the Tamil Nadu Shops and
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">(1) These rules may be called the Tamil Nadu Shops and
                                     Establishments Rules, 1948.
                                     (2) They extend to the whole of the State of Tamil Nadu including the Kanyakumari
                                     district and the Shencottah taluk
                                     of the Tirunelveli district and the territories specified in the Second Schedule to
                                     the Andhra Pradesh and Madras
-                                    (Alteration of Boundaries) Act, 1959 (Central Act 56 of 1959).
+                                    (Alteration of Boundaries) Act, 1959 (Central Act 56 of 1959).</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
                                 </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -86,7 +96,7 @@ $(document).ready(function() {
                                 <th scope="row">2</th>
                                 <td>DEFINITIONS</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">In these rules, unless there is anything repugnant in the subject
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">In these rules, unless there is anything repugnant in the subject
                                     or context,-
                                     (a) ‘the Act” means the Tamil Nadu Shops and Establishments Act, 1947;
                                     (b) “ Form ‘ means a Form appended to these rules;
@@ -94,7 +104,9 @@ $(document).ready(function() {
                                     (d) “ Section “ means a section of the Act;
                                     (e) Words and expressions used in the Act and not defined in these rules shall have
                                     the meanings assigned to
-                                    them in the Act.</td>
+                                    them in the Act.</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td> <button type="button" class="btn btn-sm  button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -104,7 +116,7 @@ $(document).ready(function() {
                                 <th scope="row">3</th>
                                 <td class="up">INQUIRY BY GOVERNMENT BEFORE PASSING ORDERS FIXING OPENING</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">(1) The Government shall make the inquiry under sub-section (2) of
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">(1) The Government shall make the inquiry under sub-section (2) of
                                     section 7 in the manner specified in sub-
                                     rules (2) to (4).
                                     (2) Before passing an order under sub-section (1) of section 7, the Government shall
@@ -119,7 +131,9 @@ $(document).ready(function() {
                                     respect to such orders, if any, may be sent to the officer mentioned in the notice
                                     within one month from the date of
                                     publication of such notice in the Tamil Nadu Government Gazette.
-                                    (3) The notice shall be published in the Tamil Nadu Government Gazette.</td>
+                                    (3) The notice shall be published in the Tamil Nadu Government Gazette.</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -129,7 +143,7 @@ $(document).ready(function() {
                                 <th scope="row">4</th>
                                 <td class="up">EXEMPTION</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">(1) Nothing contained in this Act shall apply to--(a) persons
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">(1) Nothing contained in this Act shall apply to--(a) persons
                                     employed in any establishment in a position of
                                     management;
                                     (b) persons whose work involves travelling; and persons employed as canvassers and
@@ -146,7 +160,9 @@ $(document).ready(function() {
                                     (f) establishments which, not being factories within the meaning of the Factories
                                     Act, 1948, are in respect of
                                     matters dealt with in this Act, governed by a separate law for the time being in
-                                    force.</td>
+                                    force.</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -164,7 +180,7 @@ $(document).ready(function() {
                                 <th scope="row">5</th>
                                 <td>CLEANLINESS</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">(1) (a) In every establishment all the inside walls of the rooms
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">(1) (a) In every establishment all the inside walls of the rooms
                                     and all the ceilings of such rooms (whether
                                     such walls or ceilings be plastered or not) and all the passages and staircases
                                     shall be lime-washed or colour-
@@ -190,7 +206,9 @@ $(document).ready(function() {
                                     painting or varnishing is,
                                     in the Opinion of the Commissioner of Labour, unnecessary to satisfy the requiremet5
                                     of section 20 in regard to
-                                    cleanliness.</td>
+                                    cleanliness.</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -200,7 +218,7 @@ $(document).ready(function() {
                                 <th scope="row">6</th>
                                 <td>VENTILATION</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">In every room of an establishment ventilating opening shall be
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">In every room of an establishment ventilating opening shall be
                                     provided in the proportion of 0.5 square metre
                                     for each worker employed in such room and the opening shall be such as to admit of a
                                     continued supply of fresh air:
@@ -208,7 +226,9 @@ $(document).ready(function() {
                                     may, for reasons to be
                                     recorded in writing, relax the conditions of this rule where, in his opinion, this
                                     may be done with due regard to the
-                                    health of the workers employed in any room.</td>
+                                    health of the workers employed in any room.</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td>
                                     <button type="button" class="btn btn-sm button-readmore-white mx-2 mt-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -220,9 +240,11 @@ $(document).ready(function() {
                                 <th scope="row">7</th>
                                 <td>PRECAUTIONS AGAINST FIRE</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">The employer of every establishment shall adopt such precautions
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">The employer of every establishment shall adopt such precautions
                                     against danger by fire to the life of
-                                    persons employed therein as are considered adequate by the Inspector.</td>
+                                    persons employed therein as are considered adequate by the Inspector.</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -232,13 +254,15 @@ $(document).ready(function() {
                                 <th scope="row">8</th>
                                 <td>APPEALS FROM ORDERS PASSED UNDER CHAPTER V OF THE ACT</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">The Commissioner of Labour shall be the appellate authority for
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">The Commissioner of Labour shall be the appellate authority for
                                     the purpose of hearing appeals from orders
                                     passed by the Inspector under Chapter V of the Act and any such appeal shall be
                                     preferred by the employer on
                                     whom the order of the Inspector under that Chapter have been served within thirty
                                     days from the date of the
-                                    service of the order.</td>
+                                    service of the order.</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>

@@ -15,6 +15,15 @@ $(document).ready(function() {
             $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
         });
     });
+    $(".moreless-button").click(function() {
+        $(this).prev().toggleClass("open");
+        console.log($(this).prev().hasClass("open"))
+        if ($(this).prev().hasClass("open")) {
+            $(this).text("READ LESS")
+        } else {
+            $(this).text("READ MORE")
+        }
+    });
 });
 </script>
 
@@ -69,7 +78,7 @@ $(document).ready(function() {
                                 <th scope="row">1</th>
                                 <td>SHORT TITLE, COMMENCEMENT AND APPLICATION</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">(1) This scheme may be called The Coal Mines Pension Scheme, 1998.
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">(1) This scheme may be called The Coal Mines Pension Scheme, 1998.
                                     (2) It shall come into force from such date as the Central Government may, by
                                     notification in the Official
                                     Gazette, appoint.
@@ -78,7 +87,10 @@ $(document).ready(function() {
                                     Andhra Pradesh Coal Mines Provident Fund Scheme, 1956, and the Rajasthan Coal Mines
                                     Provident Fund Scheme,
                                     1958, framed under section 3 of the Coal Mines Provident Fund and Miscellaneous
-                                    Provisions Act, 1948, apply.</td>
+                                    Provisions Act, 1948, apply.
+                                    </p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -88,7 +100,7 @@ $(document).ready(function() {
                                 <th scope="row">2</th>
                                 <td>DEFINITIONS</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp"> In this scheme, unless the context otherwise requires,—
+                                <td class="case-law-btnn"><p class="case-law-p mb-0"> In this scheme, unless the context otherwise requires,—
                                     (a) “Act” means the Coal Mines Provident Fund and Miscellaneous Provisions Act, 1948
                                     (46 of 1948);
                                     (b) appointed day or date of joining, as the case may be means the date appointed
@@ -106,7 +118,9 @@ $(document).ready(function() {
                                     section 3C;(g) “employee” means an employee of the coal mines in respect of which
                                     the Coal Mines Provident Fund
                                     Schemes have been made applicable;
-                                    (h) “family”, in relation to an employee, means—</td>
+                                    (h) “family”, in relation to an employee, means—</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td> <button type="button" class="btn btn-sm  button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -116,7 +130,7 @@ $(document).ready(function() {
                                 <th scope="row">3</th>
                                 <td>ESTABLISHMENT OF THE PENSION FUND</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">From the appointed day the pension fund shall stand established
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">From the appointed day the pension fund shall stand established
                                     which shall have the sole purpose of the
                                     provision of the payment of pension in accordance with the scheme to the employee or
                                     his family or the payment of
@@ -150,7 +164,9 @@ $(document).ready(function() {
                                     six hundred per month,
                                     the contribution payable by the Central Government shall be equal to the maximum of
                                     the amount payable on the
-                                    salary of rupees one thousand six hundred per month only;</td>
+                                    salary of rupees one thousand six hundred per month only;</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -160,7 +176,7 @@ $(document).ready(function() {
                                 <th scope="row">4</th>
                                 <td>ELIGIBILITY FOR PENSION</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">(1) An employee who was a member of the Coal Mines Family Pension
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">(1) An employee who was a member of the Coal Mines Family Pension
                                     Scheme, 1971, immediately before the
                                     appointed day and has not attained the age of superannuation shall be deemed to be
                                     eligible for pension under the
@@ -183,7 +199,9 @@ $(document).ready(function() {
                                     (i) specified in clause (b), at the rate admissible from time to time to the monies
                                     in Coal Mines Provident Fund;
                                     (ii) specified in clauses (c) and (d), at the rate of twelve per cent. per annum;
-                                    and</td>
+                                    and</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -201,7 +219,7 @@ $(document).ready(function() {
                                 <th scope="row">5</th>
                                 <td>PARTICULARS TO BE FURNISHED BY AN EMPLOYEE</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">(1) An employee eligible for pension under the provisions of
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">(1) An employee eligible for pension under the provisions of
                                     sub-paragraphs (1) and (3) of paragraph 4, shall
                                     within a period of ‘[three hundred and sixty-six days] from the appointed day submit
                                     to his employer the particulars
@@ -220,7 +238,9 @@ $(document).ready(function() {
                                     not have a wife/husbandat the time of making the nomination he may indicate the name
                                     and particulars of the guardian of his minor son or
                                     daughter for the purpose of receiving the benefits under the provisions of the
-                                    scheme.</td>
+                                    scheme.</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -230,7 +250,7 @@ $(document).ready(function() {
                                 <th scope="row">7</th>
                                 <td>CALCULATION OF CONTRIBUTIONS</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">(1) The rate of increment referred to in clause (d) of paragraph 3
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">(1) The rate of increment referred to in clause (d) of paragraph 3
                                     in respect of time-rated or piece-rated
                                     category of employee shall be twenty-six times of his daily rate of increment.
                                     (2) Where an employee exercises his option under the provisions of subparagraph (2)
@@ -249,7 +269,9 @@ $(document).ready(function() {
                                     and an interest of twelve per
                                     cent. per annum accrued on such amount as on the appointed day shall have also to be
                                     remitted by the employer to
-                                    the Commissioner.</td>
+                                    the Commissioner.</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td>
                                     <button type="button" class="btn btn-sm button-readmore-white mx-2 mt-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -261,7 +283,7 @@ $(document).ready(function() {
                                 <th scope="row">8</th>
                                 <td>RESPONSIBILITIES OF THE EMPLOYER</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">(1) Every employer of the employee shall submit to the
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">(1) Every employer of the employee shall submit to the
                                     Commissioner on or before the 30th day of every
                                     month a return of contributions for the preceding month towards the pension fund
                                     along with the details of
@@ -271,7 +293,9 @@ $(document).ready(function() {
                                     of the salary of the employee to be transferred from the fund as employer’s share in
                                     terms of clause (b) of
                                     paragraph 3 and the same shall not be deducted from the salary or other benefits of
-                                    the employee.</td>
+                                    the employee.</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -281,7 +305,7 @@ $(document).ready(function() {
                                 <th scope="row">9</th>
                                 <td>INVESTMENT, ETC., OF PENSION FUND</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">(1) The total amount vested in and transferred to the pension fund
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">(1) The total amount vested in and transferred to the pension fund
                                     in accordance with the provisions of clause
                                     (a) of paragraph 3, except such amount as may be required from time to time for
                                     making the payment of pension
@@ -294,7 +318,9 @@ $(document).ready(function() {
                                     of paragraph 3 and such amount
                                     shall be invested in accordance with such pattern of investment as may be determined
                                     by the Central Government
-                                    in the Ministry of Finance from time to time.</td>
+                                    in the Ministry of Finance from time to time.</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>

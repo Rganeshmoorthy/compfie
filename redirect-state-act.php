@@ -15,6 +15,15 @@ $(document).ready(function() {
             $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
         });
     });
+    $(".moreless-button").click(function() {
+        $(this).prev().toggleClass("open");
+        console.log($(this).prev().hasClass("open"))
+        if ($(this).prev().hasClass("open")) {
+            $(this).text("READ LESS")
+        } else {
+            $(this).text("READ MORE")
+        }
+    });
 });
 </script>
 
@@ -69,7 +78,7 @@ $(document).ready(function() {
                                 <th scope="row">1</th>
                                 <td>SHORT TITLE AND EXTENT AND COMMENCEMENT</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">(1) This Act may be called the Tamil Nadu Shops and Establishments
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">(1) This Act may be called the Tamil Nadu Shops and Establishments
                                     Act, 1947.
                                     (2) It extends to the whole of the State of Madras.
                                     (3) (a) It shall come into force in the following areas on such date as the State
@@ -92,6 +101,8 @@ $(document).ready(function() {
                                     (b) The State Government may, by notification, direct that all or any of the
                                     provisions of this Act shall come
                                     into force in any other area on such date as may be specified in such notification.
+                                    </p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
                                 </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -102,7 +113,7 @@ $(document).ready(function() {
                                 <th scope="row">2</th>
                                 <td>DEFINITIONS</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">In this Act, unless there is anything repugnant in the subject or
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">In this Act, unless there is anything repugnant in the subject or
                                     context--
                                     (1) ‘child” means a person who has not completed fourteen years;
                                     (2) “closed” means not open for the service of any customer or open to any business
@@ -115,7 +126,9 @@ $(document).ready(function() {
                                     company, bank, broker’s office or
                                     exchange and includes such other establishment as the State Government may by
                                     notification declare to be a
-                                    commercial establishment for the purposes of this Act;</td>
+                                    commercial establishment for the purposes of this Act;</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td> <button type="button" class="btn btn-sm  button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -125,7 +138,7 @@ $(document).ready(function() {
                                 <th scope="row">3</th>
                                 <td class="up">Registration of shops and establishments</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">(1) On and from the date of commencement of the Tamil Nadu Shops
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">(1) On and from the date of commencement of the Tamil Nadu Shops
                                     and
                                     Establishments (Amendment) Act, 2018, employer of every establishment employing ten
                                     or more workers
@@ -164,7 +177,9 @@ $(document).ready(function() {
                                     (8) The employer shall, within a period of thirty days of the closure of the
                                     establishment, give intimation of
                                     such closure to the inspector and on receipt of such intimation, he shall cancel the
-                                    registration certiï¬?cate:</td>
+                                    registration certiï¬?cate:</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -174,7 +189,7 @@ $(document).ready(function() {
                                 <th scope="row">4</th>
                                 <td class="up">EXEMPTION</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">(1) Nothing contained in this Act shall apply to--(a) persons
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">(1) Nothing contained in this Act shall apply to--(a) persons
                                     employed in any establishment in a position of
                                     management;
                                     (b) persons whose work involves travelling; and persons employed as canvassers and
@@ -191,7 +206,9 @@ $(document).ready(function() {
                                     (f) establishments which, not being factories within the meaning of the Factories
                                     Act, 1948, are in respect of
                                     matters dealt with in this Act, governed by a separate law for the time being in
-                                    force.</td>
+                                    force.</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -209,13 +226,15 @@ $(document).ready(function() {
                                 <th scope="row">8</th>
                                 <td>SELLING OUTSIDE SHOPS PROHIBITED AFTER CLOSING HOUR</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">Save as provided by or under any other enactment for the time
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">Save as provided by or under any other enactment for the time
                                     being in force, no person shall carry on, in or
                                     adjacent to a Street or public place, the sale of any goods after the hour fixed
                                     under section 7 for the Closing of
                                     shops dealing in the same class of goods in the locality in which such street or
                                     public place is situated
-                                    Provided that nothing in this section shall apply to the sale of newspapers.</td>
+                                    Provided that nothing in this section shall apply to the sale of newspapers.</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -225,7 +244,7 @@ $(document).ready(function() {
                                 <th scope="row">9</th>
                                 <td>DAILY AND WEEKLY HOURS OF WORK IN SHOPS</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">(1) Subject to the provisions of this Act, no person employed in
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">(1) Subject to the provisions of this Act, no person employed in
                                     any shop shall be required or allowed to
                                     work therein for more than eight hours in any day and forty-eight hours in any week:
                                     Provided that any such person may be allowed to work in such shop for any period in
@@ -237,7 +256,9 @@ $(document).ready(function() {
                                     hours} in any week.
                                     (2) No person employed in any shop shall be required or allowed to work therein for
                                     more than four
-                                    hours in any day unless he has had an interval for rest of at least one hour.</td>
+                                    hours in any day unless he has had an interval for rest of at least one hour.</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>                                    
+                                    </td>
                                 <td>
                                     <button type="button" class="btn btn-sm button-readmore-white mx-2 mt-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -249,9 +270,11 @@ $(document).ready(function() {
                                 <th scope="row">10</th>
                                 <td>SPREAD OVER OF PERIODS OF WORK</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">The periods of work of a person employed in a shop shall be so
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">The periods of work of a person employed in a shop shall be so
                                     arranged that, along with his intervals for rest,
-                                    they shall not spread over more than twelve hours in any day.</td>
+                                    they shall not spread over more than twelve hours in any day.</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -261,7 +284,7 @@ $(document).ready(function() {
                                 <th scope="row">11</th>
                                 <td>CLOSING OF SHOPS AND GRANT OF HOLIDAYS</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="short-ppp">(1) Every shop shall remain entirely closed on one day of the week
+                                <td class="case-law-btnn"><p class="case-law-p mb-0">(1) Every shop shall remain entirely closed on one day of the week
                                     which day shall be specified by the
                                     shopkeeper in a notice permanently exhibited in a conspicuous place in the shop; and
                                     the day so specified shall not
@@ -295,7 +318,9 @@ $(document).ready(function() {
                                     sub-section (3) shall be
                                     specified by the shop-keeper in a notice permanently exhibited in a conspicuous
                                     place in the shop, and shall not be
-                                    altered by the shopkeeper more often than once in three months.</td>
+                                    altered by the shopkeeper more often than once in three months.</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
