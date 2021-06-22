@@ -97,6 +97,8 @@
             $(".sidenav, .foot_class, .circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt")
                 .css("background-color", "#5B3D71 !important");
             $(".content, .title, ul .content a, .nav_ul li a, .table-content, .case-law-p, .t-head, .ol-content").css("font-size", "13px");
+            $(".case-law-btnn .moreless-button").css("color","#5866B0");
+            $(".footer_page").css("background-color","#EDE5F2")
         });         
 
         $('.bg-brown').on('click', function() {
@@ -105,6 +107,8 @@
             $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt")
                 .css("background-color", "#5866B0 !important");
             $(".content,.title, ul .content a, .nav_ul li a, .table-content, .case-law-p, .t-head, .ol-content").css("font-size", "14px");
+            $(".case-law-btnn .moreless-button").css("color","#5B3D71")
+            $(".footer_page").css("background-color","#edeff2")
         });
 
         $('.bg-green').on('click', function() {
