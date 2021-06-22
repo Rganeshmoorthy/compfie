@@ -12,7 +12,7 @@
         <!-- center content starts -->
 
         <div class="row px-5 py-5 main-content2_redirect" id="content">
-         <a href="opinion.php"><button type="button" class="bg-bt text-white pr-2"><i class="fa fa-arrow-left text-white px-1 nav-prev" aria-hidden="true"></i>Back </button></a>        
+         <!-- <a href="opinion.php"><button type="button" class="bg-bt text-white pr-2"><i class="fa fa-arrow-left text-white px-1 nav-prev" aria-hidden="true"></i>Back </button></a>         -->
             <div class="heading col-12 pb-4 d-flex justify-content-center">
                 LEGAL OPINION
             </div>

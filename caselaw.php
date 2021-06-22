@@ -57,7 +57,7 @@ $(document).ready(function() {
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">
                             <tr>
-                                <th scope="col" class="text-center">S.No</th>
+                                <th scope="col" class="text-center">Sec.No</th>
                                 <th scope="col" class="text-center">Name of the Court</th>
                                 <th scope="col" class="text-center">Appellant/Petitioner</th>
                                 <th scope="col" class="text-center">Respondent</th>

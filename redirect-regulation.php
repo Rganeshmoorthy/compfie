@@ -24,6 +24,15 @@ $(document).ready(function() {
             $(this).text("READ MORE")
         }
     });
+    $(' .moreless-button').hide();
+    $('.table .case-law-btnn .case-law-p').each(function() {        
+        console.log($(this).next())
+        if ($(this).height() >= 63) {
+            $(this).next().show();            
+        } else {
+            $(this).next().hide();            
+        }
+    });
 });
 </script>
 
@@ -66,7 +75,7 @@ $(document).ready(function() {
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">
                             <tr>
-                                <th scope="col" class="se-no">R.No</th>
+                                <th scope="col" class="se-no">Reg.No</th>
                                 <th scope="col" class="">Regulation Title</th>
                                 <!-- <th scope="col" class="">Section</th> -->
                                 <th scope="col" class="">Regulation Description</th>
@@ -81,7 +90,8 @@ $(document).ready(function() {
                                 <td class="case-law-btnn"><p class="case-law-p mb-0">(1) These regulations may be called the Central Trade Union
                                     Regulations, 1938.
                                     (2) The regulations apply to Trade Unions whose objects are not confined to one
-                                    State.</p>
+                                    State.
+                                    (3) section means a section of the Act.</p>
                                     <a class="moreless-button" href="#">READ MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
@@ -96,7 +106,8 @@ $(document).ready(function() {
                                 <td class="case-law-btnn"><p class="case-law-p mb-0"> In these regulations—
                                     (a) “the Act” means the Indian Trade Unions Act, 1926.
                                     (b) “Form” means a form appended to these regulations.
-                                    (c) “section” means a section of the Act.</p>
+                                    (c) “section” means a section of the Act.
+                                    (d) “Form” means a form appended to these regulations.</p>
                                     <a class="moreless-button" href="#">READ MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm  button-readmore-white mx-2"

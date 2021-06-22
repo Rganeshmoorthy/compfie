@@ -25,6 +25,24 @@ $(document).ready(function() {
     if (url == '') {
         $("#page_modal").modal('show');
     }
+    $('.title-latest').each(function() {
+        console.log($(this).next())
+        if ($(this).height() >= 63) {
+            $(this).next().next().show();
+        } else {
+            $(this).next().next().hide();
+        }
+    });
+    $(".latest-upate .moreless-button").click(function() {
+        $(this).prev().prev().toggleClass("open");
+        console.log($(this).prev().prev().hasClass("open"))
+        if ($(this).prev().prev().hasClass("open")) {
+            $(this).text("READ LESS")
+        } else {
+            $(this).text("READ MORE")
+        }
+    });
+
 });
 </script>
 
@@ -255,274 +273,163 @@ $(document).ready(function() {
             </div>
             <div class="col-md-6">
                 <div class="col-12">
-                    <div class="row">
+                    <div class="row latest-upate">
+                        <marquee direction="up" scrollamount="10" onmouseover="this.stop();" onmouseout="this.start();">
                         <div class="col-lg-12 remove-bor">
-                            <div class="my-3">
+                            <div class="">
                                 <div class=" px-3 py-3">
-                                    <div class="title">
-                                        <!-- Ullamcorper morpi tincidunt ornare massa -->
-                                        Order regarding lockdown with guidelines w.e.f 08.06.2021 (Hindi Version) 
+                                    <div class="title title-latest">                                     
+                                        Order regarding lockdown with guidelines w.e.f 08.06.2021 (Hindi Version)
                                     </div>
                                     <div class="sub-title">
-                                    (Order dated 07-06-2021)
+                                        (Order dated 07-06-2021)
                                     </div>
-                                    <!-- <div class="content mt-2">
-                                        <p>
-                                            Consumer price index for industrial workers for the month oct2020 "ll" As
-                                            Sebis
-                                            Peak
-                                            margin norms Kick in broker default risk.
-                                            Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork chop doner
-                                            sirloin,
-                                            bacon beef brisket ball tip short ribs.Brisket ball tip cow sirloin. Chuck
-                                            porchetta kielbasa pork chop doner
-                                            sirloin,
-                                        </p>
-                                    </div> -->
                                     <a class="moreless-button" class="foot-right" href="#">Read More</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-12 remove-bor">
-                            <div class="my-3">
+                            <div class="">
                                 <div class=" px-3 py-3">
-                                    <div class="title">
-                                        <!-- Ullamcorper morpi tincidunt ornare massa -->
-                                        Order regarding lockdown with restrictions from 09.06.2021 to 15.06.2021 (Hindi version) 
+                                    <div class="title title-latest">                                     
+                                        Order regarding lockdown with restrictions from 09.06.2021 to 15.06.2021
+                                        (Hindi version)
                                     </div>
                                     <div class="sub-title">
-                                    (08.06.2021)
+                                        (08.06.2021)
                                     </div>
-                                    <!-- <div class="content mt-2">
-                                        <p>
-                                            Consumer price index for industrial workers for the month oct2020 "ll" As
-                                            Sebis
-                                            Peak
-                                            margin norms Kick in broker default risk.
-
-                                            Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork chop doner
-                                            sirloin,
-                                            bacon beef brisket ball tip short ribs.
-                                        </p>
-                                    </div> -->
                                     <a class="moreless-button" class="foot-right" href="#">Read More</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-12 remove-bor">
-                            <div class="my-3">
+                            <div class="">
                                 <div class=" px-3 py-3">
-                                    <div class="title">
-                                        <!-- Ullamcorper morpi tincidunt ornare massa -->
-                                        Order regarding extension of lock down with additional guidelines from 10.06.2021 to 16.06.2021 
+                                    <div class="title title-latest">                                     
+                                        Order regarding extension of lock down with additional guidelines from
+                                        10.06.2021 to 16.06.2021
                                     </div>
                                     <div class="sub-title">
-                                    (Order dated - 07.06.2021) 
+                                        (Order dated - 07.06.2021)
                                     </div>
-                                    <!-- <div class="content mt-2">
-                                        <p>
-                                            Consumer price index for industrial workers for the month oct2020 "ll" As
-                                            Sebis
-                                            Peak
-                                            margin norms Kick in broker default risk.
-
-                                            Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork chop doner
-                                            sirloin,
-                                            bacon beef brisket ball tip short ribs.
-                                        </p>
-                                    </div> -->
                                     <a class="moreless-button" class="foot-right" href="#">Read More</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-12 remove-bor">
-                            <div class="my-3">
+                            <div class="">
                                 <div class=" px-3 py-3">
-                                    <div class="title">
-                                        <!-- Ullamcorper morpi tincidunt ornare massa -->
-                                        Order regarding extension of lockdown with guidelines from 07.06.2021 to 14.06.2021 
+                                    <div class="title title-latest">                                     
+                                        Order regarding extension of lockdown with guidelines from 07.06.2021 to
+                                        14.06.2021
                                     </div>
                                     <div class="sub-title">
-                                    (order dated - 07.06.2021) 
+                                        (order dated - 07.06.2021)
                                     </div>
-                                    <!-- <div class="content mt-2">
-                                        <p>
-                                            Consumer price index for industrial workers for the month oct2020 "ll" As
-                                            Sebis
-                                            Peak
-                                            margin norms Kick in broker default risk.
-
-                                            Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork chop doner
-                                            sirloin,
-                                            bacon beef brisket ball tip short ribs.
-                                        </p>
-                                    </div> -->
                                     <a class="moreless-button" class="foot-right" href="#">Read More</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-12 remove-bor">
-                            <div class="my-3">
-                                <div class=" px-3 py-3">
-                                    <div class="title">
-                                        <!-- Ullamcorper morpi tincidunt ornare massa -->
-                                        Notice for Registration of Producers, Importers & Brand Owners under provision of Plastic Waste Management (PWM) Rules (As per provisions 9 (1&2) & 13 (2) of PWM Rules, 2016 as amended) 
+                            <div class="">
+                                <div class=" px-3 py-3 latest-upate">
+                                    <div class="title title-latest">
+                                        Notice for Registration of Producers, Importers & Brand Owners under
+                                        provision of Plastic Waste Management (PWM) Rules (As per provisions 9 (1&2)
+                                        & 13 (2) of PWM Rules, 2016 as amended)
                                     </div>
                                     <div class="sub-title">
-                                    ( Notice dated – 25.05.2021) 
+                                        ( Notice dated – 25.05.2021)
                                     </div>
-                                    <!-- <div class="content mt-2">
-                                        <p>
-                                            Consumer price index for industrial workers for the month oct2020 "ll" As
-                                            Sebis
-                                            Peak
-                                            margin norms Kick in broker default risk.
-
-                                            Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork chop doner
-                                            sirloin,
-                                            bacon beef brisket ball tip short ribs.
-                                        </p>
-                                    </div> -->
+                                    <a class="moreless-button" class="foot-right" href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 remove-bor">
+                            <div class="">
+                                <div class=" px-3 py-3">
+                                    <div class="title title-latest">
+                                        <!-- Ullamcorper morpi tincidunt ornare massa -->
+                                        Policy change Order related to Enabling Food Businesses to migrate from
+                                        State License to Central License or vice versa without change in the FSSAI
+                                        License number
+                                    </div>
+                                    <div class="sub-title">
+                                        ( dated – 31.05.2021)
+                                    </div>                                   
                                     <a class="moreless-button" class="foot-right" href="#">Read More</a>
 
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-12 remove-bor">
-                            <div class="my-3">
+                            <div class="">
                                 <div class=" px-3 py-3">
-                                    <div class="title">
-                                        <!-- Ullamcorper morpi tincidunt ornare massa -->
-                                        Policy change Order related to Enabling Food Businesses to migrate from State License to Central License or vice versa without change in the FSSAI License number 
+                                    <div class="title title-latest">                                    
+                                        Notification regarding West Bengal Employees' State Insurance (Medical
+                                        Benefit) Rules, 1955 shall be extended to the families of insured persons in
+                                        the entire area of the Alipurduar, South Dinajpur, Purulia, North Dinajpur,
+                                        and Kalimpong & Cooch Behar districts
                                     </div>
                                     <div class="sub-title">
-                                    ( dated – 31.05.2021) 
-                                    </div>
-                                    <!-- <div class="content mt-2">
-                                        <p>
-                                            Consumer price index for industrial workers for the month oct2020 "ll" As
-                                            Sebis
-                                            Peak
-                                            margin norms Kick in broker default risk.
-
-                                            Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork chop doner
-                                            sirloin,
-                                            bacon beef brisket ball tip short ribs.
-                                        </p>
-                                    </div> -->
+                                        ( Notification dated 07.06.2021)
+                                    </div>                                    
                                     <a class="moreless-button" class="foot-right" href="#">Read More</a>
 
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-12 remove-bor">
-                            <div class="my-3">
+                            <div class="">
                                 <div class=" px-3 py-3">
-                                    <div class="title">
-                                        <!-- Ullamcorper morpi tincidunt ornare massa -->
-                                        Notification regarding West Bengal Employees' State Insurance (Medical Benefit) Rules, 1955 shall be extended to the families of insured persons in the entire area of the Alipurduar, South Dinajpur, Purulia, North Dinajpur, and Kalimpong & Cooch Behar  districts 
+                                    <div class="title title-latest">                                   
+                                        Notification regarding Tamil Nadu Employees' State Insurance (Medical
+                                        Benefit) Rules, 1955 shall be extended to the families of insured persons in
+                                        the entire area of Erode district
                                     </div>
                                     <div class="sub-title">
-                                    ( Notification dated 07.06.2021) 
-                                    </div>
-                                    <!-- <div class="content mt-2">
-                                        <p>
-                                            Consumer price index for industrial workers for the month oct2020 "ll" As
-                                            Sebis
-                                            Peak
-                                            margin norms Kick in broker default risk.
-
-                                            Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork chop doner
-                                            sirloin,
-                                            bacon beef brisket ball tip short ribs.
-                                        </p>
-                                    </div> -->
+                                        ( Notification dated -07.06.2021)
+                                    </div>                                    
                                     <a class="moreless-button" class="foot-right" href="#">Read More</a>
 
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-12 remove-bor">
-                            <div class="my-3">
+                            <div class="">
                                 <div class=" px-3 py-3">
-                                    <div class="title">
+                                    <div class="title title-latest">
                                         <!-- Ullamcorper morpi tincidunt ornare massa -->
-                                        Notification regarding Tamil Nadu Employees' State Insurance (Medical Benefit) Rules, 1955 shall be extended to the families of insured persons in the entire area of Erode district 
+                                        Circular regarding SOP for implementation of the provision of extension time
+                                        limit to apply for revocation of cancellation of registration under Gujarat
+                                        GST Act, 2017
                                     </div>
                                     <div class="sub-title">
-                                    ( Notification dated -07.06.2021) 
-                                    </div>
-                                    <!-- <div class="content mt-2">
-                                        <p>
-                                            Consumer price index for industrial workers for the month oct2020 "ll" As
-                                            Sebis
-                                            Peak
-                                            margin norms Kick in broker default risk.
-
-                                            Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork chop doner
-                                            sirloin,
-                                            bacon beef brisket ball tip short ribs.
-                                        </p>
-                                    </div> -->
+                                        ( Circular dated – 05.06.2021)
+                                    </div>                                   
                                     <a class="moreless-button" class="foot-right" href="#">Read More</a>
 
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-12 remove-bor">
-                            <div class="my-3">
+                            <div class="">
                                 <div class=" px-3 py-3">
-                                    <div class="title">
+                                    <div class="title title-latest">
                                         <!-- Ullamcorper morpi tincidunt ornare massa -->
-                                        Circular regarding SOP for implementation of the provision of extension time limit to apply for revocation of cancellation of registration under Gujarat GST Act, 2017 
+                                        Notification to BOCW workers workers under Aadhaar (Targeted Delivery of Financial
+                                        and other subsidies,other subsidies, Benefits and Services) Act, 2016
                                     </div>
                                     <div class="sub-title">
-                                    ( Circular dated – 05.06.2021) 
+                                        (Notification dated - 03.06.2021)
                                     </div>
-                                    <!-- <div class="content mt-2">
-                                        <p>
-                                            Consumer price index for industrial workers for the month oct2020 "ll" As
-                                            Sebis
-                                            Peak
-                                            margin norms Kick in broker default risk.
 
-                                            Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork chop doner
-                                            sirloin,
-                                            bacon beef brisket ball tip short ribs.
-                                        </p>
-                                    </div> -->
                                     <a class="moreless-button" class="foot-right" href="#">Read More</a>
 
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-12 remove-bor">
-                            <div class="my-3">
-                                <div class=" px-3 py-3">
-                                    <div class="title">
-                                        <!-- Ullamcorper morpi tincidunt ornare massa -->
-                                        Notification to BOCW workers under Aadhaar (Targeted Delivery of Financial and other subsidies, Benefits and Services) Act, 2016 
-                                    </div>
-                                    <div class="sub-title">
-                                    (Notification dated - 03.06.2021)
-                                    </div>
-                                    <!-- <div class="content mt-2">
-                                        <p>
-                                            Consumer price index for industrial workers for the month oct2020 "ll" As
-                                            Sebis
-                                            Peak
-                                            margin norms Kick in broker default risk.
-
-                                            Brisket ball tip cow sirloin. Chuck porchetta kielbasa pork chop doner
-                                            sirloin,
-                                            bacon beef brisket ball tip short ribs.
-                                        </p>
-                                    </div> -->
-                                    <a class="moreless-button" class="foot-right" href="#">Read More</a>
-
-                                </div>
-                            </div>
-                        </div>
+                        </marquee>
                     </div>
                 </div>
             </div>

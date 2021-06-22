@@ -24,6 +24,15 @@ $(document).ready(function() {
             $(this).text("READ MORE")
         }
     });
+    $(' .moreless-button').hide();
+    $('.table .case-law-btnn .case-law-p').each(function() {        
+        console.log($(this).next())
+        if ($(this).height() >= 63) {
+            $(this).next().show();            
+        } else {
+            $(this).next().hide();            
+        }
+    });
 });
 </script>
 
@@ -66,7 +75,7 @@ $(document).ready(function() {
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">
                             <tr>
-                                <th scope="col" class="se-no">R.No</th>
+                                <th scope="col" class="se-no">Rule.No</th>
                                 <th scope="col" class="">Rule Title</th>
                                 <!-- <th scope="col" class="">Section</th> -->
                                 <th scope="col" class="">Rule Description</th>

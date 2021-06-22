@@ -106,10 +106,11 @@
         });
 
         $('.bg-green').on('click', function() {
-            $(".title, .content, .heading, .moreless-button,.table-content,.anchor_tag").css("color",
-                "#697CE0");
+            $(".title,.case-law-p,.button-readmore-white,.btn_topic,.nav_ul li a,.anchor_tag, .content,.alphabet,.alphabet-bgcolor,.alpha-new, .heading,.ol-content , .moreless-button,.table-content,.anchor_tag")
+                .css("color",
+                    "#800080");
             $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt")
-                .css("background-color", "#697CE0 !important");
+                .css("background-color", "#800080 !important");
         });
 
         $('.bg-b1').on('click', function() {
@@ -178,11 +179,45 @@
             });
             doc.save('sample-file.pdf');
         });
-
+        $(".all").click(function() {
+            if ($("#all").hasClass("all-close")) {
+                $("#ut-new").addClass("d-none")
+                $("#central-state").addClass("d-none");
+                $("#central-state2").addClass("d-none");
+                $("#central-state3").addClass("d-none");
+                $("#central-state4").addClass("d-none")
+                $("#central-state5").addClass("d-none")
+            } else {
+                $("#ut-new").removeClass("d-none")
+                $("#central-state2").removeClass("d-none");
+                $("#central-state3").removeClass("d-none");
+                $("#central-state").removeClass("d-none");
+                $("#central-state4").removeClass("d-none")
+                $("#central-state5").removeClass("d-none")
+            }
+        });
+        $(".union").click(function() {
+            if ($("#ut-new").hasClass("undu-ut")) {
+                $("#ut-new").removeClass("d-none")
+                $("#central-state").addClass("d-none");
+                $("#central-state2").addClass("d-none");
+                $("#central-state3").addClass("d-none");
+                $("#central-state4").addClass("d-none")
+                $("#central-state5").addClass("d-none")
+            } else {
+                $("#ut-new").addClass("d-none")
+                $("#central-state2").removeClass("d-none");
+                $("#central-state3").removeClass("d-none");
+                $("#central-state").removeClass("d-none");
+                $("#central-state4").removeClass("d-none")
+                $("#central-state5").removeClass("d-none")
+            }
+        });
         $(".central").click(function() {
             if ($("#central-state").hasClass("undu")) {
                 $("#central-state").removeClass("d-none")
                 $("#central-state2").addClass("d-none");
+                $("#ut-new").addClass("d-none");
                 $("#central-state3").addClass("d-none");
                 $("#central-state4").addClass("d-none")
                 $("#central-state5").addClass("d-none")
@@ -190,6 +225,7 @@
                 $("#central-state").addClass("d-none")
                 $("#central-state2").removeClass("d-none");
                 $("#central-state3").removeClass("d-none");
+                $("#ut-new").removeClass("d-none");
                 $("#central-state4").removeClass("d-none")
                 $("#central-state5").removeClass("d-none")
             }
@@ -198,12 +234,14 @@
             if ($("#central-state2").hasClass("undu2")) {
                 $("#central-state2").removeClass("d-none");
                 $("#central-state").addClass("d-none")
+                $("#ut-new").addClass("d-none");
                 $("#central-state3").addClass("d-none")
                 $("#central-state4").addClass("d-none")
                 $("#central-state5").addClass("d-none")
             } else {
                 $("#central-state2").addClass("d-none");
                 $("#central-state").removeClass("d-none")
+                $("#ut-new").removeClass("d-none");
                 $("#central-state3").removeClass("d-none")
                 $("#central-state4").removeClass("d-none")
                 $("#central-state5").removeClass("d-none")
@@ -213,12 +251,14 @@
             if ($("#central-state3").hasClass("undu3")) {
                 $("#central-state3").removeClass("d-none");
                 $("#central-state").addClass("d-none")
+                $("#ut-new").addClass("d-none");
                 $("#central-state2").addClass("d-none")
                 $("#central-state4").addClass("d-none")
                 $("#central-state5").addClass("d-none")
             } else {
                 $("#central-state3").addClass("d-none");
                 $("#central-state").removeClass("d-none")
+                $("#ut-new").removeClass("d-none");
                 $("#central-state2").removeClass("d-none")
                 $("#central-state4").removeClass("d-none")
                 $("#central-state5").removeClass("d-none")
@@ -228,12 +268,14 @@
             if ($("#central-state4").hasClass("undu4")) {
                 $("#central-state4").removeClass("d-none");
                 $("#central-state").addClass("d-none")
+                $("#ut-new").addClass("d-none");
                 $("#central-state2").addClass("d-none")
                 $("#central-state3").addClass("d-none")
                 $("#central-state5").addClass("d-none")
             } else {
                 $("#central-state4").addClass("d-none");
                 $("#central-state").removeClass("d-none")
+                $("#ut-new").removeClass("d-none");
                 $("#central-state2").removeClass("d-none")
                 $("#central-state3").removeClass("d-none")
                 $("#central-state5").removeClass("d-none")
@@ -243,17 +285,20 @@
             if ($("#central-state5").hasClass("undu5")) {
                 $("#central-state5").removeClass("d-none");
                 $("#central-state").addClass("d-none")
+                $("#ut-new").addClass("d-none");
                 $("#central-state2").addClass("d-none")
                 $("#central-state3").addClass("d-none")
                 $("#central-state4").addClass("d-none")
             } else {
                 $("#central-state5").addClass("d-none");
                 $("#central-state").removeClass("d-none")
+                $("#ut-new").removeClass("d-none");
                 $("#central-state2").removeClass("d-none")
                 $("#central-state3").removeClass("d-none")
                 $("#central-state4").removeClass("d-none")
             }
         });
+       
     });
     </script>
 </head>
@@ -427,8 +472,8 @@
             <div class="col-12 py-2 d-flex justify-content-center circle-bg">
                 <div class="circle bg-red mx-1"></div>
                 <div class="circle bg-brown mx-1"></div>
-                <!-- <div class="circle bg-green mx-1"></div>
-                <div class="circle bg-b1 mx-1"></div>
+                <div class="circle bg-green mx-1"></div>
+                <!--<div class="circle bg-b1 mx-1"></div>
                 <div class="circle bg-b2 mx-1"></div>
                 <div class="circle bg-b3 mx-1"></div>
                 <div class="circle bg-b4 mx-1"></div> -->

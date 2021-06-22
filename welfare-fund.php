@@ -142,8 +142,8 @@ $(document).ready(function(){
                                 <td>WEST BENGAL</td>
                                 <td>15 jul & 15 Jan</td>
                                 <td>Half Yearly</td>
-                                <td>3.00</td>
-                                <td>15.00</td>
+                                <td class="text-right">3.00</td>
+                                <td class="text-right">15.00</td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='welfare-more.php'">Read
                                         more</button>
@@ -153,8 +153,8 @@ $(document).ready(function(){
                                 <td>UTTARAKHAND</td>
                                 <td>-</td>
                                 <td>-</td>
-                                <td>Nil</td>
-                                <td>Nil</td>
+                               <td class="text-right">Nil</td>
+                               <td class="text-right">Nil</td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='welfare-more.php'">Read
                                         more</button>
@@ -164,8 +164,8 @@ $(document).ready(function(){
                                 <td>UTTAR PRADESH</td>
                                 <td>-</td>
                                 <td>-</td>
-                                <td>Nil</td>
-                                <td>Nil</td>
+                                <td class="text-right">Nil</td>
+                                <td class="text-right">Nil</td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='welfare-more.php'">Read
                                         more</button>
@@ -175,8 +175,8 @@ $(document).ready(function(){
                                 <td>UT OF CHANDIGARH</td>
                                 <td>15 jul & 15 Jan</td>
                                 <td>Half Yearly</td>
-                                <td>5</td>
-                                <td>20</td>
+                                <td class="text-right">5</td>
+                                <td class="text-right">20</td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='welfare-more.php'">Read
                                         more</button>
@@ -186,8 +186,8 @@ $(document).ready(function(){
                                 <td>TRIPURA</td>
                                 <td>-</td>
                                 <td>-</td>
-                                <td>10</td>
-                                <td>30</td>
+                                <td class="text-right">10</td>
+                                <td class="text-right">30</td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='welfare-more.php'">Read
                                         more</button>
@@ -197,8 +197,8 @@ $(document).ready(function(){
                                 <td>TELANGANA</td>
                                 <td>15 jul & 15 Jan</td>
                                 <td>Half Yearly</td>
-                                <td>3.00</td>
-                                <td>15.00</td>
+                                <td class="text-right">3.00</td>
+                                <td class="text-right">15.00</td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='welfare-more.php'">Read
                                         more</button>
@@ -208,8 +208,8 @@ $(document).ready(function(){
                                 <td>TAMILNADU</td>
                                 <td>15 jul & 15 Jan</td>
                                 <td>Half Yearly</td>
-                                <td>3.00</td>
-                                <td>15.00</td>
+                                <td class="text-right">3.00</td>
+                                <td class="text-right">15.00</td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='welfare-more.php'">Read
                                         more</button>
@@ -219,8 +219,8 @@ $(document).ready(function(){
                                 <td>SIKKIM </td>
                                 <td>-</td>
                                 <td>-</td>
-                                <td>3.00</td>
-                                <td>15.00</td>
+                               <td class="text-right">3.00</td>
+                               <td class="text-right">15.00</td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='welfare-more.php'">Read
                                         more</button>

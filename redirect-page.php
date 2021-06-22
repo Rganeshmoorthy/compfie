@@ -24,6 +24,16 @@ $(document).ready(function() {
             $(this).text("READ MORE")
         }
     });
+    // console.log(($('.table .case-law-p').height()))
+    $(' .moreless-button').hide();
+    $('.table .case-law-btnn .case-law-p').each(function() {        
+        console.log($(this).next())
+        if ($(this).height() >= 63) {
+            $(this).next().show();            
+        } else {
+            $(this).next().hide();            
+        }
+    });
 });
 </script>
 
@@ -66,7 +76,7 @@ $(document).ready(function() {
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">
                             <tr>
-                                <th scope="col" class="se-no">S.No</th>
+                                <th scope="col" class="se-no">Sec.No</th>
                                 <th scope="col" class="">Section Title</th>
                                 <!-- <th scope="col" class="">Section</th> -->
                                 <th scope="col" class="">Section Description</th>
@@ -78,8 +88,10 @@ $(document).ready(function() {
                                 <th scope="row">1</th>
                                 <td>SHORT TITLE AND EXTENT</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="case-law-btnn"><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
-                                <a class="moreless-button" href="#">READ MORE</a>  
+                                <td class="case-law-btnn">
+                                    <p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act,
+                                        1955.</p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
                                 </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -90,24 +102,28 @@ $(document).ready(function() {
                                 <th scope="row">2</th>
                                 <td>DEFINITIONS</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="case-law-btnn"><p class="case-law-p mb-0"> In this Act, unless the context otherwise requires:- 2 of 1974 (ia) "Code" means
-                                    the code of Criminal Procedure; (iia) "Collector" includes an Additional Collector
-                                    and such other Officer, not below the rank of Sub-Divisional Officer as may be
-                                    authorized by the Collector to perform the functions and exercise the powers of the
-                                    Collector under this Act;
-                                    (a)"Essential commodity? means any of the following classes of commodities:-
+                                <td class="case-law-btnn">
+                                    <p class="case-law-p mb-0"> In this Act, unless the context otherwise requires:- 2
+                                        of 1974 (ia) "Code" means
+                                        the code of Criminal Procedure; (iia) "Collector" includes an Additional
+                                        Collector
+                                        and such other Officer, not below the rank of Sub-Divisional Officer as may be
+                                        authorized by the Collector to perform the functions and exercise the powers of
+                                        the
+                                        Collector under this Act;
+                                        (a)"Essential commodity? means any of the following classes of commodities:-
 
-                                    (i) Cattle fodder, including oilcakes and other concentrates;
+                                        (i) Cattle fodder, including oilcakes and other concentrates;
 
-                                    (ii) Coal, including coke and other derivatives;
+                                        (ii) Coal, including coke and other derivatives;
 
-                                    (iii) Component parts and accessories of automobiles;
+                                        (iii) Component parts and accessories of automobiles;
 
-                                    (iv) Cotton and woolen textiles;
+                                        (iv) Cotton and woolen textiles;
 
-                                    (iva) Drugs.</p>
+                                        (iva) Drugs.</p>
                                     <a class="moreless-button" href="#">READ MORE</a>
-                                    </td>
+                                </td>
                                 <td> <button type="button" class="btn btn-sm  button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -117,13 +133,17 @@ $(document).ready(function() {
                                 <th scope="row">3</th>
                                 <td>APPLICATION OF CODE TO PROCEEDINGS BEFORE A SPECIAL COURT</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="case-law-btnn"><p class="case-law-p mb-0">Save as otherwise provided in this Act, the provisions of the Code (including the
-                                    provisions as to bail and bonds) shall apply to the proceedings before a Special
-                                    Court and for the purposes of the said provisions, the Special Court shall be deemed
-                                    to be a Court of Sessions and the person conducting a prosecution before a Special
-                                    Court, shall be deemed to be a Public Prosecutor.</p>
+                                <td class="case-law-btnn">
+                                    <p class="case-law-p mb-0">Save as otherwise provided in this Act, the provisions of
+                                        the Code (including the
+                                        provisions as to bail and bonds) shall apply to the proceedings before a Special
+                                        Court and for the purposes of the said provisions, the Special Court shall be
+                                        deemed
+                                        to be a Court of Sessions and the person conducting a prosecution before a
+                                        Special
+                                        Court, shall be deemed to be a Public Prosecutor.</p>
                                     <a class="moreless-button" href="#">READ MORE</a>
-                                    </td>
+                                </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -133,13 +153,16 @@ $(document).ready(function() {
                                 <th scope="row">4</th>
                                 <td>IMPOSITION OF DUTIES ON STATE GOVERNMENT, ETC</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="case-law-btnn"><p class="case-law-p mb-0">An order made under section 3 may confer powers and impose duties upon the Central
-                                    Government or the State Government or Officers and authorities of the Central
-                                    Government or State Government and may contain directions to any State Government or
-                                    to Officers and authorities thereof as to the exercise of any such powers or the
-                                    discharge of any such duties.</p>
+                                <td class="case-law-btnn">
+                                    <p class="case-law-p mb-0">An order made under section 3 may confer powers and
+                                        impose duties upon the Central
+                                        Government or the State Government or Officers and authorities of the Central
+                                        Government or State Government and may contain directions to any State
+                                        Government or
+                                        to Officers and authorities thereof as to the exercise of any such powers or the
+                                        discharge of any such duties.</p>
                                     <a class="moreless-button" href="#">READ MORE</a>
-                                    </td>
+                                </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -157,16 +180,21 @@ $(document).ready(function() {
                                 <th scope="row">1</th>
                                 <td>OFFENCES BY COMPANIES</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="case-law-btnn"><p class="case-law-p mb-0"> 1. If the person contravening an order made under section 3 is a company, every
-                                    person who, at the time the contravention was committed was in charge of and was
-                                    responsible to the company for the conduct of the business of the company as well as
-                                    company shall be deemed to be guilty of the contravention and shall be liable to be
-                                    proceeded against and punished accordingly.
-                                    Provided that nothing contained in this sub-section shall render any such person
-                                    took place without his knowledge or that he exercised all due diligence to prevent
-                                    such contravention.</p>
+                                <td class="case-law-btnn">
+                                    <p class="case-law-p mb-0"> 1. If the person contravening an order made under
+                                        section 3 is a company, every
+                                        person who, at the time the contravention was committed was in charge of and was
+                                        responsible to the company for the conduct of the business of the company as
+                                        well as
+                                        company shall be deemed to be guilty of the contravention and shall be liable to
+                                        be
+                                        proceeded against and punished accordingly.
+                                        Provided that nothing contained in this sub-section shall render any such person
+                                        took place without his knowledge or that he exercised all due diligence to
+                                        prevent
+                                        such contravention.</p>
                                     <a class="moreless-button" href="#">READ MORE</a>
-                                    </td>
+                                </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -176,10 +204,13 @@ $(document).ready(function() {
                                 <th scope="row">2</th>
                                 <td>OFFENCES TO BE COGNIZABLE</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="case-law-btnn"><p class="case-law-p mb-0">Not with standing anything contained in the Code of Criminal Procedure, 1973, every
-                                    offence punishable under this Act shall be cognizable and non-bailable.</p>
+                                <td class="case-law-btnn">
+                                    <p class="case-law-p mb-0">Not with standing anything contained in the Code of
+                                        Criminal Procedure, 1973, every
+                                        offence punishable under this Act shall be cognizable and non-bailable.every
+                                        offence punishable under this Act. </p>
                                     <a class="moreless-button" href="#">READ MORE</a>
-                                     </td>
+                                </td>
                                 <td>
                                     <button type="button" class="btn btn-sm button-readmore-white mx-2 mt-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -191,12 +222,17 @@ $(document).ready(function() {
                                 <th scope="row">3</th>
                                 <td>BURDEN OF PROOF IN CERTAIN CASES</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="case-law-btnn"><p class="case-law-p mb-0">Where a person is prosecuted for contravening any order made under section 3 which
-                                    prohibits him from doing any act or being in possession of a thing without lawful
-                                    authority or without a permit, license or other document, the burden of providing
-                                    that he has such authority, permit, license or other document shall be on him.</p>
+                                <td class="case-law-btnn">
+                                    <p class="case-law-p mb-0">Where a person is prosecuted for contravening any order
+                                        made under section 3 which
+                                        prohibits him from doing any act or being in possession of a thing without
+                                        lawful
+                                        authority or without a permit, license or other document, the burden of
+                                        providing
+                                        that he has such authority, permit, license or other document shall be on him.
+                                    </p>
                                     <a class="moreless-button" href="#">READ MORE</a>
-                                    </td>
+                                </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -206,12 +242,14 @@ $(document).ready(function() {
                                 <th scope="row">4</th>
                                 <td>PROTECTION OF ACTION TAKEN UNDER ACT</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="case-law-btnn"><p class="case-law-p mb-0">No suit, prosecution or other legal proceeding shall lie against any person for
-                                    anything which is in good faith done or intended to be done in pursuance of any
-                                    order made under section 3.
+                                <td class="case-law-btnn">
+                                    <p class="case-law-p mb-0">No suit, prosecution or other legal proceeding shall lie
+                                        against any person for
+                                        anything which is in good faith done or intended to be done in pursuance of any
+                                        order made under section 3.
                                     </p>
                                     <a class="moreless-button" href="#">READ MORE</a>
-                                    </td>
+                                </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>

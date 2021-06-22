@@ -20,18 +20,39 @@ jQuery(document).ready(function() {
             </div>
             <div class="col-12 py-3">
                 <div class="d-flex">
-                    <div class="alpha-scroll">
-                        <?php
-                       foreach (range('A', 'Z') as $alphabet) {
-                        echo '<a class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href = #'. strtolower($alphabet) .'>'. $alphabet." " . '</a>' ;
-                          }
-                         ?>
+                <div class="alpha-scroll">
+                        <a class="alphabet-bgcolor disabled  mx-1 mx-md-2 mt-2 mt-md-0" href="#a">A </a><a
+                            class="alphabet-bgcolor disabled mx-1 mx-md-2 mt-2 mt-md-0" href="#b">B </a><a
+                            class="alphabet-bgcolor disabled  mx-1 mx-md-2 mt-2 mt-md-0" href="#c">C </a><a
+                            class="alphabet-bgcolor disabled mx-1 mx-md-2 mt-2 mt-md-0" href="#d">D </a><a
+                            class="alphabet-bgcolor disabled mx-1 mx-md-2 mt-2 mt-md-0" href="#e">E </a><a
+                            class="alphabet-bgcolor disabled mx-1 mx-md-2 mt-2 mt-md-0" href="#f">F </a><a
+                            class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#g">G </a><a
+                            class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#h">H </a><a
+                            class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#i">I </a><a
+                            class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#j">J </a><a
+                            class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#k">K </a><a
+                            class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#l">L </a><a
+                            class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#m">M </a><a
+                            class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#n">N </a><a
+                            class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#o">O </a><a
+                            class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#p">P </a><a
+                            class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#q">Q </a><a
+                            class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#r">R </a><a
+                            class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#s">S </a><a
+                            class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#t">T </a><a
+                            class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#u">U </a><a
+                            class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#v">V </a><a
+                            class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#w">W </a><a
+                            class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#x">X </a><a
+                            class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#y">Y </a><a
+                            class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#z">Z </a>
                     </div>
                 </div>
             </div>
             <div class="col-12 mt-0 mt-md-3 px-3 aphabet-scroll scrollbarnew">
                 <div class="row">
-                    <div class="col-12" id="a">
+                    <div class="col-12 d-none" id="a">
                         <div class="d-flex border alpha-border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
@@ -46,7 +67,7 @@ jQuery(document).ready(function() {
                         </div>
                     </div>
 
-                    <div class="col-12 mt-3" id="b">
+                    <div class="col-12 d-none mt-3" id="b">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
@@ -61,7 +82,7 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3" id="c">
+                    <div class="col-12 d-none mt-3" id="c">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
@@ -76,7 +97,7 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3" id="d">
+                    <div class="col-12 d-none mt-3" id="d">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
@@ -91,7 +112,7 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3" id="e">
+                    <div class="col-12 d-none mt-3" id="e">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
@@ -106,7 +127,7 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3" id="f">
+                    <div class="col-12 d-none mt-3" id="f">
                         <div class="d-flex border">
                             <div
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">

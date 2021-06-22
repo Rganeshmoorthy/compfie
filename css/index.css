@@ -17,7 +17,7 @@
 }
 
 .title {
-    font-size: 13px;
+    font-size: 14px;
     color: #5B3D71;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
@@ -25,7 +25,7 @@
 
 .content {
     font-weight: 300;
-    font-size: 13px;
+    font-size: 14px;
     /*changes*/
     color: #717080;
     font-family: 'Poppins', sans-serif;
@@ -45,7 +45,7 @@
 }
 
 .case-law-p {
-    font-size: 13px;
+    font-size: 14px;
     color: #5B3D71;
     font-family: 'Poppins', sans-serif;
 }
@@ -55,9 +55,18 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     -webkit-line-clamp: 3;
-    max-height: 4.4rem;
+    max-height: 63;
 }
-
+/* .title-latest{
+    max-height: 63;
+} */
+.title-latest:not(.open) {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    max-height: 63;
+}
 .sub-title {
     font-size: 10px;
     opacity: 0.3;
@@ -194,7 +203,7 @@ select:focus {
 }
 
 ul .content a {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .recent {
@@ -395,3 +404,10 @@ color:gray !important;
         max-height: 5.5rem !important;
     }
 }
+
+    a.disabled {
+        pointer-events: none;
+        cursor:not-allowed;
+        background-color:#F0F0F0;
+        /* color:white !important; */
+      }

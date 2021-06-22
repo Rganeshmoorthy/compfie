@@ -12,7 +12,7 @@
         <!-- center content starts -->
 
         <div class="row px-4 px-md-5 main-content2" id="content">
-        <a href="domain-page.php"><button type="button" class="bg-bt text-white pr-2"><i class="fa fa-arrow-left text-white px-1 nav-prev" aria-hidden="true"></i>Back </button></a>        
+        <!-- <a href="domain-page.php"><button type="button" class="bg-bt text-white pr-2"><i class="fa fa-arrow-left text-white px-1 nav-prev" aria-hidden="true"></i>Back </button></a>         -->
             <div class="heading col-12 pb-4 d-flex justify-content-center">
                 SELECTED ACT AND SELECTED YEAR (2007)
             </div>
