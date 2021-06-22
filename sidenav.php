@@ -96,7 +96,7 @@
                 .css("color", "#5B3D71");
             $(".sidenav, .foot_class, .circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt")
                 .css("background-color", "#5B3D71 !important");
-            $(".content, .title, ul .content a, .nav_ul li a, .table-content, .case-law-p, .t-head, .ol-content").css("font-size", "13px !important");
+            $(".content, .title, ul .content a, .nav_ul li a, .table-content, .case-law-p, .t-head, .ol-content").css("font-size", "13px");
         });         
 
         $('.bg-brown').on('click', function() {
@@ -104,7 +104,7 @@
                 .css("color", "#5866B0");
             $(".sidenav, .foot_class,.circle-bg,.t-head th,.button-readmore,.button-head,.download,.view_more,.nav_ul a.active,.bg-bt")
                 .css("background-color", "#5866B0 !important");
-            $(".content,.title, ul .content a, .nav_ul li a, .table-content, .case-law-p, .t-head, .ol-content").css("font-size", "14px !important");
+            $(".content,.title, ul .content a, .nav_ul li a, .table-content, .case-law-p, .t-head, .ol-content").css("font-size", "14px");
         });
 
         $('.bg-green').on('click', function() {
