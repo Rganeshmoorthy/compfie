@@ -57,13 +57,13 @@ $(document).ready(function() {
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">
                             <tr>
-                                <th scope="col" class="text-center">Sec.No</th>
-                                <th scope="col" class="text-center">Name of the Court</th>
-                                <th scope="col" class="text-center">Appellant/Petitioner</th>
-                                <th scope="col" class="text-center">Respondent</th>
-                                <th scope="col" class="text-center">Case Number</th>                                
-                                <th scope="col" class="text-center">Case Date</th>
-                                <th scope="col" class="text-center">Case Subject</th>                                
+                                <th scope="col" class="">Sec.No</th>
+                                <th scope="col" class="">Name of the Court</th>
+                                <th scope="col" class="">Appellant/Petitioner</th>
+                                <th scope="col" class="">Respondent</th>
+                                <th scope="col" class="">Case Number</th>                                
+                                <th scope="col" class="">Case Date</th>
+                                <th scope="col" class="">Case Subject</th>                                
                                 <th scope="col" class=""></th>
                             </tr>
                         </thead>

@@ -186,7 +186,8 @@ $(document).ready(function() {
                                 <td>OFFENCES TO BE COGNIZABLE</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
                                 <td class="case-law-btnn"><p class="case-law-p mb-0">Not with standing anything contained in the Code of Criminal Procedure, 1973, every
-                                    offence punishable under this Act shall be cognizable and non-bailable.</p>
+                                    offence punishable under this Act shall be cognizable and non-bailable. Code of Criminal Procedure, 1973  every
+                                    offence punishable under this Act</p>
                                     <a class="moreless-button" href="#">READ MORE</a>
                                      </td>
                                 <td>
@@ -216,7 +217,7 @@ $(document).ready(function() {
                                 <td>PROTECTION OF ACTION TAKEN UNDER ACT</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
                                 <td class="case-law-btnn"><p class="case-law-p mb-0">No suit, prosecution or other legal proceeding shall lie against any person for
-                                    anything which is in good faith done or intended to be done in pursuance of any
+                                    anything which is in good faith done or intended  in good faith done to be done in pursuance of any
                                     order made under section 3.</p>
                                     <a class="moreless-button" href="#">READ MORE</a>
                                     </td>
