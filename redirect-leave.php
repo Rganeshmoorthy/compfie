@@ -26,7 +26,7 @@ $(document).ready(function() {
     $(' .moreless-button').hide();
     $('.table .case-law-btnn .case-law-p').each(function() {        
         console.log($(this).next())
-        if ($(this).height() >= 63) {
+        if ($(this).height() >= 60) {
             $(this).next().show();            
         } else {
             $(this).next().hide();            

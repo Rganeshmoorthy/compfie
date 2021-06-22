@@ -132,8 +132,8 @@ $(document).ready(function(){
                                 <th scope="col" class="">State Name</th>
                                 <th scope="col" class="">In which month Salary<br> contribution is to be deducted</th>
                                 <th scope="col" class="">Periodicity</th>
-                                <th scope="col" class="">Employee Contribution</th>
-                                <th scope="col" class="">Employer Contribution</th>
+                                <th scope="col" class="text-right">Employee Contribution</th>
+                                <th scope="col" class="text-right">Employer Contribution</th>
                                 <th scope="col" class=""></th>
                             </tr>
                         </thead>

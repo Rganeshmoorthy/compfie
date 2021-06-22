@@ -108,7 +108,7 @@
 
                 <div class="main-btns d-flex u-mbl">
                     <p class="border-1"><a href="#"><button type="button"
-                                class="btn state-btn mx-1 my-1 all">All</button></a>
+                                class="btn state-btn mx-1 my-1 all active">All</button></a>
                     </p>
                     <p class="border-1"><button type="button" class="btn state-btn mx-1 my-1 union">U.T</button>
                     </p>

@@ -27,7 +27,7 @@ $(document).ready(function() {
     }
     $('.title-latest').each(function() {
         console.log($(this).next())
-        if ($(this).height() >= 63) {
+        if ($(this).height() >= 50) {
             $(this).next().next().show();
         } else {
             $(this).next().next().hide();

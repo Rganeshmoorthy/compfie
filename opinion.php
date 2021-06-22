@@ -15,6 +15,7 @@ $(document).ready(function(){
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     });
   });
+         
 });
 </script>
 
@@ -51,7 +52,7 @@ $(document).ready(function(){
                                 <th>
                             </tr>
                         </thead>
-                        <tbody class="table-content" id="myTable">
+                        <tbody class="table-content opinion-open" id="myTable">
                             <tr>
                                 <td>Bio-Medical Waste Management & handling Rules, 2016</td>
                                 <td class="d-lg-flex"> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
