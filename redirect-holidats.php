@@ -75,21 +75,26 @@ $(document).ready(function() {
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">
                             <tr>
-                                <th scope="col" class="se-no">Sec.No</th>
-                                <th scope="col" class="">Section Title</th>
-                                <!-- <th scope="col" class="">Section</th> -->
-                                <th scope="col" class="">Section Description</th>
+                                <th scope="col" class="se-no">SI.NO</th>
+                                <th scope="col" class="">Holiday</th>
+                                <th scope="col" class="">Date</th>
+                                <th scope="col" class="">Saka Date</th>
+                                <th scope="col" class="">Day</th>
                                 <th scope="col" class=""></th>
                             </tr>
                         </thead>
                         <tbody class="table-content" id="myTable">
                             <tr>
                                 <th scope="row">1</th>
-                                <td>SHORT TITLE AND EXTENT</td>
-                                <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="case-law-btnn"><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
+                                <td ><p class="case-law-btnn mb-0">Makar Sankranath/Pongal</p>
                                 <a class="moreless-button" href="#">READ MORE</a>
                                 </td>
+                                <td>January 14</td>
+                                <td>Pausha 24</td>
+                                <td>Thursday</td>
+                                <!-- <td ><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td> -->
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -97,42 +102,31 @@ $(document).ready(function() {
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
-                                <td>DEFINITIONS</td>
-                                <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="case-law-btnn"><p class="case-law-p mb-0"> In this Act, unless the context otherwise requires:- 2 of 1974 (ia) "Code" means
-                                    the code of Criminal Procedure; (iia) "Collector" includes an Additional Collector
-                                    and such other Officer, not below the rank of Sub-Divisional Officer as may be
-                                    authorized by the Collector to perform the functions and exercise the powers of the
-                                    Collector under this Act;
-                                    (a)"Essential commodity? means any of the following classes of commodities:-
-
-                                    (i) Cattle fodder, including oilcakes and other concentrates;
-
-                                    (ii) Coal, including coke and other derivatives;
-
-                                    (iii) Component parts and accessories of automobiles;
-
-                                    (iv) Cotton and woolen textiles;
-
-                                    (iva) Drugs.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
-                                    </td>
-                                <td> <button type="button" class="btn btn-sm  button-readmore-white mx-2"
+                                <td ><p class="case-law-btnn mb-0">Republic Day</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td>
+                                <td>January 26</td>
+                                <td>Magha 06</td>
+                                <td>Tuesday</td>
+                                <!-- <td ><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td> -->
+                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
-                                <td>APPLICATION OF CODE TO PROCEEDINGS BEFORE A SPECIAL COURT</td>
-                                <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="case-law-btnn"><p class="case-law-p mb-0">Save as otherwise provided in this Act, the provisions of the Code (including the
-                                    provisions as to bail and bonds) shall apply to the proceedings before a Special
-                                    Court and for the purposes of the said provisions, the Special Court shall be deemed
-                                    to be a Court of Sessions and the person conducting a prosecution before a Special
-                                    Court, shall be deemed to be a Public Prosecutor.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
-                                    </td>
+                                <td ><p class="case-law-btnn mb-0">Holi</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td>
+                                <td>March 29</td>
+                                <td>Chaitra 08</td>
+                                <td>Monday</td>
+                                <!-- <td ><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td> -->
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
@@ -140,87 +134,209 @@ $(document).ready(function() {
                             </tr>
                             <tr>
                                 <th scope="row">4</th>
-                                <td>IMPOSITION OF DUTIES ON STATE GOVERNMENT, ETC</td>
-                                <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="case-law-btnn"><p class="case-law-p mb-0">An order made under section 3 may confer powers and impose duties upon the Central
-                                    Government or the State Government or Officers and authorities of the Central
-                                    Government or State Government and may contain directions to any State Government or
-                                    to Officers and authorities thereof as to the exercise of any such powers or the
-                                    discharge of any such duties.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
-                                    </td>
-                                <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
-                                        onclick="window.location.href='act-definition.php'">Read
-                                        more</button>
+                                <td ><p class="case-law-btnn mb-0">Good friday</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
                                 </td>
-                            </tr>
-
-                            <tr class="text-center border">
-                                <td colspan="5">
-                                    CHAPTER II - CENTRAL AND STATE BOARDS FOR THE PREVENTION AND CONTROL
-                                    OF AIR
-                                    POLLUTION</td>
-                            </tr>
-
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>OFFENCES BY COMPANIES</td>
-                                <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="case-law-btnn"><p class="case-law-p mb-0"> 1. If the person contravening an order made under section 3 is a company, every
-                                    person who, at the time the contravention was committed was in charge of and was
-                                    responsible to the company for the conduct of the business of the company as well as
-                                    company shall be deemed to be guilty of the contravention and shall be liable to be
-                                    proceeded against and punished accordingly.
-                                    Provided that nothing contained in this sub-section shall render any such person
-                                    took place without his knowledge or that he exercised all due diligence to prevent
-                                    such contravention.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
-                                    </td>
-                                <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
-                                        onclick="window.location.href='act-definition.php'">Read
-                                        more</button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>OFFENCES TO BE COGNIZABLE</td>
-                                <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="case-law-btnn"><p class="case-law-p mb-0">Not with standing anything contained in the Code of Criminal Procedure, 1973, every
-                                    offence punishable under this Act shall be cognizable and non-bailable.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
-                                     </td>
-                                <td>
-                                    <button type="button" class="btn btn-sm button-readmore-white mx-2 mt-2"
-                                        onclick="window.location.href='act-definition.php'">Read
-                                        more</button>
-
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>BURDEN OF PROOF IN CERTAIN CASES</td>
-                                <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="case-law-btnn"><p class="case-law-p mb-0">Where a person is prosecuted for contravening any order made under section 3 which
-                                    prohibits him from doing any act or being in possession of a thing without lawful
-                                    authority or without a permit, license or other document, the burden of providing
-                                    that he has such authority, permit, license or other document shall be on him.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
-                                    </td>
+                                <td>April 02</td>
+                                <td>Chaitra 08</td>
+                                <td>Friday</td>
+                                <!-- <td ><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td> -->
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
                                 </td>
                             </tr>
                             <tr>
-                                <th scope="row">4</th>
-                                <td>PROTECTION OF ACTION TAKEN UNDER ACT</td>
-                                <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
-                                <td class="case-law-btnn"><p class="case-law-p mb-0">No suit, prosecution or other legal proceeding shall lie against any person for
-                                    anything which is in good faith done or intended to be done in pursuance of any
-                                    order made under section 3.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
-                                    </td>
-                                <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
+                                <th scope="row">5</th>
+                                <td ><p class="case-law-btnn mb-0">Ram Navami</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td>
+                                <td>April 21</td>
+                                <td>Vaisakha 01</td>
+                                <td>Wenesday</td>
+                                <!-- <td ><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td> -->
+                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                        onclick="window.location.href='act-definition.php'">Read
+                                        more</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">6</th>
+                                <td ><p class="case-law-btnn mb-0">May Day</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td>
+                                <td>May 01</td>
+                                <td>Vaisakha</td>
+                                <td>Saturday</td>
+                                <!-- <td ><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td> -->
+                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                        onclick="window.location.href='act-definition.php'">Read
+                                        more</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">7</th>
+                                <td ><p class="case-law-btnn mb-0">id-ul-Fitr</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td>
+                                <td>may 14</td>
+                                <td>Vaisakha 24</td>
+                                <td>Friday</td>
+                                <!-- <td ><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td> -->
+                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                        onclick="window.location.href='act-definition.php'">Read
+                                        more</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">8</th>
+                                <td ><p class="case-law-btnn mb-0">id-ul-Zuha(Bakrid)</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td>
+                                <td>July 21</td>
+                                <td>Ashadha 30</td>
+                                <td>Wenesday</td>
+                                <!-- <td ><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td> -->
+                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                        onclick="window.location.href='act-definition.php'">Read
+                                        more</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">9</th>
+                                <td ><p class="case-law-btnn mb-0">Independence Day</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td>
+                                <td>August 15</td>
+                                <td>Sarvana 24</td>
+                                <td>Sunday</td>
+                                <!-- <td ><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td> -->
+                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                        onclick="window.location.href='act-definition.php'">Read
+                                        more</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">10</th>
+                                <td ><p class="case-law-btnn mb-0">Onam or Thiru Onam Day</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td>
+                                <td>August 21</td>
+                                <td>Sarvana 30</td>
+                                <td>Saturday</td>
+                                <!-- <td ><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td> -->
+                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                        onclick="window.location.href='act-definition.php'">Read
+                                        more</button>
+                                </td>
+                            </tr>                           
+                            <tr>
+                                <th scope="row">11</th>
+                                <td ><p class="case-law-btnn mb-0">Vinayaka Chaturthi/ Ganesh Chaturthi</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td>
+                                <td>September 10</td>
+                                <td>Bhadra 19</td>
+                                <td>Friday</td>
+                                <!-- <td ><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td> -->
+                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                        onclick="window.location.href='act-definition.php'">Read
+                                        more</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">12</th>
+                                <td ><p class="case-law-btnn mb-0">Mahatma Gandhi's Birthday</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td>
+                                <td>October 02</td>
+                                <td>Asvina 10</td>
+                                <td>Saturday</td>
+                                <!-- <td ><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td> -->
+                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                        onclick="window.location.href='act-definition.php'">Read
+                                        more</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">13</th>
+                                <td ><p class="case-law-btnn mb-0">Dussehra (Vijay Dashmi)</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td>
+                                <td>Octoberber 15</td>
+                                <td>Asvina 23</td>
+                                <td>Friday</td>
+                                <!-- <td ><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td> -->
+                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                        onclick="window.location.href='act-definition.php'">Read
+                                        more</button>
+                                </td>
+                            </tr>
+                           
+                            <tr>
+                                <th scope="row">14</th>
+                                <td ><p class="case-law-btnn mb-0">Diwali(Deepavali)</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td>
+                                <td>November 04</td>
+                                <td>Kartika 13</td>
+                                <td>Thursday</td>
+                                <!-- <td ><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td> -->
+                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                        onclick="window.location.href='act-definition.php'">Read
+                                        more</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">15</th>
+                                <td ><p class="case-law-btnn mb-0">Guru Nanak's Birthday</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td>
+                                <td>November 19</td>
+                                <td>Kartika 28</td>
+                                <td>Friday</td>
+                                <!-- <td ><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td> -->
+                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                        onclick="window.location.href='act-definition.php'">Read
+                                        more</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">16</th>
+                                <td ><p class="case-law-btnn mb-0">Christmas Day</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td>
+                                <td>December 25</td>
+                                <td>PAusha 04</td>
+                                <td>Saturday</td>
+                                <!-- <td ><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td> -->
+                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
                                 </td>
