@@ -71,23 +71,26 @@ $(document).ready(function() {
                 </p>
             </div> -->
             <div class="col-12">
-                <div class="col-12 py-2 px-md-5 table-wrap scrollbarnew">
-                    <table class="table table-striped table-borderless">
+                <div class="col-12 px-md-5 table-wrap scrollbarnew">
+                    <table class="table table-striped table-borderless wage">
                         <thead class="t-head">
                             <tr>
                                 <th scope="col" class="se-no" rowspan="4">Categories of Employees</th>
-                                </tr>
-                                <tr>
+                            </tr>
+                            <tr>
                                 <th scope="col" class="" colspan="2">Rates of Minimum Wages <br>(in Rupees)</th>
                                 <th class="" scope="col"></th>
-                                </tr>
-                              <tr>  <th scope="col" class="" colspan="2">Zone - A</th>
-                              <th class="" scope="col"></th>
-                              </tr>
-                              <tr><th scope="col" class="" >montly</th>
-                              <th class="" scope="col">Daily</th>
-                              <th class="" scope="col"></th>
                             </tr>
+                            <tr>
+                                <th scope="col" class="" colspan="2">Zone - A</th>
+                                <th class="" scope="col"></th>
+                            </tr>
+                            <tr>
+                                <th scope="col" class="">montly</th>
+                                <th class="" scope="col">Daily</th>
+                                <th class="" scope="col"></th>
+                            </tr>
+                            
                         </thead>
                         <tbody class="table-content" id="myTable">
                             <tr>
@@ -118,6 +121,30 @@ $(document).ready(function() {
                                 <th scope="row">Skilled / Clerical</th>
                                 <td>15990</td>
                                 <td>615</td>
+                                <!-- <td class="case-law-btnn"><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td> -->
+                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                        onclick="window.location.href='act-definition.php'">Read
+                                        more</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Highly Skilled</th>
+                                <td>17498</td>
+                                <td>673</td>
+                                <!-- <td class="case-law-btnn"><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
+                                <a class="moreless-button" href="#">READ MORE</a>
+                                </td> -->
+                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                        onclick="window.location.href='act-definition.php'">Read
+                                        more</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Highly Skilled</th>
+                                <td>17498</td>
+                                <td>673</td>
                                 <!-- <td class="case-law-btnn"><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
                                 <a class="moreless-button" href="#">READ MORE</a>
                                 </td> -->

@@ -12,7 +12,13 @@
 /* .table_bgcolor {
     background-color: teal;
 } */
-
+.bg-slab{
+    background-color: #5B3D71 !important;
+    color:white;
+}
+.p-134{
+    padding-left:134px !important;
+}
 .ol-content {
     /* domain-page3 */
     font-size: 13px;

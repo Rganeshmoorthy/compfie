@@ -75,7 +75,7 @@ $(document).ready(function() {
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">
                             <tr>
-                                <th scope="col" class="se-no">Amount</th>
+                                <th scope="col" class="se-no ">Amount</th>
                                 <th scope="col" class="">Periodicity</th>
                                 <th scope="col" class="">Due Date for <br>Remittance</th>
                                 <th scope="col" class="">DD/Cheque in Favour</th>
@@ -93,17 +93,17 @@ $(document).ready(function() {
                                 <a class="moreless-button" href="#">READ MORE</a>
                                 </td>
                                 <td>Possible</td>
-                                <td>Every Moth</td>
+                                <td>Every Month</td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
                                         more</button>
                                 </td>
                             </tr>
-                            <tr class="text-center border">
-                                <td colspan="5">
+                            <tr class="text-center border ">
+                                <td colspan="7">
                                  Slab Rate</td>
                             </tr>
-                            <tr>
+                            <tr class="bg-slab">
                                 <th scope="row" colspan="2">S.No</th>
                                 <th scope="row" colspan="2">Monthly Gross Wages</th>
                                 <th scope="row" colspan="3">Monthly Gross Wages Amount</th>
@@ -111,17 +111,17 @@ $(document).ready(function() {
                             <tr>
                                 <th scope="row" colspan="2">1</th>
                                 <td colspan="2">Upto Rs. 15,000/-</td>
-                                <td colspan="3">Rs. 0/-</td>                                
+                                <td colspan="3" class="p-134">Rs. 0/-</td>                                
                             </tr>
                             <tr>
                                 <th scope="row" colspan="2">2</th>
                                 <td colspan="2">From Rs. 15,001/- to Rs.20,000/-</td>
-                                <td colspan="3">Rs. 150/-</td>                                
+                                <td colspan="3" class="p-134">Rs. 150/-</td>                                
                             </tr>
                             <tr>
                                 <th scope="row" colspan="2">3</th>
                                 <td colspan="2">Above Rs. 20,000/-</td>
-                                <td colspan="3">Rs. 200/-</td>                                
+                                <td colspan="3" class="p-134">Rs. 200/-</td>                                
                             </tr>
                         </tbody>
                     </table>

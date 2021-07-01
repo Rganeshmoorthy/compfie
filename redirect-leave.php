@@ -76,7 +76,7 @@ $(document).ready(function() {
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">
                             <tr>
-                                <th scope="col" class="se-no">Type Of Leave</th>
+                                <th scope="col" class="se-no ">Type Of Leave</th>
                                 <th scope="col" class="">Leave Entitlement</th>
                                 <!-- <th scope="col" class="">Section</th> -->
                                 <th scope="col" class="">Max Carry Forward<br>Days</th>

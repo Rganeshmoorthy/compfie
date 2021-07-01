@@ -411,3 +411,18 @@ color:gray !important;
         background-color:#F0F0F0;
         /* color:white !important; */
       }
+.wage .t-head{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #5b3d71;
+}
+.wage thead th{
+border-bottom:none !important;
+}
+.pb-20{
+    padding-bottom:50px !important; 
+}
+.table thead th {
+vertical-align: middle !important;
+}

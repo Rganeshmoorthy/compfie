@@ -158,25 +158,26 @@
                             Pradesh
                         </button></a>
                     <a href="#d" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Assam</button></a>                    
+                            class="btn state-btn mx-1 my-1">Assam</button></a>
                     <a href="#x" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Sikkim</button></a>     
-                            <a href="#k" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Sikkim</button></a>
+                    <a href="#k" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Jharkhand</button></a>
-                    
+                    <a href="#q" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Meghalaya</button></a>
+
                 </div>
-                <div class="d-none undu3 u-mbl" id="central-state3">                    
-                            <a href="#g" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Goa</button></a>
+                <div class="d-none undu3 u-mbl" id="central-state3">
+                    <a href="#g" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Goa</button></a>
                     <a href="#o" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Maharastra
                         </button></a>
-                        <a href="#h" class="border-1"><button type="button"
+                    <a href="#h" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Gujarat</button></a>
                     <!-- <a href="#p" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Manipur</button></a> -->
-                    <a href="#q" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Meghalaya</button></a>
+
                 </div>
-                <div class="d-none undu4 u-mbl" id="central-state4">                  
+                <div class="d-none undu4 u-mbl" id="central-state4">
                     <a href="#i" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Haryana</button></a>
                     <a href="#j" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Himachal
@@ -185,8 +186,8 @@
                             class="btn state-btn mx-1 my-1">Jharkhand</button></a>
                     <!-- <a href="#l" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Karnataka</button></a> -->
-                    
-                            <a href="#v" class="border-1"><button type="button"
+
+                    <a href="#v" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Punjab</button></a>
                     <a href="#w" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Rajasthan</button></a>
@@ -194,23 +195,23 @@
                             class="btn state-btn mx-1 my-1">Bihar</button></a>
                     <a href="#f" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Chhatisgar</button></a>
-                            <a href="#t" class="border-1"><button type="button"
+                    <a href="#t" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Odisha</button></a>
-                             
+
                 </div>
-                <div class="d-none undu5 u-mbl" id="central-state5">                                                                       
-                            <a href="#z" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Telangana</button></a>                                     
-                            <a href="#b" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Andra
+                <div class="d-none undu5 u-mbl" id="central-state5">
+                    <a href="#z" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Telangana</button></a>
+                    <a href="#b" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Andra
                             Pradesh
                         </button></a>
-                            <a href="#y" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Tamil
-                            Nadu</button></a>                            
-                            <a href="#l" class="border-1"><button type="button"
+                    <a href="#y" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Tamil
+                            Nadu</button></a>
+                    <a href="#l" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Karnataka</button></a>
                     <a href="#m" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Kerala</button></a>
-                  
+
                 </div>
                 <!-- search-->
                 <div class="col-12 d-flex py-2">
