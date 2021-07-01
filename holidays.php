@@ -112,19 +112,19 @@
                     <p class="border-1"><button type="button" class="btn north state-btn mx-1 my-1">North</button></p>
                     <p class="border-1"><button type="button" class="btn south state-btn mx-1 my-1">South</button></p>
                 </div>
-                <div class="d-none undu u-mbl" id="central-state">
-                    <a href="#tripura" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Tripura</button></a>
-                    <a href="#uttrakand" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Uttrakhand</button></a>
-                    <a href="#uttrapradesh" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Uttra
-                            Pradesh</button></a>
+                <div class="d-none undu u-mbl" id="central-state">                    
                     <a href="#west" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">West
                             Bengal</button></a>
                     <a href="#n" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Madhya
                             Pradesh</button></a>
-                    <!-- <a href="#o" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Maharastra
-                        </button></a> -->
+                            <a href="#k" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Jharkhand</button></a>
+                            <a href="#e" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Bihar</button></a>
+                    <a href="#f" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Chhatisgar</button></a>
+                    <a href="#t" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Odisha</button></a>
 
                 </div>
                 <div class="d-none undu-ut u-mbl all-close" id="all">
@@ -151,21 +151,22 @@
                     <a href="#d" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Assam</button></a>
                     <a href="#x" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Sikkim</button></a>
-                    <a href="#k" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Jharkhand</button></a>
+                            class="btn state-btn mx-1 my-1">Sikkim</button></a>                    
                     <a href="#q" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Meghalaya</button></a>
-
+                            <a href="#tripura" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Tripura</button></a>                                        
                 </div>
-                <div class="d-none undu3 u-mbl" id="central-state3">
+                <div class="d-none undu3 u-mbl" id="central-state3">                
                     <a href="#g" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Goa</button></a>
                     <a href="#o" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Maharastra
                         </button></a>
                     <a href="#h" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Gujarat</button></a>
-                    <!-- <a href="#p" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Manipur</button></a> -->
+                            <a href="#v" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Punjab</button></a>
+                    <a href="#w" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Rajasthan</button></a>                   
 
                 </div>
                 <div class="d-none undu4 u-mbl" id="central-state4">
@@ -173,21 +174,14 @@
                             class="btn state-btn mx-1 my-1">Haryana</button></a>
                     <a href="#j" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Himachal
                             Pradesh</button></a>
-                    <a href="#k" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Jharkhand</button></a>
-                    <!-- <a href="#l" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Karnataka</button></a> -->
-
-                    <a href="#v" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Punjab</button></a>
-                    <a href="#w" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Rajasthan</button></a>
-                    <a href="#e" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Bihar</button></a>
-                    <a href="#f" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Chhatisgar</button></a>
-                    <a href="#t" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Odisha</button></a>
+                    <!-- <a href="#k" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Jharkhand</button></a> -->
+                            <a href="#uttrakand" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Uttrakhand</button></a>
+                            <a href="#uttrapradesh" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Uttra
+                            Pradesh</button></a>
+                     <a href="#kas" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Kashmir</button></a>                    
 
                 </div>
                 <div class="d-none undu5 u-mbl" id="central-state5">
@@ -227,9 +221,10 @@
                                         Nicobar</h1>
                                 </div>
                                 <div>
-                                <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Andaman and                                    
-                                        Nicobar</h1></div>
+                                    <div class="d-flex">
+                                        <h1 class="act-mbl-view mx-auto">Andaman and
+                                            Nicobar</h1>
+                                    </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Andaman &
                                                 Nicobar Island Shop & Establishment Regulation, 2004
@@ -247,20 +242,22 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Andra Pradesh</h1>
+                                        <h1 class="act-mbl-view mx-auto">Andra Pradesh</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Boilers Act,
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Boilers
+                                                Act,
                                                 1923
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Coir Industry
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Coir
+                                                Industry
                                                 Act,
                                                 1953</a></li>
                                     </ol>
 
                                 </div>
                             </div>
-                        </div>                       
+                        </div>
                         <div class="col-12 mt-3 w-100" id="c">
                             <div class="d-flex border">
                                 <div
@@ -269,7 +266,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Arunachal Pradesh</h1>
+                                        <h1 class="act-mbl-view mx-auto">Arunachal Pradesh</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Central
@@ -280,7 +277,8 @@
                                             </a></li>
                                         <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Clinical
                                                 Establishments (Registration And Regulation) Act, 2010/a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Coir Industry
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Coir
+                                                Industry
                                                 Act,
                                                 1953</a></li>
 
@@ -297,7 +295,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Assam</h1>
+                                        <h1 class="act-mbl-view mx-auto">Assam</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">
@@ -320,7 +318,7 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Bihar</h1>
+                                        <h1 class="act-mbl-view mx-auto">Bihar</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">
@@ -334,7 +332,8 @@
                                         <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Essential
                                                 Commodities Act, 1955
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Explosives Act
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Explosives
+                                                Act
                                                 1884, 1900</a></li>
 
                                     </ol>
@@ -350,15 +349,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Chhatisgar</h1>
+                                        <h1 class="act-mbl-view mx-auto">Chhatisgar</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -374,15 +376,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Goa</h1>
+                                        <h1 class="act-mbl-view mx-auto">Goa</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -398,15 +403,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Gujarat</h1>
+                                        <h1 class="act-mbl-view mx-auto">Gujarat</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -422,15 +430,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Haryana </h1>
+                                        <h1 class="act-mbl-view mx-auto">Haryana </h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -446,15 +457,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Himachal Pradesh</h1>
+                                        <h1 class="act-mbl-view mx-auto">Himachal Pradesh</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -470,15 +484,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto"> Jharkhand</h1>
+                                        <h1 class="act-mbl-view mx-auto"> Jharkhand</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -494,15 +511,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Karnataka</h1>
+                                        <h1 class="act-mbl-view mx-auto">Karnataka</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -518,15 +538,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto"> Kerala</h1>
+                                        <h1 class="act-mbl-view mx-auto"> Kerala</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -542,15 +565,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Madhya Pradesh</h1>
+                                        <h1 class="act-mbl-view mx-auto">Madhya Pradesh</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -567,15 +593,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto"> Maharastra</h1>
+                                        <h1 class="act-mbl-view mx-auto"> Maharastra</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -591,15 +620,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto"> Manipur</h1>
+                                        <h1 class="act-mbl-view mx-auto"> Manipur</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -615,15 +647,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto"> Meghalaya</h1>
+                                        <h1 class="act-mbl-view mx-auto"> Meghalaya</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -639,15 +674,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Mizoram</h1>
+                                        <h1 class="act-mbl-view mx-auto">Mizoram</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -663,15 +701,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Nagaland</h1>
+                                        <h1 class="act-mbl-view mx-auto">Nagaland</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -687,15 +728,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Odisha</h1>
+                                        <h1 class="act-mbl-view mx-auto">Odisha</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -711,15 +755,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Puducherry</h1>
+                                        <h1 class="act-mbl-view mx-auto">Puducherry</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -735,15 +782,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Punjab</h1>
+                                        <h1 class="act-mbl-view mx-auto">Punjab</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -759,15 +809,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Rajasthan</h1>
+                                        <h1 class="act-mbl-view mx-auto">Rajasthan</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -783,15 +836,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Sikkim</h1>
+                                        <h1 class="act-mbl-view mx-auto">Sikkim</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -807,15 +863,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto"> Tamil Nadu</h1>
+                                        <h1 class="act-mbl-view mx-auto"> Tamil Nadu</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -831,15 +890,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto"> Telangana</h1>
+                                        <h1 class="act-mbl-view mx-auto"> Telangana</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -855,15 +917,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Tripura</h1>
+                                        <h1 class="act-mbl-view mx-auto">Tripura</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -879,15 +944,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">UT of Lakshadweep</h1>
+                                        <h1 class="act-mbl-view mx-auto">UT of Lakshadweep</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -903,15 +971,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto"> Uttrakhand</h1>
+                                        <h1 class="act-mbl-view mx-auto"> Uttrakhand</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -927,15 +998,18 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">Uttra Pradesh</h1>
+                                        <h1 class="act-mbl-view mx-auto">Uttra Pradesh</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
@@ -951,19 +1025,48 @@
                                 </div>
                                 <div class="w-100">
                                     <div class="d-flex">
-                                    <h1 class="act-mbl-view mx-auto">West Bengal</h1>
+                                        <h1 class="act-mbl-view mx-auto">West Bengal</h1>
                                     </div>
                                     <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990
                                             </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php">Assam Lifts
+                                                And
                                                 Escalators Act, 1990</a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts And
+                                        <li class="mt-2"><a class="ol-content" href="redirect-holidats.php"> Assam Lifts
+                                                And
                                                 Escalators Act, 1990 </a></li>
 
                                     </ol>
 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-3 w-100" id="kas">
+                            <div class="d-flex border">
+                                <div
+                                    class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
+                                    <h1>Jammu and kashmir</h1>
+                                </div>
+                                <div class="w-100">
+                                    <div class="d-flex">
+                                        <h1 class="act-mbl-view mx-auto">Jammu and kashmir</h1>
+                                    </div>
+                                    <ol type="1" class="p-1 px-4 ol-content">
+                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php"> Assam
+                                                Lifts And
+                                                Escalators Act, 1990
+                                            </a></li>
+                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php">Assam Lifts
+                                                And
+                                                Escalators Act, 1990</a> </li>
+                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php"> Assam
+                                                Lifts And
+                                                Escalators Act, 1990 </a></li>
+
+                                    </ol>
                                 </div>
                             </div>
                         </div>

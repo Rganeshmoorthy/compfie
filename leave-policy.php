@@ -112,19 +112,19 @@
                     <p class="border-1"><button type="button" class="btn north state-btn mx-1 my-1">North</button></p>
                     <p class="border-1"><button type="button" class="btn south state-btn mx-1 my-1">South</button></p>
                 </div>
-                <div class="d-none undu u-mbl" id="central-state">
-                    <a href="#tripura" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Tripura</button></a>
-                    <a href="#uttrakand" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Uttrakhand</button></a>
-                    <a href="#uttrapradesh" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Uttra
-                            Pradesh</button></a>
+                <div class="d-none undu u-mbl" id="central-state">                    
                     <a href="#west" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">West
                             Bengal</button></a>
                     <a href="#n" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Madhya
                             Pradesh</button></a>
-                    <!-- <a href="#o" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Maharastra
-                        </button></a> -->
+                            <a href="#k" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Jharkhand</button></a>
+                            <a href="#e" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Bihar</button></a>
+                    <a href="#f" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Chhatisgar</button></a>
+                    <a href="#t" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Odisha</button></a>
 
                 </div>
                 <div class="d-none undu-ut u-mbl all-close" id="all">
@@ -151,21 +151,22 @@
                     <a href="#d" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Assam</button></a>
                     <a href="#x" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Sikkim</button></a>
-                    <a href="#k" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Jharkhand</button></a>
+                            class="btn state-btn mx-1 my-1">Sikkim</button></a>                    
                     <a href="#q" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Meghalaya</button></a>
-
+                            <a href="#tripura" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Tripura</button></a>                                        
                 </div>
-                <div class="d-none undu3 u-mbl" id="central-state3">
+                <div class="d-none undu3 u-mbl" id="central-state3">                
                     <a href="#g" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Goa</button></a>
                     <a href="#o" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Maharastra
                         </button></a>
                     <a href="#h" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Gujarat</button></a>
-                    <!-- <a href="#p" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Manipur</button></a> -->
+                            <a href="#v" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Punjab</button></a>
+                    <a href="#w" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Rajasthan</button></a>                   
 
                 </div>
                 <div class="d-none undu4 u-mbl" id="central-state4">
@@ -173,21 +174,14 @@
                             class="btn state-btn mx-1 my-1">Haryana</button></a>
                     <a href="#j" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Himachal
                             Pradesh</button></a>
-                    <a href="#k" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Jharkhand</button></a>
-                    <!-- <a href="#l" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Karnataka</button></a> -->
-
-                    <a href="#v" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Punjab</button></a>
-                    <a href="#w" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Rajasthan</button></a>
-                    <a href="#e" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Bihar</button></a>
-                    <a href="#f" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Chhatisgar</button></a>
-                    <a href="#t" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Odisha</button></a>
+                    <!-- <a href="#k" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Jharkhand</button></a> -->
+                            <a href="#uttrakand" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Uttrakhand</button></a>
+                            <a href="#uttrapradesh" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Uttra
+                            Pradesh</button></a>
+                     <a href="#kas" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Kashmir</button></a>                    
 
                 </div>
                 <div class="d-none undu5 u-mbl" id="central-state5">
@@ -964,6 +958,32 @@
 
                                     </ol>
 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-3 w-100" id="kas">
+                            <div class="d-flex border">
+                                <div
+                                    class="content-bgcolor d-flex justify-content-center align-items-center text-center alpha-new">
+                                    <h1>Jammu and kashmir</h1>
+                                </div>
+                                <div class="w-100">
+                                    <div class="d-flex">
+                                        <h1 class="act-mbl-view mx-auto">Jammu and kashmir</h1>
+                                    </div>
+                                    <ol type="1" class="p-1 px-4 ol-content">
+                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php"> Assam
+                                                Lifts And
+                                                Escalators Act, 1990
+                                            </a></li>
+                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php">Assam Lifts
+                                                And
+                                                Escalators Act, 1990</a> </li>
+                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php"> Assam
+                                                Lifts And
+                                                Escalators Act, 1990 </a></li>
+
+                                    </ol>
                                 </div>
                             </div>
                         </div>
