@@ -106,7 +106,7 @@ $(document).ready(function() {
                             <tr class="bg-slab">
                                 <th scope="row" colspan="2">S.No</th>
                                 <th scope="row" colspan="2">Monthly Gross Wages</th>
-                                <th scope="row" colspan="3">Monthly Gross Wages Amount</th>
+                                <th scope="row" colspan="3">Professional Tax</th>
                             </tr>
                             <tr>
                                 <th scope="row" colspan="2">1</th>
