@@ -156,7 +156,7 @@ span.select2-selection.select2-selection--single {
         scroll-behavior: smooth !important;
     }
     .aphabet-scroll-state {
-        max-height: calc(100vh - 358px) !important;
+        max-height: calc(100vh - 452px) !important;
         overflow-y: auto;
     }
     body,
@@ -176,9 +176,9 @@ span.select2-selection.select2-selection--single {
     /* .web-view{
         display: block !important;
     } */
-    .u-mbl{
+    /* .u-mbl{
         display: none !important;
-    }
+    } */
 }
 .web-view{
     display: none;

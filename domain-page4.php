@@ -40,7 +40,7 @@
             </div>
             <!-- buttons-->
             <div class="col-12 py-2">
-                <div class="row m-0 state-btns web-view">
+                <!-- <div class="row m-0 state-btns web-view">
                     <a href="#a" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Andaman and
                             Nicobar</button></a>
                     <a href="#b" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Andra
@@ -104,8 +104,7 @@
                             Pradesh</button></a>
                     <a href="#west" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">West
                             Bengal</button></a>
-                </div>
-
+                </div> -->
                 <div class="main-btns d-flex u-mbl">
                     <p class="border-1"><a href="#"><button type="button"
                                 class="btn state-btn mx-1 my-1 all active">All</button></a>
@@ -219,8 +218,6 @@
                     </div>
                 </div>
             </div>
-
-
             <div class="col-12 py-1">
                 <div class="col-12 mt-0 px-3 aphabet-scroll-state scrollbarnew">
                     <div class="row">

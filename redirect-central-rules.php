@@ -51,7 +51,7 @@ $(document).ready(function() {
                 <div class="d-flex justify-content-center">
                     <div>
                         <button type="button" class="btn btn-sm text-white button-head mx-2"
-                            onclick="window.location.href='full-act.php'">View Full Act</button>
+                            onclick="window.location.href='full-act.php'">View Full Rules</button>
                     </div>
                 </div>
             </div>
