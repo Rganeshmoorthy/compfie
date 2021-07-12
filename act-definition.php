@@ -3,25 +3,27 @@
 <html>
 <link rel="stylesheet" href="css/index.css">
 <script>
-$('#cmd').click(function () {
+$('#cmd').click(function() {
+    console.log('fhskdjhsjkhk')
     doc.fromHTML($('#content').html(), 15, 15, {
         'width': 170,
-            'elementHandlers': specialElementHandlers
+        'elementHandlers': specialElementHandlers
     });
     doc.save('sample-file.pdf');
 });
+
 </script>
 
 <body>
     <div class="main-content">
         <!-- center content starts -->
 
-        <div class="row px-4 px-md-5 py-5 main-content2" id="content">    
-        <!-- <a href="redirect-page.php"><button type="button" class="bg-bt text-white pr-2"><i class="fa fa-arrow-left text-white px-1 nav-prev" aria-hidden="true"></i>Back </button></a>                 -->
+        <div class="row px-4 px-md-5 py-5 main-content2" id="content">
+            <!-- <a href="redirect-page.php"><button type="button" class="bg-bt text-white pr-2"><i class="fa fa-arrow-left text-white px-1 nav-prev" aria-hidden="true"></i>Back </button></a>                 -->
             <div class="heading col-12 pb-4 d-flex justify-content-center">
                 SELECTED ACT AND SELECTED YEAR (2007)
-            </div>  
-            <div id="editor"></div>          
+            </div>
+            <div id="editor"></div>
             <button class="btn download mx-3 my-2 ml-auto" id="cmd"><i class="fa fa-download"></i> Download</button>
             <div class="col-12">
                 <div class="border title">

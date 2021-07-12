@@ -25,14 +25,15 @@ $(document).ready(function() {
         }
     });
     $(' .moreless-button').hide();
-    $('.table .case-law-btnn .case-law-p').each(function() {        
+    $('.table .case-law-btnn .case-law-p').each(function() {
         console.log($(this).next())
         if ($(this).height() >= 60) {
-            $(this).next().show();            
+            $(this).next().show();
         } else {
-            $(this).next().hide();            
+            $(this).next().hide();
         }
     });
+    
 });
 </script>
 
@@ -43,9 +44,9 @@ $(document).ready(function() {
         <div class="row px-3 px-md-5 ">
             <a href="key_complaint.php"><button type="button" class="bg-bt text-white pr-2"><i
                         class="fa fa-arrow-left text-white px-1 nav-prev" aria-hidden="true"></i>Goto Professional Tax
-                    </button></a>
+                </button></a>
             <div class="col-12 heading text-center mb-lg-3">
-            Professional Tax
+                Professional Tax
             </div>
             <!-- <div class="col-12 py-2">
                 <div class="d-flex justify-content-center">
@@ -71,7 +72,7 @@ $(document).ready(function() {
                 </p>
             </div> -->
             <div class="col-12">
-                <div class="col-12 py-2 px-md-5 table-wrap scrollbarnew">
+                <div class="col-12 py-2 px-md-5 table-wrap scrollbarnew" >
                     <table class="table table-striped table-borderless">
                         <thead class="t-head">
                             <tr>
@@ -80,7 +81,8 @@ $(document).ready(function() {
                                 <th scope="col" class="">Due Date for <br>Remittance</th>
                                 <th scope="col" class="">DD/Cheque in Favour</th>
                                 <th scope="col" class="">Centralised<br>PT</th>
-                                <th scope="col" class="">In which month's Salary<br>Employee PT is to be<br>deducted </th>
+                                <th scope="col" class="">In which month's Salary<br>Employee PT is to be<br>deducted
+                                </th>
                                 <th scope="col" class=""></th>
                             </tr>
                         </thead>
@@ -89,19 +91,25 @@ $(document).ready(function() {
                                 <th scope="row">As per Slab Rate</th>
                                 <td>Remittance to be made monthly</td>
                                 <td>Within 10th of Subsequent month</td>
-                                <td class="case-law-btnn"><p class="case-law-p mb-0">"Commercial tax officer......." the Area and the Circle No. in which office of the establishment is to situated is to be mentioned here</p>
-                                <a class="moreless-button" href="#">READ MORE</a>
+                                <td class="case-law-btnn">
+                                    <p class="case-law-p mb-0">"Commercial tax officer......." the Area and the Circle
+                                        No. in which office of the establishment is to situated is to be mentioned here
+                                    </p>
+                                    <a class="moreless-button" href="#">READ MORE</a>
                                 </td>
                                 <td>Possible</td>
                                 <td>Every Month</td>
-                                <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
+                                <td>
+                                    <!-- <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
-                                        more</button>
+                                        more</button> -->
+                                    <button class="btn button-readmore mx-3 my-2 ml-auto text-white" id="cmd-tax"><i
+                                            class="fa fa-download"></i> Download</button>
                                 </td>
                             </tr>
                             <tr class="text-center border ">
                                 <td colspan="7">
-                                 Slab Rate</td>
+                                    Slab Rate</td>
                             </tr>
                             <tr class="bg-slab">
                                 <th scope="row" colspan="2">S.No</th>
@@ -111,17 +119,17 @@ $(document).ready(function() {
                             <tr>
                                 <th scope="row" colspan="2">1</th>
                                 <td colspan="2">Upto Rs. 15,000/-</td>
-                                <td colspan="3" class="p-134">Rs. 0/-</td>                                
+                                <td colspan="3" class="">Rs. 0/-</td>
                             </tr>
                             <tr>
                                 <th scope="row" colspan="2">2</th>
                                 <td colspan="2">From Rs. 15,001/- to Rs.20,000/-</td>
-                                <td colspan="3" class="p-134">Rs. 150/-</td>                                
+                                <td colspan="3" class="">Rs. 150/-</td>
                             </tr>
                             <tr>
                                 <th scope="row" colspan="2">3</th>
                                 <td colspan="2">Above Rs. 20,000/-</td>
-                                <td colspan="3" class="p-134">Rs. 200/-</td>                                
+                                <td colspan="3" class="">Rs. 200/-</td>
                             </tr>
                         </tbody>
                     </table>

@@ -20,9 +20,10 @@ jQuery(document).ready(function() {
                 Environmental,Health & Safety - Schemes
             </div>
             <div class="col-12 py-3">
+            <p class="tooltiptext">Disabled</p>            
                 <div class="d-flex">                    
                     <div class="alpha-scroll">
-                        <a class="alphabet-bgcolor disabled  mx-1 mx-md-2 mt-2 mt-md-0" href="#a">A </a><a
+                        <a class="alphabet-bgcolor disabled  mx-1 mx-md-2 mt-2 mt-md-0 tool" href="#a">A </a><a
                             class="alphabet-bgcolor disabled mx-1 mx-md-2 mt-2 mt-md-0" href="#b">B </a><a
                             class="alphabet-bgcolor disabled  mx-1 mx-md-2 mt-2 mt-md-0" href="#c">C </a><a
                             class="alphabet-bgcolor disabled mx-1 mx-md-2 mt-2 mt-md-0" href="#d">D </a><a
@@ -65,7 +66,6 @@ jQuery(document).ready(function() {
                             </div>
                         </div>
                     </div>
-
                     <div class="col-12 mt-3 d-none" id="b">
                         <div class="d-flex border">
                             <div

@@ -17,7 +17,7 @@
 }
 
 .title {
-    font-size: 13px;
+    font-size: 14px;
     color: #5B3D71;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
@@ -25,7 +25,7 @@
 
 .content {
     font-weight: 300;
-    font-size: 13px;
+    font-size: 14px;
     /*changes*/
     color: #717080;
     font-family: 'Poppins', sans-serif;
@@ -45,7 +45,7 @@
 }
 
 .case-law-p {
-    font-size: 13px;
+    font-size: 14px;
     color: #5B3D71;
     font-family: 'Poppins', sans-serif;
 }
@@ -203,7 +203,7 @@ select:focus {
 }
 
 ul .content a {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .recent {
@@ -425,4 +425,10 @@ border-bottom:none !important;
 }
 .table thead th {
 vertical-align: middle !important;
+}
+.tool:hover .tooltiptext {
+    display: block !important;
+  }
+.tooltiptext {
+    display: none;
 }
