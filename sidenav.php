@@ -323,6 +323,25 @@
                 $("#central-state4").removeClass("d-none")
             }
         });
+        $(".moreless-ol-content").click(function() {
+        console.log('clicked')
+        $(this).prev().toggleClass("open");
+        if ($(this).prev().hasClass("open")) {
+            $(this).text("READ LESS")
+            $(this).prev().addClass("hght-100")
+        } else {
+            $(this).text("READ MORE")
+            $(this).prev().removeClass("hght-100")
+        }
+    });
+    $('.for-readmore .ol-content-ol').each(function() {
+        console.log($(this).parent());
+        if ($(this).height() >= 106) {
+            $(this).parent().next().show();
+        } else {
+            $(this).parent().next().hide();
+        }
+    });
 
     });
     </script>

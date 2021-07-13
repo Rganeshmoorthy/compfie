@@ -21,12 +21,12 @@ jQuery(document).ready(function() {
             <div class="col-12 py-3">
                 <div class="d-flex">
                 <div class="alpha-scroll">
-                        <a class="alphabet-bgcolor disabled  mx-1 mx-md-2 mt-2 mt-md-0" href="#a">A </a><a
-                            class="alphabet-bgcolor disabled mx-1 mx-md-2 mt-2 mt-md-0" href="#b">B </a><a
-                            class="alphabet-bgcolor disabled  mx-1 mx-md-2 mt-2 mt-md-0" href="#c">C </a><a
-                            class="alphabet-bgcolor disabled mx-1 mx-md-2 mt-2 mt-md-0" href="#d">D </a><a
-                            class="alphabet-bgcolor disabled mx-1 mx-md-2 mt-2 mt-md-0" href="#e">E </a><a
-                            class="alphabet-bgcolor disabled mx-1 mx-md-2 mt-2 mt-md-0" href="#f">F </a><a
+                        <a class="alphabet-bgcolor disabled  mx-1 mx-md-2 mt-2 mt-md-0" href="#a"  data-toggle="tooltip" data-placement="top" title="No Records">A </a><a
+                            class="alphabet-bgcolor disabled mx-1 mx-md-2 mt-2 mt-md-0" href="#b"  data-toggle="tooltip" data-placement="top" title="No Records">B </a><a
+                            class="alphabet-bgcolor disabled  mx-1 mx-md-2 mt-2 mt-md-0" href="#c"  data-toggle="tooltip" data-placement="top" title="No Records">C </a><a
+                            class="alphabet-bgcolor disabled mx-1 mx-md-2 mt-2 mt-md-0" href="#d"  data-toggle="tooltip" data-placement="top" title="No Records">D </a><a
+                            class="alphabet-bgcolor disabled mx-1 mx-md-2 mt-2 mt-md-0" href="#e"  data-toggle="tooltip" data-placement="top" title="No Records">E </a><a
+                            class="alphabet-bgcolor disabled mx-1 mx-md-2 mt-2 mt-md-0" href="#f"  data-toggle="tooltip" data-placement="top" title="No Records">F </a><a
                             class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#g">G </a><a
                             class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#h">H </a><a
                             class="alphabet-bgcolor  mx-1 mx-md-2 mt-2 mt-md-0" href="#i">I </a><a

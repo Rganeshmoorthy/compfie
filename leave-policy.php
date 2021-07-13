@@ -316,6 +316,7 @@
                                     <div class="d-flex">
                                     <h1 class="act-mbl-view mx-auto">Bihar</h1>
                                     </div>
+                                    <div class="for-readmore">
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-leave.php">
                                                 Electricity Act, 2003
@@ -332,7 +333,8 @@
                                                 1884, 1900</a></li>
 
                                     </ol>
-
+</div>
+<a class="moreless-ol-content" href="#">READ MORE</a>
                                 </div>
                             </div>
                         </div>

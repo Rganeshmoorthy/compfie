@@ -1,7 +1,6 @@
 <?php  include "header.php"?>
 <?php include "sidenav.php" ?>
 <html>
-
 <head>
     <script>
     jQuery(document).ready(function() {
@@ -120,14 +119,14 @@
                     <p class="border-1"><button type="button" class="btn north state-btn mx-1 my-1">North</button></p>
                     <p class="border-1"><button type="button" class="btn south state-btn mx-1 my-1">South</button></p>
                 </div>
-                <div class="d-none undu u-mbl" id="central-state">                    
+                <div class="d-none undu u-mbl" id="central-state">
                     <a href="#west" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">West
                             Bengal</button></a>
                     <a href="#n" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Madhya
                             Pradesh</button></a>
-                            <a href="#k" class="border-1"><button type="button"
+                    <a href="#k" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Jharkhand</button></a>
-                            <a href="#e" class="border-1"><button type="button"
+                    <a href="#e" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Bihar</button></a>
                     <a href="#f" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Chhatisgar</button></a>
@@ -159,22 +158,22 @@
                     <a href="#d" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Assam</button></a>
                     <a href="#x" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Sikkim</button></a>                    
+                            class="btn state-btn mx-1 my-1">Sikkim</button></a>
                     <a href="#q" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Meghalaya</button></a>
-                            <a href="#tripura" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Tripura</button></a>                                        
+                    <a href="#tripura" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Tripura</button></a>
                 </div>
-                <div class="d-none undu3 u-mbl" id="central-state3">                
+                <div class="d-none undu3 u-mbl" id="central-state3">
                     <a href="#g" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Goa</button></a>
                     <a href="#o" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Maharastra
                         </button></a>
                     <a href="#h" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Gujarat</button></a>
-                            <a href="#v" class="border-1"><button type="button"
+                    <a href="#v" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Punjab</button></a>
                     <a href="#w" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Rajasthan</button></a>                   
+                            class="btn state-btn mx-1 my-1">Rajasthan</button></a>
 
                 </div>
                 <div class="d-none undu4 u-mbl" id="central-state4">
@@ -184,12 +183,12 @@
                             Pradesh</button></a>
                     <!-- <a href="#k" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Jharkhand</button></a> -->
-                            <a href="#uttrakand" class="border-1"><button type="button"
+                    <a href="#uttrakand" class="border-1"><button type="button"
                             class="btn state-btn mx-1 my-1">Uttrakhand</button></a>
-                            <a href="#uttrapradesh" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Uttra
+                    <a href="#uttrapradesh" class="border-1"><button type="button" class="btn state-btn mx-1 my-1">Uttra
                             Pradesh</button></a>
-                     <a href="#kas" class="border-1"><button type="button"
-                            class="btn state-btn mx-1 my-1">Kashmir</button></a>                    
+                    <a href="#kas" class="border-1"><button type="button"
+                            class="btn state-btn mx-1 my-1">Kashmir</button></a>
 
                 </div>
                 <div class="d-none undu5 u-mbl" id="central-state5">
@@ -276,70 +275,82 @@
                                     <div class="d-flex">
                                         <h1 class="act-mbl-view mx-auto">Arunachal Pradesh</h1>
                                     </div>
-                                    <ol type="1" class="p-1 px-4 ol-content">
-                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php"> Central
-                                                Industrial
-                                                Security Force Act, 1968
+                                    <div class="for-readmore">
+                                        <ol type="1" class="p-1 px-4 ol-content-ol">
+                                            <li class="mt-2"><a class="ol-content" href="redirect-state-act.php">
+                                                    Central
+                                                    Industrial
+                                                    Security Force Act, 1968
 
 
-                                            </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php">Clinical
-                                                Establishments (Registration And Regulation) Act, 2010/a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php"> Coir
-                                                Industry
-                                                Act,
-                                                1953</a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php"> Central
-                                                Industrial
-                                                Security Force Act, 1968
+                                                </a></li>
+                                            <li class="mt-2"><a class="ol-content"
+                                                    href="redirect-state-act.php">Clinical
+                                                    Establishments (Registration And Regulation) Act, 2010/a> </li>
+                                            <li class="mt-2"><a class="ol-content" href="redirect-state-act.php"> Coir
+                                                    Industry
+                                                    Act,
+                                                    1953</a></li>
+                                            <li class="mt-2"><a class="ol-content" href="redirect-state-act.php">
+                                                    Central
+                                                    Industrial
+                                                    Security Force Act, 1968
 
 
-                                            </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php">Clinical
-                                                Establishments (Registration And Regulation) Act, 2010/a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php"> Coir
-                                                Industry
-                                                Act,
-                                                1953</a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php"> Central
-                                                Industrial
-                                                Security Force Act, 1968
+                                                </a></li>
+                                            <li class="mt-2"><a class="ol-content"
+                                                    href="redirect-state-act.php">Clinical
+                                                    Establishments (Registration And Regulation) Act, 2010/a> </li>
+                                            <li class="mt-2"><a class="ol-content" href="redirect-state-act.php"> Coir
+                                                    Industry
+                                                    Act,
+                                                    1953</a></li>
+                                            <li class="mt-2"><a class="ol-content" href="redirect-state-act.php">
+                                                    Central
+                                                    Industrial
+                                                    Security Force Act, 1968
 
 
-                                            </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php">Clinical
-                                                Establishments (Registration And Regulation) Act, 2010/a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php"> Coir
-                                                Industry
-                                                Act,
-                                                1953</a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php"> Central
-                                                Industrial
-                                                Security Force Act, 1968
+                                                </a></li>
+                                            <li class="mt-2"><a class="ol-content"
+                                                    href="redirect-state-act.php">Clinical
+                                                    Establishments (Registration And Regulation) Act, 2010/a> </li>
+                                            <li class="mt-2"><a class="ol-content" href="redirect-state-act.php"> Coir
+                                                    Industry
+                                                    Act,
+                                                    1953</a></li>
+                                            <li class="mt-2"><a class="ol-content" href="redirect-state-act.php">
+                                                    Central
+                                                    Industrial
+                                                    Security Force Act, 1968
 
 
-                                            </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php">Clinical
-                                                Establishments (Registration And Regulation) Act, 2010/a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php"> Coir
-                                                Industry
-                                                Act,
-                                                1953</a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php"> Central
-                                                Industrial
-                                                Security Force Act, 1968
+                                                </a></li>
+                                            <li class="mt-2"><a class="ol-content"
+                                                    href="redirect-state-act.php">Clinical
+                                                    Establishments (Registration And Regulation) Act, 2010/a> </li>
+                                            <li class="mt-2"><a class="ol-content" href="redirect-state-act.php"> Coir
+                                                    Industry
+                                                    Act,
+                                                    1953</a></li>
+                                            <li class="mt-2"><a class="ol-content" href="redirect-state-act.php">
+                                                    Central
+                                                    Industrial
+                                                    Security Force Act, 1968
 
 
-                                            </a></li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php">Clinical
-                                                Establishments (Registration And Regulation) Act, 2010/a> </li>
-                                        <li class="mt-2"><a class="ol-content" href="redirect-state-act.php"> Coir
-                                                Industry
-                                                Act,
-                                                1953</a></li>
+                                                </a></li>
+                                            <li class="mt-2"><a class="ol-content"
+                                                    href="redirect-state-act.php">Clinical
+                                                    Establishments (Registration And Regulation) Act, 2010/a> </li>
+                                            <li class="mt-2"><a class="ol-content" href="redirect-state-act.php"> Coir
+                                                    Industry
+                                                    Act,
+                                                    1953</a></li>
 
-                                    </ol>
-
+                                        </ol>
+                                    </div>
+                                    <a class="moreless-ol-content" href="#">READ MORE</a>
                                 </div>
                             </div>
                         </div>
@@ -376,6 +387,7 @@
                                     <div class="d-flex">
                                         <h1 class="act-mbl-view mx-auto">Bihar</h1>
                                     </div>
+                                    <div class="for-readmore">
                                     <ol type="1" class="p-1 px-4 ol-content">
                                         <li class="mt-2"><a class="ol-content" href="redirect-state-act.php">
                                                 Electricity Act, 2003
@@ -394,7 +406,8 @@
                                                 1884, 1900</a></li>
 
                                     </ol>
-
+                                    </div>
+                                    <a class="moreless-ol-content" href="#">READ MORE</a>
                                 </div>
                             </div>
                         </div>

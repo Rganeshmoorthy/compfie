@@ -8,6 +8,7 @@
 jQuery(document).ready(function() {
     jQuery('.scrollbarnew').scrollbar();
 });
+
 </script>
 
 <body>
@@ -37,21 +38,24 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> A</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
                                     <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">
 
                                             Air (Prevention and Control of Pollution) Madhya Pradesh Rules, 1983
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Air (Prevention and
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Air
+                                            (Prevention and
                                             Control of Pollution) Rules, 1982
                                         </a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Air (Prevention and
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Air
+                                            (Prevention and
                                             Control of Pollution) (Union Territories) Rules, 1983
                                         </a></li>
 
                                 </ol>
                             </div>
+                            <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
 
@@ -61,16 +65,18 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> B</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
                                     <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Batteries
                                             (Management and Handling) Rules, 2001
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Bio-Medical Waste
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Bio-Medical
+                                            Waste
                                             Management & handling Rules, 2016</a> </li>
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="c">
@@ -79,25 +85,32 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> C</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Central Industrial
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Central
+                                            Industrial
                                             Security Force Rules, 2001
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Clean Energy Cess
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Clean
+                                            Energy Cess
                                             Rules, 2010</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Coir Industry Rules,
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Coir
+                                            Industry Rules,
                                             1954</a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Consumer Welfare
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Consumer
+                                            Welfare
                                             Fund Rules, 1992</a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Copyrights Rules,
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Copyrights
+                                            Rules,
                                             1958</a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Cyber Regulations
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Cyber
+                                            Regulations
                                             Appellate Tribunal (Procedure) Rules, 2000</a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="d">
@@ -106,19 +119,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> D</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="e">
@@ -127,19 +144,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> E</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="f">
@@ -148,19 +169,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> F</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="g">
@@ -169,19 +194,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> G</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
                             </div>
-                        </div>
+                            <a class="moreless-ol-content" href="#">READ MORE</a>
+                        </div>                         
                     </div>
 
                     <div class="col-12  mt-3" id="h">
@@ -190,19 +219,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> H</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="i">
@@ -211,19 +244,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> I</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="j">
@@ -232,19 +269,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> J</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="k">
@@ -253,19 +294,24 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> K</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
                             </div>
+                            <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
+                         
                     </div>
 
                     <div class="col-12  mt-3" id="l">
@@ -274,19 +320,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> L</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="m">
@@ -295,19 +345,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> M</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="n">
@@ -316,19 +370,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> N</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
 
@@ -338,19 +396,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> O</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="p">
@@ -359,19 +421,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> P</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="q">
@@ -380,19 +446,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> Q</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="r">
@@ -401,19 +471,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> R</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="s">
@@ -422,19 +496,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> S</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="t">
@@ -443,19 +521,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> T</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="u">
@@ -464,19 +546,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> U</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="v">
@@ -485,19 +571,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> V</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="w">
@@ -506,19 +596,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> W</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="x">
@@ -527,19 +621,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> X</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="y">
@@ -548,19 +646,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> Y</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                     <div class="col-12  mt-3" id="z">
@@ -569,19 +671,23 @@ jQuery(document).ready(function() {
                                 class="content-bgcolor d-flex justify-content-center align-items-center text-center alphabet">
                                 <h1> Z</h1>
                             </div>
-                            <div>
-                                <ol type="1" class="p-1 px-4 ol-content">
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                            <div class="for-readmore">
+                                <ol type="1" class="p-1 px-4 ol-content-ol">
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990
                                         </a></li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php">Assam Lifts
+                                            And
                                             Escalators Act, 1990</a> </li>
-                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam Lifts And
+                                    <li class="mt-2"><a class="ol-content" href="redirect-central-rules.php"> Assam
+                                            Lifts And
                                             Escalators Act, 1990 </a></li>
 
                                 </ol>
 
                             </div>
+                             <a class="moreless-ol-content" href="#">READ MORE</a>
                         </div>
                     </div>
                 </div>
