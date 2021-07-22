@@ -110,6 +110,9 @@ select:focus {
 }
 
 @media (max-width:991px) {
+    .moreless-ol-content{
+        position: unset !important;
+    }
     .case-law-search {
         margin-left: unset !important;
     }
