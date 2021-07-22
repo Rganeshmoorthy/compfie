@@ -324,24 +324,33 @@
             }
         });
         $(".moreless-ol-content").click(function() {
-        console.log('clicked')
-        $(this).prev().toggleClass("open");
-        if ($(this).prev().hasClass("open")) {
-            $(this).text("READ LESS")
-            $(this).prev().addClass("hght-100")
-        } else {
-            $(this).text("READ MORE")
-            $(this).prev().removeClass("hght-100")
-        }
-    });
-    $('.for-readmore .ol-content-ol').each(function() {
-        console.log($(this).parent());
-        if ($(this).height() >= 106) {
-            $(this).parent().next().show();
-        } else {
-            $(this).parent().next().hide();
-        }
-    });
+            $(this).prev().toggleClass("open");
+            if ($(this).prev().hasClass("open")) {
+                $(this).text("READ LESS")
+                $(this).prev().addClass("hght-100")
+            } else {
+                $(this).text("READ MORE")
+                $(this).prev().removeClass("hght-100")
+            }
+        });        
+        $('.for-readmore .ol-content-ol').each(function() {
+            console.log($(this).parent());
+            if ($(this).height() >= 106) {
+                $(this).parent().next().show();
+            } else {
+                $(this).parent().next().hide();
+            }
+        });
+        $(".for-readmore").hover(function() {
+            $(this).children().toggleClass("open");
+            if ($(this).children().hasClass("open")) {
+                $(this).next().text("READ LESS")
+                $(this).addClass("hght-100")                
+            } else {
+                $(this).next().text("READ MORE")
+                $(this).removeClass("hght-100")                
+            }
+        });
 
     });
     </script>
