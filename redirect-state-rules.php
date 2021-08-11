@@ -19,9 +19,9 @@ $(document).ready(function() {
         $(this).prev().toggleClass("open");
         console.log($(this).prev().hasClass("open"))
         if ($(this).prev().hasClass("open")) {
-            $(this).text("READ LESS")
+            $(this).text("EXPAND LESS")
         } else {
-            $(this).text("READ MORE")
+            $(this).text("EXPAND MORE")
         }
     });
     $(' .moreless-button').hide();
@@ -94,7 +94,7 @@ $(document).ready(function() {
                                     of the Tirunelveli district and the territories specified in the Second Schedule to
                                     the Andhra Pradesh and Madras
                                     (Alteration of Boundaries) Act, 1959 (Central Act 56 of 1959).</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                 </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -114,7 +114,7 @@ $(document).ready(function() {
                                     (e) Words and expressions used in the Act and not defined in these rules shall have
                                     the meanings assigned to
                                     them in the Act.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm  button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -141,7 +141,7 @@ $(document).ready(function() {
                                     within one month from the date of
                                     publication of such notice in the Tamil Nadu Government Gazette.
                                     (3) The notice shall be published in the Tamil Nadu Government Gazette.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -170,7 +170,7 @@ $(document).ready(function() {
                                     Act, 1948, are in respect of
                                     matters dealt with in this Act, governed by a separate law for the time being in
                                     force.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -216,7 +216,7 @@ $(document).ready(function() {
                                     in the Opinion of the Commissioner of Labour, unnecessary to satisfy the requiremet5
                                     of section 20 in regard to
                                     cleanliness.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -236,7 +236,7 @@ $(document).ready(function() {
                                     recorded in writing, relax the conditions of this rule where, in his opinion, this
                                     may be done with due regard to the
                                     health of the workers employed in any room.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td>
                                     <button type="button" class="btn btn-sm button-readmore-white mx-2 mt-2"
@@ -252,7 +252,7 @@ $(document).ready(function() {
                                 <td class="case-law-btnn"><p class="case-law-p mb-0">The employer of every establishment shall adopt such precautions
                                     against danger by fire to the life of
                                     persons employed therein as are considered adequate by the Inspector.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -270,7 +270,7 @@ $(document).ready(function() {
                                     whom the order of the Inspector under that Chapter have been served within thirty
                                     days from the date of the
                                     service of the order.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read

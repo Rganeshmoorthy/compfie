@@ -19,9 +19,9 @@ $(document).ready(function() {
         $(this).prev().toggleClass("open");
         console.log($(this).prev().hasClass("open"))
         if ($(this).prev().hasClass("open")) {
-            $(this).text("READ LESS")
+            $(this).text("EXPAND LESS")
         } else {
-            $(this).text("READ MORE")
+            $(this).text("EXPAND MORE")
         }
     });
     $(' .moreless-button').hide();
@@ -92,7 +92,7 @@ $(document).ready(function() {
                                     (2) The regulations apply to Trade Unions whose objects are not confined to one
                                     State.
                                     (3) section means a section of the Act.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -108,7 +108,7 @@ $(document).ready(function() {
                                     (b) “Form” means a form appended to these regulations.
                                     (c) “section” means a section of the Act.
                                     (d) “Form” means a form appended to these regulations.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm  button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -121,7 +121,7 @@ $(document).ready(function() {
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
                                 <td class="case-law-btnn"><p class="case-law-p mb-0">Every application for registration of a Trade Union shall be made
                                     in Form A</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -134,7 +134,7 @@ $(document).ready(function() {
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
                                 <td class="case-law-btnn"><p class="case-law-p mb-0">The Register of Trade Unions referred to in section 8 shall be
                                     maintained in Form B.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -159,7 +159,7 @@ $(document).ready(function() {
                                     signature at the foot of the certificate on its presentation to him by the Secretary
                                     that the new name has been
                                     registered.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -175,7 +175,7 @@ $(document).ready(function() {
                                     the union shall submit with its application a copy of the certificate of
                                     registration granted to it and copies of the
                                     entries relating to it in the Register of Trade Unions for the State.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td>
                                     <button type="button" class="btn btn-sm button-readmore-white mx-2 mt-2"
@@ -190,7 +190,7 @@ $(document).ready(function() {
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
                                 <td class="case-law-btnn"><p class="case-law-p mb-0">The fee payable for the registration of a Trade Union shall be Rs.
                                     5.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -211,7 +211,7 @@ $(document).ready(function() {
                                     (2) The fee payable for registration of alteration of rules shall be Re.1 for each
                                     set of alterations made
                                     simultaneously.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read

@@ -19,9 +19,9 @@ $(document).ready(function() {
         $(this).prev().toggleClass("open");
         console.log($(this).prev().hasClass("open"))
         if ($(this).prev().hasClass("open")) {
-            $(this).text("READ LESS")
+            $(this).text("EXPAND LESS")
         } else {
-            $(this).text("READ MORE")
+            $(this).text("EXPAND MORE")
         }
     });
     $(' .moreless-button').hide();
@@ -88,7 +88,7 @@ $(document).ready(function() {
                                 <td>SHORT TITLE AND EXTENT</td>
                                 <!-- <td>Lorem ipsum dolor sit amet, consectetur</td> -->
                                 <td class="case-law-btnn"><p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act, 1955.</p>
-                                <a class="moreless-button" href="#">READ MORE</a>
+                                <a class="moreless-button" href="#">EXPAND MORE</a>
                                 </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -108,7 +108,7 @@ $(document).ready(function() {
                                     (e) Words and expressions used in the Act and not defined in these rules shall have
                                     the meanings assigned to
                                     them in the Act.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm  button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -125,7 +125,7 @@ $(document).ready(function() {
                                     Court and for the purposes of the said provisions, the Special Court shall be deemed
                                     to be a Court of Sessions and the person conducting a prosecution before a Special
                                     Court, shall be deemed to be a Public Prosecutor.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -142,7 +142,7 @@ $(document).ready(function() {
                                     Government or State Government and may contain directions to any State Government or
                                     to Officers and authorities thereof as to the exercise of any such powers or the
                                     discharge of any such duties.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -209,7 +209,7 @@ $(document).ready(function() {
                                     employer shall make suitable arrangements for the regular cleaning and conserving of
                                     the latrines and urinals to the
                                     satisfaction of the Inspector</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -229,7 +229,7 @@ $(document).ready(function() {
                                     recorded in writing, relax the conditions of this rule where, in his opinion, this
                                     may be done with due regard to the
                                     health of the workers employed in any room.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td>
                                     <button type="button" class="btn btn-sm button-readmore-white mx-2 mt-2"
@@ -247,7 +247,7 @@ $(document).ready(function() {
                                     prohibits him from doing any act or being in possession of a thing without lawful
                                     authority or without a permit, license or other document, the burden of providing
                                     that he has such authority, permit, license or other document shall be on him.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -262,7 +262,7 @@ $(document).ready(function() {
                                     any person for
                                     anything which is in good faith done or intended to be done in pursuance of any
                                     order made under section 3.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read

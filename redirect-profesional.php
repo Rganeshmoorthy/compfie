@@ -19,9 +19,9 @@ $(document).ready(function() {
         $(this).prev().toggleClass("open");
         console.log($(this).prev().hasClass("open"))
         if ($(this).prev().hasClass("open")) {
-            $(this).text("READ LESS")
+            $(this).text("EXPAND LESS")
         } else {
-            $(this).text("READ MORE")
+            $(this).text("EXPAND MORE")
         }
     });
     $(' .moreless-button').hide();
@@ -95,7 +95,7 @@ $(document).ready(function() {
                                     <p class="case-law-p mb-0">"Commercial tax officer......." the Area and the Circle
                                         No. in which office of the establishment is to situated is to be mentioned here
                                     </p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                 </td>
                                 <td>Possible</td>
                                 <td>Every Month</td>

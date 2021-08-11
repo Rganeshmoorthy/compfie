@@ -19,9 +19,9 @@ $(document).ready(function() {
         $(this).prev().toggleClass("open");
         console.log($(this).prev().hasClass("open"))
         if ($(this).prev().hasClass("open")) {
-            $(this).text("READ LESS")
+            $(this).text("EXPAND LESS")
         } else {
-            $(this).text("READ MORE")
+            $(this).text("EXPAND MORE")
         }
     });
     $(' .moreless-button').hide();
@@ -111,7 +111,7 @@ $(document).ready(function() {
                                     provisions of this Act shall come
                                     into force in any other area on such date as may be specified in such notification.
                                     </p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                 </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -136,7 +136,7 @@ $(document).ready(function() {
                                     exchange and includes such other establishment as the State Government may by
                                     notification declare to be a
                                     commercial establishment for the purposes of this Act;</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm  button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -187,7 +187,7 @@ $(document).ready(function() {
                                     establishment, give intimation of
                                     such closure to the inspector and on receipt of such intimation, he shall cancel the
                                     registration certiï¬?cate:</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -216,7 +216,7 @@ $(document).ready(function() {
                                     Act, 1948, are in respect of
                                     matters dealt with in this Act, governed by a separate law for the time being in
                                     force.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -242,7 +242,7 @@ $(document).ready(function() {
                                     shops dealing in the same class of goods in the locality in which such street or
                                     public place is situated
                                     Provided that nothing in this section shall apply to the sale of newspapers.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -266,7 +266,7 @@ $(document).ready(function() {
                                     (2) No person employed in any shop shall be required or allowed to work therein for
                                     more than four
                                     hours in any day unless he has had an interval for rest of at least one hour.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>                                    
+                                    <a class="moreless-button" href="#">READ MORE</a>                             
                                     </td>
                                 <td>
                                     <button type="button" class="btn btn-sm button-readmore-white mx-2 mt-2"
@@ -282,7 +282,7 @@ $(document).ready(function() {
                                 <td class="case-law-btnn"><p class="case-law-p mb-0">The periods of work of a person employed in a shop shall be so
                                     arranged that, along with his intervals for rest,
                                     they shall not spread over more than twelve hours in any day.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -328,7 +328,7 @@ $(document).ready(function() {
                                     specified by the shop-keeper in a notice permanently exhibited in a conspicuous
                                     place in the shop, and shall not be
                                     altered by the shopkeeper more often than once in three months.</p>
-                                    <a class="moreless-button" href="#">READ MORE</a>
+                                    <a class="moreless-button" href="#">EXPAND MORE</a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
