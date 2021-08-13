@@ -19,18 +19,25 @@ $(document).ready(function() {
         $(this).prev().toggleClass("open");
         console.log($(this).prev().hasClass("open"))
         if ($(this).prev().hasClass("open")) {
-            $(this).text("EXPAND LESS")
+            $(this).find('i').addClass("fa-angle-double-up")
+            $(this).find('i').addClass("fa")
+            $(this).find('i').removeClass("fa-angle-double-down")
+            // $(this).remove("fa fa-angle-double-down")
         } else {
-            $(this).text("EXPAND MORE")
+            // $(this).addClass("fa fa-angle-double-down")
+            $(this).find('i').addClass("fa-angle-double-down")
+            $(this).find('i').addClass("fa")
+            $(this).find('i').removeClass("fa-angle-double-up")
         }
     });
     $(' .moreless-button').hide();
-    $('.table .case-law-btnn .case-law-p').each(function() {        
+    $('.table .case-law-btnn .case-law-p').each(function() {
         console.log($(this).next())
         if ($(this).height() >= 60) {
-            $(this).next().show();            
+            $(this).next().addClass("d-flex");
+            $(this).next().addClass("justify-content-center");
         } else {
-            $(this).next().hide();            
+            $(this).next().addClass("d-none");
         }
     });
 });
@@ -98,7 +105,7 @@ $(document).ready(function() {
                                     1958, framed under section 3 of the Coal Mines Provident Fund and Miscellaneous
                                     Provisions Act, 1948, apply.
                                     </p>
-                                    <a class="moreless-button" href="#">EXPAND MORE</a>
+                                    <a class="moreless-button " href="#"><i class="fa fa-angle-double-down"></i></a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -128,7 +135,7 @@ $(document).ready(function() {
                                     the Coal Mines Provident Fund
                                     Schemes have been made applicable;
                                     (h) “family”, in relation to an employee, means—</p>
-                                    <a class="moreless-button" href="#">EXPAND MORE</a>
+                                    <a class="moreless-button " href="#"><i class="fa fa-angle-double-down"></i></a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm  button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -174,7 +181,7 @@ $(document).ready(function() {
                                     the contribution payable by the Central Government shall be equal to the maximum of
                                     the amount payable on the
                                     salary of rupees one thousand six hundred per month only;</p>
-                                    <a class="moreless-button" href="#">EXPAND MORE</a>
+                                    <a class="moreless-button " href="#"><i class="fa fa-angle-double-down"></i></a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -209,7 +216,7 @@ $(document).ready(function() {
                                     in Coal Mines Provident Fund;
                                     (ii) specified in clauses (c) and (d), at the rate of twelve per cent. per annum;
                                     and</p>
-                                    <a class="moreless-button" href="#">EXPAND MORE</a>
+                                    <a class="moreless-button " href="#"><i class="fa fa-angle-double-down"></i></a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -248,7 +255,7 @@ $(document).ready(function() {
                                     and particulars of the guardian of his minor son or
                                     daughter for the purpose of receiving the benefits under the provisions of the
                                     scheme.</p>
-                                    <a class="moreless-button" href="#">EXPAND MORE</a>
+                                    <a class="moreless-button " href="#"><i class="fa fa-angle-double-down"></i></a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -279,7 +286,7 @@ $(document).ready(function() {
                                     cent. per annum accrued on such amount as on the appointed day shall have also to be
                                     remitted by the employer to
                                     the Commissioner.</p>
-                                    <a class="moreless-button" href="#">EXPAND MORE</a>
+                                    <a class="moreless-button " href="#"><i class="fa fa-angle-double-down"></i></a>
                                     </td>
                                 <td>
                                     <button type="button" class="btn btn-sm button-readmore-white mx-2 mt-2"
@@ -303,7 +310,7 @@ $(document).ready(function() {
                                     terms of clause (b) of
                                     paragraph 3 and the same shall not be deducted from the salary or other benefits of
                                     the employee.</p>
-                                    <a class="moreless-button" href="#">EXPAND MORE</a>
+                                    <a class="moreless-button " href="#"><i class="fa fa-angle-double-down"></i></a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -328,7 +335,7 @@ $(document).ready(function() {
                                     shall be invested in accordance with such pattern of investment as may be determined
                                     by the Central Government
                                     in the Ministry of Finance from time to time.</p>
-                                    <a class="moreless-button" href="#">EXPAND MORE</a>
+                                    <a class="moreless-button " href="#"><i class="fa fa-angle-double-down"></i></a>
                                     </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read

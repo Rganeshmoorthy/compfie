@@ -19,18 +19,25 @@ $(document).ready(function() {
         $(this).prev().toggleClass("open");
         console.log($(this).prev().hasClass("open"))
         if ($(this).prev().hasClass("open")) {
-            $(this).text("EXPAND LESS")
+            $(this).find('i').addClass("fa-angle-double-up")
+            $(this).find('i').addClass("fa")
+            $(this).find('i').removeClass("fa-angle-double-down")
+            // $(this).remove("fa fa-angle-double-down")
         } else {
-            $(this).text("EXPAND MORE")
+            // $(this).addClass("fa fa-angle-double-down")
+            $(this).find('i').addClass("fa-angle-double-down")
+            $(this).find('i').addClass("fa")
+            $(this).find('i').removeClass("fa-angle-double-up")
         }
     });
     $(' .moreless-button').hide();
     $('.table .case-law-btnn .case-law-p').each(function() {
         console.log($(this).next())
         if ($(this).height() >= 60) {
-            $(this).next().show();
+            $(this).next().addClass("d-flex");
+            $(this).next().addClass("justify-content-center");
         } else {
-            $(this).next().hide();
+            $(this).next().addClass("d-none");
         }
     });
     
@@ -95,7 +102,7 @@ $(document).ready(function() {
                                     <p class="case-law-p mb-0">"Commercial tax officer......." the Area and the Circle
                                         No. in which office of the establishment is to situated is to be mentioned here
                                     </p>
-                                    <a class="moreless-button" href="#">EXPAND MORE</a>
+                                    <a class="moreless-button " href="#"><i class="fa fa-angle-double-down"></i></a>
                                 </td>
                                 <td>Possible</td>
                                 <td>Every Month</td>

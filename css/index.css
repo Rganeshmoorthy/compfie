@@ -460,3 +460,19 @@ vertical-align: middle !important;
 .tra{
     transition: .2s;
 }
+.fa-angle-double-down:before{
+    font-size: 16px;
+}
+.fa-angle-double-up:before{
+    font-size: 16px;
+}
+.fa-angle-double-down{
+    z-index:0;
+}
+
+.fa-angle-double-down {
+    z-index: -1;
+}
+.fa-angle-double-up {
+    z-index: -1;
+}

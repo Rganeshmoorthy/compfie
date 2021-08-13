@@ -19,19 +19,25 @@ $(document).ready(function() {
         $(this).prev().toggleClass("open");
         console.log($(this).prev().hasClass("open"))
         if ($(this).prev().hasClass("open")) {
-            $(this).text("EXPAND LESS")
+            $(this).find('i').addClass("fa-angle-double-up")
+            $(this).find('i').addClass("fa")
+            $(this).find('i').removeClass("fa-angle-double-down")
+            // $(this).remove("fa fa-angle-double-down")
         } else {
-            $(this).text("EXPAND MORE")
+            // $(this).addClass("fa fa-angle-double-down")
+            $(this).find('i').addClass("fa-angle-double-down")
+            $(this).find('i').addClass("fa")
+            $(this).find('i').removeClass("fa-angle-double-up")
         }
     });
-    // console.log(($('.table .case-law-p').height()))
     $(' .moreless-button').hide();
-    $('.table .case-law-btnn .case-law-p').each(function() {        
+    $('.table .case-law-btnn .case-law-p').each(function() {
         console.log($(this).next())
         if ($(this).height() >= 60) {
-            $(this).next().show();            
+            $(this).next().addClass("d-flex");
+            $(this).next().addClass("justify-content-center");
         } else {
-            $(this).next().hide();            
+            $(this).next().addClass("d-none");
         }
     });
 });
@@ -91,7 +97,7 @@ $(document).ready(function() {
                                 <td class="case-law-btnn">
                                     <p class="case-law-p mb-0">(1) This Act may be called the Essential Commodities Act,
                                         1955.</p>
-                                    <a class="moreless-button" href="#">EXPAND MORE</a>
+                                    <a class="moreless-button " href="#"><i class="fa fa-angle-double-down"></i></a>
                                 </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -122,7 +128,7 @@ $(document).ready(function() {
                                         (iv) Cotton and woolen textiles;
 
                                         (iva) Drugs.</p>
-                                    <a class="moreless-button" href="#">EXPAND MORE</a>
+                                    <a class="moreless-button " href="#"><i class="fa fa-angle-double-down"></i></a>
                                 </td>
                                 <td> <button type="button" class="btn btn-sm  button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -142,7 +148,7 @@ $(document).ready(function() {
                                         to be a Court of Sessions and the person conducting a prosecution before a
                                         Special
                                         Court, shall be deemed to be a Public Prosecutor.</p>
-                                    <a class="moreless-button" href="#">EXPAND MORE</a>
+                                    <a class="moreless-button " href="#"><i class="fa fa-angle-double-down"></i></a>
                                 </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -161,7 +167,7 @@ $(document).ready(function() {
                                         Government or
                                         to Officers and authorities thereof as to the exercise of any such powers or the
                                         discharge of any such duties.</p>
-                                    <a class="moreless-button" href="#">EXPAND MORE</a>
+                                    <a class="moreless-button " href="#"><i class="fa fa-angle-double-down"></i></a>
                                 </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -193,7 +199,7 @@ $(document).ready(function() {
                                         took place without his knowledge or that he exercised all due diligence to
                                         prevent
                                         such contravention.</p>
-                                    <a class="moreless-button" href="#">EXPAND MORE</a>
+                                    <a class="moreless-button " href="#"><i class="fa fa-angle-double-down"></i></a>
                                 </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -209,7 +215,7 @@ $(document).ready(function() {
                                         Criminal Procedure, 1973, every
                                         offence punishable under this Act shall be cognizable and non-bailable.every
                                         offence punishable under this Act. </p>
-                                    <a class="moreless-button" href="#">EXPAND MORE</a>
+                                    <a class="moreless-button " href="#"><i class="fa fa-angle-double-down"></i></a>
                                 </td>
                                 <td>
                                     <button type="button" class="btn btn-sm button-readmore-white mx-2 mt-2"
@@ -231,7 +237,7 @@ $(document).ready(function() {
                                         providing
                                         that he has such authority, permit, license or other document shall be on him.
                                     </p>
-                                    <a class="moreless-button" href="#">EXPAND MORE</a>
+                                    <a class="moreless-button " href="#"><i class="fa fa-angle-double-down"></i></a>
                                 </td>
                                 <td> <button type="button" class="btn btn-sm text-white button-readmore mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
@@ -248,7 +254,7 @@ $(document).ready(function() {
                                         anything which is in good faith done or intended to be done in pursuance of any
                                         order made under section 3.
                                     </p>
-                                    <a class="moreless-button" href="#">EXPAND MORE</a>
+                                    <!-- <a class="moreless-button " href="#"><i class="fa fa-angle-double-down"></i></a> -->
                                 </td>
                                 <td> <button type="button" class="btn btn-sm button-readmore-white mx-2"
                                         onclick="window.location.href='act-definition.php'">Read
